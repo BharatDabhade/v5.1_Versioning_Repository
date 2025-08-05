@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_FTPTARGET>
-        <au_transferType><![CDATA[PASSIVE]]></au_transferType>
-        <au_preferredAuthentications><![CDATA[null]]></au_preferredAuthentications>
-        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_keyStoreNameForFTP><![CDATA[None]]></au_keyStoreNameForFTP>
-        <au_autoFolderCreation><![CDATA[None]]></au_autoFolderCreation>
-        <au_port><![CDATA[21]]></au_port>
-        <au_debugMode><![CDATA[0]]></au_debugMode>
-        <au_creationDate><![CDATA[2025-07-17T07:12:43]]></au_creationDate>
-        <au_ftpTimeout><![CDATA[60]]></au_ftpTimeout>
-        <au_id><![CDATA[1395302182977581056]]></au_id>
-        <au_ftpUserId><![CDATA[${Vault:ftpuser}]]></au_ftpUserId>
-        <au_useJ2SSH><![CDATA[0]]></au_useJ2SSH>
         <au_hostName><![CDATA[ftp2.adeptia.com]]></au_hostName>
-        <au_ftpValidateServer><![CDATA[0]]></au_ftpValidateServer>
-        <au_connectorName><![CDATA[apacheCamel]]></au_connectorName>
-        <au_transferMode><![CDATA[BINARY]]></au_transferMode>
-        <au_userOwner><![CDATA[IndigoUser:1402240329648144384]]></au_userOwner>
-        <au_entityName><![CDATA[bd_Fidelity_Vault_Ftp_Trg]]></au_entityName>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_keyManager><![CDATA[null]]></au_keyManager>
-        <au_modifiedDate><![CDATA[2025-07-17T07:12:43]]></au_modifiedDate>
-        <au_projectOwner><![CDATA[Project:1325777387029381120]]></au_projectOwner>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_addOnConfigurations><![CDATA[null]]></au_addOnConfigurations>
         <au_version><![CDATA[1]]></au_version>
-        <au_modifiedBy><![CDATA[IndigoUser:1402240329648144384]]></au_modifiedBy>
-        <au_ftpProtectionLevel><![CDATA[None]]></au_ftpProtectionLevel>
-        <au_remoteFilePath><![CDATA[/bharat/Target/FTP_Target]]></au_remoteFilePath>
-        <au_fileName><![CDATA[Vault_Trg.xls]]></au_fileName>
         <au_description><![CDATA[Fidelity]]></au_description>
         <au_accountId><![CDATA[null]]></au_accountId>
+        <au_autoFolderCreation><![CDATA[None]]></au_autoFolderCreation>
+        <au_filePattern><![CDATA[0|0|Y]]></au_filePattern>
+        <au_secured><![CDATA[0]]></au_secured>
+        <au_keyStoreNameForFTP><![CDATA[None]]></au_keyStoreNameForFTP>
+        <au_revision><![CDATA[8c750abde0a2c2cde73a2dd17a05e9960df34354]]></au_revision>
+        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
+        <au_ftpOverSSL><![CDATA[0]]></au_ftpOverSSL>
+        <au_ftpUserId><![CDATA[${Vault:ftpuser}]]></au_ftpUserId>
+        <au_ftpProtectionLevel><![CDATA[None]]></au_ftpProtectionLevel>
         <au_ftpsMode><![CDATA[null]]></au_ftpsMode>
         <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_connectorName><![CDATA[apacheCamel]]></au_connectorName>
+        <au_transferMode><![CDATA[BINARY]]></au_transferMode>
+        <au_transferType><![CDATA[PASSIVE]]></au_transferType>
+        <au_ftpValidateServer><![CDATA[0]]></au_ftpValidateServer>
+        <au_modifiedDate><![CDATA[2025-07-17T07:12:43]]></au_modifiedDate>
+        <au_fileName><![CDATA[Vault_Trg.xls]]></au_fileName>
+        <au_debugMode><![CDATA[0]]></au_debugMode>
+        <au_id><![CDATA[1395302182977581056]]></au_id>
+        <au_remoteFilePath><![CDATA[/bharat/Target/FTP_Target]]></au_remoteFilePath>
         <au_password><![CDATA[${VaUlt:ftppass}]]></au_password>
+        <au_useJ2SSH><![CDATA[0]]></au_useJ2SSH>
+        <au_port><![CDATA[21]]></au_port>
+        <au_modifiedBy><![CDATA[IndigoUser:1402240329648144384]]></au_modifiedBy>
+        <au_ftpTimeout><![CDATA[60]]></au_ftpTimeout>
         <au_previousVersion><![CDATA[null]]></au_previousVersion>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_secured><![CDATA[0]]></au_secured>
-        <au_ftpOverSSL><![CDATA[0]]></au_ftpOverSSL>
-        <au_filePattern><![CDATA[0|0|Y]]></au_filePattern>
-        <au_revision><![CDATA[null]]></au_revision>
+        <au_creationDate><![CDATA[2025-07-17T07:12:43]]></au_creationDate>
+        <au_projectOwner><![CDATA[Project:1325777387029381120]]></au_projectOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_preferredAuthentications><![CDATA[null]]></au_preferredAuthentications>
+        <au_keyManager><![CDATA[null]]></au_keyManager>
+        <au_userOwner><![CDATA[IndigoUser:1402240329648144384]]></au_userOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_entityName><![CDATA[bd_Fidelity_Vault_Ftp_Trg]]></au_entityName>
+        <au_addOnConfigurations><![CDATA[null]]></au_addOnConfigurations>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
     </AU_FTPTARGET>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
