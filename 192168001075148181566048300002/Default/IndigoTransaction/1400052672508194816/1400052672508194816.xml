@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_TRANSACTION>
-        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
-        <au_trackVariables><![CDATA[<?xml version="1.0"?><Variables></Variables>]]></au_trackVariables>
-        <au_logRetentionAction><![CDATA[L]]></au_logRetentionAction>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_entityName><![CDATA[new_processflow1]]></au_entityName>
-        <au_modifiedDate><![CDATA[2025-07-30T11:31]]></au_modifiedDate>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_retainVarXml><![CDATA[0]]></au_retainVarXml>
+        <au_modifiedDate><![CDATA[2025-08-06T06:51:09]]></au_modifiedDate>
         <au_OldFlowDescriptor><![CDATA[null]]></au_OldFlowDescriptor>
-        <au_id><![CDATA[1400052672508194816]]></au_id>
-        <au_repositoryAction><![CDATA[L]]></au_repositoryAction>
-        <au_loggingLevel><![CDATA[ERROR]]></au_loggingLevel>
+        <au_version><![CDATA[1]]></au_version>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_activeFlag><![CDATA[1]]></au_activeFlag>
-        <au_description><![CDATA[new_processflow1]]></au_description>
-        <au_creationDate><![CDATA[2025-07-30T09:49:28]]></au_creationDate>
+        <au_userOwner><![CDATA[IndigoUser:1402240329648144384]]></au_userOwner>
         <au_flowDescriptor><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <AdeptiaPE xmlns="jelly:com.werken.blissed.jelly.BlissedTagLibrary" xmlns:version="4.7" xmlns:j="jelly:core" xmlns:abpm="jelly:com.adeptia.indigo.jelly.IndigoTagLibrary" xmlns:pd="jelly:com.adeptia.indigo.pd.ProcessDesignerTagLibrary">
    <process name="mainProcess" start="startState" var="mainProcess">
@@ -67,20 +58,18 @@
    </process>
 </AdeptiaPE>
 ]]></au_flowDescriptor>
-        <au_userOwner><![CDATA[IndigoUser:1402240329648144384]]></au_userOwner>
-        <au_version><![CDATA[1]]></au_version>
+        <au_revision><![CDATA[86d08bdcb5d85a585821c26ac711dee67c3bdde7]]></au_revision>
         <au_recoverable><![CDATA[1]]></au_recoverable>
-        <au_connectDashboardLogging><![CDATA[1]]></au_connectDashboardLogging>
-        <au_childFlows><![CDATA[null]]></au_childFlows>
-        <au_dataEncryptionAtRest><![CDATA[useGlobalPolicy]]></au_dataEncryptionAtRest>
-        <au_priority><![CDATA[LOW]]></au_priority>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_templateName><![CDATA[Process Designer]]></au_templateName>
-        <au_modifiedBy><![CDATA[IndigoUser:1402240329648144384]]></au_modifiedBy>
-        <au_advanced><![CDATA[1]]></au_advanced>
-        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_repositoryAction><![CDATA[L]]></au_repositoryAction>
         <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_realTimeConfiguration><![CDATA[0]]></au_realTimeConfiguration>
+        <au_activeFlag><![CDATA[1]]></au_activeFlag>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_creationDate><![CDATA[2025-07-30T09:49:28]]></au_creationDate>
+        <au_dataEncryptionAtRest><![CDATA[useGlobalPolicy]]></au_dataEncryptionAtRest>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_templateName><![CDATA[Process Designer]]></au_templateName>
+        <au_childFlows><![CDATA[null]]></au_childFlows>
         <au_webPdXml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:ap="http://adeptia.com/schema/bpmn/ap" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
   <bpmn2:process id="mainProcess" isExecutable="false">
@@ -95,7 +84,7 @@
     <bpmn2:task id="Task_02jia3w" name="Sw_FTP_source">
       <bpmn2:extensionElements>
         <ap:streams>
-          <ap:stream id="stream_1y74vgq" name="Sw_FTP_source" consumer="Task_1kkc4i8" source="Task_02jia3w" error="false" visible="false" dataObjectReferenceId="" />
+          <ap:stream name="Sw_FTP_source" id="stream_1y74vgq" dataObjectReferenceId="" consumer="Task_1kkc4i8" error="false" visible="false" source="Task_02jia3w" />
         </ap:streams>
         <ap:node>
           <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]Sw_FTP_source[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
@@ -176,7 +165,7 @@
       <bpmndi:BPMNShape id="Task_1kkc4i8_di" bpmnElement="Task_1kkc4i8" bioc:stroke="#808080" bioc:fill="url(#task_color)">
         <dc:Bounds x="488" y="168" width="130" height="60" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="EndEvent_1wta18f_di" bpmnElement="EndEvent_1wta18f" bioc:stroke="#808080" bioc:fill="url(#endevent_color)">
+      <bpmndi:BPMNShape id="EndEvent_1wta18f_di" bpmnElement="EndEvent_1wta18f" bioc:stroke="#808080">
         <dc:Bounds x="681" y="200" width="36" height="36" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="673" y="240" width="52" height="12" />
@@ -211,8 +200,19 @@
   </bpmndi:BPMNDiagram>
 </bpmn2:definitions>
 ]]></au_webPdXml>
-        <au_retainVarXml><![CDATA[0]]></au_retainVarXml>
+        <au_advanced><![CDATA[1]]></au_advanced>
+        <au_loggingLevel><![CDATA[ERROR]]></au_loggingLevel>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_description><![CDATA[new_processflow12]]></au_description>
+        <au_realTimeConfiguration><![CDATA[0]]></au_realTimeConfiguration>
+        <au_logRetentionAction><![CDATA[L]]></au_logRetentionAction>
+        <au_priority><![CDATA[LOW]]></au_priority>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_trackVariables><![CDATA[<?xml version="1.0"?><Variables></Variables>]]></au_trackVariables>
+        <au_id><![CDATA[1400052672508194816]]></au_id>
+        <au_connectDashboardLogging><![CDATA[1]]></au_connectDashboardLogging>
+        <au_entityName><![CDATA[new_processflow12]]></au_entityName>
     </AU_TRANSACTION>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
