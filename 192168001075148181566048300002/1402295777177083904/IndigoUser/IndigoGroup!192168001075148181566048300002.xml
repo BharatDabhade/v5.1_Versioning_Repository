@@ -2,25 +2,25 @@
 <data>
     <AU_GROUPS>
         <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_synchronized><![CDATA[1]]></au_synchronized>
-        <au_revision><![CDATA[1ff5dcecc2de2364a449c4c1dd2bc15ea5c3bf78]]></au_revision>
-        <au_userOwner><![CDATA[IndigoUser:1402259901021659136]]></au_userOwner>
-        <au_creationDate><![CDATA[2024-01-12T06:56:13]]></au_creationDate>
-        <au_webDavFolder><![CDATA[WebDavFolder:192168001207112972325504600001]]></au_webDavFolder>
-        <au_entityName><![CDATA[Group_1]]></au_entityName>
-        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
         <au_comment><![CDATA[null]]></au_comment>
-        <au_modifiedDate><![CDATA[2024-01-12T06:56:13]]></au_modifiedDate>
-        <au_version><![CDATA[1]]></au_version>
+        <au_entityName><![CDATA[Group_1]]></au_entityName>
+        <au_userOwner><![CDATA[IndigoUser:1402259901021659136]]></au_userOwner>
+        <au_revision><![CDATA[99e173ccf2fa12c0fa733a1b9a82cc4d39db169a]]></au_revision>
         <au_title><![CDATA[null]]></au_title>
-        <au_previousVersion><![CDATA[null]]></au_previousVersion>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_modifiedBy><![CDATA[IndigoUser:1402259901021659136]]></au_modifiedBy>
+        <au_permissionMask><![CDATA[711]]></au_permissionMask>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
         <au_groupInfo><![CDATA[K8QswfddIduKjYZJo7AwgclYZPnFCTzRUSyxdim3JrzK5v8CUYpBult9MBz+2s6/]]></au_groupInfo>
+        <au_modifiedBy><![CDATA[IndigoUser:1402259901021659136]]></au_modifiedBy>
         <au_description><![CDATA[Dummy Group]]></au_description>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_permissionMask><![CDATA[711]]></au_permissionMask>
+        <au_version><![CDATA[1]]></au_version>
+        <au_creationDate><![CDATA[2024-01-12T06:56:13]]></au_creationDate>
+        <au_webDavFolder><![CDATA[WebDavFolder:192168001207112972325504600001]]></au_webDavFolder>
         <au_id><![CDATA[192168001075148181566048300002]]></au_id>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_modifiedDate><![CDATA[2024-01-12T06:56:13]]></au_modifiedDate>
     </AU_GROUPS>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
