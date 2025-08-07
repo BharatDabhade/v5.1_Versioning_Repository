@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_DBSOURCE>
-        <au_creationDate><![CDATA[2025-08-06T10:06:04]]></au_creationDate>
-        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
-        <au_id><![CDATA[1402593559963992064]]></au_id>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_entityName><![CDATA[sv_database1_Copy23t56]]></au_entityName>
         <au_modifiedDate><![CDATA[2025-08-06T12:18:52]]></au_modifiedDate>
+        <au_id><![CDATA[1402593559963992064]]></au_id>
+        <au_schemaTypedId><![CDATA[027248038046129113640679700010]]></au_schemaTypedId>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_creationDate><![CDATA[2025-08-06T10:06:04]]></au_creationDate>
+        <au_dbConnectionInfo><![CDATA[192168001180150391332807400005]]></au_dbConnectionInfo>
+        <au_version><![CDATA[1]]></au_version>
+        <au_entityName><![CDATA[sv_database1_Copy23t56]]></au_entityName>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_description><![CDATA[sv_database_Copy23t56]]></au_description>
+        <au_revision><![CDATA[null]]></au_revision>
         <au_projectOwner><![CDATA[Default]]></au_projectOwner>
         <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_schemaTypedId><![CDATA[027248038046129113640679700010]]></au_schemaTypedId>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_comments><![CDATA[null]]></au_comments>
         <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_version><![CDATA[1]]></au_version>
-        <au_dbConnectionInfo><![CDATA[192168001180150391332807400005]]></au_dbConnectionInfo>
-        <au_description><![CDATA[sv_database_Copy23t56]]></au_description>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
     </AU_DBSOURCE>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
