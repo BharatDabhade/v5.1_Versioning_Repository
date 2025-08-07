@@ -1,97 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_TRANSACTION>
-        <au_childFlows><![CDATA[1397502456793919488]]></au_childFlows>
-        <au_flowDescriptor><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<AdeptiaPE xmlns="jelly:com.werken.blissed.jelly.BlissedTagLibrary" xmlns:version="4.7" xmlns:j="jelly:core" xmlns:abpm="jelly:com.adeptia.indigo.jelly.IndigoTagLibrary" xmlns:pd="jelly:com.adeptia.indigo.pd.ProcessDesignerTagLibrary">
-   <process name="mainProcess" start="startState" var="mainProcess">
-      <state name="startState">
-         <activity>
-            <abpm:installGlobalExceptionHandlers/>
-            <abpm:indigoGlobalVariables>
-               <abpm:params>
-                  <abpm:param name="count" track="false">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-               </abpm:params>
-            </abpm:indigoGlobalVariables>
-         </activity>
-      </state>
-      <state name="Task_1ozhue1">
-         <activity>
-            <abpm:activity name="AG_FTP_Target_ChildFlow" async="false" id="1392034495278755840" signal="SignalComplete" type="FtpTarget">
-               <abpm:params>
-                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]AG_FTP_Source_ChildFlow[ww][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-               </abpm:params>
-            </abpm:activity>
-         </activity>
-      </state>
-      <state name="Task_1op4bnz">
-         <activity>
-            <abpm:activity name="AG_FTP_Source_ChildFlow" async="false" id="1392034338097213440" jtaEnlist="false" signal="SignalComplete" type="FtpSource">
-               <abpm:params>
-                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]ww[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-               </abpm:params>
-            </abpm:activity>
-         </activity>
-      </state>
-      <state name="Task_1wwh3gr">
-         <activity>
-            <abpm:spawn name="Spawn" flowId="1397502456793919488" resultCtxVarName="" signal="SignalComplete" waitForChild="true"/>
-         </activity>
-      </state>
-      <state name="StartEvent_1">
-         <activity>
-            <pd:event type="start" subType="none"/>
-         </activity>
-      </state>
-      <state name="EndEvent_0suhn2n">
-         <activity>
-            <pd:event type="end" subType="none"/>
-         </activity>
-      </state>
-      <state name="ExclusiveGateway_0atot6p">
-         <activity>
-            <pd:gateway type="XOR_DATA_GATEWAY"/>
-         </activity>
-      </state>
-      <transition from="startState" to="StartEvent_1"/>
-      <transition from="StartEvent_1" to="Task_1op4bnz"/>
-      <transition from="Task_1op4bnz" to="ExclusiveGateway_0atot6p"/>
-      <transition from="Task_1ozhue1" to="EndEvent_0suhn2n"/>
-      <transition from="Task_1wwh3gr" to="ExclusiveGateway_0atot6p"/>
-      <transition from="ExclusiveGateway_0atot6p" to="Task_1wwh3gr">
-         <guard>
-            <abpm:scripted-guard>[ABPM_._ESCAPE_._CDATA_._START]String count = (String)context.get("count");
-int i = Integer.parseInt(count);
-i = i+1;
-if(i < 2){
-context.put("count", i+"");
-return true;
-}
-return false;[ABPM_._ESCAPE_._CDATA_._END]</abpm:scripted-guard>
-         </guard>
-      </transition>
-      <transition from="ExclusiveGateway_0atot6p" to="Task_1ozhue1">
-         <guard>
-            <abpm:scripted-guard>[ABPM_._ESCAPE_._CDATA_._START]return true;[ABPM_._ESCAPE_._CDATA_._END]</abpm:scripted-guard>
-         </guard>
-      </transition>
-   </process>
-</AdeptiaPE>
-]]></au_flowDescriptor>
-        <au_realTimeConfiguration><![CDATA[0]]></au_realTimeConfiguration>
-        <au_repositoryAction><![CDATA[L]]></au_repositoryAction>
         <au_retainVarXml><![CDATA[0]]></au_retainVarXml>
-        <au_loggingLevel><![CDATA[INFO]]></au_loggingLevel>
-        <au_recoverable><![CDATA[1]]></au_recoverable>
-        <au_id><![CDATA[1397506565634781184]]></au_id>
+        <au_creationDate><![CDATA[2025-07-23T09:12:09]]></au_creationDate>
+        <au_userOwner><![CDATA[IndigoUser:1402245320987344896]]></au_userOwner>
+        <au_repositoryAction><![CDATA[L]]></au_repositoryAction>
+        <au_modifiedDate><![CDATA[2025-07-23T09:17:41]]></au_modifiedDate>
+        <au_OldFlowDescriptor><![CDATA[null]]></au_OldFlowDescriptor>
+        <au_templateName><![CDATA[Process Designer]]></au_templateName>
+        <au_description><![CDATA[AG_Parent_Child_Flows_MS_8489_Spawn]]></au_description>
         <au_webPdXml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:ap="http://adeptia.com/schema/bpmn/ap" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
   <bpmn2:process id="mainProcess" isExecutable="false">
@@ -313,30 +230,113 @@ return false;[ABPM_._ESCAPE_._CDATA_._END]</ap:script>
   </bpmndi:BPMNDiagram>
 </bpmn2:definitions>
 ]]></au_webPdXml>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_advanced><![CDATA[1]]></au_advanced>
-        <au_version><![CDATA[1]]></au_version>
-        <au_templateName><![CDATA[Process Designer]]></au_templateName>
-        <au_userOwner><![CDATA[IndigoUser:1402245320987344896]]></au_userOwner>
-        <au_connectDashboardLogging><![CDATA[1]]></au_connectDashboardLogging>
-        <au_OldFlowDescriptor><![CDATA[null]]></au_OldFlowDescriptor>
-        <au_trackVariables><![CDATA[<?xml version="1.0"?><Variables></Variables>]]></au_trackVariables>
-        <au_description><![CDATA[AG_Parent_Child_Flows_MS_8489_Spawn]]></au_description>
+        <au_loggingLevel><![CDATA[INFO]]></au_loggingLevel>
         <au_previousVersion><![CDATA[null]]></au_previousVersion>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_trackVariables><![CDATA[<?xml version="1.0"?><Variables></Variables>]]></au_trackVariables>
+        <au_childFlows><![CDATA[1397502456793919488]]></au_childFlows>
         <au_logRetentionAction><![CDATA[L]]></au_logRetentionAction>
-        <au_dataEncryptionAtRest><![CDATA[useGlobalPolicy]]></au_dataEncryptionAtRest>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_revision><![CDATA[null]]></au_revision>
+        <au_revision><![CDATA[14c7eacc7ceb9af6ee92ce83300c49b7711592af]]></au_revision>
         <au_projectOwner><![CDATA[Project:1402295777177083904]]></au_projectOwner>
-        <au_activeFlag><![CDATA[1]]></au_activeFlag>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_creationDate><![CDATA[2025-07-23T09:12:09]]></au_creationDate>
+        <au_flowDescriptor><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<AdeptiaPE xmlns="jelly:com.werken.blissed.jelly.BlissedTagLibrary" xmlns:version="4.7" xmlns:j="jelly:core" xmlns:abpm="jelly:com.adeptia.indigo.jelly.IndigoTagLibrary" xmlns:pd="jelly:com.adeptia.indigo.pd.ProcessDesignerTagLibrary">
+   <process name="mainProcess" start="startState" var="mainProcess">
+      <state name="startState">
+         <activity>
+            <abpm:installGlobalExceptionHandlers/>
+            <abpm:indigoGlobalVariables>
+               <abpm:params>
+                  <abpm:param name="count" track="false">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:indigoGlobalVariables>
+         </activity>
+      </state>
+      <state name="Task_1ozhue1">
+         <activity>
+            <abpm:activity name="AG_FTP_Target_ChildFlow" async="false" id="1392034495278755840" signal="SignalComplete" type="FtpTarget">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]AG_FTP_Source_ChildFlow[ww][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_1op4bnz">
+         <activity>
+            <abpm:activity name="AG_FTP_Source_ChildFlow" async="false" id="1392034338097213440" jtaEnlist="false" signal="SignalComplete" type="FtpSource">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]ww[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_1wwh3gr">
+         <activity>
+            <abpm:spawn name="Spawn" flowId="1397502456793919488" resultCtxVarName="" signal="SignalComplete" waitForChild="true"/>
+         </activity>
+      </state>
+      <state name="StartEvent_1">
+         <activity>
+            <pd:event type="start" subType="none"/>
+         </activity>
+      </state>
+      <state name="EndEvent_0suhn2n">
+         <activity>
+            <pd:event type="end" subType="none"/>
+         </activity>
+      </state>
+      <state name="ExclusiveGateway_0atot6p">
+         <activity>
+            <pd:gateway type="XOR_DATA_GATEWAY"/>
+         </activity>
+      </state>
+      <transition from="startState" to="StartEvent_1"/>
+      <transition from="StartEvent_1" to="Task_1op4bnz"/>
+      <transition from="Task_1op4bnz" to="ExclusiveGateway_0atot6p"/>
+      <transition from="Task_1ozhue1" to="EndEvent_0suhn2n"/>
+      <transition from="Task_1wwh3gr" to="ExclusiveGateway_0atot6p"/>
+      <transition from="ExclusiveGateway_0atot6p" to="Task_1wwh3gr">
+         <guard>
+            <abpm:scripted-guard>[ABPM_._ESCAPE_._CDATA_._START]String count = (String)context.get("count");
+int i = Integer.parseInt(count);
+i = i+1;
+if(i < 2){
+context.put("count", i+"");
+return true;
+}
+return false;[ABPM_._ESCAPE_._CDATA_._END]</abpm:scripted-guard>
+         </guard>
+      </transition>
+      <transition from="ExclusiveGateway_0atot6p" to="Task_1ozhue1">
+         <guard>
+            <abpm:scripted-guard>[ABPM_._ESCAPE_._CDATA_._START]return true;[ABPM_._ESCAPE_._CDATA_._END]</abpm:scripted-guard>
+         </guard>
+      </transition>
+   </process>
+</AdeptiaPE>
+]]></au_flowDescriptor>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
         <au_priority><![CDATA[LOW]]></au_priority>
-        <au_modifiedDate><![CDATA[2025-07-23T09:17:41]]></au_modifiedDate>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_recoverable><![CDATA[1]]></au_recoverable>
+        <au_advanced><![CDATA[1]]></au_advanced>
         <au_entityName><![CDATA[AG_Parent_Child_Flows_MS_8489_Spawn]]></au_entityName>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_realTimeConfiguration><![CDATA[0]]></au_realTimeConfiguration>
+        <au_version><![CDATA[1]]></au_version>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_activeFlag><![CDATA[1]]></au_activeFlag>
+        <au_connectDashboardLogging><![CDATA[1]]></au_connectDashboardLogging>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_id><![CDATA[1397506565634781184]]></au_id>
+        <au_dataEncryptionAtRest><![CDATA[useGlobalPolicy]]></au_dataEncryptionAtRest>
     </AU_TRANSACTION>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
