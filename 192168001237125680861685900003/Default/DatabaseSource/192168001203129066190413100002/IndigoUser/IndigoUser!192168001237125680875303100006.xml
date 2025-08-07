@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_USERS>
-        <PARTNER_OWNER><![CDATA[1]]></PARTNER_OWNER>
-        <au_keystorePassword><![CDATA[null]]></au_keystorePassword>
-        <au_manager><![CDATA[null]]></au_manager>
-        <au_lastLogin><![CDATA[1754553346494]]></au_lastLogin>
-        <au_mobile><![CDATA[null]]></au_mobile>
-        <au_description><![CDATA[dhruv.sharma@adeptia.com]]></au_description>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_modifiedDate><![CDATA[2025-08-05T12:00:13]]></au_modifiedDate>
-        <au_lastName><![CDATA[sharma]]></au_lastName>
-        <au_activateFlag><![CDATA[Activated]]></au_activateFlag>
-        <au_fax><![CDATA[null]]></au_fax>
-        <AU_USERPREFRENCES><![CDATA[null]]></AU_USERPREFRENCES>
-        <au_zip><![CDATA[null]]></au_zip>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_userPermission><![CDATA[7]]></au_userPermission>
-        <au_creationDate><![CDATA[2025-08-05T12:00:13]]></au_creationDate>
-        <au_email><![CDATA[dhruv.sharma@adeptia.com]]></au_email>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_viewLevel><![CDATA[null]]></au_viewLevel>
-        <au_address2><![CDATA[null]]></au_address2>
-        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
-        <au_password><![CDATA[nBoijWJitT4l0IEzRCdzbQ==]]></au_password>
-        <au_sendEmail><![CDATA[0]]></au_sendEmail>
-        <au_orgUrl><![CDATA[null]]></au_orgUrl>
-        <au_state><![CDATA[null]]></au_state>
-        <au_userType><![CDATA[groupadmin]]></au_userType>
-        <LOCKED_TIME><![CDATA[null]]></LOCKED_TIME>
         <au_certificateStatus><![CDATA[false]]></au_certificateStatus>
-        <AU_UNIQUEIDENTIFIER><![CDATA[null]]></AU_UNIQUEIDENTIFIER>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_lastPasswordChanged><![CDATA[2009-11-17T18:19:05]]></au_lastPasswordChanged>
+        <PARTNER_OWNER><![CDATA[null]]></PARTNER_OWNER>
+        <au_city><![CDATA[]]></au_city>
+        <au_id><![CDATA[192168001237125680875303100006]]></au_id>
+        <au_colleague><![CDATA[]]></au_colleague>
+        <au_password><![CDATA[w7K8t2+O7DsvVm3BsuSUZQ==]]></au_password>
+        <au_mobile><![CDATA[]]></au_mobile>
+        <au_calendar><![CDATA[]]></au_calendar>
+        <au_keystorePassword><![CDATA[]]></au_keystorePassword>
         <AU_IMAGEIDENTIFIER><![CDATA[null]]></AU_IMAGEIDENTIFIER>
-        <au_lastPasswordChanged><![CDATA[null]]></au_lastPasswordChanged>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_version><![CDATA[1]]></au_version>
-        <au_country><![CDATA[null]]></au_country>
-        <au_firstName><![CDATA[dhruv]]></au_firstName>
-        <au_id><![CDATA[1402259901021659136]]></au_id>
-        <au_privateKeyPassword><![CDATA[null]]></au_privateKeyPassword>
-        <au_entityName><![CDATA[dhruv.sharma]]></au_entityName>
-        <au_orgName><![CDATA[null]]></au_orgName>
-        <au_comment><![CDATA[null]]></au_comment>
+        <au_modifiedDate><![CDATA[2009-11-17T18:19:07]]></au_modifiedDate>
+        <au_description><![CDATA[Owner of EDI Solution objects.]]></au_description>
+        <au_creationDate><![CDATA[2009-10-29T15:02:33]]></au_creationDate>
+        <au_address1><![CDATA[]]></au_address1>
+        <au_lastLogin><![CDATA[1518605839892]]></au_lastLogin>
+        <au_zip><![CDATA[]]></au_zip>
         <AU_READ_ONLY_ACCESS><![CDATA[null]]></AU_READ_ONLY_ACCESS>
-        <au_colleague><![CDATA[null]]></au_colleague>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_calendar><![CDATA[null]]></au_calendar>
-        <au_webDavFolder><![CDATA[null]]></au_webDavFolder>
-        <au_title><![CDATA[null]]></au_title>
-        <au_previousVersion><![CDATA[null]]></au_previousVersion>
-        <au_phone><![CDATA[null]]></au_phone>
-        <AU_LASTMESSAGEVIEWED><![CDATA[null]]></AU_LASTMESSAGEVIEWED>
-        <au_address1><![CDATA[null]]></au_address1>
-        <au_city><![CDATA[null]]></au_city>
+        <au_webDavFolder><![CDATA[WebDavFolder:192168001237125680875348400007]]></au_webDavFolder>
+        <au_state><![CDATA[]]></au_state>
+        <AU_UNIQUEIDENTIFIER><![CDATA[null]]></AU_UNIQUEIDENTIFIER>
+        <au_entityName><![CDATA[EDISolutionUser]]></au_entityName>
+        <au_comments><![CDATA[null]]></au_comments>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_title><![CDATA[]]></au_title>
+        <au_firstName><![CDATA[EDI]]></au_firstName>
+        <au_userType><![CDATA[developer]]></au_userType>
+        <LOCKED_TIME><![CDATA[null]]></LOCKED_TIME>
+        <au_orgName><![CDATA[]]></au_orgName>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_privateKeyPassword><![CDATA[]]></au_privateKeyPassword>
         <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_primaryGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_primaryGroup>
+        <au_lastName><![CDATA[EDI]]></au_lastName>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_version><![CDATA[1]]></au_version>
+        <au_email><![CDATA[ediuser@edi.com]]></au_email>
+        <au_modifiedBy><![CDATA[IndigoUser:192168001237125680875303100006]]></au_modifiedBy>
+        <au_userPermission><![CDATA[7]]></au_userPermission>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_sendEmail><![CDATA[1]]></au_sendEmail>
+        <au_viewLevel><![CDATA[null]]></au_viewLevel>
+        <au_activateFlag><![CDATA[Activated]]></au_activateFlag>
+        <au_fax><![CDATA[]]></au_fax>
+        <AU_LASTMESSAGEVIEWED><![CDATA[null]]></AU_LASTMESSAGEVIEWED>
+        <au_manager><![CDATA[]]></au_manager>
+        <au_address2><![CDATA[]]></au_address2>
+        <AU_USERPREFRENCES><![CDATA[null]]></AU_USERPREFRENCES>
+        <au_phone><![CDATA[]]></au_phone>
+        <au_orgUrl><![CDATA[]]></au_orgUrl>
+        <au_country><![CDATA[]]></au_country>
+        <au_primaryGroup><![CDATA[IndigoGroup:192168001237125680861685900003]]></au_primaryGroup>
+        <au_comment><![CDATA[]]></au_comment>
     </AU_USERS>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
