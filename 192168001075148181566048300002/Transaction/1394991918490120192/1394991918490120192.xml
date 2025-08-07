@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TRANSACTION>
-        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
-        <CREATED_USER><![CDATA[IndigoUser:1402259901021659136]]></CREATED_USER>
-        <STATUS><![CDATA[601]]></STATUS>
-        <DISPLAY_TYPE><![CDATA[502]]></DISPLAY_TYPE>
-        <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
-        <DOCUMENTATION><![CDATA[null]]></DOCUMENTATION>
-        <VARIABLE_INFO><![CDATA[null]]></VARIABLE_INFO>
-        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
-        <DIRECTION><![CDATA[3200]]></DIRECTION>
-        <PARTNER_NAME><![CDATA[EDI_P]]></PARTNER_NAME>
-        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
-        <DESCRIPTION><![CDATA[Use this to process input EDI file received from your partner.]]></DESCRIPTION>
-        <MODIFIED_BY><![CDATA[dhruv sharma]]></MODIFIED_BY>
-        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
-        <PARTNER_ID><![CDATA[1394991782653390848]]></PARTNER_ID>
-        <CREATED_BY><![CDATA[dhruv sharma]]></CREATED_BY>
         <PARAMETERS_INFO><![CDATA[{"mapperValidatorId":"","mapperExternalFunctionId":"","repositoryFileRetention":"E","dataEncryptionAtRest":"useGlobalPolicy"}]]></PARAMETERS_INFO>
-        <ERROR_ID><![CDATA[null]]></ERROR_ID>
-        <TARGET_PARTNER_ID><![CDATA[null]]></TARGET_PARTNER_ID>
-        <CONTACT_USER><![CDATA[SVIT1@yopmail.com]]></CONTACT_USER>
-        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
-        <IN_USE><![CDATA[null]]></IN_USE>
-        <CREATION_DATE><![CDATA[2025-07-16T10:39:51]]></CREATION_DATE>
-        <PROJECT_OWNER><![CDATA[null]]></PROJECT_OWNER>
-        <MODIFIED_USER><![CDATA[IndigoUser:1402259901021659136]]></MODIFIED_USER>
-        <CREATED_BY_PARTNER_ID><![CDATA[1]]></CREATED_BY_PARTNER_ID>
-        <REVISION><![CDATA[null]]></REVISION>
-        <MODIFIED_DATE><![CDATA[2025-07-18T03:58:06]]></MODIFIED_DATE>
-        <TYPE><![CDATA[502]]></TYPE>
-        <DEST_REFERENCE_FIELD><![CDATA[null]]></DEST_REFERENCE_FIELD>
+        <PARTNER_ID><![CDATA[1394991782653390848]]></PARTNER_ID>
         <DEST_ACTION><![CDATA[null]]></DEST_ACTION>
-        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
+        <PROJECT_OWNER><![CDATA[null]]></PROJECT_OWNER>
+        <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
+        <NETWORK_ID><![CDATA[1394991490343956480]]></NETWORK_ID>
         <ID><![CDATA[1394991918490120192]]></ID>
-        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
-        <NAME><![CDATA[sv_hipaa_bi_l2l_txn]]></NAME>
-        <MODIFIED_GROUP><![CDATA[null]]></MODIFIED_GROUP>
+        <CREATED_BY><![CDATA[dhruv sharma]]></CREATED_BY>
+        <TARGET_PARTNER_ID><![CDATA[null]]></TARGET_PARTNER_ID>
+        <STATUS><![CDATA[601]]></STATUS>
+        <REVISION><![CDATA[425ecdff721643307909105db990c39d8dba411a]]></REVISION>
+        <DOCUMENTATION><![CDATA[null]]></DOCUMENTATION>
+        <CONTACT_USER><![CDATA[SVIT1@yopmail.com]]></CONTACT_USER>
+        <VARIABLE_INFO><![CDATA[null]]></VARIABLE_INFO>
         <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
-        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
+        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
+        <CREATED_USER><![CDATA[IndigoUser:1402259901021659136]]></CREATED_USER>
         <SRC_REFERENCE_FIELD><![CDATA[null]]></SRC_REFERENCE_FIELD>
         <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
-        <DEST_APP_TYPE><![CDATA[file:file:File]]></DEST_APP_TYPE>
-        <SRC_APP_TYPE><![CDATA[file:file:File]]></SRC_APP_TYPE>
-        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
-        <LOG_MODE><![CDATA[null]]></LOG_MODE>
-        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
-        <NETWORK_ID><![CDATA[1394991490343956480]]></NETWORK_ID>
+        <DISPLAY_TYPE><![CDATA[502]]></DISPLAY_TYPE>
+        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
+        <ERROR_ID><![CDATA[null]]></ERROR_ID>
+        <PARTNER_NAME><![CDATA[EDI_P]]></PARTNER_NAME>
+        <NAME><![CDATA[sv_hipaa_bi_l2l_txn_updated]]></NAME>
+        <MODIFIED_BY><![CDATA[dhruv sharma]]></MODIFIED_BY>
         <TARGET_NETWORK_ID><![CDATA[null]]></TARGET_NETWORK_ID>
-        <SRC_TRIGGER><![CDATA[null]]></SRC_TRIGGER>
+        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
+        <MODIFIED_DATE><![CDATA[2025-08-07T07:57:05]]></MODIFIED_DATE>
+        <LOG_MODE><![CDATA[null]]></LOG_MODE>
+        <TYPE><![CDATA[502]]></TYPE>
+        <CREATION_DATE><![CDATA[2025-07-16T10:39:51]]></CREATION_DATE>
+        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
+        <DEST_APP_TYPE><![CDATA[file:file:File]]></DEST_APP_TYPE>
+        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
+        <IN_USE><![CDATA[null]]></IN_USE>
         <TEMPLATE_ID><![CDATA[1]]></TEMPLATE_ID>
+        <DIRECTION><![CDATA[3200]]></DIRECTION>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <DESCRIPTION><![CDATA[Use this to process input EDI file received from your partner.]]></DESCRIPTION>
+        <DEST_REFERENCE_FIELD><![CDATA[null]]></DEST_REFERENCE_FIELD>
+        <SRC_APP_TYPE><![CDATA[file:file:File]]></SRC_APP_TYPE>
+        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
+        <MODIFIED_USER><![CDATA[IndigoUser:1402259901021659136]]></MODIFIED_USER>
+        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
+        <MODIFIED_GROUP><![CDATA[null]]></MODIFIED_GROUP>
+        <SRC_TRIGGER><![CDATA[null]]></SRC_TRIGGER>
+        <CREATED_BY_PARTNER_ID><![CDATA[1]]></CREATED_BY_PARTNER_ID>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
     </AC_TRANSACTION>
     <columnInfo dbtype="4">
         <column name="ID" type="-5"/>
