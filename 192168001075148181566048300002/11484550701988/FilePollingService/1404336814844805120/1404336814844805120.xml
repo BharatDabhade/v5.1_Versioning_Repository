@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_FILEPOLLINGSERVICE>
-        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
         <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
-        <au_fileBaseLocation><![CDATA[/shared/bharat/polling]]></au_fileBaseLocation>
-        <au_filterOut><![CDATA[]]></au_filterOut>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_useWindowsService><![CDATA[0]]></au_useWindowsService>
-        <au_stableTime><![CDATA[10$s]]></au_stableTime>
-        <au_modifiedDate><![CDATA[2025-08-11T05:33:08]]></au_modifiedDate>
         <au_revision><![CDATA[null]]></au_revision>
-        <au_filterIn><![CDATA[*.*]]></au_filterIn>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_triggerType><![CDATA[FileCreated]]></au_triggerType>
+        <au_filterOut><![CDATA[]]></au_filterOut>
+        <au_checkModified><![CDATA[0]]></au_checkModified>
+        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
+        <au_modifiedBy><![CDATA[IndigoUser:1403330257464262656]]></au_modifiedBy>
+        <au_creationDate><![CDATA[2025-08-11T05:33:08]]></au_creationDate>
+        <au_modifiedDate><![CDATA[2025-08-11T05:33:08]]></au_modifiedDate>
+        <au_id><![CDATA[1404336814844805120]]></au_id>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_version><![CDATA[1]]></au_version>
+        <au_stableTime><![CDATA[10$s]]></au_stableTime>
+        <au_password><![CDATA[]]></au_password>
+        <au_secure><![CDATA[0]]></au_secure>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_userId><![CDATA[]]></au_userId>
         <au_entityName><![CDATA[VG_File_Poll_edit_Copy]]></au_entityName>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_id><![CDATA[1404336814844805120]]></au_id>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_triggerType><![CDATA[FileCreated]]></au_triggerType>
-        <au_version><![CDATA[1]]></au_version>
-        <au_checkModified><![CDATA[0]]></au_checkModified>
-        <au_modifiedBy><![CDATA[IndigoUser:1403330257464262656]]></au_modifiedBy>
+        <au_filterIn><![CDATA[*.*]]></au_filterIn>
         <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_password><![CDATA[]]></au_password>
-        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
-        <au_secure><![CDATA[0]]></au_secure>
-        <au_creationDate><![CDATA[2025-08-11T05:33:08]]></au_creationDate>
-        <au_userOwner><![CDATA[IndigoUser:1403330257464262656]]></au_userOwner>
         <au_description><![CDATA[VG_File_Poll_Copy]]></au_description>
-        <au_userId><![CDATA[]]></au_userId>
+        <au_useWindowsService><![CDATA[0]]></au_useWindowsService>
+        <au_fileBaseLocation><![CDATA[/shared/bharat/polling]]></au_fileBaseLocation>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_userOwner><![CDATA[IndigoUser:1403330257464262656]]></au_userOwner>
     </AU_FILEPOLLINGSERVICE>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
