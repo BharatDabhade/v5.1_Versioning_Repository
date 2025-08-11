@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_FILEPOLLINGSERVICE>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_triggerType><![CDATA[FileCreated]]></au_triggerType>
-        <au_useWindowsService><![CDATA[0]]></au_useWindowsService>
         <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
-        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
         <au_userOwner><![CDATA[IndigoUser:1403330257464262656]]></au_userOwner>
-        <au_modifiedDate><![CDATA[2025-08-11T12:17:52]]></au_modifiedDate>
-        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
-        <au_filterOut><![CDATA[]]></au_filterOut>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_secure><![CDATA[0]]></au_secure>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_modifiedBy><![CDATA[IndigoUser:1403330257464262656]]></au_modifiedBy>
-        <au_revision><![CDATA[91991e60282a310884105e28d9a32988aa5c358d]]></au_revision>
-        <au_version><![CDATA[1]]></au_version>
-        <au_description><![CDATA[TEST_Copy234]]></au_description>
-        <au_password><![CDATA[]]></au_password>
-        <au_entityName><![CDATA[VGNEWFILEPOLLv123_Copy]]></au_entityName>
-        <au_stableTime><![CDATA[9$s]]></au_stableTime>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_checkModified><![CDATA[1]]></au_checkModified>
-        <au_filterIn><![CDATA[*.*]]></au_filterIn>
-        <au_id><![CDATA[1404361772356718592]]></au_id>
-        <au_creationDate><![CDATA[2025-08-11T07:12:18]]></au_creationDate>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_userId><![CDATA[]]></au_userId>
         <au_fileBaseLocation><![CDATA[/]]></au_fileBaseLocation>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_modifiedBy><![CDATA[IndigoUser:1403330257464262656]]></au_modifiedBy>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_stableTime><![CDATA[9$s]]></au_stableTime>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_revision><![CDATA[82372e2261543aeeaff80918be7b0dce4b7db305]]></au_revision>
+        <au_filterOut><![CDATA[]]></au_filterOut>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_description><![CDATA[TEST_Copy234]]></au_description>
+        <au_id><![CDATA[1404361772356718592]]></au_id>
+        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
+        <au_modifiedDate><![CDATA[2025-08-11T12:18:15]]></au_modifiedDate>
+        <au_secure><![CDATA[0]]></au_secure>
+        <au_triggerType><![CDATA[FileCreated]]></au_triggerType>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_entityName><![CDATA[VGNEWFILEPOLLv123_Copy324]]></au_entityName>
+        <au_version><![CDATA[1]]></au_version>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_password><![CDATA[]]></au_password>
+        <au_useWindowsService><![CDATA[0]]></au_useWindowsService>
+        <au_checkModified><![CDATA[1]]></au_checkModified>
+        <au_userId><![CDATA[]]></au_userId>
+        <au_filterIn><![CDATA[*.*]]></au_filterIn>
+        <au_creationDate><![CDATA[2025-08-11T07:12:18]]></au_creationDate>
     </AU_FILEPOLLINGSERVICE>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
