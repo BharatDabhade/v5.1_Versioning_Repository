@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TRANSACTION_TEMPLATE>
-        <VARIABLE_INFO><![CDATA[]]></VARIABLE_INFO>
-        <DIRECTION><![CDATA[3201]]></DIRECTION>
+        <STATUS><![CDATA[601]]></STATUS>
+        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
         <DESCRIPTION><![CDATA[qa]]></DESCRIPTION>
-        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
-        <IN_USE><![CDATA[null]]></IN_USE>
-        <CREATION_DATE><![CDATA[2025-07-18T05:51:31]]></CREATION_DATE>
-        <LOG_MODE><![CDATA[null]]></LOG_MODE>
-        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
-        <MODIFIED_DATE><![CDATA[2025-08-11T11:19:33]]></MODIFIED_DATE>
-        <DEST_EXTERNAL_ID><![CDATA[]]></DEST_EXTERNAL_ID>
+        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[{"xtype":"account","sequenceId":5,"aliasName":"","sequenceType":"Action"}]}]]></PARTNER_CONFIG_INFO>
+        <MODIFIED_USER><![CDATA[IndigoUser:1402240329648144384]]></MODIFIED_USER>
+        <SRC_TRIGGER><![CDATA[FileCreated]]></SRC_TRIGGER>
         <CREATED_BY><![CDATA[dhruv sharma]]></CREATED_BY>
-        <DISPLAY_TYPE><![CDATA[502]]></DISPLAY_TYPE>
+        <PROJECT_OWNER><![CDATA[Project:11484550701988]]></PROJECT_OWNER>
+        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
+        <MODIFIED_DATE><![CDATA[2025-08-11T11:19:59]]></MODIFIED_DATE>
+        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
         <TYPE><![CDATA[502]]></TYPE>
-        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
+        <DEST_APP_TYPE><![CDATA[ftp:ftp:FTP]]></DEST_APP_TYPE>
+        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
+        <ERROR_ID><![CDATA[null]]></ERROR_ID>
         <SRC_APP_TYPE><![CDATA[ftp:ftp:FTP]]></SRC_APP_TYPE>
+        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
+        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
+        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
+        <MODIFIED_BY><![CDATA[IT SV]]></MODIFIED_BY>
+        <DISPLAY_TYPE><![CDATA[502]]></DISPLAY_TYPE>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
+        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
+        <CREATED_USER><![CDATA[IndigoUser:1402259901021659136]]></CREATED_USER>
+        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
+        <DISPLAY_NAME><![CDATA[am_edf_rec]]></DISPLAY_NAME>
+        <IN_USE><![CDATA[null]]></IN_USE>
+        <DEST_ACTION><![CDATA[createnewfile]]></DEST_ACTION>
+        <DEST_EXTERNAL_ID><![CDATA[]]></DEST_EXTERNAL_ID>
+        <ID><![CDATA[1395644133144547328]]></ID>
+        <PARAMETERS_INFO><![CDATA[{"mapperValidatorId":"","mapperExternalFunctionId":"","loggingLevel":"ERROR","activitiesLoggingRetention":"L"}]]></PARAMETERS_INFO>
+        <REVISION><![CDATA[a00113f2e1b628e331b25d62797b2ae61eff01d0]]></REVISION>
+        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
         <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
         <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
-        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
-        <CONTACT_USER><![CDATA[1@yopmaill.com]]></CONTACT_USER>
-        <SRC_TRIGGER><![CDATA[FileCreated]]></SRC_TRIGGER>
-        <PARAMETERS_INFO><![CDATA[{"mapperValidatorId":"","mapperExternalFunctionId":"","loggingLevel":"ERROR","activitiesLoggingRetention":"L"}]]></PARAMETERS_INFO>
-        <DEST_APP_TYPE><![CDATA[ftp:ftp:FTP]]></DEST_APP_TYPE>
-        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
-        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
-        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
-        <DEST_ACTION><![CDATA[createnewfile]]></DEST_ACTION>
-        <STATUS><![CDATA[601]]></STATUS>
-        <MODIFIED_BY><![CDATA[IT SV]]></MODIFIED_BY>
-        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
-        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
-        <MODIFIED_USER><![CDATA[IndigoUser:1402240329648144384]]></MODIFIED_USER>
-        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
-        <REVISION><![CDATA[6f3e549fab84a4405a40231c01c5fdc6a694fbe2]]></REVISION>
-        <ID><![CDATA[1395644133144547328]]></ID>
-        <ERROR_ID><![CDATA[null]]></ERROR_ID>
-        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
+        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
         <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
-        <PROJECT_OWNER><![CDATA[Project:11484550701988]]></PROJECT_OWNER>
-        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
-        <NAME><![CDATA[am_edf_rec]]></NAME>
-        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
-        <CREATED_USER><![CDATA[IndigoUser:1402259901021659136]]></CREATED_USER>
-        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
         <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
-        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[{"xtype":"account","sequenceId":5,"aliasName":"","sequenceType":"Action"}]}]]></PARTNER_CONFIG_INFO>
-        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
-        <DISPLAY_NAME><![CDATA[am_edf_rec]]></DISPLAY_NAME>
+        <CREATION_DATE><![CDATA[2025-07-18T05:51:31]]></CREATION_DATE>
+        <CONTACT_USER><![CDATA[2@yopmaill.com]]></CONTACT_USER>
+        <NAME><![CDATA[am_edf_rec]]></NAME>
+        <VARIABLE_INFO><![CDATA[]]></VARIABLE_INFO>
+        <DIRECTION><![CDATA[3201]]></DIRECTION>
+        <LOG_MODE><![CDATA[null]]></LOG_MODE>
     </AC_TRANSACTION_TEMPLATE>
     <columnInfo dbtype="0">
         <column name="ID" type="-5"/>
