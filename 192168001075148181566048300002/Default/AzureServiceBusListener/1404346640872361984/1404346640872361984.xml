@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_AzureServiceBusListener>
-        <au_sessionEnable><![CDATA[1]]></au_sessionEnable>
-        <au_azureServiceBusType><![CDATA[Topic]]></au_azureServiceBusType>
-        <AU_TRYTIMEOUT><![CDATA[1]]></AU_TRYTIMEOUT>
-        <AU_MAXRETRIES><![CDATA[3]]></AU_MAXRETRIES>
-        <AU_MODE><![CDATA[Fixed]]></AU_MODE>
-        <AU_DELAY><![CDATA[10]]></AU_DELAY>
-        <au_isActive><![CDATA[0]]></au_isActive>
-        <au_preFetchCount><![CDATA[0]]></au_preFetchCount>
-        <au_entityName><![CDATA[bd_b3_asb_listener]]></au_entityName>
-        <au_enableMessageAggregator><![CDATA[0]]></au_enableMessageAggregator>
-        <au_id><![CDATA[1404346640872361984]]></au_id>
-        <au_publishAs><![CDATA[processFlow]]></au_publishAs>
-        <au_modifiedDate><![CDATA[2025-08-11T12:22:13]]></au_modifiedDate>
-        <au_sessionId><![CDATA[11111]]></au_sessionId>
-        <AU_MAXCONCURRENTSESSION><![CDATA[5]]></AU_MAXCONCURRENTSESSION>
-        <au_metadata><![CDATA[{"processFlowId":"1404345993863221248"}]]></au_metadata>
-        <au_noOfMessageToAggregate><![CDATA[10]]></au_noOfMessageToAggregate>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_messageTypes><![CDATA[plaintext]]></au_messageTypes>
-        <au_creationDate><![CDATA[2025-08-11T06:12:11]]></au_creationDate>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
         <au_azureServiceBusAccount><![CDATA[1402992145575903232]]></au_azureServiceBusAccount>
-        <AU_PROCESSALLSESSIONS><![CDATA[0]]></AU_PROCESSALLSESSIONS>
-        <au_topic><![CDATA[bd_topic]]></au_topic>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_userOwner><![CDATA[IndigoUser:1403330257464262656]]></au_userOwner>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <AU_ACTIVATEDBY><![CDATA[127000000001107055536473900001]]></AU_ACTIVATEDBY>
-        <au_queue><![CDATA[]]></au_queue>
-        <au_description><![CDATA[bd_b3_asb_listener]]></au_description>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_subscriptionName><![CDATA[bd_sub_with_sess]]></au_subscriptionName>
-        <AU_MAXDELAY><![CDATA[1]]></AU_MAXDELAY>
-        <AU_SESSIONTIMEOUT><![CDATA[24]]></AU_SESSIONTIMEOUT>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_receiverEmailIds><![CDATA[]]></au_receiverEmailIds>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_aggregationTimespan><![CDATA[60]]></au_aggregationTimespan>
         <AU_MAXAUTOLOCKRENEWDURATION><![CDATA[5]]></AU_MAXAUTOLOCKRENEWDURATION>
+        <AU_ACTIVATEDBY><![CDATA[127000000001107055536473900001]]></AU_ACTIVATEDBY>
+        <au_isActive><![CDATA[0]]></au_isActive>
+        <au_projectOwner><![CDATA[11484550701988]]></au_projectOwner>
+        <au_subscriptionName><![CDATA[bd_sub_with_sess]]></au_subscriptionName>
         <au_version><![CDATA[1]]></au_version>
         <AU_MAXCONCURRENTCALL><![CDATA[5]]></AU_MAXCONCURRENTCALL>
+        <au_userOwner><![CDATA[IndigoUser:1403330257464262656]]></au_userOwner>
+        <au_preFetchCount><![CDATA[0]]></au_preFetchCount>
+        <au_creationDate><![CDATA[2025-08-11T06:12:11]]></au_creationDate>
+        <au_description><![CDATA[bd_b3_asb_listener]]></au_description>
+        <au_modifiedBy><![CDATA[IndigoUser:1402245320987344896]]></au_modifiedBy>
+        <au_receiverEmailIds><![CDATA[]]></au_receiverEmailIds>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_azureServiceBusType><![CDATA[Topic]]></au_azureServiceBusType>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_metadata><![CDATA[{"processFlowId":"1404345993863221248"}]]></au_metadata>
+        <AU_MAXDELAY><![CDATA[1]]></AU_MAXDELAY>
+        <au_entityName><![CDATA[bd_b3_asb_listener_2]]></au_entityName>
+        <au_sessionId><![CDATA[11111]]></au_sessionId>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_revision><![CDATA[a2b10db8b14ace6a623c7122281a512f33349df5]]></au_revision>
+        <au_id><![CDATA[1404346640872361984]]></au_id>
+        <AU_MODE><![CDATA[Fixed]]></AU_MODE>
+        <au_queue><![CDATA[]]></au_queue>
+        <AU_DELAY><![CDATA[10]]></AU_DELAY>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <AU_PROCESSALLSESSIONS><![CDATA[0]]></AU_PROCESSALLSESSIONS>
+        <au_sessionEnable><![CDATA[1]]></au_sessionEnable>
+        <AU_MAXRETRIES><![CDATA[3]]></AU_MAXRETRIES>
+        <au_publishAs><![CDATA[processFlow]]></au_publishAs>
         <au_messageJoiner><![CDATA[]]></au_messageJoiner>
-        <au_projectOwner><![CDATA[11484550701988]]></au_projectOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <AU_SESSIONTIMEOUT><![CDATA[24]]></AU_SESSIONTIMEOUT>
+        <AU_TRYTIMEOUT><![CDATA[1]]></AU_TRYTIMEOUT>
+        <au_modifiedDate><![CDATA[2025-08-12T12:01:24]]></au_modifiedDate>
+        <au_messageTypes><![CDATA[plaintext]]></au_messageTypes>
+        <au_enableMessageAggregator><![CDATA[0]]></au_enableMessageAggregator>
+        <au_topic><![CDATA[bd_topic]]></au_topic>
+        <AU_MAXCONCURRENTSESSION><![CDATA[5]]></AU_MAXCONCURRENTSESSION>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_aggregationTimespan><![CDATA[60]]></au_aggregationTimespan>
+        <au_noOfMessageToAggregate><![CDATA[10]]></au_noOfMessageToAggregate>
     </AU_AzureServiceBusListener>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
