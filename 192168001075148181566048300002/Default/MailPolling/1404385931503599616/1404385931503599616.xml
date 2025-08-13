@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_MAILPOLLING>
-        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
-        <au_userOwner><![CDATA[IndigoUser:1403330257464262656]]></au_userOwner>
         <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_filterCriteria><![CDATA[test.txt]]></au_filterCriteria>
-        <au_revision><![CDATA[f83a6c6b3fc023ba2d38c78e82133014320d9159]]></au_revision>
-        <au_hostName><![CDATA[vg@gmail.com]]></au_hostName>
-        <au_mailSubject><![CDATA[test]]></au_mailSubject>
-        <au_version><![CDATA[1]]></au_version>
-        <au_entityName><![CDATA[testvgpollingev1]]></au_entityName>
-        <au_cdoMachine><![CDATA[]]></au_cdoMachine>
-        <au_securityType><![CDATA[]]></au_securityType>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_protocol><![CDATA[imap]]></au_protocol>
-        <au_projectOwner><![CDATA[1402914835077234688]]></au_projectOwner>
-        <au_creationDate><![CDATA[2025-08-11T08:48:18]]></au_creationDate>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_description><![CDATA[testvgpolling]]></au_description>
-        <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
-        <au_modifiedBy><![CDATA[IndigoUser:1403330257464262656]]></au_modifiedBy>
-        <au_mailUserId><![CDATA[]]></au_mailUserId>
-        <au_id><![CDATA[1404385931503599616]]></au_id>
-        <au_domain><![CDATA[]]></au_domain>
-        <au_mailContent><![CDATA[test]]></au_mailContent>
-        <au_secure><![CDATA[0]]></au_secure>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_leaveCopyOnServer><![CDATA[1]]></au_leaveCopyOnServer>
-        <au_mailpassword><![CDATA[WM+pimxVvIRvzK3G26EQrg==]]></au_mailpassword>
         <au_port><![CDATA[993]]></au_port>
-        <au_modifiedDate><![CDATA[2025-08-12T12:12:02]]></au_modifiedDate>
-        <au_expiryTime><![CDATA[10$m]]></au_expiryTime>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_hostName><![CDATA[vg@gmail.com]]></au_hostName>
+        <au_modifiedDate><![CDATA[2025-08-13T04:07:31]]></au_modifiedDate>
+        <au_protocol><![CDATA[imap]]></au_protocol>
+        <au_domain><![CDATA[]]></au_domain>
+        <au_mailUserId><![CDATA[]]></au_mailUserId>
+        <au_secure><![CDATA[0]]></au_secure>
+        <au_leaveCopyOnServer><![CDATA[1]]></au_leaveCopyOnServer>
+        <au_entityName><![CDATA[testvgpollingev2]]></au_entityName>
         <au_senderEmail><![CDATA[vishal@adeptia.com]]></au_senderEmail>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_cdoMachine><![CDATA[]]></au_cdoMachine>
+        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
+        <au_mailpassword><![CDATA[WM+pimxVvIRvzK3G26EQrg==]]></au_mailpassword>
+        <au_filterCriteria><![CDATA[test.txt]]></au_filterCriteria>
+        <au_id><![CDATA[1404385931503599616]]></au_id>
+        <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_version><![CDATA[1]]></au_version>
+        <au_expiryTime><![CDATA[10$m]]></au_expiryTime>
+        <au_mailContent><![CDATA[test]]></au_mailContent>
+        <au_userOwner><![CDATA[IndigoUser:1403330257464262656]]></au_userOwner>
+        <au_mailSubject><![CDATA[test]]></au_mailSubject>
+        <au_description><![CDATA[testvgpolling]]></au_description>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_creationDate><![CDATA[2025-08-11T08:48:18]]></au_creationDate>
+        <au_securityType><![CDATA[]]></au_securityType>
+        <au_modifiedBy><![CDATA[IndigoUser:1403330257464262656]]></au_modifiedBy>
+        <au_projectOwner><![CDATA[1402914835077234688]]></au_projectOwner>
+        <au_revision><![CDATA[df7c9b91221a2c81083d1d0357471673d715d93f]]></au_revision>
     </AU_MAILPOLLING>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
