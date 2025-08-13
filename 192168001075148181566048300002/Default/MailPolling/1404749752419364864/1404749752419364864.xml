@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAILPOLLING>
+        <au_cdoMachine><![CDATA[]]></au_cdoMachine>
+        <au_secure><![CDATA[0]]></au_secure>
+        <au_id><![CDATA[1404749752419364864]]></au_id>
+        <au_mailUserId><![CDATA[bvcvc]]></au_mailUserId>
+        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
+        <au_hostName><![CDATA[vg@gm.com]]></au_hostName>
+        <au_userOwner><![CDATA[IndigoUser:1403330257464262656]]></au_userOwner>
+        <au_projectOwner><![CDATA[1402935671142187008]]></au_projectOwner>
+        <au_leaveCopyOnServer><![CDATA[1]]></au_leaveCopyOnServer>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_entityName><![CDATA[testrer_Copy_Copy_Copy]]></au_entityName>
+        <au_mailContent><![CDATA[new1234]]></au_mailContent>
+        <au_mailpassword><![CDATA[WM+pimxVvIRvzK3G26EQrg==]]></au_mailpassword>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_protocol><![CDATA[imap]]></au_protocol>
+        <au_version><![CDATA[1]]></au_version>
+        <au_port><![CDATA[993]]></au_port>
+        <au_modifiedBy><![CDATA[IndigoUser:1403330257464262656]]></au_modifiedBy>
+        <au_mailSubject><![CDATA[test]]></au_mailSubject>
+        <au_securityType><![CDATA[]]></au_securityType>
+        <au_creationDate><![CDATA[2025-08-12T08:54]]></au_creationDate>
+        <au_expiryTime><![CDATA[10$m]]></au_expiryTime>
+        <au_filterCriteria><![CDATA[test.txt]]></au_filterCriteria>
+        <au_modifiedDate><![CDATA[2025-08-12T08:54]]></au_modifiedDate>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_domain><![CDATA[]]></au_domain>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_senderEmail><![CDATA[vgq@gmal.com]]></au_senderEmail>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_description><![CDATA[testrer_Copy_Copy_Copy]]></au_description>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+    </AU_MAILPOLLING>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_expiryTime" type="12"/>
+        <column name="au_pollingFrequency" type="12"/>
+        <column name="au_hostName" type="12"/>
+        <column name="au_domain" type="12"/>
+        <column name="au_cdoMachine" type="12"/>
+        <column name="au_port" type="4"/>
+        <column name="au_mailUserId" type="12"/>
+        <column name="au_mailpassword" type="12"/>
+        <column name="au_filterCriteria" type="12"/>
+        <column name="au_senderEmail" type="12"/>
+        <column name="au_mailSubject" type="12"/>
+        <column name="au_secure" type="3"/>
+        <column name="au_leaveCopyOnServer" type="3"/>
+        <column name="au_protocol" type="12"/>
+        <column name="au_mailContent" type="12"/>
+        <column name="au_securityType" type="12"/>
+        <column name="AU_CONFIGMETADATA" type="12"/>
+    </columnInfo>
+</data>
