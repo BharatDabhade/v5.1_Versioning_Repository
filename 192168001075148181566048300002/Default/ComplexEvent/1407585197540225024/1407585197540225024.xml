@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_COMPLEXEVENT>
-        <au_entityName><![CDATA[AI_Complex_Event_Valid_044020_edited]]></au_entityName>
-        <au_script><![CDATA[return true;]]></au_script>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_creationDate><![CDATA[2025-08-20T04:41:03]]></au_creationDate>
+        <au_revision><![CDATA[2ffc058c6f81e7c115d50f688037eb357ed73902]]></au_revision>
+        <au_description><![CDATA[Valid_description_123_edited1]]></au_description>
+        <au_creationMode><![CDATA[Simple]]></au_creationMode>
+        <au_misFireInstructions><![CDATA[ignoreMisfire]]></au_misFireInstructions>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_entityName><![CDATA[AI_Complex_Event_Valid_044020_edited1]]></au_entityName>
         <au_receiverEmailIds><![CDATA[a@b.com, z@y.com]]></au_receiverEmailIds>
-        <au_description><![CDATA[Valid_description_123_edited]]></au_description>
-        <au_userOwner><![CDATA[IndigoUser:1402259901021659136]]></au_userOwner>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_eventExpiryDateTime><![CDATA[08/19/2025 09:53]]></au_eventExpiryDateTime>
-        <au_activateFlag><![CDATA[0]]></au_activateFlag>
-        <au_modifiedDate><![CDATA[2025-08-20T05:45:15]]></au_modifiedDate>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_projectOwner><![CDATA[1405141631526793216]]></au_projectOwner>
         <au_pollingFrequency><![CDATA[5$w]]></au_pollingFrequency>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_businessInterval><![CDATA[null]]></au_businessInterval>
+        <au_modifiedDate><![CDATA[2025-08-20T06:00:27]]></au_modifiedDate>
+        <au_version><![CDATA[1]]></au_version>
+        <au_modifiedBy><![CDATA[IndigoUser:1402259901021659136]]></au_modifiedBy>
         <au_processPerPoll><![CDATA[-1]]></au_processPerPoll>
         <au_triggerInSequence><![CDATA[0]]></au_triggerInSequence>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_activateFlag><![CDATA[0]]></au_activateFlag>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_creationMode><![CDATA[Simple]]></au_creationMode>
-        <au_version><![CDATA[1]]></au_version>
-        <au_id><![CDATA[1407585197540225024]]></au_id>
-        <au_calendarType><![CDATA[null]]></au_calendarType>
-        <au_misFireInstructions><![CDATA[ignoreMisfire]]></au_misFireInstructions>
+        <au_eventExpiryDateTime><![CDATA[08/19/2025 09:53]]></au_eventExpiryDateTime>
+        <au_script><![CDATA[return true;]]></au_script>
         <au_eventStartDateTime><![CDATA[]]></au_eventStartDateTime>
-        <au_creationDate><![CDATA[2025-08-20T04:41:03]]></au_creationDate>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_businessInterval><![CDATA[null]]></au_businessInterval>
-        <au_projectOwner><![CDATA[1405141631526793216]]></au_projectOwner>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_modifiedBy><![CDATA[IndigoUser:1402259901021659136]]></au_modifiedBy>
+        <au_calendarType><![CDATA[null]]></au_calendarType>
+        <au_userOwner><![CDATA[IndigoUser:1402259901021659136]]></au_userOwner>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_id><![CDATA[1407585197540225024]]></au_id>
     </AU_COMPLEXEVENT>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
