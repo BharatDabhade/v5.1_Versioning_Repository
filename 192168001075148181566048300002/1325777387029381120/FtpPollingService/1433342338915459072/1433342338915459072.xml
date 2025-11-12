@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_FTPPOLLINGSERVICE>
+        <au_transferType><![CDATA[PASSIVE]]></au_transferType>
+        <au_id><![CDATA[1433342338915459072]]></au_id>
+        <au_keyStoreNameForFTP><![CDATA[None]]></au_keyStoreNameForFTP>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <AU_CONFIGMETADATA><![CDATA[]]></AU_CONFIGMETADATA>
+        <au_debugMode><![CDATA[0]]></au_debugMode>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_ftpOverSSL><![CDATA[0]]></au_ftpOverSSL>
+        <au_keyManager><![CDATA[None]]></au_keyManager>
+        <au_filterOut><![CDATA[]]></au_filterOut>
+        <au_connectorName><![CDATA[apacheCamel]]></au_connectorName>
+        <au_addOnConfigurations><![CDATA[]]></au_addOnConfigurations>
+        <au_creationDate><![CDATA[2025-10-30T06:30:44]]></au_creationDate>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_ftpUserId><![CDATA[qaftp]]></au_ftpUserId>
+        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
+        <au_pollingFrequency><![CDATA[30$s]]></au_pollingFrequency>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_hostName><![CDATA[ftp2.adeptia.com]]></au_hostName>
+        <au_stableTime><![CDATA[$0]]></au_stableTime>
+        <au_ftppassword><![CDATA[YRdIYdV60R5FIPHMgwVr0g==]]></au_ftppassword>
+        <au_fileBaseLocation><![CDATA[/Shivam_Singh/Source]]></au_fileBaseLocation>
+        <au_modifiedDate><![CDATA[2025-10-31T10:44:38]]></au_modifiedDate>
+        <au_triggerType><![CDATA[FileCreated]]></au_triggerType>
+        <au_projectOwner><![CDATA[Project:1325777387029381120]]></au_projectOwner>
+        <au_ftpsMode><![CDATA[Explicit]]></au_ftpsMode>
+        <au_description><![CDATA[ss_ftp_polling]]></au_description>
+        <au_useJ2SSH><![CDATA[0]]></au_useJ2SSH>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_entityName><![CDATA[ss_ftp_polling]]></au_entityName>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_filterIn><![CDATA[TextDummy.txt]]></au_filterIn>
+        <au_ftpProtectionLevel><![CDATA[None]]></au_ftpProtectionLevel>
+        <au_ftpValidateServer><![CDATA[0]]></au_ftpValidateServer>
+        <au_preferredAuthentications><![CDATA[publickey,keyboard-interactive,password]]></au_preferredAuthentications>
+        <au_version><![CDATA[1]]></au_version>
+        <au_userOwner><![CDATA[IndigoUser:1435253064591331328]]></au_userOwner>
+        <au_port><![CDATA[21]]></au_port>
+        <au_secured><![CDATA[0]]></au_secured>
+    </AU_FTPPOLLINGSERVICE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_expiryTime" type="12"/>
+        <column name="au_pollingFrequency" type="12"/>
+        <column name="au_hostName" type="12"/>
+        <column name="au_port" type="4"/>
+        <column name="au_ftpUserId" type="12"/>
+        <column name="au_ftppassword" type="12"/>
+        <column name="au_transferType" type="12"/>
+        <column name="au_triggerType" type="12"/>
+        <column name="au_secured" type="3"/>
+        <column name="au_ftpOverSSL" type="3"/>
+        <column name="au_ftpsMode" type="12"/>
+        <column name="au_filterIn" type="12"/>
+        <column name="au_filterOut" type="12"/>
+        <column name="au_fileBaseLocation" type="12"/>
+        <column name="au_stableTime" type="12"/>
+        <column name="au_ftpProtectionLevel" type="12"/>
+        <column name="au_keyManager" type="12"/>
+        <column name="au_ftpValidateServer" type="3"/>
+        <column name="au_useJ2SSH" type="3"/>
+        <column name="au_keyStoreNameForFTP" type="12"/>
+        <column name="au_connectorName" type="12"/>
+        <column name="au_debugMode" type="3"/>
+        <column name="au_addOnConfigurations" type="-1"/>
+        <column name="au_preferredAuthentications" type="12"/>
+        <column name="AU_CONFIGMETADATA" type="12"/>
+    </columnInfo>
+</data>
