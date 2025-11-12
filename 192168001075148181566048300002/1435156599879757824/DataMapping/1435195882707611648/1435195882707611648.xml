@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <AU_MULTI_VALUED_MAP><![CDATA[<MultiValuedMap/>]]></AU_MULTI_VALUED_MAP>
+        <au_sourceSchema><![CDATA[JSONSchema:1435195550548094976]]></au_sourceSchema>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_description><![CDATA[TEST]]></au_description>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+    <sourceSchemaID>JSONSchema:1435195550548094976</sourceSchemaID>
+    <targetSchemaID>JSONSchema:1384130933009481728</targetSchemaID>
+    <mappingOwnerGroup>Group_1</mappingOwnerGroup>
+    <mappingOwner>Dhruv Sharma</mappingOwner>
+    <mappingLastModifiedBy>Dhruv Sharma</mappingLastModifiedBy>
+    <mappingCreationDate>Tue Nov 04 09:16:03 GMT 2025</mappingCreationDate>
+    <mappingModifiedDate>Tue Nov 04 09:35:07 GMT 2025</mappingModifiedDate>
+    <reusable>true</reusable>
+    <mappingName>TEST</mappingName>
+    <mappingProject>Project:1435156599879757824</mappingProject>
+    <mappingDescription>TEST</mappingDescription>
+</mappingInformation>
+<sourceRoots>
+    <sourceRoot>
+        <name>Root</name>
+        <schemaName>Drv_Single_deep_orders_verbiage_Schema_Copy</schemaName>
+        <schemaID>JSONSchema:1435195550548094976</schemaID>
+    </sourceRoot>
+</sourceRoots>
+<targetRoots>
+    <targetRoot>
+        <name>Root</name>
+        <schemaName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</schemaName>
+        <schemaID>JSONSchema:1384130933009481728</schemaID>
+        <stream>output_0</stream>
+    </targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="customer">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/customerId</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/customerId</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="customerId">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/customerId" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="name">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/name" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/email</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables>
+            <localVariable>
+                <lname>Drv_Loc_var</lname>
+                <lvalue>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/email</lvalue>
+                <lcomment/>
+            </localVariable>
+        </localVariables> <Sorting/>
+ <Target name="email">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/email" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/phone</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="phone">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/phone" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/street</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="street">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/street" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/customerId</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="customerId">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/customerId" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="name">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/name" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/email</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="email">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/email" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/phone</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="phone">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/phone" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/street</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="street">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/street" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="orders">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/city</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="city">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/city" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/state</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="state">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/state" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/zip</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="zip">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/zip" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/lat</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="lat">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/lat" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/city</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="city">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/city" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/state</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="state">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/state" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/zip</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="zip">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/zip" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/lat</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="lat">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/lat" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/lng</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="lng">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/lng" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/lng</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="lng">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/lng" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/region</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="region">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/region" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/region</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="region">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/region" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/offset</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="offset">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/offset" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/offset</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="offset">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/offset" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/isObserved_1</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="isObserved_1">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/isObserved_1" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/start</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="start">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/start" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/start</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="start">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/start" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/end_1</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="end_1">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/end_1" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/productId</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="productId">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/productId" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/productId</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="productId">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/productId" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="name">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/name" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/main</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="main">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category/main" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category/main</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="main">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category/main" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="name">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/name" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category/sub/name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="name">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category/sub/name" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/color</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="color">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/color" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/color</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="color">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/color" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/size</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="size">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/size" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/size</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="size">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/size" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1/type</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="type">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1/type" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1/origin</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="origin">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1/origin" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/quantity</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="quantity">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/quantity" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/quantity</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="quantity">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/quantity" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/price_1</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="price_1">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/price_1" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/orderDate</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="orderDate">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/orderDate" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/status</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="status">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/status" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/orderDate</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="orderDate">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/orderDate" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/status</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="status">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/status" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="PurchaseOrders">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="orderId_1">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="profile_1">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="contact">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address</forEach>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="address">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="geo">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="timezone">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="dst">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="items">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="details_1">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="category">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="sub">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="attributes">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="material_1">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="orderId">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="customer">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="profile">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="contact">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="address">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="geo">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="timezone">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="dst">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="items">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="details">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="category">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category/sub</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="sub">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category/sub" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="attributes">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+<mapValue/>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="material">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/isObserved</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/isObserved</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="isObserved">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/isObserved" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/end</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/end</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="end">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/end" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="name">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/name" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/type</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/type</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="type">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/type" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/origin</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/origin</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="origin">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/origin" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_Single_deep_orders_verbiage_InCorrect_Schema</targetName>
+<dest>/Root/PurchaseOrders/orders/orderId/items/price</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/price</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="price">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/PurchaseOrders/orders/orderId/items/price" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<variables>
+<variable>
+<name>Drv_gLOBAL_var</name>
+<value>$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/phone</value>
+</variable>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+    <valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+        <globalTemplate>global</globalTemplate>
+        <customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+    <streamingMode>false</streamingMode>
+    <filterEmptyElements>false</filterEmptyElements>
+    <dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>10</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+    <SelfRecursionLevel>0</SelfRecursionLevel>
+    <EnableTypesBuffering>true</EnableTypesBuffering>
+    <CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+    <consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_modifiedDate><![CDATA[2025-11-04T09:35:09]]></au_modifiedDate>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <au_optimizedLoading><![CDATA[0]]></au_optimizedLoading>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules4430184455261222667.pdf]]></au_pdfFileName>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:variable  name='Drv_gLOBAL_var' select = "Root/orders/orderIds/Emp_customer/profile/contact/phone"/><xsl:template match="/"><Root><PurchaseOrders><orders><orderId_1><customer><customerId><xsl:value-of select="Root/orders/orderIds/Emp_customer/customerId"/></customerId><profile_1><name><xsl:value-of select="Root/orders/orderIds/Emp_customer/profile/name"/></name><contact><email><xsl:variable  name='Drv_Loc_var' select = "Root/orders/orderIds/Emp_customer/profile/contact/email"/></email><phone></phone><xsl:for-each select = "Root/orders/orderIds/Emp_customer/profile/contact/address"><address><street></street><city></city><state></state><zip></zip><geo><lat></lat><lng></lng><timezone><region></region><offset></offset><dst><isObserved_1></isObserved_1><start></start><end_1></end_1></dst></timezone></geo></address></xsl:for-each></contact></profile_1></customer><items><productId></productId><details_1><name></name><category><main></main><sub><name></name><attributes><color></color><size></size><material_1><type></type><origin></origin></material_1></attributes></sub></category></details_1><quantity></quantity><price_1></price_1></items><orderDate></orderDate><status></status></orderId_1><orderId><customer><customerId></customerId><profile><name></name><contact><email></email><phone></phone><address><street></street><city></city><state></state><zip></zip><geo><lat></lat><lng></lng><timezone><region></region><offset></offset><dst><isObserved><xsl:value-of select="Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/isObserved"/></isObserved><start></start><end><xsl:value-of select="Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/end"/></end></dst></timezone></geo></address></contact></profile></customer><items><productId></productId><details><name><xsl:value-of select="Root/orders/orderIds/items/details/name"/></name><category><main></main><sub><name></name><attributes><color></color><size></size><material><type><xsl:value-of select="Root/orders/orderIds/items/details/category/sub/attributes/material/type"/></type><origin><xsl:value-of select="Root/orders/orderIds/items/details/category/sub/attributes/material/origin"/></origin></material></attributes></sub></category></details><quantity></quantity><price><xsl:value-of select="Root/orders/orderIds/items/price"/></price></items><orderDate></orderDate><status></status></orderId></orders></PurchaseOrders></Root></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_version><![CDATA[1]]></au_version>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_targetSchema><![CDATA[JSONSchema:1384130933009481728]]></au_targetSchema>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":[],"filters":"","variables":{"variable":[{"syntax":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/phone","name":"Drv_gLOBAL_var","value":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/phone","comment":""}]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":10,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":false,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":10,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":false,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":false},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":"dce358e4-92b2-4256-9f5b-793faebcb960","sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":500,"parallelProcessing":false,"maximumConcurrentProcessor":0,"CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"mappingInformation":{"sourceSchemaID":"JSONSchema:1435195550548094976","targetSchemaID":"JSONSchema:1384130933009481728","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":true,"mappingName":"TEST","mappingProject":"Project:1435156599879757824","mappingDescription":"TEST"},"namespace":"    ","namespaceList":[{"namespaceName":"","namespaceType":"UserDefined"},{"namespaceName":"","namespaceType":"UserDefined"},{"namespaceName":"","namespaceType":"UserDefined"}],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","schemaID":"JSONSchema:1384130933009481728","stream":"output_0"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"Drv_Single_deep_orders_verbiage_Schema_Copy","schemaID":"JSONSchema:1435195550548094976"}]},"contextSchemaDefinition":"","maps":[{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer","targetfield":"customer","targetrecord":"orderId_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/customerId","targetfield":"customerId","targetrecord":"customer","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/customerId","expression":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/customerId","foreachPath":"","comments":"","Sorting":"","mapping":[{"sourceName":"Drv_Single_deep_orders_verbiage_Schema_Copy","operatortype":"field","sourcefield":"customerId","sourcefielddisplayname":"customerId","sourcefieldpath":"/Root/orders/orderIds/Emp_customer/customerId","sourcerecord":"Emp_customer"}],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/customerId","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/customerId"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/name","targetfield":"name","targetrecord":"profile_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/name","expression":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/name","foreachPath":"","comments":"","Sorting":"","mapping":[{"sourceName":"Drv_Single_deep_orders_verbiage_Schema_Copy","operatortype":"field","sourcefield":"name","sourcefielddisplayname":"name","sourcefieldpath":"/Root/orders/orderIds/Emp_customer/profile/name","sourcerecord":"profile"}],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/name","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/name"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/email","targetfield":"email","targetrecord":"contact","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[{"lname":"Drv_Loc_var","lvalue":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/email","lcomment":""}]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/email"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/phone","targetfield":"phone","targetrecord":"contact","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/phone"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/street","targetfield":"street","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/street"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/customerId","targetfield":"customerId","targetrecord":"customer","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/customerId"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/name","targetfield":"name","targetrecord":"profile","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/name"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/email","targetfield":"email","targetrecord":"contact","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/email"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/phone","targetfield":"phone","targetrecord":"contact","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/phone"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/street","targetfield":"street","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/street"},{"targetfieldpath":"/Root/PurchaseOrders/orders","targetfield":"orders","targetrecord":"PurchaseOrders","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/city","targetfield":"city","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/city"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/state","targetfield":"state","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/state"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/zip","targetfield":"zip","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/zip"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/lat","targetfield":"lat","targetrecord":"geo","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/lat"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/city","targetfield":"city","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/city"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/state","targetfield":"state","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/state"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/zip","targetfield":"zip","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/zip"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/lat","targetfield":"lat","targetrecord":"geo","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/lat"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/lng","targetfield":"lng","targetrecord":"geo","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/lng"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/lng","targetfield":"lng","targetrecord":"geo","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/lng"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/region","targetfield":"region","targetrecord":"timezone","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/region"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/region","targetfield":"region","targetrecord":"timezone","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/region"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/offset","targetfield":"offset","targetrecord":"timezone","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/offset"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/offset","targetfield":"offset","targetrecord":"timezone","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/offset"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/isObserved_1","targetfield":"isObserved_1","targetrecord":"dst","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/isObserved_1"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/start","targetfield":"start","targetrecord":"dst","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/start"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/start","targetfield":"start","targetrecord":"dst","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/start"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/end_1","targetfield":"end_1","targetrecord":"dst","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst/end_1"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/productId","targetfield":"productId","targetrecord":"items","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/productId"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/productId","targetfield":"productId","targetrecord":"items","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/productId"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/name","targetfield":"name","targetrecord":"details_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/name"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/main","targetfield":"main","targetrecord":"category","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/main"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category/main","targetfield":"main","targetrecord":"category","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/main"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/name","targetfield":"name","targetrecord":"sub","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/name"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category/sub/name","targetfield":"name","targetrecord":"sub","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub/name"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/color","targetfield":"color","targetrecord":"attributes","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/color"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/color","targetfield":"color","targetrecord":"attributes","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/color"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/size","targetfield":"size","targetrecord":"attributes","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/size"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/size","targetfield":"size","targetrecord":"attributes","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/size"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1/type","targetfield":"type","targetrecord":"material_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1/type"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1/origin","targetfield":"origin","targetrecord":"material_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1/origin"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/quantity","targetfield":"quantity","targetrecord":"items","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/quantity"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/quantity","targetfield":"quantity","targetrecord":"items","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/quantity"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/price_1","targetfield":"price_1","targetrecord":"items","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/price_1"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/orderDate","targetfield":"orderDate","targetrecord":"orderId_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/orderDate"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/status","targetfield":"status","targetrecord":"orderId_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/status"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/orderDate","targetfield":"orderDate","targetrecord":"orderId","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/orderDate"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/status","targetfield":"status","targetrecord":"orderId","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/status"},{"targetfieldpath":"/Root/PurchaseOrders","targetfield":"PurchaseOrders","targetrecord":"Root","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1","targetfield":"orderId_1","targetrecord":"orders","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1","targetfield":"profile_1","targetrecord":"customer","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact","targetfield":"contact","targetrecord":"profile_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address","targetfield":"address","targetrecord":"contact","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo","targetfield":"geo","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone","targetfield":"timezone","targetrecord":"geo","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst","targetfield":"dst","targetrecord":"timezone","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/customer/profile_1/contact/address/geo/timezone/dst"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items","targetfield":"items","targetrecord":"orderId_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1","targetfield":"details_1","targetrecord":"items","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category","targetfield":"category","targetrecord":"details_1","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub","targetfield":"sub","targetrecord":"category","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes","targetfield":"attributes","targetrecord":"sub","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1","targetfield":"material_1","targetrecord":"attributes","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId_1/items/details_1/category/sub/attributes/material_1"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId","targetfield":"orderId","targetrecord":"orders","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer","targetfield":"customer","targetrecord":"orderId","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile","targetfield":"profile","targetrecord":"customer","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact","targetfield":"contact","targetrecord":"profile","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address","targetfield":"address","targetrecord":"contact","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo","targetfield":"geo","targetrecord":"address","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone","targetfield":"timezone","targetrecord":"geo","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst","targetfield":"dst","targetrecord":"timezone","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items","targetfield":"items","targetrecord":"orderId","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details","targetfield":"details","targetrecord":"items","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category","targetfield":"category","targetrecord":"details","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category/sub","targetfield":"sub","targetrecord":"category","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes","targetfield":"attributes","targetrecord":"sub","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes"},{"targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material","targetfield":"material","targetrecord":"attributes","namespacePrefix":"","userNamespacePrefix":"","namespaceRemovePrefix":"false","order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","expressionPath":"","expression":"","foreachPath":"","comments":"","Sorting":"","mapping":[],"localVariables":{"localVariable":[]},"preCustomXSL":"","postCustomXSL":"","confidence":"Confirmed","suggested_value":"","defaultEditor":"textual","mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material"},{"order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/isObserved","xpath":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/isObserved","targetfield":"isObserved","targetrecord":"dst","expressionPath":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/isObserved","expression":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/isObserved","confidence":"Suggested","mapping":[{"sourceName":"Drv_Single_deep_orders_verbiage_Schema_Copy","operatortype":"field","sourcefield":"isObserved","sourcefielddisplayname":"isObserved","sourcefieldpath":"/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/isObserved","sourcerecord":"dst","xpath":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/isObserved","id":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/isObserved"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/isObserved","suggested_value":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/isObserved"},{"order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","targetfieldpath":"/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/end","xpath":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/end","targetfield":"end","targetrecord":"dst","expressionPath":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/end","expression":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/end","confidence":"Suggested","mapping":[{"sourceName":"Drv_Single_deep_orders_verbiage_Schema_Copy","operatortype":"field","sourcefield":"end","sourcefielddisplayname":"end","sourcefieldpath":"/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/end","sourcerecord":"dst","xpath":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/end","id":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/end"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/customer/profile/contact/address/geo/timezone/dst/end","suggested_value":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/Emp_customer/profile/contact/address/geo/timezone/dst/end"},{"order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/name","xpath":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/name","targetfield":"name","targetrecord":"details","expressionPath":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/name","expression":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/name","confidence":"Suggested","mapping":[{"sourceName":"Drv_Single_deep_orders_verbiage_Schema_Copy","operatortype":"field","sourcefield":"name","sourcefielddisplayname":"name","sourcefieldpath":"/Root/orders/orderIds/items/details/name","sourcerecord":"details","xpath":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/name","id":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/name"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/name","suggested_value":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/name"},{"order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/type","xpath":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/type","targetfield":"type","targetrecord":"material","expressionPath":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/type","expression":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/type","confidence":"Suggested","mapping":[{"sourceName":"Drv_Single_deep_orders_verbiage_Schema_Copy","operatortype":"field","sourcefield":"type","sourcefielddisplayname":"type","sourcefieldpath":"/Root/orders/orderIds/items/details/category/sub/attributes/material/type","sourcerecord":"material","xpath":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/type","id":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/type"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/type","suggested_value":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/type"},{"order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/origin","xpath":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/origin","targetfield":"origin","targetrecord":"material","expressionPath":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/origin","expression":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/origin","confidence":"Suggested","mapping":[{"sourceName":"Drv_Single_deep_orders_verbiage_Schema_Copy","operatortype":"field","sourcefield":"origin","sourcefielddisplayname":"origin","sourcefieldpath":"/Root/orders/orderIds/items/details/category/sub/attributes/material/origin","sourcerecord":"material","xpath":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/origin","id":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/origin"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/details/category/sub/attributes/material/origin","suggested_value":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/details/category/sub/attributes/material/origin"},{"order":1,"targetName":"Drv_Single_deep_orders_verbiage_InCorrect_Schema","targetfieldpath":"/Root/PurchaseOrders/orders/orderId/items/price","xpath":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/price","targetfield":"price","targetrecord":"items","expressionPath":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/price","expression":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/price","confidence":"Suggested","mapping":[{"sourceName":"Drv_Single_deep_orders_verbiage_Schema_Copy","operatortype":"field","sourcefield":"price","sourcefielddisplayname":"price","sourcefieldpath":"/Root/orders/orderIds/items/price","sourcerecord":"items","xpath":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/price","id":"Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/price"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_Single_deep_orders_verbiage_InCorrect_Schema/Root/PurchaseOrders/orders/orderId/items/price","suggested_value":"$Input_Drv_Single_deep_orders_verbiage_Schema_Copy/Root/orders/orderIds/items/price"}],"sourceExpandLevel":3,"targetExpandLevel":3,"metaData":""}]]></au_json>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_entityName><![CDATA[TEST]]></au_entityName>
+        <au_id><![CDATA[1435195882707611648]]></au_id>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_creationDate><![CDATA[2025-11-04T09:16:03]]></au_creationDate>
+        <au_concurrentProcessors><![CDATA[0]]></au_concurrentProcessors>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+        <column name="AU_MULTI_VALUED_MAP" type="-1"/>
+    </columnInfo>
+</data>

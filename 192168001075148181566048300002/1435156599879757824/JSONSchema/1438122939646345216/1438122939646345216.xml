@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_JSONSCHEMA>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <AU_RECORD_IDENTIFIER_XPATH><![CDATA[]]></AU_RECORD_IDENTIFIER_XPATH>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <au_removeLeadingZeros><![CDATA[0]]></au_removeLeadingZeros>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_jsonFilePath><![CDATA[Invoice_data.json]]></au_jsonFilePath>
+        <au_id><![CDATA[1438122939646345216]]></au_id>
+        <AU_DEFINITIONFILE><![CDATA[json]]></AU_DEFINITIONFILE>
+        <au_xsd><![CDATA[<Root>
+  <item>
+    <Invoice>
+      <From>
+        <Name>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Name>
+        <Address>
+          <Suite>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Suite>
+          <Street>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Street>
+          <City>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</City>
+          <State>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</State>
+          <Zip>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Zip>
+        </Address>
+        <Email>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Email>
+      </From>
+      <InvoiceNumber>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</InvoiceNumber>
+      <OrderNumber>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</OrderNumber>
+      <InvoiceDate>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</InvoiceDate>
+      <DueDate>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</DueDate>
+      <TotalDue>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</TotalDue>
+      <To>
+        <Name>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Name>
+        <Address>
+          <Street>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Street>
+          <City>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</City>
+          <State>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</State>
+          <Zip>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Zip>
+        </Address>
+        <Email>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Email>
+      </To>
+      <Items>
+        <HrsQty>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</HrsQty>
+        <Service>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Service>
+        <RatePrice>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</RatePrice>
+        <Adjust>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Adjust>
+        <SubTotal>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</SubTotal>
+      </Items>
+      <SubTotal>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</SubTotal>
+      <Tax>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Tax>
+      <Total>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Total>
+      <BankDetails>
+        <BankName>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</BankName>
+        <AccountNumber>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</AccountNumber>
+        <BSB>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</BSB>
+      </BankDetails>
+      <PaymentTerms>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</PaymentTerms>
+      <Footer>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</Footer>
+    </Invoice>
+  </item>
+</Root>
+]]></au_xsd>
+        <AU_VALIDATION><![CDATA[0]]></AU_VALIDATION>
+        <AU_HANDLE_ARRAY_DATA><![CDATA[1]]></AU_HANDLE_ARRAY_DATA>
+        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_arrayFields><![CDATA[/Root/data/Invoice/Items]]></au_arrayFields>
+        <au_originalJson><![CDATA[[{"Invoice": {
+  "From": {
+    "Name": "",
+    "Address": {
+      "Suite": "",
+      "Street": "",
+      "City": "",
+      "State": "",
+      "Zip": ""
+    },
+    "Email": ""
+  },
+  "Invoice Number": "",
+  "Order Number": "",
+  "Invoice Date": "",
+  "Due Date": "",
+  "Total Due": "",
+  "To": {
+    "Name": "",
+    "Address": {
+      "Street": "",
+      "City": "",
+      "State": "",
+      "Zip": ""
+    },
+    "Email": ""
+  },
+  "Items": [{
+    "Hrs/Qty": "",
+    "Service": "",
+    "Rate/Price": "",
+    "Adjust": "",
+    "Sub Total": ""
+  }],
+  "Sub Total": "",
+  "Tax": "",
+  "Total": "",
+  "Bank Details": {
+    "Bank Name": "",
+    "Account Number": "",
+    "BSB": ""
+  },
+  "Payment Terms": "",
+  "Footer": ""
+}}]]]></au_originalJson>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_entityName><![CDATA[Drv_Invoice_B21_CDM]]></au_entityName>
+        <au_jsonType><![CDATA[1]]></au_jsonType>
+        <au_description><![CDATA[Drv_Invoice_B21_CDM]]></au_description>
+        <au_creationDate><![CDATA[2025-11-12T11:07:08]]></au_creationDate>
+        <au_version><![CDATA[1]]></au_version>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_json><![CDATA[{"fieldName":"Root","expanded":true,"leaf":false,"children":[{"fieldName":"item","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"Invoice","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"From","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"Name","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"Address","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"Suite","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"Street","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"City","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"State","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"Zip","expanded":true,"isAttribute":false,"value":"","leaf":true}]},{"fieldName":"Email","expanded":true,"isAttribute":false,"value":"","leaf":true}]},{"fieldName":"InvoiceNumber","expanded":true,"isAttribute":false,"originalName":"Invoice Number","value":"","leaf":true},{"fieldName":"OrderNumber","expanded":true,"isAttribute":false,"originalName":"Order Number","value":"","leaf":true},{"fieldName":"InvoiceDate","expanded":true,"isAttribute":false,"originalName":"Invoice Date","value":"","leaf":true},{"fieldName":"DueDate","expanded":true,"isAttribute":false,"originalName":"Due Date","value":"","leaf":true},{"fieldName":"TotalDue","expanded":true,"isAttribute":false,"originalName":"Total Due","value":"","leaf":true},{"fieldName":"To","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"Name","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"Address","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"Street","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"City","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"State","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"Zip","expanded":true,"isAttribute":false,"value":"","leaf":true}]},{"fieldName":"Email","expanded":true,"isAttribute":false,"value":"","leaf":true}]},{"fieldName":"Items","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"HrsQty","expanded":true,"isAttribute":false,"originalName":"Hrs/Qty","value":"","leaf":true},{"fieldName":"Service","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"RatePrice","expanded":true,"isAttribute":false,"originalName":"Rate/Price","value":"","leaf":true},{"fieldName":"Adjust","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"SubTotal","expanded":true,"isAttribute":false,"originalName":"Sub Total","value":"","leaf":true}]},{"fieldName":"SubTotal","expanded":true,"isAttribute":false,"originalName":"Sub Total","value":"","leaf":true},{"fieldName":"Tax","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"Total","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"BankDetails","expanded":true,"isAttribute":false,"originalName":"Bank Details","leaf":false,"value":"\n      ","children":[{"fieldName":"BankName","expanded":true,"isAttribute":false,"originalName":"Bank Name","value":"","leaf":true},{"fieldName":"AccountNumber","expanded":true,"isAttribute":false,"originalName":"Account Number","value":"","leaf":true},{"fieldName":"BSB","expanded":true,"isAttribute":false,"value":"","leaf":true}]},{"fieldName":"PaymentTerms","expanded":true,"isAttribute":false,"originalName":"Payment Terms","value":"","leaf":true},{"fieldName":"Footer","expanded":true,"isAttribute":false,"value":"","leaf":true}]}]}]}]]></au_json>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <AU_REFERENCE_IDENTIFIER_XPATH><![CDATA[]]></AU_REFERENCE_IDENTIFIER_XPATH>
+        <au_modifiedDate><![CDATA[2025-11-12T11:07:12]]></au_modifiedDate>
+        <AU_ERROR_PATH_LOCATION><![CDATA[]]></AU_ERROR_PATH_LOCATION>
+        <AU_JSON_SCHEMA_SPECIFICATION><![CDATA[0]]></AU_JSON_SCHEMA_SPECIFICATION>
+        <au_specialCharacters><![CDATA[{"Invoice Number":"InvoiceNumber","Order Number":"OrderNumber","Invoice Date":"InvoiceDate","Due Date":"DueDate","Total Due":"TotalDue","Hrs/Qty":"HrsQty","Rate/Price":"RatePrice","Sub Total":"SubTotal","Bank Details":"BankDetails","Bank Name":"BankName","Account Number":"AccountNumber","Payment Terms":"PaymentTerms"}]]></au_specialCharacters>
+        <AU_QUEUE_CAPACITY><![CDATA[1000]]></AU_QUEUE_CAPACITY>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[0]]></AU_OPTIMIZE_PROCESSING>
+        <xsdFilePath><![CDATA[null]]></xsdFilePath>
+    </AU_JSONSCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_originalJson" type="-1"/>
+        <column name="au_jsonFilePath" type="12"/>
+        <column name="au_specialCharacters" type="-1"/>
+        <column name="au_removeLeadingZeros" type="3"/>
+        <column name="au_jsonType" type="4"/>
+        <column name="au_arrayFields" type="-1"/>
+        <column name="AU_VALIDATION" type="3"/>
+        <column name="AU_REFERENCE_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_RECORD_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_ERROR_PATH_LOCATION" type="12"/>
+        <column name="AU_JSON_SCHEMA_SPECIFICATION" type="3"/>
+        <column name="AU_OPTIMIZE_PROCESSING" type="3"/>
+        <column name="AU_QUEUE_CAPACITY" type="4"/>
+        <column name="AU_DEFINITIONFILE" type="12"/>
+        <column name="AU_ENRICHED_JSON" type="-1"/>
+        <column name="AU_HANDLE_ARRAY_DATA" type="3"/>
+    </columnInfo>
+</data>

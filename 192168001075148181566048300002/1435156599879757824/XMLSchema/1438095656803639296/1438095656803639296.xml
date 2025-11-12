@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_SCHEMAXML>
+        <AU_SAPCLIENT><![CDATA[null]]></AU_SAPCLIENT>
+        <au_selectedroot><![CDATA[null]]></au_selectedroot>
+        <au_modifiedDate><![CDATA[2025-11-12T09:18:43]]></au_modifiedDate>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <au_id><![CDATA[1438095656803639296]]></au_id>
+        <au_frevvoXsd><![CDATA[null]]></au_frevvoXsd>
+        <xsdType><![CDATA[null]]></xsdType>
+        <au_xmlSchemaVersion><![CDATA[2.0]]></au_xmlSchemaVersion>
+        <AU_SYSTEMRELEASE><![CDATA[null]]></AU_SYSTEMRELEASE>
+        <au_description><![CDATA[Drv_CCDA_medication_B21_Src]]></au_description>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_dtdFile><![CDATA[null]]></au_dtdFile>
+        <au_entityName><![CDATA[Drv_CCDA_medication_B21_Src]]></au_entityName>
+        <AU_IDOCEXT><![CDATA[null]]></AU_IDOCEXT>
+        <AU_APPRELEASE><![CDATA[null]]></AU_APPRELEASE>
+        <au_jcaAdapterID><![CDATA[null]]></au_jcaAdapterID>
+        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <xsdFilePath><![CDATA[null]]></xsdFilePath>
+        <au_creationDate><![CDATA[2025-11-12T09:18:43]]></au_creationDate>
+        <AU_IDOCOBJTYPE><![CDATA[null]]></AU_IDOCOBJTYPE>
+        <au_dtdFilePath><![CDATA[CCDA_medication.xml]]></au_dtdFilePath>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <xsdName><![CDATA[null]]></xsdName>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_validateXml><![CDATA[0]]></au_validateXml>
+        <au_wsProviderID><![CDATA[null]]></au_wsProviderID>
+        <AU_DEFFMODE><![CDATA[null]]></AU_DEFFMODE>
+        <AU_IDOCTYPE><![CDATA[null]]></AU_IDOCTYPE>
+        <au_xmlValidator><![CDATA[Native]]></au_xmlValidator>
+        <au_convertToXSD><![CDATA[0]]></au_convertToXSD>
+        <au_xsd><![CDATA[<?xml version='1.0' encoding='UTF-8'?><ClinicalDocument><templateId root="2.16.840.1.113883.10.20.22.1.1"/><code code="34133-9" codeSystem="2.16.840.1.113883.6.1"/><title>Medications Document</title><effectiveTime value="20250711"/><recordTarget><patientRole><id extension="12345" root="2.16.840.1.113883.19.5"/><patient><name><given>John</given><family>Doe</family></name><administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/><birthTime value="19800101"/></patient></patientRole></recordTarget><component><structuredBody><component><section><templateId root="2.16.840.1.113883.10.20.22.2.1.1"/><code code="10160-0" codeSystem="2.16.840.1.113883.6.1" displayName="History of Medication Use"/><title>Medications</title><text><list><item>Albuterol Inhaler</item></list></text><entry><substanceAdministration classCode="SBADM" moodCode="EVN"><templateId root="2.16.840.1.113883.10.20.22.4.16"/><id root="12345678"/><statusCode code="completed"/><effectiveTime xsi:type="IVL_TS"><low value="20240101"/><high value="20240601"/></effectiveTime><consumable><manufacturedProduct><manufacturedMaterial><code code="573621" codeSystem="2.16.840.1.113883.6.88" displayName="Albuterol"/></manufacturedMaterial></manufacturedProduct></consumable><doseQuantity unit="actuation" value="1"/><routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Oral Route"/><rateQuantity unit="h" value="4"/></substanceAdministration></entry></section></component></structuredBody></component></ClinicalDocument>]]></au_xsd>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_fileReferencesID><![CDATA[null]]></au_fileReferencesID>
+        <au_version><![CDATA[1]]></au_version>
+        <au_revision><![CDATA[null]]></au_revision>
+        <AU_XMLSCHEMATYPE><![CDATA[null]]></AU_XMLSCHEMATYPE>
+        <au_json><![CDATA[{"fieldName":"ClinicalDocument","expanded":true,"leaf":false,"children":[{"fieldName":"templateId","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"root","expanded":true,"isAttribute":true,"leaf":true,"value":"2.16.840.1.113883.10.20.22.1.1"}]},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"code","expanded":true,"isAttribute":true,"leaf":true,"value":"34133-9"},{"fieldName":"codeSystem","expanded":true,"isAttribute":true,"leaf":true,"value":"2.16.840.1.113883.6.1"}]},{"fieldName":"title","expanded":true,"isAttribute":false,"value":"Medications Document","leaf":true},{"fieldName":"effectiveTime","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"value","expanded":true,"isAttribute":true,"leaf":true,"value":"20250711"}]},{"fieldName":"recordTarget","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"patientRole","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"extension","expanded":true,"isAttribute":true,"leaf":true,"value":"12345"},{"fieldName":"root","expanded":true,"isAttribute":true,"leaf":true,"value":"2.16.840.1.113883.19.5"}]},{"fieldName":"patient","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"name","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"given","expanded":true,"isAttribute":false,"value":"John","leaf":true},{"fieldName":"family","expanded":true,"isAttribute":false,"value":"Doe","leaf":true}]},{"fieldName":"administrativeGenderCode","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"code","expanded":true,"isAttribute":true,"leaf":true,"value":"M"},{"fieldName":"codeSystem","expanded":true,"isAttribute":true,"leaf":true,"value":"2.16.840.1.113883.5.1"}]},{"fieldName":"birthTime","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"value","expanded":true,"isAttribute":true,"leaf":true,"value":"19800101"}]}]}]}]},{"fieldName":"component","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"structuredBody","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"component","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"section","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"templateId","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"root","expanded":true,"isAttribute":true,"leaf":true,"value":"2.16.840.1.113883.10.20.22.2.1.1"}]},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"code","expanded":true,"isAttribute":true,"leaf":true,"value":"10160-0"},{"fieldName":"codeSystem","expanded":true,"isAttribute":true,"leaf":true,"value":"2.16.840.1.113883.6.1"},{"fieldName":"displayName","expanded":true,"isAttribute":true,"leaf":true,"value":"History of Medication Use"}]},{"fieldName":"title","expanded":true,"isAttribute":false,"value":"Medications","leaf":true},{"fieldName":"text","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"list","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"item","expanded":true,"isAttribute":false,"value":"Albuterol Inhaler","leaf":true}]}]},{"fieldName":"entry","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"substanceAdministration","expanded":true,"isAttribute":false,"value":"\n            ","leaf":false,"children":[{"fieldName":"classCode","expanded":true,"isAttribute":true,"leaf":true,"value":"SBADM"},{"fieldName":"moodCode","expanded":true,"isAttribute":true,"leaf":true,"value":"EVN"},{"fieldName":"templateId","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"root","expanded":true,"isAttribute":true,"leaf":true,"value":"2.16.840.1.113883.10.20.22.4.16"}]},{"fieldName":"id","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"root","expanded":true,"isAttribute":true,"leaf":true,"value":"12345678"}]},{"fieldName":"statusCode","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"code","expanded":true,"isAttribute":true,"leaf":true,"value":"completed"}]},{"fieldName":"effectiveTime","expanded":true,"isAttribute":false,"value":"\n              ","leaf":false,"children":[{"fieldName":"xsi:type","expanded":true,"isAttribute":true,"namespacePrefix":"xsi","namespaceURL":"http://www.w3.org/2001/XMLSchema-instance","leaf":true,"value":"IVL_TS"},{"fieldName":"low","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"value","expanded":true,"isAttribute":true,"leaf":true,"value":"20240101"}]},{"fieldName":"high","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"value","expanded":true,"isAttribute":true,"leaf":true,"value":"20240601"}]}]},{"fieldName":"consumable","expanded":true,"isAttribute":false,"leaf":false,"value":"\n              ","children":[{"fieldName":"manufacturedProduct","expanded":true,"isAttribute":false,"leaf":false,"value":"\n                ","children":[{"fieldName":"manufacturedMaterial","expanded":true,"isAttribute":false,"leaf":false,"value":"\n                  ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"code","expanded":true,"isAttribute":true,"leaf":true,"value":"573621"},{"fieldName":"codeSystem","expanded":true,"isAttribute":true,"leaf":true,"value":"2.16.840.1.113883.6.88"},{"fieldName":"displayName","expanded":true,"isAttribute":true,"leaf":true,"value":"Albuterol"}]}]}]}]},{"fieldName":"doseQuantity","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"unit","expanded":true,"isAttribute":true,"leaf":true,"value":"actuation"},{"fieldName":"value","expanded":true,"isAttribute":true,"leaf":true,"value":"1"}]},{"fieldName":"routeCode","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"code","expanded":true,"isAttribute":true,"leaf":true,"value":"C38288"},{"fieldName":"codeSystem","expanded":true,"isAttribute":true,"leaf":true,"value":"2.16.840.1.113883.3.26.1.1"},{"fieldName":"displayName","expanded":true,"isAttribute":true,"leaf":true,"value":"Oral Route"}]},{"fieldName":"rateQuantity","expanded":true,"isAttribute":false,"value":"","leaf":false,"children":[{"fieldName":"unit","expanded":true,"isAttribute":true,"leaf":true,"value":"h"},{"fieldName":"value","expanded":true,"isAttribute":true,"leaf":true,"value":"4"}]}]}]}]}]}]}]}]}]]></au_json>
+        <au_wsMessageCallID><![CDATA[null]]></au_wsMessageCallID>
+        <providerXsdType><![CDATA[null]]></providerXsdType>
+        <au_comments><![CDATA[null]]></au_comments>
+    </AU_SCHEMAXML>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_dtdFilePath" type="12"/>
+        <column name="au_convertToXSD" type="3"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_xmlSchemaVersion" type="12"/>
+        <column name="au_fileReferencesID" type="12"/>
+        <column name="au_dtdFile" type="-1"/>
+        <column name="au_validateXml" type="3"/>
+        <column name="au_wsMessageCallID" type="12"/>
+        <column name="au_wsProviderID" type="12"/>
+        <column name="au_jcaAdapterID" type="12"/>
+        <column name="xsdType" type="12"/>
+        <column name="providerXsdType" type="12"/>
+        <column name="xsdName" type="12"/>
+        <column name="au_frevvoXsd" type="12"/>
+        <column name="AU_XMLSCHEMATYPE" type="12"/>
+        <column name="AU_DEFFMODE" type="12"/>
+        <column name="AU_IDOCOBJTYPE" type="12"/>
+        <column name="AU_IDOCEXT" type="12"/>
+        <column name="au_selectedroot" type="12"/>
+        <column name="au_xmlValidator" type="12"/>
+        <column name="AU_IDOCTYPE" type="12"/>
+        <column name="AU_SYSTEMRELEASE" type="12"/>
+        <column name="AU_APPRELEASE" type="12"/>
+        <column name="AU_SAPCLIENT" type="12"/>
+        <column name="AU_ENRICHED_JSON" type="-1"/>
+    </columnInfo>
+</data>

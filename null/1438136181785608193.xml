@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_RULE>
+        <au_rule_severity><![CDATA[false]]></au_rule_severity>
+        <au_meta_data><![CDATA[{"resultField":"[{\"name\":\"data/invoice/invoice_number\",\"location\":\"data/invoice/invoice_number\"}]","editor":"Check if&nbsp;<span class=\"DefineRule-module__chip___ZpTAO\" contenteditable=\"false\" title=\"data/invoice/invoice_number\">invoice_number</span>&nbsp;is numeric only","yield":"no","failureMessage":"Rule failed with values {data/invoice/invoice_number}"}]]></au_meta_data>
+        <au_additional_instructions><![CDATA[]]></au_additional_instructions>
+        <au_failure_message><![CDATA[Rule failed with values {data/invoice/invoice_number}]]></au_failure_message>
+        <au_business_rule_id><![CDATA[1438136181785608192]]></au_business_rule_id>
+        <au_rule_data><![CDATA[]]></au_rule_data>
+        <au_rule_order><![CDATA[1]]></au_rule_order>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <au_meta_data_temp><![CDATA[]]></au_meta_data_temp>
+        <au_python_code_temp><![CDATA[]]></au_python_code_temp>
+        <au_id><![CDATA[1438136181785608193]]></au_id>
+        <au_status><![CDATA[Tested]]></au_status>
+        <au_entityName><![CDATA[PO_rule11]]></au_entityName>
+        <au_modifiedDate><![CDATA[2025-11-12T11:59:45]]></au_modifiedDate>
+        <au_definition><![CDATA[Check if 'data/invoice/invoice_number' is numeric only]]></au_definition>
+        <au_activateFlag><![CDATA[1]]></au_activateFlag>
+        <au_version><![CDATA[1]]></au_version>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_python_code><![CDATA[def rule_1438135805854887936(inp_data):
+    results = []
+    try:
+        invoices = inp_data.get('data', [])
+        for invoice_data in invoices:
+            invoice = invoice_data.get('invoice', {})
+            invoice_numbers = invoice.get('invoice_number', [])
+            if not isinstance(invoice_numbers, list):
+                invoice_numbers = [invoice_numbers]
+            for invoice_number in invoice_numbers:
+                result = {}
+                result['data/invoice/invoice_number'] = invoice_number if invoice_number else ''
+                result['identifier1_location'] = invoice.get('element_location', '')
+                if invoice_number.isdigit():
+                    result['result'] = 'PASS'
+                else:
+                    result['result'] = 'FAIL'
+                results.append(result)
+    except:
+        results.append({'data/invoice/invoice_number': '', 'identifier1_location': '', 'result': 'FAIL'})
+    return results]]></au_python_code>
+        <au_description><![CDATA[PO_rule11]]></au_description>
+    </AU_RULE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_rule_data" type="-1"/>
+        <column name="au_python_code" type="-1"/>
+        <column name="au_python_code_temp" type="-1"/>
+        <column name="au_failure_message" type="12"/>
+        <column name="au_meta_data" type="-1"/>
+        <column name="au_meta_data_temp" type="-1"/>
+        <column name="au_rule_order" type="4"/>
+        <column name="au_rule_severity" type="12"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_business_rule_id" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_definition" type="12"/>
+        <column name="au_additional_instructions" type="12"/>
+        <column name="au_status" type="12"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_activateFlag" type="3"/>
+    </columnInfo>
+</data>

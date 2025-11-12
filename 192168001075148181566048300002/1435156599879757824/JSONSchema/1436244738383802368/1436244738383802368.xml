@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_JSONSCHEMA>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_jsonType><![CDATA[0]]></au_jsonType>
+        <au_arrayFields><![CDATA[/Root/meta/profile,/Root/entry,/Root/entry/resource/meta/extension,/Root/entry/resource/meta/profile,/Root/entry/resource/meta/security,/Root/entry/resource/meta/tag,/Root/entry/resource/contained,/Root/entry/resource/extension,/Root/entry/resource/extension/extension,/Root/entry/resource/extension/extension/extension,/Root/entry/resource/modifierExtension,/Root/entry/resource/identifier,/Root/entry/resource/identifier/extension,/Root/entry/resource/identifier/type/coding,/Root/entry/resource/name,/Root/entry/resource/name/extension,/Root/entry/resource/name/given,/Root/entry/resource/name/prefix,/Root/entry/resource/name/suffix,/Root/entry/resource/telecom,/Root/entry/resource/telecom/extension,/Root/entry/resource/address,/Root/entry/resource/address/extension,/Root/entry/resource/address/line,/Root/entry/resource/maritalStatus/extension,/Root/entry/resource/maritalStatus/coding,/Root/entry/resource/photo,/Root/entry/resource/photo/extension,/Root/entry/resource/contact,/Root/entry/resource/contact/extension,/Root/entry/resource/contact/modifierExtension,/Root/entry/resource/contact/relationship,/Root/entry/resource/contact/relationship/coding,/Root/entry/resource/contact/name/extension,/Root/entry/resource/contact/name/given,/Root/entry/resource/contact/name/prefix,/Root/entry/resource/contact/name/suffix,/Root/entry/resource/contact/telecom,/Root/entry/resource/contact/telecom/extension,/Root/entry/resource/contact/address/extension,/Root/entry/resource/contact/address/line,/Root/entry/resource/contact/organization/extension,/Root/entry/resource/contact/organization/identifier/type/coding,/Root/entry/resource/contact/period/extension,/Root/entry/resource/communication,/Root/entry/resource/communication/extension,/Root/entry/resource/communication/modifierExtension,/Root/entry/resource/communication/language/coding,/Root/entry/resource/generalPractitioner,/Root/entry/resource/generalPractitioner/extension,/Root/entry/resource/generalPractitioner/identifier/type/coding,/Root/entry/resource/managingOrganization/extension,/Root/entry/resource/managingOrganization/identifier/type/coding,/Root/entry/resource/link,/Root/entry/resource/link/extension,/Root/entry/resource/link/modifierExtension,/Root/entry/resource/link/other/extension,/Root/entry/resource/link/other/identifier/type/coding]]></au_arrayFields>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <au_description><![CDATA[FHIR_C4BB_Patient_Bundle_B19]]></au_description>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_originalJson><![CDATA[{
+  "resourceType": "Bundle",
+  "id": "c4bb-patient-bundle-complete",
+  "meta": {
+    "lastUpdated": "2025-06-30T10:00:00.000Z",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/Bundle"
+    ]
+  },
+  "identifier": {
+    "system": "https://example-payer.com/bundle-identifiers",
+    "value": "patient-bundle-12345"
+  },
+  "type": "collection",
+  "timestamp": "2025-06-30T10:00:00.000Z",
+  "total": 1,
+  "entry": [
+    {
+      "fullUrl": "https://example-payer.com/fhir/Patient/c4bb-patient-complete",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c4bb-patient-complete",
+        "meta": {
+          "id": "patient-meta-id",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/meta-extension",
+              "valueString": "Patient metadata extension"
+            }
+          ],
+          "versionId": "2",
+          "lastUpdated": "2025-06-30T09:30:00.000Z",
+          "source": "https://example-payer.com/patient-system",
+          "profile": [
+            "http://hl7.org/fhir/us/carin-bb/StructureDefinition/C4BB-Patient|2.1"
+          ],
+          "security": [
+            {
+              "id": "patient-security-id",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "version": "2018-08-12",
+              "code": "N",
+              "display": "normal",
+              "userSelected": false
+            }
+          ],
+          "tag": [
+            {
+              "id": "patient-tag-id",
+              "system": "http://terminology.hl7.org/CodeSystem/common-tags",
+              "version": "4.0.1",
+              "code": "SUBSETTED",
+              "display": "Subsetted",
+              "userSelected": false
+            }
+          ]
+        },
+        "implicitRules": "http://example.com/implicit-rules",
+        "language": "en-US",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: John Michael Doe</div>"
+        },
+        "contained": [],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "id": "race-extension-id",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "id": "race-omb-category-id",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                    "valueCode": "unknown"
+                  }
+                ],
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "version": "1.2",
+                  "code": "2106-3",
+                  "display": "White",
+                  "userSelected": false
+                }
+              },
+              {
+                "url": "detailed",
+                "id": "race-detailed-id",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                    "valueCoding": {
+                      "system": "urn:oid:2.16.840.1.113883.6.238",
+                      "version": "1.2",
+                      "code": "2108-9",
+                      "display": "European",
+                      "userSelected": false
+                    }
+                  }
+                ]
+              },
+              {
+                "url": "text",
+                "id": "race-text-id",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/rendered-value",
+                    "valueString": "White European"
+                  }
+                ],
+                "valueString": "White"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "id": "ethnicity-extension-id",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "id": "ethnicity-omb-category-id",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                    "valueCoding": {
+                      "system": "urn:oid:2.16.840.1.113883.6.238",
+                      "version": "1.2",
+                      "code": "2186-5",
+                      "display": "Not Hispanic or Latino",
+                      "userSelected": false
+                    }
+                  }
+                ]
+              },
+              {
+                "url": "detailed",
+                "id": "ethnicity-detailed-id",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                    "valueCoding": {
+                      "system": "urn:oid:2.16.840.1.113883.6.238",
+                      "version": "1.2",
+                      "code": "2186-5",
+                      "display": "Not Hispanic or Latino",
+                      "userSelected": false
+                    }
+                  }
+                ]
+              },
+              {
+                "url": "text",
+                "id": "ethnicity-text-id",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/rendered-value",
+                    "valueString": "Not Hispanic or Latino"
+                  }
+                ],
+                "valueString": "Not Hispanic or Latino"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+            "id": "birthsex-extension-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                "valueCode": "unknown"
+              }
+            ],
+            "valueCode": "M"
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-modifier",
+            "valueBoolean": true
+          }
+        ],
+        "identifier": [
+          {
+            "id": "memberid-identifier-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/identifier-extension",
+                "valueString": "Member ID Extension"
+              }
+            ],
+            "use": "usual",
+            "type": {
+              "id": "memberid-type-id",
+              "coding": [
+                {
+                  "id": "memberid-coding-id",
+                  "system": "http://hl7.org/fhir/us/carin-bb/CodeSystem/C4BBIdentifierType",
+                  "version": "2.1.0",
+                  "code": "mb",
+                  "display": "Member ID",
+                  "userSelected": false
+                }
+              ],
+              "text": "Member ID"
+            },
+            "system": "https://example-payer.com/member-ids",
+            "value": "MB12345678",
+            "period": {
+              "id": "memberid-period-id",
+              "start": "2020-01-01",
+              "end": "2025-12-31"
+            },
+            "assigner": {
+              "id": "memberid-assigner-id",
+              "reference": "Organization/example-payer",
+              "type": "Organization",
+              "identifier": {
+                "system": "https://example-payer.com/organization-ids",
+                "value": "PAYER001"
+              },
+              "display": "Example Health Payer"
+            }
+          },
+          {
+            "id": "uniquememberid-identifier-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/identifier-extension",
+                "valueString": "Unique Member ID Extension"
+              }
+            ],
+            "use": "secondary",
+            "type": {
+              "id": "uniquememberid-type-id",
+              "coding": [
+                {
+                  "id": "uniquememberid-coding-id",
+                  "system": "http://hl7.org/fhir/us/carin-bb/CodeSystem/C4BBIdentifierType",
+                  "version": "2.1.0",
+                  "code": "um",
+                  "display": "Unique Member ID",
+                  "userSelected": false
+                }
+              ],
+              "text": "Unique Member ID"
+            },
+            "system": "https://example-payer.com/unique-member-ids",
+            "value": "UM987654321",
+            "period": {
+              "id": "uniquememberid-period-id",
+              "start": "2020-01-01",
+              "end": "2025-12-31"
+            },
+            "assigner": {
+              "id": "uniquememberid-assigner-id",
+              "reference": "Organization/example-payer",
+              "type": "Organization",
+              "identifier": {
+                "system": "https://example-payer.com/organization-ids",
+                "value": "PAYER001"
+              },
+              "display": "Example Health Payer"
+            }
+          },
+          {
+            "id": "patacctnum-identifier-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/identifier-extension",
+                "valueString": "Patient Account Number Extension"
+              }
+            ],
+            "use": "usual",
+            "type": {
+              "id": "patacctnum-type-id",
+              "coding": [
+                {
+                  "id": "patacctnum-coding-id",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "version": "2.9",
+                  "code": "PATACCTNUM",
+                  "display": "Patient Account Number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Patient Account Number"
+            },
+            "system": "https://example-provider.com/patient-accounts",
+            "value": "ACCT789012345",
+            "period": {
+              "id": "patacctnum-period-id",
+              "start": "2023-01-01",
+              "end": "2025-12-31"
+            },
+            "assigner": {
+              "id": "patacctnum-assigner-id",
+              "reference": "Organization/example-provider",
+              "type": "Organization",
+              "identifier": {
+                "system": "https://example-provider.com/organization-ids",
+                "value": "PROVIDER001"
+              },
+              "display": "Example Healthcare Provider"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "id": "patient-name-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/humanname-extension",
+                "valueString": "Official name"
+              }
+            ],
+            "use": "official",
+            "text": "John Michael Doe Jr.",
+            "family": "Doe",
+            "given": [
+              "John",
+              "Michael"
+            ],
+            "prefix": [
+              "Mr."
+            ],
+            "suffix": [
+              "Jr."
+            ],
+            "period": {
+              "id": "name-period-id",
+              "start": "1985-03-15",
+              "end": "2025-12-31"
+            }
+          }
+        ],
+        "telecom": [
+          {
+            "id": "telecom-phone-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/contactpoint-extension",
+                "valueString": "Primary phone number"
+              }
+            ],
+            "system": "phone",
+            "value": "+1-555-123-4567",
+            "use": "home",
+            "rank": 1,
+            "period": {
+              "id": "phone-period-id",
+              "start": "2020-01-01",
+              "end": "2025-12-31"
+            }
+          },
+          {
+            "id": "telecom-email-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/contactpoint-extension",
+                "valueString": "Primary email address"
+              }
+            ],
+            "system": "email",
+            "value": "john.doe@email.com",
+            "use": "home",
+            "rank": 1,
+            "period": {
+              "id": "email-period-id",
+              "start": "2020-01-01",
+              "end": "2025-12-31"
+            }
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1985-03-15",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "id": "address-home-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/address-extension",
+                "valueString": "Primary residential address"
+              }
+            ],
+            "use": "home",
+            "type": "both",
+            "text": "123 Main Street, Anytown, IL 12345, USA",
+            "line": [
+              "123 Main Street",
+              "Apt 4B"
+            ],
+            "city": "Anytown",
+            "district": "County District",
+            "state": "IL",
+            "postalCode": "12345",
+            "country": "US",
+            "period": {
+              "id": "address-period-id",
+              "start": "2020-01-01",
+              "end": "2025-12-31"
+            }
+          }
+        ],
+        "maritalStatus": {
+          "id": "marital-status-id",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/codeableconcept-extension",
+              "valueString": "Current marital status"
+            }
+          ],
+          "coding": [
+            {
+              "id": "marital-coding-id",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "version": "2018-08-12",
+              "code": "M",
+              "display": "Married",
+              "userSelected": false
+            }
+          ],
+          "text": "Married"
+        },
+        "multipleBirthBoolean": false,
+        "photo": [
+          {
+            "id": "patient-photo-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/attachment-extension",
+                "valueString": "Patient photo"
+              }
+            ],
+            "contentType": "image/jpeg",
+            "language": "en-US",
+            "data": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+            "url": "https://example.com/patient-photos/patient-12345.jpg",
+            "size": 2048,
+            "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "title": "Patient Photo",
+            "creation": "2025-01-01T00:00:00.000Z"
+          }
+        ],
+        "contact": [
+          {
+            "id": "emergency-contact-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-contact-extension",
+                "valueString": "Emergency contact information"
+              }
+            ],
+            "modifierExtension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/contact-modifier",
+                "valueBoolean": true
+              }
+            ],
+            "relationship": [
+              {
+                "id": "contact-relationship-id",
+                "coding": [
+                  {
+                    "id": "relationship-coding-id",
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "version": "2.9",
+                    "code": "C",
+                    "display": "Emergency Contact",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Emergency Contact"
+              }
+            ],
+            "name": {
+              "id": "contact-name-id",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/humanname-extension",
+                  "valueString": "Emergency contact name"
+                }
+              ],
+              "use": "official",
+              "text": "Jane Doe",
+              "family": "Doe",
+              "given": [
+                "Jane"
+              ],
+              "prefix": [
+                "Mrs."
+              ],
+              "suffix": [],
+              "period": {
+                "id": "contact-name-period-id",
+                "start": "2020-01-01",
+                "end": "2025-12-31"
+              }
+            },
+            "telecom": [
+              {
+                "id": "contact-telecom-id",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/contactpoint-extension",
+                    "valueString": "Emergency contact phone"
+                  }
+                ],
+                "system": "phone",
+                "value": "+1-555-987-6543",
+                "use": "home",
+                "rank": 1,
+                "period": {
+                  "id": "contact-telecom-period-id",
+                  "start": "2020-01-01",
+                  "end": "2025-12-31"
+                }
+              }
+            ],
+            "address": {
+              "id": "contact-address-id",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/address-extension",
+                  "valueString": "Emergency contact address"
+                }
+              ],
+              "use": "home",
+              "type": "both",
+              "text": "456 Oak Avenue, Otherville, IL 54321, USA",
+              "line": [
+                "456 Oak Avenue"
+              ],
+              "city": "Otherville",
+              "district": "Other District",
+              "state": "IL",
+              "postalCode": "54321",
+              "country": "US",
+              "period": {
+                "id": "contact-address-period-id",
+                "start": "2020-01-01",
+                "end": "2025-12-31"
+              }
+            },
+            "gender": "female",
+            "organization": {
+              "id": "contact-organization-id",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/reference-extension",
+                  "valueString": "Contact organization"
+                }
+              ],
+              "reference": "Organization/contact-organization",
+              "type": "Organization",
+              "identifier": {
+                "id": "contact-org-identifier-id",
+                "use": "official",
+                "type": {
+                  "id": "contact-org-type-id",
+                  "coding": [
+                    {
+                      "id": "contact-org-coding-id",
+                      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                      "version": "2.9",
+                      "code": "PRN",
+                      "display": "Provider number",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Provider Number"
+                },
+                "system": "https://example.com/organization-ids",
+                "value": "ORG12345",
+                "period": {
+                  "id": "contact-org-period-id",
+                  "start": "2020-01-01",
+                  "end": "2025-12-31"
+                },
+                "assigner": {
+                  "reference": "Organization/assigner-org",
+                  "display": "Organization Assigner"
+                }
+              },
+              "display": "Contact Organization"
+            },
+            "period": {
+              "id": "contact-period-id",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/period-extension",
+                  "valueString": "Contact relationship period"
+                }
+              ],
+              "start": "2020-01-01",
+              "end": "2025-12-31"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "id": "communication-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/communication-extension",
+                "valueString": "Primary communication language"
+              }
+            ],
+            "modifierExtension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/communication-modifier",
+                "valueBoolean": true
+              }
+            ],
+            "language": {
+              "id": "language-id",
+              "coding": [
+                {
+                  "id": "language-coding-id",
+                  "system": "urn:ietf:bcp:47",
+                  "version": "2022",
+                  "code": "en-US",
+                  "display": "English (United States)",
+                  "userSelected": false
+                }
+              ],
+              "text": "English"
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "id": "gp-reference-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/reference-extension",
+                "valueString": "Primary care provider"
+              }
+            ],
+            "reference": "Practitioner/primary-care-provider",
+            "type": "Practitioner",
+            "identifier": {
+              "id": "gp-identifier-id",
+              "use": "official",
+              "type": {
+                "id": "gp-type-id",
+                "coding": [
+                  {
+                    "id": "gp-coding-id",
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "version": "2.9",
+                    "code": "PRN",
+                    "display": "Provider number",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Provider Number"
+              },
+              "system": "https://example.com/provider-ids",
+              "value": "PROV67890",
+              "period": {
+                "id": "gp-period-id",
+                "start": "2020-01-01",
+                "end": "2025-12-31"
+              },
+              "assigner": {
+                "reference": "Organization/medical-board",
+                "display": "State Medical Board"
+              }
+            },
+            "display": "Dr. Sarah Johnson, MD"
+          }
+        ],
+        "managingOrganization": {
+          "id": "managing-org-id",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/reference-extension",
+              "valueString": "Managing healthcare organization"
+            }
+          ],
+          "reference": "Organization/example-payer",
+          "type": "Organization",
+          "identifier": {
+            "id": "managing-org-identifier-id",
+            "use": "official",
+            "type": {
+              "id": "managing-org-type-id",
+              "coding": [
+                {
+                  "id": "managing-org-coding-id",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "version": "2.9",
+                  "code": "PRN",
+                  "display": "Provider number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Organization Number"
+            },
+            "system": "https://example-payer.com/organization-ids",
+            "value": "PAYER001",
+            "period": {
+              "id": "managing-org-period-id",
+              "start": "2020-01-01",
+              "end": "2025-12-31"
+            },
+            "assigner": {
+              "reference": "Organization/regulatory-body",
+              "display": "Healthcare Regulatory Body"
+            }
+          },
+          "display": "Example Health Payer Organization"
+        },
+        "link": [
+          {
+            "id": "patient-link-id",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/link-extension",
+                "valueString": "Linked patient record"
+              }
+            ],
+            "modifierExtension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/link-modifier",
+                "valueBoolean": true
+              }
+            ],
+            "other": {
+              "id": "linked-patient-id",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/reference-extension",
+                  "valueString": "Related patient record"
+                }
+              ],
+              "reference": "Patient/related-patient-67890",
+              "type": "Patient",
+              "identifier": {
+                "id": "linked-patient-identifier-id",
+                "use": "official",
+                "type": {
+                  "id": "linked-patient-type-id",
+                  "coding": [
+                    {
+                      "id": "linked-patient-coding-id",
+                      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                      "version": "2.9",
+                      "code": "MR",
+                      "display": "Medical record number",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Medical Record Number"
+                },
+                "system": "https://example.com/medical-records",
+                "value": "MR67890",
+                "period": {
+                  "id": "linked-patient-period-id",
+                  "start": "2020-01-01",
+                  "end": "2025-12-31"
+                },
+                "assigner": {
+                  "reference": "Organization/medical-records-org",
+                  "display": "Medical Records Organization"
+                }
+              },
+              "display": "Related Patient Record"
+            },
+            "type": "seealso"
+          }
+        ]
+      }
+    }
+  ]
+}]]></au_originalJson>
+        <AU_DEFINITIONFILE><![CDATA[json]]></AU_DEFINITIONFILE>
+        <AU_RECORD_IDENTIFIER_XPATH><![CDATA[]]></AU_RECORD_IDENTIFIER_XPATH>
+        <au_comments><![CDATA[null]]></au_comments>
+        <xsdFilePath><![CDATA[null]]></xsdFilePath>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[0]]></AU_OPTIMIZE_PROCESSING>
+        <AU_VALIDATION><![CDATA[0]]></AU_VALIDATION>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_version><![CDATA[1]]></au_version>
+        <au_json><![CDATA[{"fieldName":"Root","expanded":true,"leaf":false,"children":[{"fieldName":"resourceType","expanded":true,"isAttribute":false,"value":"Bundle","leaf":true},{"fieldName":"id","expanded":true,"isAttribute":false,"value":"c4bb-patient-bundle-complete","leaf":true},{"fieldName":"meta","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"lastUpdated","expanded":true,"isAttribute":false,"value":"2025-06-30T10:00:00.000Z","leaf":true},{"fieldName":"profile","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/Bundle","leaf":true}]},{"fieldName":"identifier","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"https://example-payer.com/bundle-identifiers","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"patient-bundle-12345","leaf":true}]},{"fieldName":"type","expanded":true,"isAttribute":false,"value":"collection","leaf":true},{"fieldName":"timestamp","expanded":true,"isAttribute":false,"value":"2025-06-30T10:00:00.000Z","leaf":true},{"fieldName":"total","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"entry","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"fullUrl","expanded":true,"isAttribute":false,"value":"https://example-payer.com/fhir/Patient/c4bb-patient-complete","leaf":true},{"fieldName":"resource","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"resourceType","expanded":true,"isAttribute":false,"value":"Patient","leaf":true},{"fieldName":"id","expanded":true,"isAttribute":false,"value":"c4bb-patient-complete","leaf":true},{"fieldName":"meta","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"patient-meta-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/meta-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Patient metadata extension","leaf":true}]},{"fieldName":"versionId","expanded":true,"isAttribute":false,"value":"2","leaf":true},{"fieldName":"lastUpdated","expanded":true,"isAttribute":false,"value":"2025-06-30T09:30:00.000Z","leaf":true},{"fieldName":"source","expanded":true,"isAttribute":false,"value":"https://example-payer.com/patient-system","leaf":true},{"fieldName":"profile","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/us/carin-bb/StructureDefinition/C4BB-Patient|2.1","leaf":true},{"fieldName":"security","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"patient-security-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://terminology.hl7.org/CodeSystem/v3-Confidentiality","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"2018-08-12","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"N","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"normal","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]},{"fieldName":"tag","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"patient-tag-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://terminology.hl7.org/CodeSystem/common-tags","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"4.0.1","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"SUBSETTED","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Subsetted","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]}]},{"fieldName":"implicitRules","expanded":true,"isAttribute":false,"value":"http://example.com/implicit-rules","leaf":true},{"fieldName":"language","expanded":true,"isAttribute":false,"value":"en-US","leaf":true},{"fieldName":"text","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"status","expanded":true,"isAttribute":false,"value":"generated","leaf":true},{"fieldName":"div","expanded":true,"isAttribute":false,"value":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: John Michael Doe</div>","leaf":true}]},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/us/core/StructureDefinition/us-core-race","leaf":true},{"fieldName":"id","expanded":true,"isAttribute":false,"value":"race-extension-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"ombCategory","leaf":true},{"fieldName":"id","expanded":true,"isAttribute":false,"value":"race-omb-category-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/data-absent-reason","leaf":true},{"fieldName":"valueCode","expanded":true,"isAttribute":false,"value":"unknown","leaf":true}]},{"fieldName":"valueCoding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"urn:oid:2.16.840.1.113883.6.238","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"1.2","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"2106-3","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"White","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]}]}]},{"fieldName":"modifierExtension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/patient-modifier","leaf":true},{"fieldName":"valueBoolean","expanded":true,"isAttribute":false,"value":"true","leaf":true}]},{"fieldName":"identifier","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"memberid-identifier-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/identifier-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Member ID Extension","leaf":true}]},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"usual","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"memberid-type-id","leaf":true},{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"memberid-coding-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/us/carin-bb/CodeSystem/C4BBIdentifierType","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"2.1.0","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"mb","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Member ID","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Member ID","leaf":true}]},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"https://example-payer.com/member-ids","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"MB12345678","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"memberid-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]},{"fieldName":"assigner","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"memberid-assigner-id","leaf":true},{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Organization/example-payer","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"value":"Organization","leaf":true},{"fieldName":"identifier","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"https://example-payer.com/organization-ids","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"PAYER001","leaf":true}]},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Example Health Payer","leaf":true}]}]},{"fieldName":"active","expanded":true,"isAttribute":false,"value":"true","leaf":true},{"fieldName":"name","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"patient-name-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/humanname-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Official name","leaf":true}]},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"official","leaf":true},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"John Michael Doe Jr.","leaf":true},{"fieldName":"family","expanded":true,"isAttribute":false,"value":"Doe","leaf":true},{"fieldName":"given","expanded":true,"isAttribute":false,"value":"John","leaf":true},{"fieldName":"prefix","expanded":true,"isAttribute":false,"value":"Mr.","leaf":true},{"fieldName":"suffix","expanded":true,"isAttribute":false,"value":"Jr.","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"name-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"1985-03-15","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]}]},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"telecom-phone-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/contactpoint-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Primary phone number","leaf":true}]},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"phone","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"+1-555-123-4567","leaf":true},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"home","leaf":true},{"fieldName":"rank","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"phone-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]}]},{"fieldName":"gender","expanded":true,"isAttribute":false,"value":"male","leaf":true},{"fieldName":"birthDate","expanded":true,"isAttribute":false,"value":"1985-03-15","leaf":true},{"fieldName":"deceasedBoolean","expanded":true,"isAttribute":false,"value":"false","leaf":true},{"fieldName":"address","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"address-home-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/address-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Primary residential address","leaf":true}]},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"home","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"value":"both","leaf":true},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"123 Main Street, Anytown, IL 12345, USA","leaf":true},{"fieldName":"line","expanded":true,"isAttribute":false,"value":"123 Main Street","leaf":true},{"fieldName":"city","expanded":true,"isAttribute":false,"value":"Anytown","leaf":true},{"fieldName":"district","expanded":true,"isAttribute":false,"value":"County District","leaf":true},{"fieldName":"state","expanded":true,"isAttribute":false,"value":"IL","leaf":true},{"fieldName":"postalCode","expanded":true,"isAttribute":false,"value":"12345","leaf":true},{"fieldName":"country","expanded":true,"isAttribute":false,"value":"US","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"address-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]}]},{"fieldName":"maritalStatus","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"marital-status-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/codeableconcept-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Current marital status","leaf":true}]},{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"marital-coding-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"2018-08-12","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"M","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Married","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Married","leaf":true}]},{"fieldName":"multipleBirthBoolean","expanded":true,"isAttribute":false,"value":"false","leaf":true},{"fieldName":"photo","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"patient-photo-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/attachment-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Patient photo","leaf":true}]},{"fieldName":"contentType","expanded":true,"isAttribute":false,"value":"image/jpeg","leaf":true},{"fieldName":"language","expanded":true,"isAttribute":false,"value":"en-US","leaf":true},{"fieldName":"data","expanded":true,"isAttribute":false,"value":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==","leaf":true},{"fieldName":"url","expanded":true,"isAttribute":false,"value":"https://example.com/patient-photos/patient-12345.jpg","leaf":true},{"fieldName":"size","expanded":true,"isAttribute":false,"value":"2048","leaf":true},{"fieldName":"hash","expanded":true,"isAttribute":false,"value":"da39a3ee5e6b4b0d3255bfef95601890afd80709","leaf":true},{"fieldName":"title","expanded":true,"isAttribute":false,"value":"Patient Photo","leaf":true},{"fieldName":"creation","expanded":true,"isAttribute":false,"value":"2025-01-01T00:00:00.000Z","leaf":true}]},{"fieldName":"contact","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"emergency-contact-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/patient-contact-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Emergency contact information","leaf":true}]},{"fieldName":"modifierExtension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/contact-modifier","leaf":true},{"fieldName":"valueBoolean","expanded":true,"isAttribute":false,"value":"true","leaf":true}]},{"fieldName":"relationship","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-relationship-id","leaf":true},{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"relationship-coding-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://terminology.hl7.org/CodeSystem/v2-0131","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"2.9","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"C","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Emergency Contact","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Emergency Contact","leaf":true}]},{"fieldName":"name","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-name-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/humanname-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Emergency contact name","leaf":true}]},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"official","leaf":true},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Jane Doe","leaf":true},{"fieldName":"family","expanded":true,"isAttribute":false,"value":"Doe","leaf":true},{"fieldName":"given","expanded":true,"isAttribute":false,"value":"Jane","leaf":true},{"fieldName":"prefix","expanded":true,"isAttribute":false,"value":"Mrs.","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-name-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]}]},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-telecom-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/contactpoint-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Emergency contact phone","leaf":true}]},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"phone","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"+1-555-987-6543","leaf":true},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"home","leaf":true},{"fieldName":"rank","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-telecom-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]}]},{"fieldName":"address","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-address-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/address-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Emergency contact address","leaf":true}]},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"home","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"value":"both","leaf":true},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"456 Oak Avenue, Otherville, IL 54321, USA","leaf":true},{"fieldName":"line","expanded":true,"isAttribute":false,"value":"456 Oak Avenue","leaf":true},{"fieldName":"city","expanded":true,"isAttribute":false,"value":"Otherville","leaf":true},{"fieldName":"district","expanded":true,"isAttribute":false,"value":"Other District","leaf":true},{"fieldName":"state","expanded":true,"isAttribute":false,"value":"IL","leaf":true},{"fieldName":"postalCode","expanded":true,"isAttribute":false,"value":"54321","leaf":true},{"fieldName":"country","expanded":true,"isAttribute":false,"value":"US","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-address-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]}]},{"fieldName":"gender","expanded":true,"isAttribute":false,"value":"female","leaf":true},{"fieldName":"organization","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-organization-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/reference-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Contact organization","leaf":true}]},{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Organization/contact-organization","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"value":"Organization","leaf":true},{"fieldName":"identifier","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-org-identifier-id","leaf":true},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"official","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-org-type-id","leaf":true},{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n              ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-org-coding-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://terminology.hl7.org/CodeSystem/v2-0203","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"2.9","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"PRN","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Provider number","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Provider Number","leaf":true}]},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"https://example.com/organization-ids","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"ORG12345","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-org-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]},{"fieldName":"assigner","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Organization/assigner-org","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Organization Assigner","leaf":true}]}]},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Contact Organization","leaf":true}]},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"contact-period-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/period-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Contact relationship period","leaf":true}]},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]}]},{"fieldName":"communication","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"communication-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/communication-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Primary communication language","leaf":true}]},{"fieldName":"modifierExtension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/communication-modifier","leaf":true},{"fieldName":"valueBoolean","expanded":true,"isAttribute":false,"value":"true","leaf":true}]},{"fieldName":"language","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"language-id","leaf":true},{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"language-coding-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"urn:ietf:bcp:47","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"2022","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"en-US","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"English (United States)","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"English","leaf":true}]},{"fieldName":"preferred","expanded":true,"isAttribute":false,"value":"true","leaf":true}]},{"fieldName":"generalPractitioner","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"gp-reference-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/reference-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Primary care provider","leaf":true}]},{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Practitioner/primary-care-provider","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"value":"Practitioner","leaf":true},{"fieldName":"identifier","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"gp-identifier-id","leaf":true},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"official","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"gp-type-id","leaf":true},{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"gp-coding-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://terminology.hl7.org/CodeSystem/v2-0203","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"2.9","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"PRN","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Provider number","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Provider Number","leaf":true}]},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"https://example.com/provider-ids","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"PROV67890","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"gp-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]},{"fieldName":"assigner","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Organization/medical-board","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"State Medical Board","leaf":true}]}]},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Dr. Sarah Johnson, MD","leaf":true}]},{"fieldName":"managingOrganization","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"managing-org-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/reference-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Managing healthcare organization","leaf":true}]},{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Organization/example-payer","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"value":"Organization","leaf":true},{"fieldName":"identifier","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"managing-org-identifier-id","leaf":true},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"official","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"managing-org-type-id","leaf":true},{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"managing-org-coding-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://terminology.hl7.org/CodeSystem/v2-0203","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"2.9","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"PRN","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Provider number","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Organization Number","leaf":true}]},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"https://example-payer.com/organization-ids","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"PAYER001","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"managing-org-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]},{"fieldName":"assigner","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Organization/regulatory-body","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Healthcare Regulatory Body","leaf":true}]}]},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Example Health Payer Organization","leaf":true}]},{"fieldName":"link","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"patient-link-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/link-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Linked patient record","leaf":true}]},{"fieldName":"modifierExtension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/link-modifier","leaf":true},{"fieldName":"valueBoolean","expanded":true,"isAttribute":false,"value":"true","leaf":true}]},{"fieldName":"other","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"linked-patient-id","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"url","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/reference-extension","leaf":true},{"fieldName":"valueString","expanded":true,"isAttribute":false,"value":"Related patient record","leaf":true}]},{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Patient/related-patient-67890","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"value":"Patient","leaf":true},{"fieldName":"identifier","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"linked-patient-identifier-id","leaf":true},{"fieldName":"use","expanded":true,"isAttribute":false,"value":"official","leaf":true},{"fieldName":"type","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"linked-patient-type-id","leaf":true},{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n              ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"linked-patient-coding-id","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://terminology.hl7.org/CodeSystem/v2-0203","leaf":true},{"fieldName":"version","expanded":true,"isAttribute":false,"value":"2.9","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"MR","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Medical record number","leaf":true},{"fieldName":"userSelected","expanded":true,"isAttribute":false,"value":"false","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Medical Record Number","leaf":true}]},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"https://example.com/medical-records","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"MR67890","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"linked-patient-period-id","leaf":true},{"fieldName":"start","expanded":true,"isAttribute":false,"value":"2020-01-01","leaf":true},{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2025-12-31","leaf":true}]},{"fieldName":"assigner","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Organization/medical-records-org","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Medical Records Organization","leaf":true}]}]},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Related Patient Record","leaf":true}]},{"fieldName":"type","expanded":true,"isAttribute":false,"value":"seealso","leaf":true}]}]}]}]}]]></au_json>
+        <au_xsd><![CDATA[<Root>
+  <resourceType>[ABPM_._ESCAPE_._CDATA_._START]Bundle[ABPM_._ESCAPE_._CDATA_._END]</resourceType>
+  <id>[ABPM_._ESCAPE_._CDATA_._START]c4bb-patient-bundle-complete[ABPM_._ESCAPE_._CDATA_._END]</id>
+  <meta>
+    <lastUpdated>[ABPM_._ESCAPE_._CDATA_._START]2025-06-30T10:00:00.000Z[ABPM_._ESCAPE_._CDATA_._END]</lastUpdated>
+    <profile>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/Bundle[ABPM_._ESCAPE_._CDATA_._END]</profile>
+  </meta>
+  <identifier>
+    <system>[ABPM_._ESCAPE_._CDATA_._START]https://example-payer.com/bundle-identifiers[ABPM_._ESCAPE_._CDATA_._END]</system>
+    <value>[ABPM_._ESCAPE_._CDATA_._START]patient-bundle-12345[ABPM_._ESCAPE_._CDATA_._END]</value>
+  </identifier>
+  <type>[ABPM_._ESCAPE_._CDATA_._START]collection[ABPM_._ESCAPE_._CDATA_._END]</type>
+  <timestamp>[ABPM_._ESCAPE_._CDATA_._START]2025-06-30T10:00:00.000Z[ABPM_._ESCAPE_._CDATA_._END]</timestamp>
+  <total>1</total>
+  <entry>
+    <fullUrl>[ABPM_._ESCAPE_._CDATA_._START]https://example-payer.com/fhir/Patient/c4bb-patient-complete[ABPM_._ESCAPE_._CDATA_._END]</fullUrl>
+    <resource>
+      <resourceType>[ABPM_._ESCAPE_._CDATA_._START]Patient[ABPM_._ESCAPE_._CDATA_._END]</resourceType>
+      <id>[ABPM_._ESCAPE_._CDATA_._START]c4bb-patient-complete[ABPM_._ESCAPE_._CDATA_._END]</id>
+      <meta>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]patient-meta-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/meta-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Patient metadata extension[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <versionId>[ABPM_._ESCAPE_._CDATA_._START]2[ABPM_._ESCAPE_._CDATA_._END]</versionId>
+        <lastUpdated>[ABPM_._ESCAPE_._CDATA_._START]2025-06-30T09:30:00.000Z[ABPM_._ESCAPE_._CDATA_._END]</lastUpdated>
+        <source>[ABPM_._ESCAPE_._CDATA_._START]https://example-payer.com/patient-system[ABPM_._ESCAPE_._CDATA_._END]</source>
+        <profile>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/us/carin-bb/StructureDefinition/C4BB-Patient|2.1[ABPM_._ESCAPE_._CDATA_._END]</profile>
+        <security>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]patient-security-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <system>[ABPM_._ESCAPE_._CDATA_._START]http://terminology.hl7.org/CodeSystem/v3-Confidentiality[ABPM_._ESCAPE_._CDATA_._END]</system>
+          <version>[ABPM_._ESCAPE_._CDATA_._START]2018-08-12[ABPM_._ESCAPE_._CDATA_._END]</version>
+          <code>[ABPM_._ESCAPE_._CDATA_._START]N[ABPM_._ESCAPE_._CDATA_._END]</code>
+          <display>[ABPM_._ESCAPE_._CDATA_._START]normal[ABPM_._ESCAPE_._CDATA_._END]</display>
+          <userSelected>false</userSelected>
+        </security>
+        <tag>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]patient-tag-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <system>[ABPM_._ESCAPE_._CDATA_._START]http://terminology.hl7.org/CodeSystem/common-tags[ABPM_._ESCAPE_._CDATA_._END]</system>
+          <version>[ABPM_._ESCAPE_._CDATA_._START]4.0.1[ABPM_._ESCAPE_._CDATA_._END]</version>
+          <code>[ABPM_._ESCAPE_._CDATA_._START]SUBSETTED[ABPM_._ESCAPE_._CDATA_._END]</code>
+          <display>[ABPM_._ESCAPE_._CDATA_._START]Subsetted[ABPM_._ESCAPE_._CDATA_._END]</display>
+          <userSelected>false</userSelected>
+        </tag>
+      </meta>
+      <implicitRules>[ABPM_._ESCAPE_._CDATA_._START]http://example.com/implicit-rules[ABPM_._ESCAPE_._CDATA_._END]</implicitRules>
+      <language>[ABPM_._ESCAPE_._CDATA_._START]en-US[ABPM_._ESCAPE_._CDATA_._END]</language>
+      <text>
+        <status>[ABPM_._ESCAPE_._CDATA_._START]generated[ABPM_._ESCAPE_._CDATA_._END]</status>
+        <div>[ABPM_._ESCAPE_._CDATA_._START]<div xmlns="http://www.w3.org/1999/xhtml">Patient: John Michael Doe</div>[ABPM_._ESCAPE_._CDATA_._END]</div>
+      </text>
+      <extension>
+        <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/us/core/StructureDefinition/us-core-race[ABPM_._ESCAPE_._CDATA_._END]</url>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]race-extension-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]ombCategory[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]race-omb-category-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/data-absent-reason[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueCode>[ABPM_._ESCAPE_._CDATA_._START]unknown[ABPM_._ESCAPE_._CDATA_._END]</valueCode>
+          </extension>
+          <valueCoding>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]urn:oid:2.16.840.1.113883.6.238[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <version>[ABPM_._ESCAPE_._CDATA_._START]1.2[ABPM_._ESCAPE_._CDATA_._END]</version>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]2106-3[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <display>[ABPM_._ESCAPE_._CDATA_._START]White[ABPM_._ESCAPE_._CDATA_._END]</display>
+            <userSelected>false</userSelected>
+          </valueCoding>
+        </extension>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]detailed[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]race-detailed-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/data-absent-reason[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueCoding>
+              <system>[ABPM_._ESCAPE_._CDATA_._START]urn:oid:2.16.840.1.113883.6.238[ABPM_._ESCAPE_._CDATA_._END]</system>
+              <version>[ABPM_._ESCAPE_._CDATA_._START]1.2[ABPM_._ESCAPE_._CDATA_._END]</version>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]2108-9[ABPM_._ESCAPE_._CDATA_._END]</code>
+              <display>[ABPM_._ESCAPE_._CDATA_._START]European[ABPM_._ESCAPE_._CDATA_._END]</display>
+              <userSelected>false</userSelected>
+            </valueCoding>
+          </extension>
+        </extension>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]text[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]race-text-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/rendered-value[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueString>[ABPM_._ESCAPE_._CDATA_._START]White European[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+          </extension>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]White[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+      </extension>
+      <extension>
+        <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity[ABPM_._ESCAPE_._CDATA_._END]</url>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]ethnicity-extension-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]ombCategory[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]ethnicity-omb-category-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/data-absent-reason[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueCoding>
+              <system>[ABPM_._ESCAPE_._CDATA_._START]urn:oid:2.16.840.1.113883.6.238[ABPM_._ESCAPE_._CDATA_._END]</system>
+              <version>[ABPM_._ESCAPE_._CDATA_._START]1.2[ABPM_._ESCAPE_._CDATA_._END]</version>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]2186-5[ABPM_._ESCAPE_._CDATA_._END]</code>
+              <display>[ABPM_._ESCAPE_._CDATA_._START]Not Hispanic or Latino[ABPM_._ESCAPE_._CDATA_._END]</display>
+              <userSelected>false</userSelected>
+            </valueCoding>
+          </extension>
+        </extension>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]detailed[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]ethnicity-detailed-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/data-absent-reason[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueCoding>
+              <system>[ABPM_._ESCAPE_._CDATA_._START]urn:oid:2.16.840.1.113883.6.238[ABPM_._ESCAPE_._CDATA_._END]</system>
+              <version>[ABPM_._ESCAPE_._CDATA_._START]1.2[ABPM_._ESCAPE_._CDATA_._END]</version>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]2186-5[ABPM_._ESCAPE_._CDATA_._END]</code>
+              <display>[ABPM_._ESCAPE_._CDATA_._START]Not Hispanic or Latino[ABPM_._ESCAPE_._CDATA_._END]</display>
+              <userSelected>false</userSelected>
+            </valueCoding>
+          </extension>
+        </extension>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]text[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]ethnicity-text-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/rendered-value[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueString>[ABPM_._ESCAPE_._CDATA_._START]Not Hispanic or Latino[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+          </extension>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Not Hispanic or Latino[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+      </extension>
+      <extension>
+        <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex[ABPM_._ESCAPE_._CDATA_._END]</url>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]birthsex-extension-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/data-absent-reason[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueCode>[ABPM_._ESCAPE_._CDATA_._START]unknown[ABPM_._ESCAPE_._CDATA_._END]</valueCode>
+        </extension>
+        <valueCode>[ABPM_._ESCAPE_._CDATA_._START]M[ABPM_._ESCAPE_._CDATA_._END]</valueCode>
+      </extension>
+      <modifierExtension>
+        <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/patient-modifier[ABPM_._ESCAPE_._CDATA_._END]</url>
+        <valueBoolean>true</valueBoolean>
+      </modifierExtension>
+      <identifier>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]memberid-identifier-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/identifier-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Member ID Extension[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <use>[ABPM_._ESCAPE_._CDATA_._START]usual[ABPM_._ESCAPE_._CDATA_._END]</use>
+        <type>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]memberid-type-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <coding>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]memberid-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/us/carin-bb/CodeSystem/C4BBIdentifierType[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <version>[ABPM_._ESCAPE_._CDATA_._START]2.1.0[ABPM_._ESCAPE_._CDATA_._END]</version>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]mb[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <display>[ABPM_._ESCAPE_._CDATA_._START]Member ID[ABPM_._ESCAPE_._CDATA_._END]</display>
+            <userSelected>false</userSelected>
+          </coding>
+          <text>[ABPM_._ESCAPE_._CDATA_._START]Member ID[ABPM_._ESCAPE_._CDATA_._END]</text>
+        </type>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]https://example-payer.com/member-ids[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <value>[ABPM_._ESCAPE_._CDATA_._START]MB12345678[ABPM_._ESCAPE_._CDATA_._END]</value>
+        <period>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]memberid-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+          <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+        </period>
+        <assigner>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]memberid-assigner-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/example-payer[ABPM_._ESCAPE_._CDATA_._END]</reference>
+          <type>[ABPM_._ESCAPE_._CDATA_._START]Organization[ABPM_._ESCAPE_._CDATA_._END]</type>
+          <identifier>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]https://example-payer.com/organization-ids[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <value>[ABPM_._ESCAPE_._CDATA_._START]PAYER001[ABPM_._ESCAPE_._CDATA_._END]</value>
+          </identifier>
+          <display>[ABPM_._ESCAPE_._CDATA_._START]Example Health Payer[ABPM_._ESCAPE_._CDATA_._END]</display>
+        </assigner>
+      </identifier>
+      <identifier>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]uniquememberid-identifier-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/identifier-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Unique Member ID Extension[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <use>[ABPM_._ESCAPE_._CDATA_._START]secondary[ABPM_._ESCAPE_._CDATA_._END]</use>
+        <type>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]uniquememberid-type-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <coding>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]uniquememberid-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/us/carin-bb/CodeSystem/C4BBIdentifierType[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <version>[ABPM_._ESCAPE_._CDATA_._START]2.1.0[ABPM_._ESCAPE_._CDATA_._END]</version>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]um[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <display>[ABPM_._ESCAPE_._CDATA_._START]Unique Member ID[ABPM_._ESCAPE_._CDATA_._END]</display>
+            <userSelected>false</userSelected>
+          </coding>
+          <text>[ABPM_._ESCAPE_._CDATA_._START]Unique Member ID[ABPM_._ESCAPE_._CDATA_._END]</text>
+        </type>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]https://example-payer.com/unique-member-ids[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <value>[ABPM_._ESCAPE_._CDATA_._START]UM987654321[ABPM_._ESCAPE_._CDATA_._END]</value>
+        <period>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]uniquememberid-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+          <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+        </period>
+        <assigner>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]uniquememberid-assigner-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/example-payer[ABPM_._ESCAPE_._CDATA_._END]</reference>
+          <type>[ABPM_._ESCAPE_._CDATA_._START]Organization[ABPM_._ESCAPE_._CDATA_._END]</type>
+          <identifier>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]https://example-payer.com/organization-ids[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <value>[ABPM_._ESCAPE_._CDATA_._START]PAYER001[ABPM_._ESCAPE_._CDATA_._END]</value>
+          </identifier>
+          <display>[ABPM_._ESCAPE_._CDATA_._START]Example Health Payer[ABPM_._ESCAPE_._CDATA_._END]</display>
+        </assigner>
+      </identifier>
+      <identifier>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]patacctnum-identifier-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/identifier-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Patient Account Number Extension[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <use>[ABPM_._ESCAPE_._CDATA_._START]usual[ABPM_._ESCAPE_._CDATA_._END]</use>
+        <type>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]patacctnum-type-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <coding>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]patacctnum-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]http://terminology.hl7.org/CodeSystem/v2-0203[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <version>[ABPM_._ESCAPE_._CDATA_._START]2.9[ABPM_._ESCAPE_._CDATA_._END]</version>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]PATACCTNUM[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <display>[ABPM_._ESCAPE_._CDATA_._START]Patient Account Number[ABPM_._ESCAPE_._CDATA_._END]</display>
+            <userSelected>false</userSelected>
+          </coding>
+          <text>[ABPM_._ESCAPE_._CDATA_._START]Patient Account Number[ABPM_._ESCAPE_._CDATA_._END]</text>
+        </type>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]https://example-provider.com/patient-accounts[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <value>[ABPM_._ESCAPE_._CDATA_._START]ACCT789012345[ABPM_._ESCAPE_._CDATA_._END]</value>
+        <period>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]patacctnum-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <start>[ABPM_._ESCAPE_._CDATA_._START]2023-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+          <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+        </period>
+        <assigner>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]patacctnum-assigner-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/example-provider[ABPM_._ESCAPE_._CDATA_._END]</reference>
+          <type>[ABPM_._ESCAPE_._CDATA_._START]Organization[ABPM_._ESCAPE_._CDATA_._END]</type>
+          <identifier>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]https://example-provider.com/organization-ids[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <value>[ABPM_._ESCAPE_._CDATA_._START]PROVIDER001[ABPM_._ESCAPE_._CDATA_._END]</value>
+          </identifier>
+          <display>[ABPM_._ESCAPE_._CDATA_._START]Example Healthcare Provider[ABPM_._ESCAPE_._CDATA_._END]</display>
+        </assigner>
+      </identifier>
+      <active>true</active>
+      <name>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]patient-name-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/humanname-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Official name[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <use>[ABPM_._ESCAPE_._CDATA_._START]official[ABPM_._ESCAPE_._CDATA_._END]</use>
+        <text>[ABPM_._ESCAPE_._CDATA_._START]John Michael Doe Jr.[ABPM_._ESCAPE_._CDATA_._END]</text>
+        <family>[ABPM_._ESCAPE_._CDATA_._START]Doe[ABPM_._ESCAPE_._CDATA_._END]</family>
+        <given>[ABPM_._ESCAPE_._CDATA_._START]John[ABPM_._ESCAPE_._CDATA_._END]</given>
+        <given>[ABPM_._ESCAPE_._CDATA_._START]Michael[ABPM_._ESCAPE_._CDATA_._END]</given>
+        <prefix>[ABPM_._ESCAPE_._CDATA_._START]Mr.[ABPM_._ESCAPE_._CDATA_._END]</prefix>
+        <suffix>[ABPM_._ESCAPE_._CDATA_._START]Jr.[ABPM_._ESCAPE_._CDATA_._END]</suffix>
+        <period>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]name-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <start>[ABPM_._ESCAPE_._CDATA_._START]1985-03-15[ABPM_._ESCAPE_._CDATA_._END]</start>
+          <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+        </period>
+      </name>
+      <telecom>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]telecom-phone-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/contactpoint-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Primary phone number[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]phone[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <value>[ABPM_._ESCAPE_._CDATA_._START]+1-555-123-4567[ABPM_._ESCAPE_._CDATA_._END]</value>
+        <use>[ABPM_._ESCAPE_._CDATA_._START]home[ABPM_._ESCAPE_._CDATA_._END]</use>
+        <rank>1</rank>
+        <period>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]phone-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+          <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+        </period>
+      </telecom>
+      <telecom>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]telecom-email-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/contactpoint-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Primary email address[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]email[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <value>[ABPM_._ESCAPE_._CDATA_._START]john.doe@email.com[ABPM_._ESCAPE_._CDATA_._END]</value>
+        <use>[ABPM_._ESCAPE_._CDATA_._START]home[ABPM_._ESCAPE_._CDATA_._END]</use>
+        <rank>1</rank>
+        <period>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]email-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+          <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+        </period>
+      </telecom>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]male[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <birthDate>[ABPM_._ESCAPE_._CDATA_._START]1985-03-15[ABPM_._ESCAPE_._CDATA_._END]</birthDate>
+      <deceasedBoolean>false</deceasedBoolean>
+      <address>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]address-home-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/address-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Primary residential address[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <use>[ABPM_._ESCAPE_._CDATA_._START]home[ABPM_._ESCAPE_._CDATA_._END]</use>
+        <type>[ABPM_._ESCAPE_._CDATA_._START]both[ABPM_._ESCAPE_._CDATA_._END]</type>
+        <text>[ABPM_._ESCAPE_._CDATA_._START]123 Main Street, Anytown, IL 12345, USA[ABPM_._ESCAPE_._CDATA_._END]</text>
+        <line>[ABPM_._ESCAPE_._CDATA_._START]123 Main Street[ABPM_._ESCAPE_._CDATA_._END]</line>
+        <line>[ABPM_._ESCAPE_._CDATA_._START]Apt 4B[ABPM_._ESCAPE_._CDATA_._END]</line>
+        <city>[ABPM_._ESCAPE_._CDATA_._START]Anytown[ABPM_._ESCAPE_._CDATA_._END]</city>
+        <district>[ABPM_._ESCAPE_._CDATA_._START]County District[ABPM_._ESCAPE_._CDATA_._END]</district>
+        <state>[ABPM_._ESCAPE_._CDATA_._START]IL[ABPM_._ESCAPE_._CDATA_._END]</state>
+        <postalCode>[ABPM_._ESCAPE_._CDATA_._START]12345[ABPM_._ESCAPE_._CDATA_._END]</postalCode>
+        <country>[ABPM_._ESCAPE_._CDATA_._START]US[ABPM_._ESCAPE_._CDATA_._END]</country>
+        <period>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]address-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+          <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+        </period>
+      </address>
+      <maritalStatus>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]marital-status-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/codeableconcept-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Current marital status[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <coding>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]marital-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <system>[ABPM_._ESCAPE_._CDATA_._START]http://terminology.hl7.org/CodeSystem/v3-MaritalStatus[ABPM_._ESCAPE_._CDATA_._END]</system>
+          <version>[ABPM_._ESCAPE_._CDATA_._START]2018-08-12[ABPM_._ESCAPE_._CDATA_._END]</version>
+          <code>[ABPM_._ESCAPE_._CDATA_._START]M[ABPM_._ESCAPE_._CDATA_._END]</code>
+          <display>[ABPM_._ESCAPE_._CDATA_._START]Married[ABPM_._ESCAPE_._CDATA_._END]</display>
+          <userSelected>false</userSelected>
+        </coding>
+        <text>[ABPM_._ESCAPE_._CDATA_._START]Married[ABPM_._ESCAPE_._CDATA_._END]</text>
+      </maritalStatus>
+      <multipleBirthBoolean>false</multipleBirthBoolean>
+      <photo>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]patient-photo-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/attachment-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Patient photo[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <contentType>[ABPM_._ESCAPE_._CDATA_._START]image/jpeg[ABPM_._ESCAPE_._CDATA_._END]</contentType>
+        <language>[ABPM_._ESCAPE_._CDATA_._START]en-US[ABPM_._ESCAPE_._CDATA_._END]</language>
+        <data>[ABPM_._ESCAPE_._CDATA_._START]iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==[ABPM_._ESCAPE_._CDATA_._END]</data>
+        <url>[ABPM_._ESCAPE_._CDATA_._START]https://example.com/patient-photos/patient-12345.jpg[ABPM_._ESCAPE_._CDATA_._END]</url>
+        <size>2048</size>
+        <hash>[ABPM_._ESCAPE_._CDATA_._START]da39a3ee5e6b4b0d3255bfef95601890afd80709[ABPM_._ESCAPE_._CDATA_._END]</hash>
+        <title>[ABPM_._ESCAPE_._CDATA_._START]Patient Photo[ABPM_._ESCAPE_._CDATA_._END]</title>
+        <creation>[ABPM_._ESCAPE_._CDATA_._START]2025-01-01T00:00:00.000Z[ABPM_._ESCAPE_._CDATA_._END]</creation>
+      </photo>
+      <contact>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]emergency-contact-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/patient-contact-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Emergency contact information[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <modifierExtension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/contact-modifier[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueBoolean>true</valueBoolean>
+        </modifierExtension>
+        <relationship>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]contact-relationship-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <coding>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]relationship-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]http://terminology.hl7.org/CodeSystem/v2-0131[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <version>[ABPM_._ESCAPE_._CDATA_._START]2.9[ABPM_._ESCAPE_._CDATA_._END]</version>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]C[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <display>[ABPM_._ESCAPE_._CDATA_._START]Emergency Contact[ABPM_._ESCAPE_._CDATA_._END]</display>
+            <userSelected>false</userSelected>
+          </coding>
+          <text>[ABPM_._ESCAPE_._CDATA_._START]Emergency Contact[ABPM_._ESCAPE_._CDATA_._END]</text>
+        </relationship>
+        <name>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]contact-name-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/humanname-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueString>[ABPM_._ESCAPE_._CDATA_._START]Emergency contact name[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+          </extension>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]official[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <text>[ABPM_._ESCAPE_._CDATA_._START]Jane Doe[ABPM_._ESCAPE_._CDATA_._END]</text>
+          <family>[ABPM_._ESCAPE_._CDATA_._START]Doe[ABPM_._ESCAPE_._CDATA_._END]</family>
+          <given>[ABPM_._ESCAPE_._CDATA_._START]Jane[ABPM_._ESCAPE_._CDATA_._END]</given>
+          <prefix>[ABPM_._ESCAPE_._CDATA_._START]Mrs.[ABPM_._ESCAPE_._CDATA_._END]</prefix>
+          <period>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]contact-name-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+            <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+          </period>
+        </name>
+        <telecom>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]contact-telecom-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/contactpoint-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueString>[ABPM_._ESCAPE_._CDATA_._START]Emergency contact phone[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+          </extension>
+          <system>[ABPM_._ESCAPE_._CDATA_._START]phone[ABPM_._ESCAPE_._CDATA_._END]</system>
+          <value>[ABPM_._ESCAPE_._CDATA_._START]+1-555-987-6543[ABPM_._ESCAPE_._CDATA_._END]</value>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]home[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <rank>1</rank>
+          <period>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]contact-telecom-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+            <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+          </period>
+        </telecom>
+        <address>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]contact-address-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/address-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueString>[ABPM_._ESCAPE_._CDATA_._START]Emergency contact address[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+          </extension>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]home[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <type>[ABPM_._ESCAPE_._CDATA_._START]both[ABPM_._ESCAPE_._CDATA_._END]</type>
+          <text>[ABPM_._ESCAPE_._CDATA_._START]456 Oak Avenue, Otherville, IL 54321, USA[ABPM_._ESCAPE_._CDATA_._END]</text>
+          <line>[ABPM_._ESCAPE_._CDATA_._START]456 Oak Avenue[ABPM_._ESCAPE_._CDATA_._END]</line>
+          <city>[ABPM_._ESCAPE_._CDATA_._START]Otherville[ABPM_._ESCAPE_._CDATA_._END]</city>
+          <district>[ABPM_._ESCAPE_._CDATA_._START]Other District[ABPM_._ESCAPE_._CDATA_._END]</district>
+          <state>[ABPM_._ESCAPE_._CDATA_._START]IL[ABPM_._ESCAPE_._CDATA_._END]</state>
+          <postalCode>[ABPM_._ESCAPE_._CDATA_._START]54321[ABPM_._ESCAPE_._CDATA_._END]</postalCode>
+          <country>[ABPM_._ESCAPE_._CDATA_._START]US[ABPM_._ESCAPE_._CDATA_._END]</country>
+          <period>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]contact-address-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+            <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+          </period>
+        </address>
+        <gender>[ABPM_._ESCAPE_._CDATA_._START]female[ABPM_._ESCAPE_._CDATA_._END]</gender>
+        <organization>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]contact-organization-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/reference-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueString>[ABPM_._ESCAPE_._CDATA_._START]Contact organization[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+          </extension>
+          <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/contact-organization[ABPM_._ESCAPE_._CDATA_._END]</reference>
+          <type>[ABPM_._ESCAPE_._CDATA_._START]Organization[ABPM_._ESCAPE_._CDATA_._END]</type>
+          <identifier>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]contact-org-identifier-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <use>[ABPM_._ESCAPE_._CDATA_._START]official[ABPM_._ESCAPE_._CDATA_._END]</use>
+            <type>
+              <id>[ABPM_._ESCAPE_._CDATA_._START]contact-org-type-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+              <coding>
+                <id>[ABPM_._ESCAPE_._CDATA_._START]contact-org-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+                <system>[ABPM_._ESCAPE_._CDATA_._START]http://terminology.hl7.org/CodeSystem/v2-0203[ABPM_._ESCAPE_._CDATA_._END]</system>
+                <version>[ABPM_._ESCAPE_._CDATA_._START]2.9[ABPM_._ESCAPE_._CDATA_._END]</version>
+                <code>[ABPM_._ESCAPE_._CDATA_._START]PRN[ABPM_._ESCAPE_._CDATA_._END]</code>
+                <display>[ABPM_._ESCAPE_._CDATA_._START]Provider number[ABPM_._ESCAPE_._CDATA_._END]</display>
+                <userSelected>false</userSelected>
+              </coding>
+              <text>[ABPM_._ESCAPE_._CDATA_._START]Provider Number[ABPM_._ESCAPE_._CDATA_._END]</text>
+            </type>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]https://example.com/organization-ids[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <value>[ABPM_._ESCAPE_._CDATA_._START]ORG12345[ABPM_._ESCAPE_._CDATA_._END]</value>
+            <period>
+              <id>[ABPM_._ESCAPE_._CDATA_._START]contact-org-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+              <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+              <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+            </period>
+            <assigner>
+              <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/assigner-org[ABPM_._ESCAPE_._CDATA_._END]</reference>
+              <display>[ABPM_._ESCAPE_._CDATA_._START]Organization Assigner[ABPM_._ESCAPE_._CDATA_._END]</display>
+            </assigner>
+          </identifier>
+          <display>[ABPM_._ESCAPE_._CDATA_._START]Contact Organization[ABPM_._ESCAPE_._CDATA_._END]</display>
+        </organization>
+        <period>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]contact-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/period-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueString>[ABPM_._ESCAPE_._CDATA_._START]Contact relationship period[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+          </extension>
+          <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+          <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+        </period>
+      </contact>
+      <communication>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]communication-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/communication-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Primary communication language[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <modifierExtension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/communication-modifier[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueBoolean>true</valueBoolean>
+        </modifierExtension>
+        <language>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]language-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <coding>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]language-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]urn:ietf:bcp:47[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <version>[ABPM_._ESCAPE_._CDATA_._START]2022[ABPM_._ESCAPE_._CDATA_._END]</version>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]en-US[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <display>[ABPM_._ESCAPE_._CDATA_._START]English (United States)[ABPM_._ESCAPE_._CDATA_._END]</display>
+            <userSelected>false</userSelected>
+          </coding>
+          <text>[ABPM_._ESCAPE_._CDATA_._START]English[ABPM_._ESCAPE_._CDATA_._END]</text>
+        </language>
+        <preferred>true</preferred>
+      </communication>
+      <generalPractitioner>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]gp-reference-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/reference-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Primary care provider[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <reference>[ABPM_._ESCAPE_._CDATA_._START]Practitioner/primary-care-provider[ABPM_._ESCAPE_._CDATA_._END]</reference>
+        <type>[ABPM_._ESCAPE_._CDATA_._START]Practitioner[ABPM_._ESCAPE_._CDATA_._END]</type>
+        <identifier>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]gp-identifier-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]official[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <type>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]gp-type-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <coding>
+              <id>[ABPM_._ESCAPE_._CDATA_._START]gp-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+              <system>[ABPM_._ESCAPE_._CDATA_._START]http://terminology.hl7.org/CodeSystem/v2-0203[ABPM_._ESCAPE_._CDATA_._END]</system>
+              <version>[ABPM_._ESCAPE_._CDATA_._START]2.9[ABPM_._ESCAPE_._CDATA_._END]</version>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]PRN[ABPM_._ESCAPE_._CDATA_._END]</code>
+              <display>[ABPM_._ESCAPE_._CDATA_._START]Provider number[ABPM_._ESCAPE_._CDATA_._END]</display>
+              <userSelected>false</userSelected>
+            </coding>
+            <text>[ABPM_._ESCAPE_._CDATA_._START]Provider Number[ABPM_._ESCAPE_._CDATA_._END]</text>
+          </type>
+          <system>[ABPM_._ESCAPE_._CDATA_._START]https://example.com/provider-ids[ABPM_._ESCAPE_._CDATA_._END]</system>
+          <value>[ABPM_._ESCAPE_._CDATA_._START]PROV67890[ABPM_._ESCAPE_._CDATA_._END]</value>
+          <period>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]gp-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+            <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+          </period>
+          <assigner>
+            <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/medical-board[ABPM_._ESCAPE_._CDATA_._END]</reference>
+            <display>[ABPM_._ESCAPE_._CDATA_._START]State Medical Board[ABPM_._ESCAPE_._CDATA_._END]</display>
+          </assigner>
+        </identifier>
+        <display>[ABPM_._ESCAPE_._CDATA_._START]Dr. Sarah Johnson, MD[ABPM_._ESCAPE_._CDATA_._END]</display>
+      </generalPractitioner>
+      <managingOrganization>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]managing-org-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/reference-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Managing healthcare organization[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/example-payer[ABPM_._ESCAPE_._CDATA_._END]</reference>
+        <type>[ABPM_._ESCAPE_._CDATA_._START]Organization[ABPM_._ESCAPE_._CDATA_._END]</type>
+        <identifier>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]managing-org-identifier-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]official[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <type>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]managing-org-type-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <coding>
+              <id>[ABPM_._ESCAPE_._CDATA_._START]managing-org-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+              <system>[ABPM_._ESCAPE_._CDATA_._START]http://terminology.hl7.org/CodeSystem/v2-0203[ABPM_._ESCAPE_._CDATA_._END]</system>
+              <version>[ABPM_._ESCAPE_._CDATA_._START]2.9[ABPM_._ESCAPE_._CDATA_._END]</version>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]PRN[ABPM_._ESCAPE_._CDATA_._END]</code>
+              <display>[ABPM_._ESCAPE_._CDATA_._START]Provider number[ABPM_._ESCAPE_._CDATA_._END]</display>
+              <userSelected>false</userSelected>
+            </coding>
+            <text>[ABPM_._ESCAPE_._CDATA_._START]Organization Number[ABPM_._ESCAPE_._CDATA_._END]</text>
+          </type>
+          <system>[ABPM_._ESCAPE_._CDATA_._START]https://example-payer.com/organization-ids[ABPM_._ESCAPE_._CDATA_._END]</system>
+          <value>[ABPM_._ESCAPE_._CDATA_._START]PAYER001[ABPM_._ESCAPE_._CDATA_._END]</value>
+          <period>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]managing-org-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+            <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+          </period>
+          <assigner>
+            <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/regulatory-body[ABPM_._ESCAPE_._CDATA_._END]</reference>
+            <display>[ABPM_._ESCAPE_._CDATA_._START]Healthcare Regulatory Body[ABPM_._ESCAPE_._CDATA_._END]</display>
+          </assigner>
+        </identifier>
+        <display>[ABPM_._ESCAPE_._CDATA_._START]Example Health Payer Organization[ABPM_._ESCAPE_._CDATA_._END]</display>
+      </managingOrganization>
+      <link>
+        <id>[ABPM_._ESCAPE_._CDATA_._START]patient-link-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+        <extension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/link-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueString>[ABPM_._ESCAPE_._CDATA_._START]Linked patient record[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+        </extension>
+        <modifierExtension>
+          <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/link-modifier[ABPM_._ESCAPE_._CDATA_._END]</url>
+          <valueBoolean>true</valueBoolean>
+        </modifierExtension>
+        <other>
+          <id>[ABPM_._ESCAPE_._CDATA_._START]linked-patient-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+          <extension>
+            <url>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/reference-extension[ABPM_._ESCAPE_._CDATA_._END]</url>
+            <valueString>[ABPM_._ESCAPE_._CDATA_._START]Related patient record[ABPM_._ESCAPE_._CDATA_._END]</valueString>
+          </extension>
+          <reference>[ABPM_._ESCAPE_._CDATA_._START]Patient/related-patient-67890[ABPM_._ESCAPE_._CDATA_._END]</reference>
+          <type>[ABPM_._ESCAPE_._CDATA_._START]Patient[ABPM_._ESCAPE_._CDATA_._END]</type>
+          <identifier>
+            <id>[ABPM_._ESCAPE_._CDATA_._START]linked-patient-identifier-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+            <use>[ABPM_._ESCAPE_._CDATA_._START]official[ABPM_._ESCAPE_._CDATA_._END]</use>
+            <type>
+              <id>[ABPM_._ESCAPE_._CDATA_._START]linked-patient-type-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+              <coding>
+                <id>[ABPM_._ESCAPE_._CDATA_._START]linked-patient-coding-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+                <system>[ABPM_._ESCAPE_._CDATA_._START]http://terminology.hl7.org/CodeSystem/v2-0203[ABPM_._ESCAPE_._CDATA_._END]</system>
+                <version>[ABPM_._ESCAPE_._CDATA_._START]2.9[ABPM_._ESCAPE_._CDATA_._END]</version>
+                <code>[ABPM_._ESCAPE_._CDATA_._START]MR[ABPM_._ESCAPE_._CDATA_._END]</code>
+                <display>[ABPM_._ESCAPE_._CDATA_._START]Medical record number[ABPM_._ESCAPE_._CDATA_._END]</display>
+                <userSelected>false</userSelected>
+              </coding>
+              <text>[ABPM_._ESCAPE_._CDATA_._START]Medical Record Number[ABPM_._ESCAPE_._CDATA_._END]</text>
+            </type>
+            <system>[ABPM_._ESCAPE_._CDATA_._START]https://example.com/medical-records[ABPM_._ESCAPE_._CDATA_._END]</system>
+            <value>[ABPM_._ESCAPE_._CDATA_._START]MR67890[ABPM_._ESCAPE_._CDATA_._END]</value>
+            <period>
+              <id>[ABPM_._ESCAPE_._CDATA_._START]linked-patient-period-id[ABPM_._ESCAPE_._CDATA_._END]</id>
+              <start>[ABPM_._ESCAPE_._CDATA_._START]2020-01-01[ABPM_._ESCAPE_._CDATA_._END]</start>
+              <end>[ABPM_._ESCAPE_._CDATA_._START]2025-12-31[ABPM_._ESCAPE_._CDATA_._END]</end>
+            </period>
+            <assigner>
+              <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/medical-records-org[ABPM_._ESCAPE_._CDATA_._END]</reference>
+              <display>[ABPM_._ESCAPE_._CDATA_._START]Medical Records Organization[ABPM_._ESCAPE_._CDATA_._END]</display>
+            </assigner>
+          </identifier>
+          <display>[ABPM_._ESCAPE_._CDATA_._START]Related Patient Record[ABPM_._ESCAPE_._CDATA_._END]</display>
+        </other>
+        <type>[ABPM_._ESCAPE_._CDATA_._START]seealso[ABPM_._ESCAPE_._CDATA_._END]</type>
+      </link>
+    </resource>
+  </entry>
+</Root>
+]]></au_xsd>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <au_jsonFilePath><![CDATA[FHIR_patient_target_layout.json]]></au_jsonFilePath>
+        <au_specialCharacters><![CDATA[null]]></au_specialCharacters>
+        <au_id><![CDATA[1436244738383802368]]></au_id>
+        <au_creationDate><![CDATA[2025-11-07T06:43:50]]></au_creationDate>
+        <AU_HANDLE_ARRAY_DATA><![CDATA[0]]></AU_HANDLE_ARRAY_DATA>
+        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
+        <au_removeLeadingZeros><![CDATA[0]]></au_removeLeadingZeros>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_modifiedDate><![CDATA[2025-11-07T06:43:50]]></au_modifiedDate>
+        <AU_REFERENCE_IDENTIFIER_XPATH><![CDATA[]]></AU_REFERENCE_IDENTIFIER_XPATH>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <AU_ERROR_PATH_LOCATION><![CDATA[]]></AU_ERROR_PATH_LOCATION>
+        <AU_QUEUE_CAPACITY><![CDATA[1000]]></AU_QUEUE_CAPACITY>
+        <AU_JSON_SCHEMA_SPECIFICATION><![CDATA[0]]></AU_JSON_SCHEMA_SPECIFICATION>
+        <au_entityName><![CDATA[FHIR_C4BB_Patient_Bundle_B19]]></au_entityName>
+    </AU_JSONSCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_originalJson" type="-1"/>
+        <column name="au_jsonFilePath" type="12"/>
+        <column name="au_specialCharacters" type="-1"/>
+        <column name="au_removeLeadingZeros" type="3"/>
+        <column name="au_jsonType" type="4"/>
+        <column name="au_arrayFields" type="-1"/>
+        <column name="AU_VALIDATION" type="3"/>
+        <column name="AU_REFERENCE_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_RECORD_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_ERROR_PATH_LOCATION" type="12"/>
+        <column name="AU_JSON_SCHEMA_SPECIFICATION" type="3"/>
+        <column name="AU_OPTIMIZE_PROCESSING" type="3"/>
+        <column name="AU_QUEUE_CAPACITY" type="4"/>
+        <column name="AU_DEFINITIONFILE" type="12"/>
+        <column name="AU_ENRICHED_JSON" type="-1"/>
+        <column name="AU_HANDLE_ARRAY_DATA" type="3"/>
+    </columnInfo>
+</data>

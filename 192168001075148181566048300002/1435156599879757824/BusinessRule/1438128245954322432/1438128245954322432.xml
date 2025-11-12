@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_BUSINESS_RULE>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <au_modifiedDate><![CDATA[2025-11-12T11:42:22]]></au_modifiedDate>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <AU_JSON_DATA><![CDATA[{
+  "Invoice": {
+    "From": {
+      "Name": "John Doe",
+      "Address": {
+        "Suite": "100",
+        "Street": "123 Main St",
+        "City": "Springfield",
+        "State": "IL",
+        "Zip": "62701"
+      },
+      "Email": "johndoe@example.com"
+    },
+    "Invoice Number": "INV-00123",
+    "Order Number": "ORD-56789",
+    "Invoice Date": "2023-10-01",
+    "Due Date": "2023-10-15",
+    "Total Due": "$1500.00",
+    "To": {
+      "Name": "Jane Smith",
+      "Address": {
+        "Street": "456 Elm St",
+        "City": "Springfield",
+        "State": "IL",
+        "Zip": "62702"
+      },
+      "Email": "janesmith@example.com"
+    },
+    "Items": [
+      {
+        "Hrs/Qty": "5",
+        "Service": "Web Development",
+        "Rate/Price": "$200.00",
+        "Adjust": "$0.00",
+        "Sub Total": "$1000.00"
+      },
+      {
+        "Hrs/Qty": "3",
+        "Service": "Consulting",
+        "Rate/Price": "$200.00",
+        "Adjust": "$0.00",
+        "Sub Total": "$600.00"
+      }
+    ],
+    "Sub Total": "$1600.00",
+    "Tax": "$100.00",
+    "Total": "$1700.00",
+    "Bank Details": {
+      "Bank Name": "ABC Bank",
+      "Account Number": "123456789",
+      "BSB": "123-456"
+    },
+    "Payment Terms": "Net 15",
+    "Footer": "Thank you for your business!"
+  }
+}]]></AU_JSON_DATA>
+        <au_id><![CDATA[1438128245954322432]]></au_id>
+        <au_entityName><![CDATA[Drv_AIRule_Invoice_B21]]></au_entityName>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_version><![CDATA[1]]></au_version>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <AU_CONFIGURATION><![CDATA[{"maxRetryAttempts":3,"minBackoffTime":1,"maxBackoffTime":10,"connectTimeout":5,"writeTimeout":10,"readTimeout":300,"mergeInputData":"Yes","mergeStrategy":"Override"}]]></AU_CONFIGURATION>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_creationDate><![CDATA[2025-11-12T11:28:13]]></au_creationDate>
+        <au_json_layout><![CDATA[1438122939646345216]]></au_json_layout>
+        <au_description><![CDATA[Drv_AIRule_Invoice_B21]]></au_description>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+    </AU_BUSINESS_RULE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_json_layout" type="12"/>
+        <column name="AU_CONFIGURATION" type="12"/>
+        <column name="AU_JSON_DATA" type="-1"/>
+    </columnInfo>
+</data>

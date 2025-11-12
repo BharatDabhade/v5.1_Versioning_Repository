@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_version><![CDATA[1]]></au_version>
+        <au_concurrentProcessors><![CDATA[0]]></au_concurrentProcessors>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_modifiedDate><![CDATA[2025-11-07T12:08:45]]></au_modifiedDate>
+        <au_targetSchema><![CDATA[JSONSchema:1436244738383802368]]></au_targetSchema>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_description><![CDATA[Test_CCDA_to_Patient_B19_1]]></au_description>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <AU_MULTI_VALUED_MAP><![CDATA[<MultiValuedMap/>]]></AU_MULTI_VALUED_MAP>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <au_entityName><![CDATA[Test_CCDA_to_Patient_B19_1]]></au_entityName>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><resourceType></resourceType><id></id><meta><lastUpdated></lastUpdated><profile></profile></meta><identifier><system></system><value><xsl:value-of select="/Root/ClinicalDocument/templateId/root"/></value></identifier><type></type><timestamp></timestamp><total></total><entry><fullUrl></fullUrl><resource><resourceType></resourceType><id></id><meta><id></id><extension><url></url><valueString></valueString></extension><versionId></versionId><lastUpdated></lastUpdated><source></source><profile></profile><security><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></security><tag><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></tag></meta><implicitRules></implicitRules><language></language><text><status></status><div></div></text><extension><url></url><id></id><extension><url></url><id></id><extension><url></url><valueCode></valueCode></extension><valueCoding><system></system><version></version><code></code><display></display><userSelected></userSelected></valueCoding></extension></extension><modifierExtension><url></url><valueBoolean></valueBoolean></modifierExtension><identifier><id></id><extension><url></url><valueString></valueString></extension><use></use><type><id></id><coding><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></coding><text></text></type><system></system><value></value><period><id></id><start></start><end></end></period><assigner><id></id><reference></reference><type></type><identifier><system></system><value></value></identifier><display></display></assigner></identifier><active></active><name><id></id><extension><url></url><valueString></valueString></extension><use></use><text></text><family></family><given></given><prefix></prefix><suffix></suffix><period><id></id><start></start><end></end></period></name><telecom><id></id><extension><url></url><valueString></valueString></extension><system></system><value></value><use></use><rank></rank><period><id></id><start></start><end></end></period></telecom><gender></gender><birthDate></birthDate><deceasedBoolean></deceasedBoolean><address><id></id><extension><url></url><valueString></valueString></extension><use></use><type></type><text></text><line></line><city></city><district></district><state></state><postalCode></postalCode><country></country><period><id></id><start></start><end></end></period></address><maritalStatus><id></id><extension><url></url><valueString></valueString></extension><coding><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></coding><text></text></maritalStatus><multipleBirthBoolean></multipleBirthBoolean><photo><id></id><extension><url></url><valueString></valueString></extension><contentType></contentType><language></language><data></data><url></url><size></size><hash></hash><title></title><creation></creation></photo><contact><id></id><extension><url></url><valueString></valueString></extension><modifierExtension><url></url><valueBoolean></valueBoolean></modifierExtension><relationship><id></id><coding><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></coding><text></text></relationship><name><id></id><extension><url></url><valueString></valueString></extension><use></use><text></text><family></family><given></given><prefix></prefix><period><id></id><start></start><end></end></period></name><telecom><id></id><extension><url></url><valueString></valueString></extension><system></system><value></value><use></use><rank></rank><period><id></id><start></start><end></end></period></telecom><address><id></id><extension><url></url><valueString></valueString></extension><use></use><type></type><text></text><line></line><city></city><district></district><state></state><postalCode></postalCode><country></country><period><id></id><start></start><end></end></period></address><gender></gender><organization><id></id><extension><url></url><valueString></valueString></extension><reference></reference><type></type><identifier><id></id><use></use><type><id></id><coding><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></coding><text></text></type><system></system><value></value><period><id></id><start></start><end></end></period><assigner><reference></reference><display></display></assigner></identifier><display></display></organization><period><id></id><extension><url></url><valueString></valueString></extension><start></start><end></end></period></contact><communication><id></id><extension><url></url><valueString></valueString></extension><modifierExtension><url></url><valueBoolean></valueBoolean></modifierExtension><language><id></id><coding><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></coding><text></text></language><preferred></preferred></communication><generalPractitioner><id></id><extension><url></url><valueString></valueString></extension><reference></reference><type></type><identifier><id></id><use></use><type><id></id><coding><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></coding><text></text></type><system></system><value></value><period><id></id><start></start><end></end></period><assigner><reference></reference><display></display></assigner></identifier><display></display></generalPractitioner><managingOrganization><id></id><extension><url></url><valueString></valueString></extension><reference></reference><type></type><identifier><id></id><use></use><type><id></id><coding><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></coding><text></text></type><system></system><value></value><period><id></id><start></start><end></end></period><assigner><reference></reference><display></display></assigner></identifier><display></display></managingOrganization><link><id></id><extension><url></url><valueString></valueString></extension><modifierExtension><url></url><valueBoolean></valueBoolean></modifierExtension><other><id></id><extension><url></url><valueString></valueString></extension><reference></reference><type></type><identifier><id></id><use></use><type><id></id><coding><id></id><system></system><version></version><code></code><display></display><userSelected></userSelected></coding><text></text></type><system></system><value></value><period><id></id><start></start><end></end></period><assigner><reference></reference><display></display></assigner></identifier><display></display></other><type></type></link></resource></entry></Root></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules1420846650465201452.pdf]]></au_pdfFileName>
+        <au_id><![CDATA[1436245184584208384]]></au_id>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_enableAIMap><![CDATA[1]]></au_enableAIMap>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_optimizedLoading><![CDATA[0]]></au_optimizedLoading>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_creationDate><![CDATA[2025-11-07T06:45:36]]></au_creationDate>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+    <sourceSchemaID>JSONSchema:1436244539156320256</sourceSchemaID>
+    <targetSchemaID>JSONSchema:1436244738383802368</targetSchemaID>
+    <mappingOwnerGroup>Group_1</mappingOwnerGroup>
+    <mappingOwner>Dhruv Sharma</mappingOwner>
+    <mappingLastModifiedBy>Dhruv Sharma</mappingLastModifiedBy>
+    <mappingCreationDate>Fri Nov 07 06:45:36 GMT 2025</mappingCreationDate>
+    <mappingModifiedDate>Fri Nov 07 12:08:44 GMT 2025</mappingModifiedDate>
+    <reusable>true</reusable>
+    <mappingName>Test_CCDA_to_Patient_B19_1</mappingName>
+    <mappingProject>Project:1435156599879757824</mappingProject>
+    <mappingDescription>Test_CCDA_to_Patient_B19_1</mappingDescription>
+</mappingInformation>
+<sourceRoots>
+    <sourceRoot>
+        <name>Root</name>
+        <schemaName>CCD_Data_B19</schemaName>
+        <schemaID>JSONSchema:1436244539156320256</schemaID>
+    </sourceRoot>
+</sourceRoots>
+<targetRoots>
+    <targetRoot>
+        <name>Root</name>
+        <schemaName>FHIR_C4BB_Patient_Bundle_B19</schemaName>
+        <schemaID>JSONSchema:1436244738383802368</schemaID>
+        <stream>output_0</stream>
+    </targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>FHIR_C4BB_Patient_Bundle_B19</targetName>
+<dest>/Root/identifier/value</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>[ABPM_._ESCAPE_._CDATA_._START]<xsl:value-of select="/Root/ClinicalDocument/templateId/root"/>[ABPM_._ESCAPE_._CDATA_._END]</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="value">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/identifier/value" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>xslt</defaultEditor>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+    <valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+        <globalTemplate>global</globalTemplate>
+        <customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+    <streamingMode>false</streamingMode>
+    <filterEmptyElements>false</filterEmptyElements>
+    <dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>10</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+    <SelfRecursionLevel>0</SelfRecursionLevel>
+    <EnableTypesBuffering>true</EnableTypesBuffering>
+    <CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+    <consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":[],"filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":10,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":false,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":10,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":false,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":false},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":"a23da065-695d-4616-8735-af111e5f4087","sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":500,"parallelProcessing":false,"maximumConcurrentProcessor":0,"CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"mappingInformation":{"sourceSchemaID":"JSONSchema:1436244539156320256","targetSchemaID":"JSONSchema:1436244738383802368","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":true,"mappingName":"Test_CCDA_to_Patient_B19_1","mappingProject":"Project:1435156599879757824","mappingDescription":"Test_CCDA_to_Patient_B19_1"},"namespace":"    ","namespaceList":[{"namespaceName":"","namespaceType":"UserDefined"},{"namespaceName":"","namespaceType":"UserDefined"},{"namespaceName":"","namespaceType":"UserDefined"}],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"FHIR_C4BB_Patient_Bundle_B19","schemaID":"JSONSchema:1436244738383802368","stream":"output_0"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"CCD_Data_B19","schemaID":"JSONSchema:1436244539156320256"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"FHIR_C4BB_Patient_Bundle_B19","targetfieldpath":"/Root/identifier/value","xpath":"FHIR_C4BB_Patient_Bundle_B19/Root/identifier/value","targetfield":"value","targetrecord":"identifier","expressionPath":"<xsl:value-of select=\"/Root/ClinicalDocument/templateId/root\"/>","expression":"<xsl:value-of select=\"/Root/ClinicalDocument/templateId/root\"/>","mapping":[],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"xslt","markComplete":false,"mapId":"FHIR_C4BB_Patient_Bundle_B19/Root/identifier/value"}],"sourceExpandLevel":3,"targetExpandLevel":3,"metaData":""}]]></au_json>
+        <au_sourceSchema><![CDATA[JSONSchema:1436244539156320256]]></au_sourceSchema>
+        <au_aimapTrained><![CDATA[1]]></au_aimapTrained>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+        <column name="AU_MULTI_VALUED_MAP" type="-1"/>
+    </columnInfo>
+</data>

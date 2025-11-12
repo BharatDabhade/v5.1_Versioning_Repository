@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_JSONSCHEMA>
+        <au_json><![CDATA[{"fieldName":"Root","expanded":true,"leaf":false,"children":[{"fieldName":"ClinicalDocument","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"xmlns","expanded":true,"isAttribute":false,"originalName":"@xmlns","value":"urn:hl7-org:v3","leaf":true},{"fieldName":"realmCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"US","leaf":true}]},{"fieldName":"typeId","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"extension","expanded":true,"isAttribute":false,"originalName":"@extension","value":"POCD_HD000040","leaf":true},{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"2.16.840.1.113883.1.3","leaf":true}]},{"fieldName":"templateId","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"1.2.840.114350.1.72.1.51693","leaf":true}]},{"fieldName":"id","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"assigningAuthorityName","expanded":true,"isAttribute":false,"originalName":"@assigningAuthorityName","value":"EPC","leaf":true},{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"1.2.840.114350.1.13.451.2.7.8.688883.148890150","leaf":true}]},{"fieldName":"code_1","expanded":true,"isAttribute":false,"originalName":"code","leaf":false,"value":"\n    ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"34133-9","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"2.16.840.1.113883.6.1","leaf":true},{"fieldName":"codeSystemName","expanded":true,"isAttribute":false,"originalName":"@codeSystemName","value":"LOINC","leaf":true},{"fieldName":"displayName","expanded":true,"isAttribute":false,"originalName":"@displayName","value":"Summarization of Episode Note","leaf":true}]},{"fieldName":"title","expanded":true,"isAttribute":false,"value":"Epic Mayo Clinic","leaf":true},{"fieldName":"effectiveTime","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"20200604064758-0500","leaf":true}]},{"fieldName":"confidentialityCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"N","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"2.16.840.1.113883.5.25","leaf":true},{"fieldName":"displayName","expanded":true,"isAttribute":false,"originalName":"@displayName","value":"Normal","leaf":true}]},{"fieldName":"languageCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"en-US","leaf":true}]},{"fieldName":"setId","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"assigningAuthorityName","expanded":true,"isAttribute":false,"originalName":"@assigningAuthorityName","value":"EPC","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"originalName":"@extension","value":"7a9dea90-fcbc-11e8-9264-005056bb5aa2","leaf":true},{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"1.2.840.114350.1.13.451.2.7.1.1","leaf":true}]},{"fieldName":"versionNumber","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"7","leaf":true}]},{"fieldName":"recordTarget","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"patientRole","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"1.2.840.114350.1.13.451.2.7.3.688884.100","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"originalName":"@extension","value":"TST003904D","leaf":true}]},{"fieldName":"addr","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"use","expanded":true,"isAttribute":false,"originalName":"@use","value":"HP","leaf":true},{"fieldName":"streetAddressLine","expanded":true,"isAttribute":false,"value":"32 Macaw St","leaf":true},{"fieldName":"county","expanded":true,"isAttribute":false,"value":"York","leaf":true},{"fieldName":"city","expanded":true,"isAttribute":false,"value":"Kennebunk","leaf":true},{"fieldName":"state","expanded":true,"isAttribute":false,"value":"ME","leaf":true},{"fieldName":"postalCode","expanded":true,"isAttribute":false,"value":"04043","leaf":true},{"fieldName":"country","expanded":true,"isAttribute":false,"value":"USA","leaf":true}]},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"use","expanded":true,"isAttribute":false,"originalName":"@use","value":"HP","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"tel:+1-612-855-3000","leaf":true}]},{"fieldName":"patient","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"name","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"use","expanded":true,"isAttribute":false,"originalName":"@use","value":"L","leaf":true},{"fieldName":"family","expanded":true,"isAttribute":false,"value":"Singletary","leaf":true},{"fieldName":"given","expanded":true,"isAttribute":false,"value":"Rory","leaf":true}]},{"fieldName":"administrativeGenderCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"M","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"2.16.840.1.113883.5.1","leaf":true},{"fieldName":"codeSystemName","expanded":true,"isAttribute":false,"originalName":"@codeSystemName","value":"AdministrativeGenderCode","leaf":true},{"fieldName":"displayName","expanded":true,"isAttribute":false,"originalName":"@displayName","value":"Male","leaf":true}]},{"fieldName":"birthTime","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"20010101","leaf":true}]},{"fieldName":"sdtcdeceasedInd","expanded":true,"isAttribute":false,"originalName":"sdtc:deceasedInd","leaf":false,"value":"\n          ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"false","leaf":true},{"fieldName":"xmlnssdtc","expanded":true,"isAttribute":false,"originalName":"@xmlns:sdtc","value":"urn:hl7-org:sdtc","leaf":true}]},{"fieldName":"maritalStatusCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"M","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"2.16.840.1.113883.5.2","leaf":true},{"fieldName":"codeSystemName","expanded":true,"isAttribute":false,"originalName":"@codeSystemName","value":"MaritalStatusCode","leaf":true},{"fieldName":"displayName","expanded":true,"isAttribute":false,"originalName":"@displayName","value":"Married","leaf":true}]},{"fieldName":"religiousAffiliationCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"1041","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"2.16.840.1.113883.5.1076","leaf":true},{"fieldName":"codeSystemName","expanded":true,"isAttribute":false,"originalName":"@codeSystemName","value":"ReligiousAffiliation","leaf":true}]},{"fieldName":"raceCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"2106-3","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"2.16.840.1.113883.6.238","leaf":true},{"fieldName":"codeSystemName","expanded":true,"isAttribute":false,"originalName":"@codeSystemName","value":"CDC Race and Ethnicity","leaf":true},{"fieldName":"displayName","expanded":true,"isAttribute":false,"originalName":"@displayName","value":"White","leaf":true}]},{"fieldName":"ethnicGroupCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"UNK","leaf":true}]},{"fieldName":"languageCommunication","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"languageCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"eng","leaf":true}]},{"fieldName":"modeCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"EWR","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"2.16.840.1.113883.5.60","leaf":true},{"fieldName":"displayName","expanded":true,"isAttribute":false,"originalName":"@displayName","value":"Expressed Written","leaf":true}]},{"fieldName":"preferenceInd","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"true","leaf":true}]}]}]},{"fieldName":"providerOrganization","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"1.2.840.114350.1.13.451.2.7.2.688879","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"originalName":"@extension","value":"37200","leaf":true}]},{"fieldName":"name","expanded":true,"isAttribute":false,"value":"Mayo Clinic","leaf":true},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"NA","leaf":true}]},{"fieldName":"addr","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"use","expanded":true,"isAttribute":false,"originalName":"@use","value":"WP","leaf":true},{"fieldName":"streetAddressLine","expanded":true,"isAttribute":false,"value":"200 1st St SW","leaf":true},{"fieldName":"county","expanded":true,"isAttribute":false,"value":"OLMSTED","leaf":true},{"fieldName":"city","expanded":true,"isAttribute":false,"value":"ROCHESTER","leaf":true},{"fieldName":"state","expanded":true,"isAttribute":false,"value":"MN","leaf":true},{"fieldName":"postalCode","expanded":true,"isAttribute":false,"value":"55905","leaf":true},{"fieldName":"country","expanded":true,"isAttribute":false,"value":"USA","leaf":true}]}]}]}]},{"fieldName":"author","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"time","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"20200604064758-0500","leaf":true}]},{"fieldName":"assignedAuthor","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"1.2.840.114350.1.1","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"originalName":"@extension","value":"9.1","leaf":true}]},{"fieldName":"addr","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"NA","leaf":true}]},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"NA","leaf":true}]},{"fieldName":"assignedAuthoringDevice","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"manufacturerModelName","expanded":true,"isAttribute":false,"value":"Epic - Version 9.1","leaf":true},{"fieldName":"softwareName","expanded":true,"isAttribute":false,"value":"Epic - Version 9.1","leaf":true}]},{"fieldName":"representedOrganization","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"1.2.840.114350.1.13.451.2.7.2.688879","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"originalName":"@extension","value":"37200","leaf":true}]},{"fieldName":"name","expanded":true,"isAttribute":false,"value":"Mayo Clinic","leaf":true},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"NA","leaf":true}]},{"fieldName":"addr","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"use","expanded":true,"isAttribute":false,"originalName":"@use","value":"WP","leaf":true},{"fieldName":"streetAddressLine","expanded":true,"isAttribute":false,"value":"200 1st St SW","leaf":true},{"fieldName":"county","expanded":true,"isAttribute":false,"value":"OLMSTED","leaf":true},{"fieldName":"city","expanded":true,"isAttribute":false,"value":"ROCHESTER","leaf":true},{"fieldName":"state","expanded":true,"isAttribute":false,"value":"MN","leaf":true},{"fieldName":"postalCode","expanded":true,"isAttribute":false,"value":"55905","leaf":true},{"fieldName":"country","expanded":true,"isAttribute":false,"value":"USA","leaf":true}]}]}]}]},{"fieldName":"custodian","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"assignedCustodian","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"representedCustodianOrganization","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"1.2.840.114350.1.13.451.2.7.2.688879","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"originalName":"@extension","value":"37200","leaf":true}]},{"fieldName":"name","expanded":true,"isAttribute":false,"value":"Mayo Clinic","leaf":true},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"NA","leaf":true}]},{"fieldName":"addr","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"use","expanded":true,"isAttribute":false,"originalName":"@use","value":"WP","leaf":true},{"fieldName":"streetAddressLine","expanded":true,"isAttribute":false,"value":"200 1st St SW","leaf":true},{"fieldName":"county","expanded":true,"isAttribute":false,"value":"OLMSTED","leaf":true},{"fieldName":"city","expanded":true,"isAttribute":false,"value":"ROCHESTER","leaf":true},{"fieldName":"state","expanded":true,"isAttribute":false,"value":"MN","leaf":true},{"fieldName":"postalCode","expanded":true,"isAttribute":false,"value":"55905","leaf":true},{"fieldName":"country","expanded":true,"isAttribute":false,"value":"USA","leaf":true}]}]}]}]},{"fieldName":"participant","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"typeCode","expanded":true,"isAttribute":false,"originalName":"@typeCode","value":"IND","leaf":true},{"fieldName":"time","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"20190724","leaf":true}]},{"fieldName":"associatedEntity","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"classCode","expanded":true,"isAttribute":false,"originalName":"@classCode","value":"ECON","leaf":true},{"fieldName":"id","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"root","expanded":true,"isAttribute":false,"originalName":"@root","value":"1.2.840.114350.1.13.451.2.7.2.827665","leaf":true},{"fieldName":"extension","expanded":true,"isAttribute":false,"originalName":"@extension","value":"6712470","leaf":true}]},{"fieldName":"code_1","expanded":true,"isAttribute":false,"originalName":"code","leaf":false,"value":"\n        ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"SPS","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"2.16.840.1.113883.5.111","leaf":true},{"fieldName":"codeSystemName","expanded":true,"isAttribute":false,"originalName":"@codeSystemName","value":"RoleCode","leaf":true},{"fieldName":"displayName","expanded":true,"isAttribute":false,"originalName":"@displayName","value":"Spouse","leaf":true},{"fieldName":"originalText","expanded":true,"isAttribute":false,"value":"Spouse","leaf":true}]},{"fieldName":"addr","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"use","expanded":true,"isAttribute":false,"originalName":"@use","value":"HP","leaf":true},{"fieldName":"streetAddressLine","expanded":true,"isAttribute":false,"value":"123 Main St","leaf":true},{"fieldName":"county","expanded":true,"isAttribute":false,"value":"Hennepin","leaf":true},{"fieldName":"city","expanded":true,"isAttribute":false,"value":"Minneapolis","leaf":true},{"fieldName":"state","expanded":true,"isAttribute":false,"value":"MN","leaf":true},{"fieldName":"postalCode","expanded":true,"isAttribute":false,"value":"55402","leaf":true},{"fieldName":"country","expanded":true,"isAttribute":false,"value":"USA","leaf":true}]},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"use","expanded":true,"isAttribute":false,"originalName":"@use","value":"MC","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"tel:+1-612-855-3000","leaf":true}]},{"fieldName":"associatedPerson","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"name","expanded":true,"isAttribute":false,"value":"Jane Doe","leaf":true}]}]}]},{"fieldName":"documentationOf","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"typeCode","expanded":true,"isAttribute":false,"originalName":"@typeCode","value":"DOC","leaf":true},{"fieldName":"serviceEvent","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"classCode","expanded":true,"isAttribute":false,"originalName":"@classCode","value":"PCPR","leaf":true},{"fieldName":"effectiveTime","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"low","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"19551201","leaf":true}]},{"fieldName":"high","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"20200604","leaf":true}]}]},{"fieldName":"performer","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"typeCode","expanded":true,"isAttribute":false,"originalName":"@typeCode","value":"PRF","leaf":true},{"fieldName":"functionCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"PCP","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"2.16.840.1.113883.5.88","leaf":true},{"fieldName":"codeSystemName","expanded":true,"isAttribute":false,"originalName":"@codeSystemName","value":"ParticipationFunction","leaf":true},{"fieldName":"displayName","expanded":true,"isAttribute":false,"originalName":"@displayName","value":"Primary Care Provider","leaf":true},{"fieldName":"originalText","expanded":true,"isAttribute":false,"value":"General","leaf":true}]},{"fieldName":"time","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"low","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"originalName":"@value","value":"20190516","leaf":true}]},{"fieldName":"high","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"PINF","leaf":true}]}]},{"fieldName":"assignedEntity","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"UNK","leaf":true}]},{"fieldName":"code_1","expanded":true,"isAttribute":false,"originalName":"code","leaf":false,"value":"\n            ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"UNK","leaf":true},{"fieldName":"originalText","expanded":true,"isAttribute":false,"value":"Internal Medicine","leaf":true}]},{"fieldName":"addr","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"UNK","leaf":true}]},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"NA","leaf":true}]},{"fieldName":"assignedPerson","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"name","expanded":true,"isAttribute":false,"leaf":false,"value":"\n              ","children":[{"fieldName":"given","expanded":true,"isAttribute":false,"value":"Pcp","leaf":true},{"fieldName":"family","expanded":true,"isAttribute":false,"value":"Elsewhere","leaf":true}]}]},{"fieldName":"representedOrganization","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"classCode","expanded":true,"isAttribute":false,"originalName":"@classCode","value":"ORG","leaf":true},{"fieldName":"name","expanded":true,"isAttribute":false,"value":"Mayo Clinic","leaf":true},{"fieldName":"telecom","expanded":true,"isAttribute":false,"leaf":false,"value":"\n              ","children":[{"fieldName":"nullFlavor","expanded":true,"isAttribute":false,"originalName":"@nullFlavor","value":"UNK","leaf":true}]},{"fieldName":"addr","expanded":true,"isAttribute":false,"leaf":false,"value":"\n              ","children":[{"fieldName":"use","expanded":true,"isAttribute":false,"originalName":"@use","value":"WP","leaf":true},{"fieldName":"streetAddressLine","expanded":true,"isAttribute":false,"value":"200 1st St SW","leaf":true},{"fieldName":"county","expanded":true,"isAttribute":false,"value":"OLMSTED","leaf":true},{"fieldName":"city","expanded":true,"isAttribute":false,"value":"ROCHESTER","leaf":true},{"fieldName":"state","expanded":true,"isAttribute":false,"value":"MN","leaf":true},{"fieldName":"postalCode","expanded":true,"isAttribute":false,"value":"55905","leaf":true},{"fieldName":"country","expanded":true,"isAttribute":false,"value":"USA","leaf":true}]}]}]}]}]}]},{"fieldName":"component","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"structuredBody","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"component","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"section","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"code_1","expanded":true,"isAttribute":false,"originalName":"code","leaf":false,"value":"\n            ","children":[{"fieldName":"code","expanded":true,"isAttribute":false,"originalName":"@code","value":"X-DOCCMT","leaf":true},{"fieldName":"codeSystem","expanded":true,"isAttribute":false,"originalName":"@codeSystem","value":"1.2.840.114350.1.72.2","leaf":true},{"fieldName":"displayName","expanded":true,"isAttribute":false,"originalName":"@displayName","value":"Document Comments","leaf":true}]},{"fieldName":"title","expanded":true,"isAttribute":false,"value":"Source Comments","leaf":true},{"fieldName":"text","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"text_1","expanded":true,"isAttribute":false,"originalName":"#text","value":"Patient records contain information from all sites at Mayo Clinic.","leaf":true},{"fieldName":"br","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"text2","expanded":true,"isAttribute":false,"originalName":"#text2","value":"For routine questions regarding patient records, call 507-284-4594 during business hours, M-F 8:00 AM - 5:00 PM Central Time. ","leaf":true},{"fieldName":"text3","expanded":true,"isAttribute":false,"originalName":"#text3","value":"Record requests for emergency care only can be directed to 507-284-4594 at any time.","leaf":true},{"fieldName":"footnote","expanded":true,"isAttribute":false,"value":"Mayo Clinic","leaf":true}]}]}]}]}]}]}]}]]></au_json>
+        <au_id><![CDATA[1436244539156320256]]></au_id>
+        <AU_ERROR_PATH_LOCATION><![CDATA[]]></AU_ERROR_PATH_LOCATION>
+        <AU_REFERENCE_IDENTIFIER_XPATH><![CDATA[]]></AU_REFERENCE_IDENTIFIER_XPATH>
+        <au_version><![CDATA[1]]></au_version>
+        <AU_JSON_SCHEMA_SPECIFICATION><![CDATA[0]]></AU_JSON_SCHEMA_SPECIFICATION>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <au_originalJson><![CDATA[{"ClinicalDocument": {
+  "@xmlns": "urn:hl7-org:v3",
+  "realmCode": {"@code": "US"},
+  "typeId": {
+    "@extension": "POCD_HD000040",
+    "@root": "2.16.840.1.113883.1.3"
+  },
+  "templateId": [
+    {"@root": "1.2.840.114350.1.72.1.51693"},
+    {"@root": "1.2.840.114350.1.72.1.51693"},
+    {"@root": "1.2.840.114350.1.72.1.51693"},
+    {"@root": "1.2.840.114350.1.72.1.51693"},
+    {"@root": "1.2.840.114350.1.72.1.51693"}
+  ],
+  "id": {
+    "@assigningAuthorityName": "EPC",
+    "@root": "1.2.840.114350.1.13.451.2.7.8.688883.148890150"
+  },
+  "code": {
+    "@code": "34133-9",
+    "@codeSystem": "2.16.840.1.113883.6.1",
+    "@codeSystemName": "LOINC",
+    "@displayName": "Summarization of Episode Note"
+  },
+  "title": "Epic Mayo Clinic",
+  "effectiveTime": {"@value": "20200604064758-0500"},
+  "confidentialityCode": {
+    "@code": "N",
+    "@codeSystem": "2.16.840.1.113883.5.25",
+    "@displayName": "Normal"
+  },
+  "languageCode": {"@code": "en-US"},
+  "setId": {
+    "@assigningAuthorityName": "EPC",
+    "@extension": "7a9dea90-fcbc-11e8-9264-005056bb5aa2",
+    "@root": "1.2.840.114350.1.13.451.2.7.1.1"
+  },
+  "versionNumber": {"@value": "7"},
+  "recordTarget": {"patientRole": {
+    "id": {
+      "@root": "1.2.840.114350.1.13.451.2.7.3.688884.100",
+      "@extension": "TST003904D"
+    },
+    "addr": {
+      "@use": "HP",
+      "streetAddressLine": "32 Macaw St",
+      "county": "York",
+      "city": "Kennebunk",
+      "state": "ME",
+      "postalCode": "04043",
+      "country": "USA"
+    },
+    "telecom": [
+      {
+        "@use": "HP",
+        "@value": "tel:+1-612-855-3000"
+      },
+      {
+        "@use": "HP",
+        "@value": "tel:+1-612-855-3000"
+      },
+      {
+        "@value": "tel:+1-612-855-3000",
+        "@use": "HP"
+      }
+    ],
+    "patient": {
+      "name": {
+        "@use": "L",
+        "family": "Singletary",
+        "given": "Rory"
+      },
+      "administrativeGenderCode": {
+        "@code": "M",
+        "@codeSystem": "2.16.840.1.113883.5.1",
+        "@codeSystemName": "AdministrativeGenderCode",
+        "@displayName": "Male"
+      },
+      "birthTime": {"@value": "20010101"},
+      "sdtc:deceasedInd": {
+        "@value": "false",
+        "@xmlns:sdtc": "urn:hl7-org:sdtc"
+      },
+      "maritalStatusCode": {
+        "@code": "M",
+        "@codeSystem": "2.16.840.1.113883.5.2",
+        "@codeSystemName": "MaritalStatusCode",
+        "@displayName": "Married"
+      },
+      "religiousAffiliationCode": {
+        "@code": "1041",
+        "@codeSystem": "2.16.840.1.113883.5.1076",
+        "@codeSystemName": "ReligiousAffiliation"
+      },
+      "raceCode": {
+        "@code": "2106-3",
+        "@codeSystem": "2.16.840.1.113883.6.238",
+        "@codeSystemName": "CDC Race and Ethnicity",
+        "@displayName": "White"
+      },
+      "ethnicGroupCode": {"@nullFlavor": "UNK"},
+      "languageCommunication": {
+        "languageCode": {"@code": "eng"},
+        "modeCode": {
+          "@code": "EWR",
+          "@codeSystem": "2.16.840.1.113883.5.60",
+          "@displayName": "Expressed Written"
+        },
+        "preferenceInd": {"@value": "true"}
+      }
+    },
+    "providerOrganization": {
+      "id": {
+        "@root": "1.2.840.114350.1.13.451.2.7.2.688879",
+        "@extension": "37200"
+      },
+      "name": "Mayo Clinic",
+      "telecom": {"@nullFlavor": "NA"},
+      "addr": {
+        "@use": "WP",
+        "streetAddressLine": "200 1st St SW",
+        "county": "OLMSTED",
+        "city": "ROCHESTER",
+        "state": "MN",
+        "postalCode": "55905",
+        "country": "USA"
+      }
+    }
+  }},
+  "author": {
+    "time": {"@value": "20200604064758-0500"},
+    "assignedAuthor": {
+      "id": {
+        "@root": "1.2.840.114350.1.1",
+        "@extension": "9.1"
+      },
+      "addr": {"@nullFlavor": "NA"},
+      "telecom": {"@nullFlavor": "NA"},
+      "assignedAuthoringDevice": {
+        "manufacturerModelName": "Epic - Version 9.1",
+        "softwareName": "Epic - Version 9.1"
+      },
+      "representedOrganization": {
+        "id": {
+          "@root": "1.2.840.114350.1.13.451.2.7.2.688879",
+          "@extension": "37200"
+        },
+        "name": "Mayo Clinic",
+        "telecom": {"@nullFlavor": "NA"},
+        "addr": {
+          "@use": "WP",
+          "streetAddressLine": "200 1st St SW",
+          "county": "OLMSTED",
+          "city": "ROCHESTER",
+          "state": "MN",
+          "postalCode": "55905",
+          "country": "USA"
+        }
+      }
+    }
+  },
+  "custodian": {"assignedCustodian": {"representedCustodianOrganization": {
+    "id": {
+      "@root": "1.2.840.114350.1.13.451.2.7.2.688879",
+      "@extension": "37200"
+    },
+    "name": "Mayo Clinic",
+    "telecom": {"@nullFlavor": "NA"},
+    "addr": {
+      "@use": "WP",
+      "streetAddressLine": "200 1st St SW",
+      "county": "OLMSTED",
+      "city": "ROCHESTER",
+      "state": "MN",
+      "postalCode": "55905",
+      "country": "USA"
+    }
+  }}},
+  "participant": {
+    "@typeCode": "IND",
+    "time": {"@value": "20190724"},
+    "associatedEntity": {
+      "@classCode": "ECON",
+      "id": {
+        "@root": "1.2.840.114350.1.13.451.2.7.2.827665",
+        "@extension": "6712470"
+      },
+      "code": {
+        "@code": "SPS",
+        "@codeSystem": "2.16.840.1.113883.5.111",
+        "@codeSystemName": "RoleCode",
+        "@displayName": "Spouse",
+        "originalText": "Spouse"
+      },
+      "addr": {
+        "@use": "HP",
+        "streetAddressLine": "123 Main St",
+        "county": "Hennepin",
+        "city": "Minneapolis",
+        "state": "MN",
+        "postalCode": "55402",
+        "country": "USA"
+      },
+      "telecom": {
+        "@use": "MC",
+        "@value": "tel:+1-612-855-3000"
+      },
+      "associatedPerson": {"name": "Jane Doe"}
+    }
+  },
+  "documentationOf": {
+    "@typeCode": "DOC",
+    "serviceEvent": {
+      "@classCode": "PCPR",
+      "effectiveTime": {
+        "low": {"@value": "19551201"},
+        "high": {"@value": "20200604"}
+      },
+      "performer": {
+        "@typeCode": "PRF",
+        "functionCode": {
+          "@code": "PCP",
+          "@codeSystem": "2.16.840.1.113883.5.88",
+          "@codeSystemName": "ParticipationFunction",
+          "@displayName": "Primary Care Provider",
+          "originalText": "General"
+        },
+        "time": {
+          "low": {"@value": "20190516"},
+          "high": {"@nullFlavor": "PINF"}
+        },
+        "assignedEntity": {
+          "id": {"@nullFlavor": "UNK"},
+          "code": {
+            "@nullFlavor": "UNK",
+            "originalText": "Internal Medicine"
+          },
+          "addr": {"@nullFlavor": "UNK"},
+          "telecom": {"@nullFlavor": "NA"},
+          "assignedPerson": {"name": {
+            "given": "Pcp",
+            "family": "Elsewhere"
+          }},
+          "representedOrganization": {
+            "@classCode": "ORG",
+            "name": "Mayo Clinic",
+            "telecom": {"@nullFlavor": "UNK"},
+            "addr": {
+              "@use": "WP",
+              "streetAddressLine": "200 1st St SW",
+              "county": "OLMSTED",
+              "city": "ROCHESTER",
+              "state": "MN",
+              "postalCode": "55905",
+              "country": "USA"
+            }
+          }
+        }
+      }
+    }
+  },
+  "component": {"structuredBody": {"component": [
+    {"section": {
+      "code": {
+        "@code": "X-DOCCMT",
+        "@codeSystem": "1.2.840.114350.1.72.2",
+        "@displayName": "Document Comments"
+      },
+      "title": "Source Comments",
+      "text": {
+        "#text": "Patient records contain information from all sites at Mayo Clinic.",
+        "br": "",
+        "#text2": "For routine questions regarding patient records, call 507-284-4594 during business hours, M-F 8:00 AM - 5:00 PM Central Time. ",
+        "#text3": "Record requests for emergency care only can be directed to 507-284-4594 at any time.",
+        "footnote": "Mayo Clinic"
+      }
+    }},
+    {"section": {
+      "code": {
+        "@code": "X-DOCCMT",
+        "@codeSystem": "1.2.840.114350.1.72.2",
+        "@displayName": "Document Comments"
+      },
+      "title": "Source Comments",
+      "text": {
+        "#text": "Patient records contain information from all sites at Mayo Clinic.",
+        "br": "",
+        "#text2": "For routine questions regarding patient records, call 507-284-4594 during business hours, M-F 8:00 AM - 5:00 PM Central Time. ",
+        "#text3": "Record requests for emergency care only can be directed to 507-284-4594 at any time.",
+        "footnote": "Mayo Clinic"
+      }
+    }},
+    {"section": {
+      "code": {
+        "@code": "X-DOCCMT",
+        "@codeSystem": "1.2.840.114350.1.72.2",
+        "@displayName": "Document Comments"
+      },
+      "title": "Source Comments",
+      "text": {
+        "#text": "Patient records contain information from all sites at Mayo Clinic.",
+        "br": "",
+        "#text2": "For routine questions regarding patient records, call 507-284-4594 during business hours, M-F 8:00 AM - 5:00 PM Central Time. ",
+        "#text3": "Record requests for emergency care only can be directed to 507-284-4594 at any time.",
+        "footnote": "Mayo Clinic"
+      }
+    }}
+  ]}}
+}}]]></au_originalJson>
+        <au_creationDate><![CDATA[2025-11-07T06:43:02]]></au_creationDate>
+        <au_arrayFields><![CDATA[/Root/ClinicalDocument/templateId,/Root/ClinicalDocument/recordTarget/patientRole/telecom,/Root/ClinicalDocument/component/structuredBody/component,/Root/ClinicalDocument/component/structuredBody/component/section/text/br,/Root/ClinicalDocument/component/structuredBody/component/section/templateId,/Root/ClinicalDocument/component/structuredBody/component/section/text/table/colgroup/col,/Root/ClinicalDocument/component/structuredBody/component/section/text/table/thead/tr/th,/Root/ClinicalDocument/component/structuredBody/component/section/text/table/tbody/tr,/Root/ClinicalDocument/component/structuredBody/component/section/text/table/tbody/tr/td,/Root/ClinicalDocument/component/structuredBody/component/section/entry,/Root/ClinicalDocument/component/structuredBody/component/section/entry/act/templateId,/Root/ClinicalDocument/component/structuredBody/component/section/entry/act/entryRelationship/observation/templateId,/Root/ClinicalDocument/component/structuredBody/component/section/entry/act/entryRelationship/observation/participant/participantRole/playingEntity/code/translation,/Root/ClinicalDocument/component/structuredBody/component/section/entry/act/entryRelationship/observation/entryRelationship,/Root/ClinicalDocument/component/structuredBody/component/section/entry/act/entryRelationship/observation/entryRelationship/observation/templateId,/Root/ClinicalDocument/component/structuredBody/component/section/entry/act/entryRelationship/observation/entryRelationship/observation/entryRelationship/observation/templateId,/Root/ClinicalDocument/component/structuredBody/component/section/entry/act/entryRelationship]]></au_arrayFields>
+        <au_removeLeadingZeros><![CDATA[0]]></au_removeLeadingZeros>
+        <au_comments><![CDATA[null]]></au_comments>
+        <AU_QUEUE_CAPACITY><![CDATA[1000]]></AU_QUEUE_CAPACITY>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[0]]></AU_OPTIMIZE_PROCESSING>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_revision><![CDATA[null]]></au_revision>
+        <AU_VALIDATION><![CDATA[0]]></AU_VALIDATION>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <AU_HANDLE_ARRAY_DATA><![CDATA[0]]></AU_HANDLE_ARRAY_DATA>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_entityName><![CDATA[CCD_Data_B19]]></au_entityName>
+        <au_xsd><![CDATA[<Root>
+  <ClinicalDocument>
+    <xmlns>[ABPM_._ESCAPE_._CDATA_._START]urn:hl7-org:v3[ABPM_._ESCAPE_._CDATA_._END]</xmlns>
+    <realmCode>
+      <code>[ABPM_._ESCAPE_._CDATA_._START]US[ABPM_._ESCAPE_._CDATA_._END]</code>
+    </realmCode>
+    <typeId>
+      <extension>[ABPM_._ESCAPE_._CDATA_._START]POCD_HD000040[ABPM_._ESCAPE_._CDATA_._END]</extension>
+      <root>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.1.3[ABPM_._ESCAPE_._CDATA_._END]</root>
+    </typeId>
+    <templateId>
+      <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.72.1.51693[ABPM_._ESCAPE_._CDATA_._END]</root>
+    </templateId>
+    <templateId>
+      <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.72.1.51693[ABPM_._ESCAPE_._CDATA_._END]</root>
+    </templateId>
+    <templateId>
+      <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.72.1.51693[ABPM_._ESCAPE_._CDATA_._END]</root>
+    </templateId>
+    <templateId>
+      <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.72.1.51693[ABPM_._ESCAPE_._CDATA_._END]</root>
+    </templateId>
+    <templateId>
+      <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.72.1.51693[ABPM_._ESCAPE_._CDATA_._END]</root>
+    </templateId>
+    <id>
+      <assigningAuthorityName>[ABPM_._ESCAPE_._CDATA_._START]EPC[ABPM_._ESCAPE_._CDATA_._END]</assigningAuthorityName>
+      <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.13.451.2.7.8.688883.148890150[ABPM_._ESCAPE_._CDATA_._END]</root>
+    </id>
+    <code_1>
+      <code>[ABPM_._ESCAPE_._CDATA_._START]34133-9[ABPM_._ESCAPE_._CDATA_._END]</code>
+      <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.6.1[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+      <codeSystemName>[ABPM_._ESCAPE_._CDATA_._START]LOINC[ABPM_._ESCAPE_._CDATA_._END]</codeSystemName>
+      <displayName>[ABPM_._ESCAPE_._CDATA_._START]Summarization of Episode Note[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+    </code_1>
+    <title>[ABPM_._ESCAPE_._CDATA_._START]Epic Mayo Clinic[ABPM_._ESCAPE_._CDATA_._END]</title>
+    <effectiveTime>
+      <value>[ABPM_._ESCAPE_._CDATA_._START]20200604064758-0500[ABPM_._ESCAPE_._CDATA_._END]</value>
+    </effectiveTime>
+    <confidentialityCode>
+      <code>[ABPM_._ESCAPE_._CDATA_._START]N[ABPM_._ESCAPE_._CDATA_._END]</code>
+      <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.5.25[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+      <displayName>[ABPM_._ESCAPE_._CDATA_._START]Normal[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+    </confidentialityCode>
+    <languageCode>
+      <code>[ABPM_._ESCAPE_._CDATA_._START]en-US[ABPM_._ESCAPE_._CDATA_._END]</code>
+    </languageCode>
+    <setId>
+      <assigningAuthorityName>[ABPM_._ESCAPE_._CDATA_._START]EPC[ABPM_._ESCAPE_._CDATA_._END]</assigningAuthorityName>
+      <extension>[ABPM_._ESCAPE_._CDATA_._START]7a9dea90-fcbc-11e8-9264-005056bb5aa2[ABPM_._ESCAPE_._CDATA_._END]</extension>
+      <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.13.451.2.7.1.1[ABPM_._ESCAPE_._CDATA_._END]</root>
+    </setId>
+    <versionNumber>
+      <value>[ABPM_._ESCAPE_._CDATA_._START]7[ABPM_._ESCAPE_._CDATA_._END]</value>
+    </versionNumber>
+    <recordTarget>
+      <patientRole>
+        <id>
+          <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.13.451.2.7.3.688884.100[ABPM_._ESCAPE_._CDATA_._END]</root>
+          <extension>[ABPM_._ESCAPE_._CDATA_._START]TST003904D[ABPM_._ESCAPE_._CDATA_._END]</extension>
+        </id>
+        <addr>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]HP[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <streetAddressLine>[ABPM_._ESCAPE_._CDATA_._START]32 Macaw St[ABPM_._ESCAPE_._CDATA_._END]</streetAddressLine>
+          <county>[ABPM_._ESCAPE_._CDATA_._START]York[ABPM_._ESCAPE_._CDATA_._END]</county>
+          <city>[ABPM_._ESCAPE_._CDATA_._START]Kennebunk[ABPM_._ESCAPE_._CDATA_._END]</city>
+          <state>[ABPM_._ESCAPE_._CDATA_._START]ME[ABPM_._ESCAPE_._CDATA_._END]</state>
+          <postalCode>[ABPM_._ESCAPE_._CDATA_._START]04043[ABPM_._ESCAPE_._CDATA_._END]</postalCode>
+          <country>[ABPM_._ESCAPE_._CDATA_._START]USA[ABPM_._ESCAPE_._CDATA_._END]</country>
+        </addr>
+        <telecom>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]HP[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <value>[ABPM_._ESCAPE_._CDATA_._START]tel:+1-612-855-3000[ABPM_._ESCAPE_._CDATA_._END]</value>
+        </telecom>
+        <telecom>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]HP[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <value>[ABPM_._ESCAPE_._CDATA_._START]tel:+1-612-855-3000[ABPM_._ESCAPE_._CDATA_._END]</value>
+        </telecom>
+        <telecom>
+          <value>[ABPM_._ESCAPE_._CDATA_._START]tel:+1-612-855-3000[ABPM_._ESCAPE_._CDATA_._END]</value>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]HP[ABPM_._ESCAPE_._CDATA_._END]</use>
+        </telecom>
+        <patient>
+          <name>
+            <use>[ABPM_._ESCAPE_._CDATA_._START]L[ABPM_._ESCAPE_._CDATA_._END]</use>
+            <family>[ABPM_._ESCAPE_._CDATA_._START]Singletary[ABPM_._ESCAPE_._CDATA_._END]</family>
+            <given>[ABPM_._ESCAPE_._CDATA_._START]Rory[ABPM_._ESCAPE_._CDATA_._END]</given>
+          </name>
+          <administrativeGenderCode>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]M[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.5.1[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+            <codeSystemName>[ABPM_._ESCAPE_._CDATA_._START]AdministrativeGenderCode[ABPM_._ESCAPE_._CDATA_._END]</codeSystemName>
+            <displayName>[ABPM_._ESCAPE_._CDATA_._START]Male[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+          </administrativeGenderCode>
+          <birthTime>
+            <value>[ABPM_._ESCAPE_._CDATA_._START]20010101[ABPM_._ESCAPE_._CDATA_._END]</value>
+          </birthTime>
+          <sdtcdeceasedInd>
+            <value>[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</value>
+            <xmlnssdtc>[ABPM_._ESCAPE_._CDATA_._START]urn:hl7-org:sdtc[ABPM_._ESCAPE_._CDATA_._END]</xmlnssdtc>
+          </sdtcdeceasedInd>
+          <maritalStatusCode>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]M[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.5.2[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+            <codeSystemName>[ABPM_._ESCAPE_._CDATA_._START]MaritalStatusCode[ABPM_._ESCAPE_._CDATA_._END]</codeSystemName>
+            <displayName>[ABPM_._ESCAPE_._CDATA_._START]Married[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+          </maritalStatusCode>
+          <religiousAffiliationCode>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]1041[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.5.1076[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+            <codeSystemName>[ABPM_._ESCAPE_._CDATA_._START]ReligiousAffiliation[ABPM_._ESCAPE_._CDATA_._END]</codeSystemName>
+          </religiousAffiliationCode>
+          <raceCode>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]2106-3[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.6.238[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+            <codeSystemName>[ABPM_._ESCAPE_._CDATA_._START]CDC Race and Ethnicity[ABPM_._ESCAPE_._CDATA_._END]</codeSystemName>
+            <displayName>[ABPM_._ESCAPE_._CDATA_._START]White[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+          </raceCode>
+          <ethnicGroupCode>
+            <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]UNK[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+          </ethnicGroupCode>
+          <languageCommunication>
+            <languageCode>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]eng[ABPM_._ESCAPE_._CDATA_._END]</code>
+            </languageCode>
+            <modeCode>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]EWR[ABPM_._ESCAPE_._CDATA_._END]</code>
+              <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.5.60[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+              <displayName>[ABPM_._ESCAPE_._CDATA_._START]Expressed Written[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+            </modeCode>
+            <preferenceInd>
+              <value>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</value>
+            </preferenceInd>
+          </languageCommunication>
+        </patient>
+        <providerOrganization>
+          <id>
+            <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.13.451.2.7.2.688879[ABPM_._ESCAPE_._CDATA_._END]</root>
+            <extension>[ABPM_._ESCAPE_._CDATA_._START]37200[ABPM_._ESCAPE_._CDATA_._END]</extension>
+          </id>
+          <name>[ABPM_._ESCAPE_._CDATA_._START]Mayo Clinic[ABPM_._ESCAPE_._CDATA_._END]</name>
+          <telecom>
+            <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]NA[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+          </telecom>
+          <addr>
+            <use>[ABPM_._ESCAPE_._CDATA_._START]WP[ABPM_._ESCAPE_._CDATA_._END]</use>
+            <streetAddressLine>[ABPM_._ESCAPE_._CDATA_._START]200 1st St SW[ABPM_._ESCAPE_._CDATA_._END]</streetAddressLine>
+            <county>[ABPM_._ESCAPE_._CDATA_._START]OLMSTED[ABPM_._ESCAPE_._CDATA_._END]</county>
+            <city>[ABPM_._ESCAPE_._CDATA_._START]ROCHESTER[ABPM_._ESCAPE_._CDATA_._END]</city>
+            <state>[ABPM_._ESCAPE_._CDATA_._START]MN[ABPM_._ESCAPE_._CDATA_._END]</state>
+            <postalCode>[ABPM_._ESCAPE_._CDATA_._START]55905[ABPM_._ESCAPE_._CDATA_._END]</postalCode>
+            <country>[ABPM_._ESCAPE_._CDATA_._START]USA[ABPM_._ESCAPE_._CDATA_._END]</country>
+          </addr>
+        </providerOrganization>
+      </patientRole>
+    </recordTarget>
+    <author>
+      <time>
+        <value>[ABPM_._ESCAPE_._CDATA_._START]20200604064758-0500[ABPM_._ESCAPE_._CDATA_._END]</value>
+      </time>
+      <assignedAuthor>
+        <id>
+          <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.1[ABPM_._ESCAPE_._CDATA_._END]</root>
+          <extension>[ABPM_._ESCAPE_._CDATA_._START]9.1[ABPM_._ESCAPE_._CDATA_._END]</extension>
+        </id>
+        <addr>
+          <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]NA[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+        </addr>
+        <telecom>
+          <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]NA[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+        </telecom>
+        <assignedAuthoringDevice>
+          <manufacturerModelName>[ABPM_._ESCAPE_._CDATA_._START]Epic - Version 9.1[ABPM_._ESCAPE_._CDATA_._END]</manufacturerModelName>
+          <softwareName>[ABPM_._ESCAPE_._CDATA_._START]Epic - Version 9.1[ABPM_._ESCAPE_._CDATA_._END]</softwareName>
+        </assignedAuthoringDevice>
+        <representedOrganization>
+          <id>
+            <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.13.451.2.7.2.688879[ABPM_._ESCAPE_._CDATA_._END]</root>
+            <extension>[ABPM_._ESCAPE_._CDATA_._START]37200[ABPM_._ESCAPE_._CDATA_._END]</extension>
+          </id>
+          <name>[ABPM_._ESCAPE_._CDATA_._START]Mayo Clinic[ABPM_._ESCAPE_._CDATA_._END]</name>
+          <telecom>
+            <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]NA[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+          </telecom>
+          <addr>
+            <use>[ABPM_._ESCAPE_._CDATA_._START]WP[ABPM_._ESCAPE_._CDATA_._END]</use>
+            <streetAddressLine>[ABPM_._ESCAPE_._CDATA_._START]200 1st St SW[ABPM_._ESCAPE_._CDATA_._END]</streetAddressLine>
+            <county>[ABPM_._ESCAPE_._CDATA_._START]OLMSTED[ABPM_._ESCAPE_._CDATA_._END]</county>
+            <city>[ABPM_._ESCAPE_._CDATA_._START]ROCHESTER[ABPM_._ESCAPE_._CDATA_._END]</city>
+            <state>[ABPM_._ESCAPE_._CDATA_._START]MN[ABPM_._ESCAPE_._CDATA_._END]</state>
+            <postalCode>[ABPM_._ESCAPE_._CDATA_._START]55905[ABPM_._ESCAPE_._CDATA_._END]</postalCode>
+            <country>[ABPM_._ESCAPE_._CDATA_._START]USA[ABPM_._ESCAPE_._CDATA_._END]</country>
+          </addr>
+        </representedOrganization>
+      </assignedAuthor>
+    </author>
+    <custodian>
+      <assignedCustodian>
+        <representedCustodianOrganization>
+          <id>
+            <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.13.451.2.7.2.688879[ABPM_._ESCAPE_._CDATA_._END]</root>
+            <extension>[ABPM_._ESCAPE_._CDATA_._START]37200[ABPM_._ESCAPE_._CDATA_._END]</extension>
+          </id>
+          <name>[ABPM_._ESCAPE_._CDATA_._START]Mayo Clinic[ABPM_._ESCAPE_._CDATA_._END]</name>
+          <telecom>
+            <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]NA[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+          </telecom>
+          <addr>
+            <use>[ABPM_._ESCAPE_._CDATA_._START]WP[ABPM_._ESCAPE_._CDATA_._END]</use>
+            <streetAddressLine>[ABPM_._ESCAPE_._CDATA_._START]200 1st St SW[ABPM_._ESCAPE_._CDATA_._END]</streetAddressLine>
+            <county>[ABPM_._ESCAPE_._CDATA_._START]OLMSTED[ABPM_._ESCAPE_._CDATA_._END]</county>
+            <city>[ABPM_._ESCAPE_._CDATA_._START]ROCHESTER[ABPM_._ESCAPE_._CDATA_._END]</city>
+            <state>[ABPM_._ESCAPE_._CDATA_._START]MN[ABPM_._ESCAPE_._CDATA_._END]</state>
+            <postalCode>[ABPM_._ESCAPE_._CDATA_._START]55905[ABPM_._ESCAPE_._CDATA_._END]</postalCode>
+            <country>[ABPM_._ESCAPE_._CDATA_._START]USA[ABPM_._ESCAPE_._CDATA_._END]</country>
+          </addr>
+        </representedCustodianOrganization>
+      </assignedCustodian>
+    </custodian>
+    <participant>
+      <typeCode>[ABPM_._ESCAPE_._CDATA_._START]IND[ABPM_._ESCAPE_._CDATA_._END]</typeCode>
+      <time>
+        <value>[ABPM_._ESCAPE_._CDATA_._START]20190724[ABPM_._ESCAPE_._CDATA_._END]</value>
+      </time>
+      <associatedEntity>
+        <classCode>[ABPM_._ESCAPE_._CDATA_._START]ECON[ABPM_._ESCAPE_._CDATA_._END]</classCode>
+        <id>
+          <root>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.13.451.2.7.2.827665[ABPM_._ESCAPE_._CDATA_._END]</root>
+          <extension>[ABPM_._ESCAPE_._CDATA_._START]6712470[ABPM_._ESCAPE_._CDATA_._END]</extension>
+        </id>
+        <code_1>
+          <code>[ABPM_._ESCAPE_._CDATA_._START]SPS[ABPM_._ESCAPE_._CDATA_._END]</code>
+          <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.5.111[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+          <codeSystemName>[ABPM_._ESCAPE_._CDATA_._START]RoleCode[ABPM_._ESCAPE_._CDATA_._END]</codeSystemName>
+          <displayName>[ABPM_._ESCAPE_._CDATA_._START]Spouse[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+          <originalText>[ABPM_._ESCAPE_._CDATA_._START]Spouse[ABPM_._ESCAPE_._CDATA_._END]</originalText>
+        </code_1>
+        <addr>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]HP[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <streetAddressLine>[ABPM_._ESCAPE_._CDATA_._START]123 Main St[ABPM_._ESCAPE_._CDATA_._END]</streetAddressLine>
+          <county>[ABPM_._ESCAPE_._CDATA_._START]Hennepin[ABPM_._ESCAPE_._CDATA_._END]</county>
+          <city>[ABPM_._ESCAPE_._CDATA_._START]Minneapolis[ABPM_._ESCAPE_._CDATA_._END]</city>
+          <state>[ABPM_._ESCAPE_._CDATA_._START]MN[ABPM_._ESCAPE_._CDATA_._END]</state>
+          <postalCode>[ABPM_._ESCAPE_._CDATA_._START]55402[ABPM_._ESCAPE_._CDATA_._END]</postalCode>
+          <country>[ABPM_._ESCAPE_._CDATA_._START]USA[ABPM_._ESCAPE_._CDATA_._END]</country>
+        </addr>
+        <telecom>
+          <use>[ABPM_._ESCAPE_._CDATA_._START]MC[ABPM_._ESCAPE_._CDATA_._END]</use>
+          <value>[ABPM_._ESCAPE_._CDATA_._START]tel:+1-612-855-3000[ABPM_._ESCAPE_._CDATA_._END]</value>
+        </telecom>
+        <associatedPerson>
+          <name>[ABPM_._ESCAPE_._CDATA_._START]Jane Doe[ABPM_._ESCAPE_._CDATA_._END]</name>
+        </associatedPerson>
+      </associatedEntity>
+    </participant>
+    <documentationOf>
+      <typeCode>[ABPM_._ESCAPE_._CDATA_._START]DOC[ABPM_._ESCAPE_._CDATA_._END]</typeCode>
+      <serviceEvent>
+        <classCode>[ABPM_._ESCAPE_._CDATA_._START]PCPR[ABPM_._ESCAPE_._CDATA_._END]</classCode>
+        <effectiveTime>
+          <low>
+            <value>[ABPM_._ESCAPE_._CDATA_._START]19551201[ABPM_._ESCAPE_._CDATA_._END]</value>
+          </low>
+          <high>
+            <value>[ABPM_._ESCAPE_._CDATA_._START]20200604[ABPM_._ESCAPE_._CDATA_._END]</value>
+          </high>
+        </effectiveTime>
+        <performer>
+          <typeCode>[ABPM_._ESCAPE_._CDATA_._START]PRF[ABPM_._ESCAPE_._CDATA_._END]</typeCode>
+          <functionCode>
+            <code>[ABPM_._ESCAPE_._CDATA_._START]PCP[ABPM_._ESCAPE_._CDATA_._END]</code>
+            <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]2.16.840.1.113883.5.88[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+            <codeSystemName>[ABPM_._ESCAPE_._CDATA_._START]ParticipationFunction[ABPM_._ESCAPE_._CDATA_._END]</codeSystemName>
+            <displayName>[ABPM_._ESCAPE_._CDATA_._START]Primary Care Provider[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+            <originalText>[ABPM_._ESCAPE_._CDATA_._START]General[ABPM_._ESCAPE_._CDATA_._END]</originalText>
+          </functionCode>
+          <time>
+            <low>
+              <value>[ABPM_._ESCAPE_._CDATA_._START]20190516[ABPM_._ESCAPE_._CDATA_._END]</value>
+            </low>
+            <high>
+              <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]PINF[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+            </high>
+          </time>
+          <assignedEntity>
+            <id>
+              <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]UNK[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+            </id>
+            <code_1>
+              <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]UNK[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+              <originalText>[ABPM_._ESCAPE_._CDATA_._START]Internal Medicine[ABPM_._ESCAPE_._CDATA_._END]</originalText>
+            </code_1>
+            <addr>
+              <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]UNK[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+            </addr>
+            <telecom>
+              <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]NA[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+            </telecom>
+            <assignedPerson>
+              <name>
+                <given>[ABPM_._ESCAPE_._CDATA_._START]Pcp[ABPM_._ESCAPE_._CDATA_._END]</given>
+                <family>[ABPM_._ESCAPE_._CDATA_._START]Elsewhere[ABPM_._ESCAPE_._CDATA_._END]</family>
+              </name>
+            </assignedPerson>
+            <representedOrganization>
+              <classCode>[ABPM_._ESCAPE_._CDATA_._START]ORG[ABPM_._ESCAPE_._CDATA_._END]</classCode>
+              <name>[ABPM_._ESCAPE_._CDATA_._START]Mayo Clinic[ABPM_._ESCAPE_._CDATA_._END]</name>
+              <telecom>
+                <nullFlavor>[ABPM_._ESCAPE_._CDATA_._START]UNK[ABPM_._ESCAPE_._CDATA_._END]</nullFlavor>
+              </telecom>
+              <addr>
+                <use>[ABPM_._ESCAPE_._CDATA_._START]WP[ABPM_._ESCAPE_._CDATA_._END]</use>
+                <streetAddressLine>[ABPM_._ESCAPE_._CDATA_._START]200 1st St SW[ABPM_._ESCAPE_._CDATA_._END]</streetAddressLine>
+                <county>[ABPM_._ESCAPE_._CDATA_._START]OLMSTED[ABPM_._ESCAPE_._CDATA_._END]</county>
+                <city>[ABPM_._ESCAPE_._CDATA_._START]ROCHESTER[ABPM_._ESCAPE_._CDATA_._END]</city>
+                <state>[ABPM_._ESCAPE_._CDATA_._START]MN[ABPM_._ESCAPE_._CDATA_._END]</state>
+                <postalCode>[ABPM_._ESCAPE_._CDATA_._START]55905[ABPM_._ESCAPE_._CDATA_._END]</postalCode>
+                <country>[ABPM_._ESCAPE_._CDATA_._START]USA[ABPM_._ESCAPE_._CDATA_._END]</country>
+              </addr>
+            </representedOrganization>
+          </assignedEntity>
+        </performer>
+      </serviceEvent>
+    </documentationOf>
+    <component>
+      <structuredBody>
+        <component>
+          <section>
+            <code_1>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]X-DOCCMT[ABPM_._ESCAPE_._CDATA_._END]</code>
+              <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.72.2[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+              <displayName>[ABPM_._ESCAPE_._CDATA_._START]Document Comments[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+            </code_1>
+            <title>[ABPM_._ESCAPE_._CDATA_._START]Source Comments[ABPM_._ESCAPE_._CDATA_._END]</title>
+            <text>
+              <text_1>[ABPM_._ESCAPE_._CDATA_._START]Patient records contain information from all sites at Mayo Clinic.[ABPM_._ESCAPE_._CDATA_._END]</text_1>
+              <br>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</br>
+              <text2>[ABPM_._ESCAPE_._CDATA_._START]For routine questions regarding patient records, call 507-284-4594 during business hours, M-F 8:00 AM - 5:00 PM Central Time. [ABPM_._ESCAPE_._CDATA_._END]</text2>
+              <text3>[ABPM_._ESCAPE_._CDATA_._START]Record requests for emergency care only can be directed to 507-284-4594 at any time.[ABPM_._ESCAPE_._CDATA_._END]</text3>
+              <footnote>[ABPM_._ESCAPE_._CDATA_._START]Mayo Clinic[ABPM_._ESCAPE_._CDATA_._END]</footnote>
+            </text>
+          </section>
+        </component>
+        <component>
+          <section>
+            <code_1>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]X-DOCCMT[ABPM_._ESCAPE_._CDATA_._END]</code>
+              <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.72.2[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+              <displayName>[ABPM_._ESCAPE_._CDATA_._START]Document Comments[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+            </code_1>
+            <title>[ABPM_._ESCAPE_._CDATA_._START]Source Comments[ABPM_._ESCAPE_._CDATA_._END]</title>
+            <text>
+              <text_1>[ABPM_._ESCAPE_._CDATA_._START]Patient records contain information from all sites at Mayo Clinic.[ABPM_._ESCAPE_._CDATA_._END]</text_1>
+              <br>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</br>
+              <text2>[ABPM_._ESCAPE_._CDATA_._START]For routine questions regarding patient records, call 507-284-4594 during business hours, M-F 8:00 AM - 5:00 PM Central Time. [ABPM_._ESCAPE_._CDATA_._END]</text2>
+              <text3>[ABPM_._ESCAPE_._CDATA_._START]Record requests for emergency care only can be directed to 507-284-4594 at any time.[ABPM_._ESCAPE_._CDATA_._END]</text3>
+              <footnote>[ABPM_._ESCAPE_._CDATA_._START]Mayo Clinic[ABPM_._ESCAPE_._CDATA_._END]</footnote>
+            </text>
+          </section>
+        </component>
+        <component>
+          <section>
+            <code_1>
+              <code>[ABPM_._ESCAPE_._CDATA_._START]X-DOCCMT[ABPM_._ESCAPE_._CDATA_._END]</code>
+              <codeSystem>[ABPM_._ESCAPE_._CDATA_._START]1.2.840.114350.1.72.2[ABPM_._ESCAPE_._CDATA_._END]</codeSystem>
+              <displayName>[ABPM_._ESCAPE_._CDATA_._START]Document Comments[ABPM_._ESCAPE_._CDATA_._END]</displayName>
+            </code_1>
+            <title>[ABPM_._ESCAPE_._CDATA_._START]Source Comments[ABPM_._ESCAPE_._CDATA_._END]</title>
+            <text>
+              <text_1>[ABPM_._ESCAPE_._CDATA_._START]Patient records contain information from all sites at Mayo Clinic.[ABPM_._ESCAPE_._CDATA_._END]</text_1>
+              <br>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</br>
+              <text2>[ABPM_._ESCAPE_._CDATA_._START]For routine questions regarding patient records, call 507-284-4594 during business hours, M-F 8:00 AM - 5:00 PM Central Time. [ABPM_._ESCAPE_._CDATA_._END]</text2>
+              <text3>[ABPM_._ESCAPE_._CDATA_._START]Record requests for emergency care only can be directed to 507-284-4594 at any time.[ABPM_._ESCAPE_._CDATA_._END]</text3>
+              <footnote>[ABPM_._ESCAPE_._CDATA_._START]Mayo Clinic[ABPM_._ESCAPE_._CDATA_._END]</footnote>
+            </text>
+          </section>
+        </component>
+      </structuredBody>
+    </component>
+  </ClinicalDocument>
+</Root>
+]]></au_xsd>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_jsonFilePath><![CDATA[CCDA_source_layout.json]]></au_jsonFilePath>
+        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
+        <au_jsonType><![CDATA[0]]></au_jsonType>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_specialCharacters><![CDATA[{"@xmlns":"xmlns","@code":"code","@extension":"extension","@root":"root","@assigningAuthorityName":"assigningAuthorityName","code":"code_1","@codeSystem":"codeSystem","@codeSystemName":"codeSystemName","@displayName":"displayName","@value":"value","@use":"use","sdtc:deceasedInd":"sdtcdeceasedInd","@xmlns:sdtc":"xmlnssdtc","@nullFlavor":"nullFlavor","@typeCode":"typeCode","@classCode":"classCode","#text":"text_1","#text2":"text2","#text3":"text3"}]]></au_specialCharacters>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_description><![CDATA[CCD_Data_B19]]></au_description>
+        <AU_DEFINITIONFILE><![CDATA[json]]></AU_DEFINITIONFILE>
+        <xsdFilePath><![CDATA[null]]></xsdFilePath>
+        <AU_RECORD_IDENTIFIER_XPATH><![CDATA[]]></AU_RECORD_IDENTIFIER_XPATH>
+        <au_modifiedDate><![CDATA[2025-11-07T06:44:19]]></au_modifiedDate>
+    </AU_JSONSCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_originalJson" type="-1"/>
+        <column name="au_jsonFilePath" type="12"/>
+        <column name="au_specialCharacters" type="-1"/>
+        <column name="au_removeLeadingZeros" type="3"/>
+        <column name="au_jsonType" type="4"/>
+        <column name="au_arrayFields" type="-1"/>
+        <column name="AU_VALIDATION" type="3"/>
+        <column name="AU_REFERENCE_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_RECORD_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_ERROR_PATH_LOCATION" type="12"/>
+        <column name="AU_JSON_SCHEMA_SPECIFICATION" type="3"/>
+        <column name="AU_OPTIMIZE_PROCESSING" type="3"/>
+        <column name="AU_QUEUE_CAPACITY" type="4"/>
+        <column name="AU_DEFINITIONFILE" type="12"/>
+        <column name="AU_ENRICHED_JSON" type="-1"/>
+        <column name="AU_HANDLE_ARRAY_DATA" type="3"/>
+    </columnInfo>
+</data>

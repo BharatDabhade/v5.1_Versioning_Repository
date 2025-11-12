@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_JSONSCHEMA>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <AU_ERROR_PATH_LOCATION><![CDATA[]]></AU_ERROR_PATH_LOCATION>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <AU_JSON_SCHEMA_SPECIFICATION><![CDATA[0]]></AU_JSON_SCHEMA_SPECIFICATION>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_removeLeadingZeros><![CDATA[0]]></au_removeLeadingZeros>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_version><![CDATA[1]]></au_version>
+        <au_description><![CDATA[Drv_FHIR_medication_B21_Target]]></au_description>
+        <au_entityName><![CDATA[Drv_FHIR_medication_B21_Target]]></au_entityName>
+        <au_revision><![CDATA[null]]></au_revision>
+        <AU_VALIDATION><![CDATA[0]]></AU_VALIDATION>
+        <AU_HANDLE_ARRAY_DATA><![CDATA[0]]></AU_HANDLE_ARRAY_DATA>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <AU_REFERENCE_IDENTIFIER_XPATH><![CDATA[]]></AU_REFERENCE_IDENTIFIER_XPATH>
+        <au_specialCharacters><![CDATA[null]]></au_specialCharacters>
+        <au_id><![CDATA[1438095901272842240]]></au_id>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <AU_QUEUE_CAPACITY><![CDATA[1000]]></AU_QUEUE_CAPACITY>
+        <au_arrayFields><![CDATA[/Root/meta/profile,/Root/identifier,/Root/reasonCode,/Root/reasonCode/coding,/Root/dosageInstruction,/Root/dosageInstruction/additionalInstruction,/Root/dosageInstruction/additionalInstruction/coding,/Root/dosageInstruction/asNeededCodeableConcept/coding,/Root/dosageInstruction/route/coding,/Root/dosageInstruction/doseAndRate,/Root/contained,/Root/contained/meta/profile,/Root/contained/code/coding,/Root/contained/form/coding,/Root/contained/ingredient,/Root/contained/ingredient/itemCodeableConcept/coding]]></au_arrayFields>
+        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
+        <au_modifiedDate><![CDATA[2025-11-12T09:21:14]]></au_modifiedDate>
+        <au_xsd><![CDATA[<Root>
+  <resourceType>[ABPM_._ESCAPE_._CDATA_._START]MedicationRequest[ABPM_._ESCAPE_._CDATA_._END]</resourceType>
+  <id>[ABPM_._ESCAPE_._CDATA_._START]7fc60296-0667-4a44-86e5-4c432403532e[ABPM_._ESCAPE_._CDATA_._END]</id>
+  <meta>
+    <profile>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/MedicationRequest[ABPM_._ESCAPE_._CDATA_._END]</profile>
+  </meta>
+  <identifier>
+    <system>[ABPM_._ESCAPE_._CDATA_._START]urn:ietf:rfc:3986[ABPM_._ESCAPE_._CDATA_._END]</system>
+    <value>[ABPM_._ESCAPE_._CDATA_._START]urn:uuid:cdbd33f0-6cde-11db-9fe1-0800200c9a66[ABPM_._ESCAPE_._CDATA_._END]</value>
+  </identifier>
+  <status>[ABPM_._ESCAPE_._CDATA_._START]active[ABPM_._ESCAPE_._CDATA_._END]</status>
+  <intent>[ABPM_._ESCAPE_._CDATA_._START]plan[ABPM_._ESCAPE_._CDATA_._END]</intent>
+  <priority>[ABPM_._ESCAPE_._CDATA_._START]routine[ABPM_._ESCAPE_._CDATA_._END]</priority>
+  <medicationReference>
+    <reference>[ABPM_._ESCAPE_._CDATA_._START]#containedMed[ABPM_._ESCAPE_._CDATA_._END]</reference>
+  </medicationReference>
+  <subject>
+    <reference>[ABPM_._ESCAPE_._CDATA_._START]Patient/18025725[ABPM_._ESCAPE_._CDATA_._END]</reference>
+  </subject>
+  <encounter>
+    <reference>[ABPM_._ESCAPE_._CDATA_._START]Encounter/456789[ABPM_._ESCAPE_._CDATA_._END]</reference>
+    <display>[ABPM_._ESCAPE_._CDATA_._START]Consultation Visit[ABPM_._ESCAPE_._CDATA_._END]</display>
+  </encounter>
+  <authoredOn>[ABPM_._ESCAPE_._CDATA_._START]2013-09-11T16:03:00-07:00[ABPM_._ESCAPE_._CDATA_._END]</authoredOn>
+  <requester>
+    <reference>[ABPM_._ESCAPE_._CDATA_._START]Practitioner/example-practitioner[ABPM_._ESCAPE_._CDATA_._END]</reference>
+    <display>[ABPM_._ESCAPE_._CDATA_._START]Dr. Jane Smith[ABPM_._ESCAPE_._CDATA_._END]</display>
+  </requester>
+  <reasonCode>
+    <coding>
+      <system>[ABPM_._ESCAPE_._CDATA_._START]http://snomed.info/sct[ABPM_._ESCAPE_._CDATA_._END]</system>
+      <code>[ABPM_._ESCAPE_._CDATA_._START]56018004[ABPM_._ESCAPE_._CDATA_._END]</code>
+      <display>[ABPM_._ESCAPE_._CDATA_._START]wheezing[ABPM_._ESCAPE_._CDATA_._END]</display>
+    </coding>
+    <text>[ABPM_._ESCAPE_._CDATA_._START]Wheezing[ABPM_._ESCAPE_._CDATA_._END]</text>
+  </reasonCode>
+  <dosageInstruction>
+    <sequence>1</sequence>
+    <text>[ABPM_._ESCAPE_._CDATA_._START]2 puffs every 4-6 hours as needed[ABPM_._ESCAPE_._CDATA_._END]</text>
+    <patientInstruction>[ABPM_._ESCAPE_._CDATA_._START]Do not overtake[ABPM_._ESCAPE_._CDATA_._END]</patientInstruction>
+    <additionalInstruction>
+      <coding>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://snomed.info/sct[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]1153465004[ABPM_._ESCAPE_._CDATA_._END]</code>
+        <display>[ABPM_._ESCAPE_._CDATA_._START]Education about overdosing[ABPM_._ESCAPE_._CDATA_._END]</display>
+      </coding>
+    </additionalInstruction>
+    <timing>
+      <repeat>
+        <frequency>1</frequency>
+        <period>4</period>
+        <periodMax>6</periodMax>
+        <periodUnit>[ABPM_._ESCAPE_._CDATA_._START]h[ABPM_._ESCAPE_._CDATA_._END]</periodUnit>
+      </repeat>
+    </timing>
+    <asNeededCodeableConcept>
+      <coding>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://snomed.info/sct[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]56018004[ABPM_._ESCAPE_._CDATA_._END]</code>
+        <display>[ABPM_._ESCAPE_._CDATA_._START]wheezing[ABPM_._ESCAPE_._CDATA_._END]</display>
+      </coding>
+    </asNeededCodeableConcept>
+    <route>
+      <coding>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://ncithesaurus-stage.nci.nih.gov[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]C38288[ABPM_._ESCAPE_._CDATA_._END]</code>
+        <display>[ABPM_._ESCAPE_._CDATA_._START]Oral Route of Administration[ABPM_._ESCAPE_._CDATA_._END]</display>
+      </coding>
+    </route>
+    <doseAndRate>
+      <doseQuantity>
+        <value>1</value>
+        <unit>[ABPM_._ESCAPE_._CDATA_._START]spray[ABPM_._ESCAPE_._CDATA_._END]</unit>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://unitsofmeasure.org[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]{actuat}[ABPM_._ESCAPE_._CDATA_._END]</code>
+      </doseQuantity>
+    </doseAndRate>
+    <maxDosePerPeriod>
+      <numerator>
+        <value>6</value>
+        <unit>[ABPM_._ESCAPE_._CDATA_._START]sprays[ABPM_._ESCAPE_._CDATA_._END]</unit>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]{spray}[ABPM_._ESCAPE_._CDATA_._END]</code>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://unitsofmeasure.org[ABPM_._ESCAPE_._CDATA_._END]</system>
+      </numerator>
+      <denominator>
+        <value>1</value>
+        <unit>[ABPM_._ESCAPE_._CDATA_._START]day[ABPM_._ESCAPE_._CDATA_._END]</unit>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]{day}[ABPM_._ESCAPE_._CDATA_._END]</code>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://unitsofmeasure.org[ABPM_._ESCAPE_._CDATA_._END]</system>
+      </denominator>
+    </maxDosePerPeriod>
+  </dosageInstruction>
+  <dispenseRequest>
+    <initialFill>
+      <quantity>
+        <value>1</value>
+        <unit>[ABPM_._ESCAPE_._CDATA_._START]canister[ABPM_._ESCAPE_._CDATA_._END]</unit>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://unitsofmeasure.org[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]{canister}[ABPM_._ESCAPE_._CDATA_._END]</code>
+      </quantity>
+      <duration>
+        <value>30</value>
+        <unit>[ABPM_._ESCAPE_._CDATA_._START]days[ABPM_._ESCAPE_._CDATA_._END]</unit>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://unitsofmeasure.org[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]d[ABPM_._ESCAPE_._CDATA_._END]</code>
+      </duration>
+    </initialFill>
+    <numberOfRepeatsAllowed>1</numberOfRepeatsAllowed>
+    <quantity>
+      <value>3</value>
+      <unit>[ABPM_._ESCAPE_._CDATA_._START]canisters[ABPM_._ESCAPE_._CDATA_._END]</unit>
+      <system>[ABPM_._ESCAPE_._CDATA_._START]http://unitsofmeasure.org[ABPM_._ESCAPE_._CDATA_._END]</system>
+      <code>[ABPM_._ESCAPE_._CDATA_._START]{canister}[ABPM_._ESCAPE_._CDATA_._END]</code>
+    </quantity>
+    <expectedSupplyDuration>
+      <value>90</value>
+      <unit>[ABPM_._ESCAPE_._CDATA_._START]days[ABPM_._ESCAPE_._CDATA_._END]</unit>
+      <system>[ABPM_._ESCAPE_._CDATA_._START]http://unitsofmeasure.org[ABPM_._ESCAPE_._CDATA_._END]</system>
+      <code>[ABPM_._ESCAPE_._CDATA_._START]d[ABPM_._ESCAPE_._CDATA_._END]</code>
+    </expectedSupplyDuration>
+    <validityPeriod>
+      <end>[ABPM_._ESCAPE_._CDATA_._START]2012-11-06[ABPM_._ESCAPE_._CDATA_._END]</end>
+    </validityPeriod>
+    <performer>
+      <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/pharmacy-example[ABPM_._ESCAPE_._CDATA_._END]</reference>
+      <display>[ABPM_._ESCAPE_._CDATA_._START]Community Pharmacy[ABPM_._ESCAPE_._CDATA_._END]</display>
+    </performer>
+  </dispenseRequest>
+  <contained>
+    <resourceType>[ABPM_._ESCAPE_._CDATA_._START]Medication[ABPM_._ESCAPE_._CDATA_._END]</resourceType>
+    <id>[ABPM_._ESCAPE_._CDATA_._START]containedMed[ABPM_._ESCAPE_._CDATA_._END]</id>
+    <meta>
+      <profile>[ABPM_._ESCAPE_._CDATA_._START]http://hl7.org/fhir/StructureDefinition/Medication[ABPM_._ESCAPE_._CDATA_._END]</profile>
+    </meta>
+    <code>
+      <coding>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://www.nlm.nih.gov/research/umls/rxnorm[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]1190220[ABPM_._ESCAPE_._CDATA_._END]</code>
+        <display>[ABPM_._ESCAPE_._CDATA_._START]ACTUAT albuterol 0.1 MG/ACTUAT ... Spray[ABPM_._ESCAPE_._CDATA_._END]</display>
+      </coding>
+      <text>[ABPM_._ESCAPE_._CDATA_._START]Albuterol 0.1mg Spray[ABPM_._ESCAPE_._CDATA_._END]</text>
+    </code>
+    <status>[ABPM_._ESCAPE_._CDATA_._START]active[ABPM_._ESCAPE_._CDATA_._END]</status>
+    <manufacturer>
+      <reference>[ABPM_._ESCAPE_._CDATA_._START]Organization/good-vaccines[ABPM_._ESCAPE_._CDATA_._END]</reference>
+      <display>[ABPM_._ESCAPE_._CDATA_._START]Good Vaccines Inc[ABPM_._ESCAPE_._CDATA_._END]</display>
+    </manufacturer>
+    <form>
+      <coding>
+        <system>[ABPM_._ESCAPE_._CDATA_._START]http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl[ABPM_._ESCAPE_._CDATA_._END]</system>
+        <code>[ABPM_._ESCAPE_._CDATA_._START]C48501[ABPM_._ESCAPE_._CDATA_._END]</code>
+        <display>[ABPM_._ESCAPE_._CDATA_._START]Inhalation dosing unit[ABPM_._ESCAPE_._CDATA_._END]</display>
+      </coding>
+    </form>
+    <ingredient>
+      <itemCodeableConcept>
+        <coding>
+          <system>[ABPM_._ESCAPE_._CDATA_._START]http://snomed.info/sct[ABPM_._ESCAPE_._CDATA_._END]</system>
+          <code>[ABPM_._ESCAPE_._CDATA_._START]387390002[ABPM_._ESCAPE_._CDATA_._END]</code>
+          <display>[ABPM_._ESCAPE_._CDATA_._START]sodium chloride[ABPM_._ESCAPE_._CDATA_._END]</display>
+        </coding>
+        <text>[ABPM_._ESCAPE_._CDATA_._START]sodium chloride[ABPM_._ESCAPE_._CDATA_._END]</text>
+      </itemCodeableConcept>
+      <isActive>true</isActive>
+      <strength>
+        <numerator>
+          <value>[ABPM_._ESCAPE_._CDATA_._START]0.9[ABPM_._ESCAPE_._CDATA_._END]</value>
+          <unit>[ABPM_._ESCAPE_._CDATA_._START]%[ABPM_._ESCAPE_._CDATA_._END]</unit>
+          <system>[ABPM_._ESCAPE_._CDATA_._START]http://unitsofmeasure.org[ABPM_._ESCAPE_._CDATA_._END]</system>
+          <code>[ABPM_._ESCAPE_._CDATA_._START]%[ABPM_._ESCAPE_._CDATA_._END]</code>
+        </numerator>
+        <denominator>
+          <value>100</value>
+          <unit>[ABPM_._ESCAPE_._CDATA_._START]mL[ABPM_._ESCAPE_._CDATA_._END]</unit>
+          <system>[ABPM_._ESCAPE_._CDATA_._START]http://unitsofmeasure.org[ABPM_._ESCAPE_._CDATA_._END]</system>
+          <code>[ABPM_._ESCAPE_._CDATA_._START]mL[ABPM_._ESCAPE_._CDATA_._END]</code>
+        </denominator>
+      </strength>
+    </ingredient>
+    <batch>
+      <lotNumber>[ABPM_._ESCAPE_._CDATA_._START]A12345[ABPM_._ESCAPE_._CDATA_._END]</lotNumber>
+      <expirationDate>[ABPM_._ESCAPE_._CDATA_._START]2026-12-31[ABPM_._ESCAPE_._CDATA_._END]</expirationDate>
+    </batch>
+  </contained>
+</Root>
+]]></au_xsd>
+        <au_originalJson><![CDATA[{
+  "resourceType": "MedicationRequest",
+  "id": "7fc60296-0667-4a44-86e5-4c432403532e",
+  "meta": {"profile": "http://hl7.org/fhir/StructureDefinition/MedicationRequest"},
+  "identifier": [{
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:cdbd33f0-6cde-11db-9fe1-0800200c9a66"
+  }],
+  "status": "active",
+  "intent": "plan",
+  "priority": "routine",
+  "medicationReference": {"reference": "#containedMed"},
+  "subject": {"reference": "Patient/18025725"},
+  "encounter": {
+    "reference": "Encounter/456789",
+    "display": "Consultation Visit"
+  },
+  "authoredOn": "2013-09-11T16:03:00-07:00",
+  "requester": {
+    "reference": "Practitioner/example-practitioner",
+    "display": "Dr. Jane Smith"
+  },
+  "reasonCode": [{
+    "coding": [{
+      "system": "http://snomed.info/sct",
+      "code": "56018004",
+      "display": "wheezing"
+    }],
+    "text": "Wheezing"
+  }],
+  "dosageInstruction": [{
+    "sequence": 1,
+    "text": "2 puffs every 4-6 hours as needed",
+    "patientInstruction": "Do not overtake",
+    "additionalInstruction": [{"coding": [{
+      "system": "http://snomed.info/sct",
+      "code": "1153465004",
+      "display": "Education about overdosing"
+    }]}],
+    "timing": {"repeat": {
+      "frequency": 1,
+      "period": 4,
+      "periodMax": 6,
+      "periodUnit": "h"
+    }},
+    "asNeededCodeableConcept": {"coding": [{
+      "system": "http://snomed.info/sct",
+      "code": "56018004",
+      "display": "wheezing"
+    }]},
+    "route": {"coding": [{
+      "system": "http://ncithesaurus-stage.nci.nih.gov",
+      "code": "C38288",
+      "display": "Oral Route of Administration"
+    }]},
+    "doseAndRate": [{"doseQuantity": {
+      "value": 1,
+      "unit": "spray",
+      "system": "http://unitsofmeasure.org",
+      "code": "{actuat}"
+    }}],
+    "maxDosePerPeriod": {
+      "numerator": {
+        "value": 6,
+        "unit": "sprays",
+        "code": "{spray}",
+        "system": "http://unitsofmeasure.org"
+      },
+      "denominator": {
+        "value": 1,
+        "unit": "day",
+        "code": "{day}",
+        "system": "http://unitsofmeasure.org"
+      }
+    }
+  }],
+  "dispenseRequest": {
+    "initialFill": {
+      "quantity": {
+        "value": 1,
+        "unit": "canister",
+        "system": "http://unitsofmeasure.org",
+        "code": "{canister}"
+      },
+      "duration": {
+        "value": 30,
+        "unit": "days",
+        "system": "http://unitsofmeasure.org",
+        "code": "d"
+      }
+    },
+    "numberOfRepeatsAllowed": 1,
+    "quantity": {
+      "value": 3,
+      "unit": "canisters",
+      "system": "http://unitsofmeasure.org",
+      "code": "{canister}"
+    },
+    "expectedSupplyDuration": {
+      "value": 90,
+      "unit": "days",
+      "system": "http://unitsofmeasure.org",
+      "code": "d"
+    },
+    "validityPeriod": {"end": "2012-11-06"},
+    "performer": {
+      "reference": "Organization/pharmacy-example",
+      "display": "Community Pharmacy"
+    }
+  },
+  "contained": [{
+    "resourceType": "Medication",
+    "id": "containedMed",
+    "meta": {"profile": "http://hl7.org/fhir/StructureDefinition/Medication"},
+    "code": {
+      "coding": [{
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1190220",
+        "display": "ACTUAT albuterol 0.1 MG/ACTUAT ... Spray"
+      }],
+      "text": "Albuterol 0.1mg Spray"
+    },
+    "status": "active",
+    "manufacturer": {
+      "reference": "Organization/good-vaccines",
+      "display": "Good Vaccines Inc"
+    },
+    "form": {"coding": [{
+      "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "code": "C48501",
+      "display": "Inhalation dosing unit"
+    }]},
+    "ingredient": [{
+      "itemCodeableConcept": {
+        "coding": [{
+          "system": "http://snomed.info/sct",
+          "code": "387390002",
+          "display": "sodium chloride"
+        }],
+        "text": "sodium chloride"
+      },
+      "isActive": true,
+      "strength": {
+        "numerator": {
+          "value": "0.9",
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "denominator": {
+          "value": 100,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        }
+      }
+    }],
+    "batch": {
+      "lotNumber": "A12345",
+      "expirationDate": "2026-12-31"
+    }
+  }]
+}]]></au_originalJson>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[0]]></AU_OPTIMIZE_PROCESSING>
+        <au_jsonType><![CDATA[0]]></au_jsonType>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <AU_DEFINITIONFILE><![CDATA[json]]></AU_DEFINITIONFILE>
+        <au_jsonFilePath><![CDATA[FHIR_medication.json]]></au_jsonFilePath>
+        <au_json><![CDATA[{"fieldName":"Root","expanded":true,"leaf":false,"children":[{"fieldName":"resourceType","expanded":true,"isAttribute":false,"value":"MedicationRequest","leaf":true},{"fieldName":"id","expanded":true,"isAttribute":false,"value":"7fc60296-0667-4a44-86e5-4c432403532e","leaf":true},{"fieldName":"meta","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"profile","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/MedicationRequest","leaf":true}]},{"fieldName":"identifier","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"urn:ietf:rfc:3986","leaf":true},{"fieldName":"value","expanded":true,"isAttribute":false,"value":"urn:uuid:cdbd33f0-6cde-11db-9fe1-0800200c9a66","leaf":true}]},{"fieldName":"status","expanded":true,"isAttribute":false,"value":"active","leaf":true},{"fieldName":"intent","expanded":true,"isAttribute":false,"value":"plan","leaf":true},{"fieldName":"priority","expanded":true,"isAttribute":false,"value":"routine","leaf":true},{"fieldName":"medicationReference","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"#containedMed","leaf":true}]},{"fieldName":"subject","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Patient/18025725","leaf":true}]},{"fieldName":"encounter","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Encounter/456789","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Consultation Visit","leaf":true}]},{"fieldName":"authoredOn","expanded":true,"isAttribute":false,"value":"2013-09-11T16:03:00-07:00","leaf":true},{"fieldName":"requester","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Practitioner/example-practitioner","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Dr. Jane Smith","leaf":true}]},{"fieldName":"reasonCode","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://snomed.info/sct","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"56018004","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"wheezing","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Wheezing","leaf":true}]},{"fieldName":"dosageInstruction","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"sequence","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"2 puffs every 4-6 hours as needed","leaf":true},{"fieldName":"patientInstruction","expanded":true,"isAttribute":false,"value":"Do not overtake","leaf":true},{"fieldName":"additionalInstruction","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://snomed.info/sct","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"1153465004","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Education about overdosing","leaf":true}]}]},{"fieldName":"timing","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"repeat","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"frequency","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"period","expanded":true,"isAttribute":false,"value":"4","leaf":true},{"fieldName":"periodMax","expanded":true,"isAttribute":false,"value":"6","leaf":true},{"fieldName":"periodUnit","expanded":true,"isAttribute":false,"value":"h","leaf":true}]}]},{"fieldName":"asNeededCodeableConcept","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://snomed.info/sct","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"56018004","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"wheezing","leaf":true}]}]},{"fieldName":"route","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://ncithesaurus-stage.nci.nih.gov","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"C38288","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Oral Route of Administration","leaf":true}]}]},{"fieldName":"doseAndRate","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"doseQuantity","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"unit","expanded":true,"isAttribute":false,"value":"spray","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://unitsofmeasure.org","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"{actuat}","leaf":true}]}]},{"fieldName":"maxDosePerPeriod","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"numerator","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"value":"6","leaf":true},{"fieldName":"unit","expanded":true,"isAttribute":false,"value":"sprays","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"{spray}","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://unitsofmeasure.org","leaf":true}]},{"fieldName":"denominator","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"unit","expanded":true,"isAttribute":false,"value":"day","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"{day}","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://unitsofmeasure.org","leaf":true}]}]}]},{"fieldName":"dispenseRequest","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"initialFill","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"quantity","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"unit","expanded":true,"isAttribute":false,"value":"canister","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://unitsofmeasure.org","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"{canister}","leaf":true}]},{"fieldName":"duration","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"value":"30","leaf":true},{"fieldName":"unit","expanded":true,"isAttribute":false,"value":"days","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://unitsofmeasure.org","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"d","leaf":true}]}]},{"fieldName":"numberOfRepeatsAllowed","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"quantity","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"value":"3","leaf":true},{"fieldName":"unit","expanded":true,"isAttribute":false,"value":"canisters","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://unitsofmeasure.org","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"{canister}","leaf":true}]},{"fieldName":"expectedSupplyDuration","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"value":"90","leaf":true},{"fieldName":"unit","expanded":true,"isAttribute":false,"value":"days","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://unitsofmeasure.org","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"d","leaf":true}]},{"fieldName":"validityPeriod","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"end","expanded":true,"isAttribute":false,"value":"2012-11-06","leaf":true}]},{"fieldName":"performer","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Organization/pharmacy-example","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Community Pharmacy","leaf":true}]}]},{"fieldName":"contained","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"resourceType","expanded":true,"isAttribute":false,"value":"Medication","leaf":true},{"fieldName":"id","expanded":true,"isAttribute":false,"value":"containedMed","leaf":true},{"fieldName":"meta","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"profile","expanded":true,"isAttribute":false,"value":"http://hl7.org/fhir/StructureDefinition/Medication","leaf":true}]},{"fieldName":"code","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://www.nlm.nih.gov/research/umls/rxnorm","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"1190220","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"ACTUAT albuterol 0.1 MG/ACTUAT ... Spray","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"Albuterol 0.1mg Spray","leaf":true}]},{"fieldName":"status","expanded":true,"isAttribute":false,"value":"active","leaf":true},{"fieldName":"manufacturer","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"reference","expanded":true,"isAttribute":false,"value":"Organization/good-vaccines","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Good Vaccines Inc","leaf":true}]},{"fieldName":"form","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"C48501","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"Inhalation dosing unit","leaf":true}]}]},{"fieldName":"ingredient","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"itemCodeableConcept","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"coding","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://snomed.info/sct","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"387390002","leaf":true},{"fieldName":"display","expanded":true,"isAttribute":false,"value":"sodium chloride","leaf":true}]},{"fieldName":"text","expanded":true,"isAttribute":false,"value":"sodium chloride","leaf":true}]},{"fieldName":"isActive","expanded":true,"isAttribute":false,"value":"true","leaf":true},{"fieldName":"strength","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"numerator","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"value":"0.9","leaf":true},{"fieldName":"unit","expanded":true,"isAttribute":false,"value":"%","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://unitsofmeasure.org","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"%","leaf":true}]},{"fieldName":"denominator","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"value","expanded":true,"isAttribute":false,"value":"100","leaf":true},{"fieldName":"unit","expanded":true,"isAttribute":false,"value":"mL","leaf":true},{"fieldName":"system","expanded":true,"isAttribute":false,"value":"http://unitsofmeasure.org","leaf":true},{"fieldName":"code","expanded":true,"isAttribute":false,"value":"mL","leaf":true}]}]}]},{"fieldName":"batch","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"lotNumber","expanded":true,"isAttribute":false,"value":"A12345","leaf":true},{"fieldName":"expirationDate","expanded":true,"isAttribute":false,"value":"2026-12-31","leaf":true}]}]}]}]]></au_json>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_creationDate><![CDATA[2025-11-12T09:19:41]]></au_creationDate>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <AU_RECORD_IDENTIFIER_XPATH><![CDATA[]]></AU_RECORD_IDENTIFIER_XPATH>
+        <xsdFilePath><![CDATA[null]]></xsdFilePath>
+    </AU_JSONSCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_originalJson" type="-1"/>
+        <column name="au_jsonFilePath" type="12"/>
+        <column name="au_specialCharacters" type="-1"/>
+        <column name="au_removeLeadingZeros" type="3"/>
+        <column name="au_jsonType" type="4"/>
+        <column name="au_arrayFields" type="-1"/>
+        <column name="AU_VALIDATION" type="3"/>
+        <column name="AU_REFERENCE_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_RECORD_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_ERROR_PATH_LOCATION" type="12"/>
+        <column name="AU_JSON_SCHEMA_SPECIFICATION" type="3"/>
+        <column name="AU_OPTIMIZE_PROCESSING" type="3"/>
+        <column name="AU_QUEUE_CAPACITY" type="4"/>
+        <column name="AU_DEFINITIONFILE" type="12"/>
+        <column name="AU_ENRICHED_JSON" type="-1"/>
+        <column name="AU_HANDLE_ARRAY_DATA" type="3"/>
+    </columnInfo>
+</data>

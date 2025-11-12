@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules16731540227616536431.pdf]]></au_pdfFileName>
+        <au_id><![CDATA[1438096525372694528]]></au_id>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_creationDate><![CDATA[2025-11-12T09:22:10]]></au_creationDate>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_sourceSchema><![CDATA[XMLSchema:1438095656803639296]]></au_sourceSchema>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_description><![CDATA[Drv_CCDA_to_FHIR_medication_B21_DM]]></au_description>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <AU_MULTI_VALUED_MAP><![CDATA[<MultiValuedMap/>]]></AU_MULTI_VALUED_MAP>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_concurrentProcessors><![CDATA[0]]></au_concurrentProcessors>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><resourceType></resourceType><id></id><xsl:apply-templates select="ClinicalDocument/code" mode="_Root_meta_order1">
+</xsl:apply-templates><identifier><system><xsl:value-of select="ClinicalDocument/code/@code"/></system><value><xsl:value-of select="ClinicalDocument/effectiveTime/@value"/></value></identifier><status></status><intent></intent><priority></priority><medicationReference><reference></reference></medicationReference><subject><reference></reference></subject><encounter><reference></reference><display></display></encounter><authoredOn></authoredOn><requester><reference></reference><display></display></requester><reasonCode><coding><system></system><code></code><display></display></coding><text></text></reasonCode><dosageInstruction><sequence></sequence><text></text><patientInstruction></patientInstruction><additionalInstruction><coding><system></system><code></code><display></display></coding></additionalInstruction><timing><repeat><frequency></frequency><period></period><periodMax></periodMax><periodUnit></periodUnit></repeat></timing><asNeededCodeableConcept><coding><system></system><code></code><display></display></coding></asNeededCodeableConcept><route><coding><system></system><code></code><display></display></coding></route><doseAndRate><doseQuantity><value></value><unit></unit><system></system><code></code></doseQuantity></doseAndRate><maxDosePerPeriod><numerator><value></value><unit></unit><code></code><system></system></numerator><denominator><value></value><unit></unit><code></code><system></system></denominator></maxDosePerPeriod></dosageInstruction><dispenseRequest><initialFill><quantity><value></value><unit></unit><system></system><code></code></quantity><duration><value></value><unit></unit><system></system><code></code></duration></initialFill><numberOfRepeatsAllowed></numberOfRepeatsAllowed><quantity><value></value><unit></unit><system></system><code></code></quantity><expectedSupplyDuration><value></value><unit></unit><system></system><code></code></expectedSupplyDuration><validityPeriod><end></end></validityPeriod><performer><reference></reference><display></display></performer></dispenseRequest><contained><resourceType></resourceType><id></id><meta><profile></profile></meta><code><coding><system></system><code></code><display></display></coding><text></text></code><status></status><manufacturer><reference></reference><display></display></manufacturer><form><coding><system></system><code></code><display></display></coding></form><ingredient><itemCodeableConcept><coding><system></system><code></code><display></display></coding><text></text></itemCodeableConcept><isActive></isActive><strength><numerator><value></value><unit></unit><system></system><code></code></numerator><denominator><value></value><unit></unit><system></system><code></code></denominator></strength></ingredient><batch><lotNumber></lotNumber><expirationDate></expirationDate></batch></contained></Root></xsl:template><xsl:template match="/ClinicalDocument/code" mode="_Root_meta_order1">
+<meta><profile><xsl:value-of select="../title"/></profile></meta></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_optimizedLoading><![CDATA[0]]></au_optimizedLoading>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <au_targetSchema><![CDATA[JSONSchema:1438095901272842240]]></au_targetSchema>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_version><![CDATA[1]]></au_version>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+    <sourceSchemaID>XMLSchema:1438095656803639296</sourceSchemaID>
+    <targetSchemaID>JSONSchema:1438095901272842240</targetSchemaID>
+    <mappingOwnerGroup>Group_1</mappingOwnerGroup>
+    <mappingOwner>Dhruv Sharma</mappingOwner>
+    <mappingLastModifiedBy>Dhruv Sharma</mappingLastModifiedBy>
+    <mappingCreationDate>Wed Nov 12 09:22:10 GMT 2025</mappingCreationDate>
+    <mappingModifiedDate>Wed Nov 12 11:31:20 GMT 2025</mappingModifiedDate>
+    <reusable>true</reusable>
+    <mappingName>Drv_CCDA_to_FHIR_medication_B21_DM</mappingName>
+    <mappingProject>Project:1435156599879757824</mappingProject>
+    <mappingDescription>Drv_CCDA_to_FHIR_medication_B21_DM</mappingDescription>
+</mappingInformation>
+<sourceRoots>
+    <sourceRoot>
+        <name>ClinicalDocument</name>
+        <schemaName>Drv_CCDA_medication_B21_Src</schemaName>
+        <schemaID>XMLSchema:1438095656803639296</schemaID>
+    </sourceRoot>
+</sourceRoots>
+<targetRoots>
+    <targetRoot>
+        <name>Root</name>
+        <schemaName>Drv_FHIR_medication_B21_Target</schemaName>
+        <schemaID>JSONSchema:1438095901272842240</schemaID>
+        <stream>output_0</stream>
+    </targetRoot>
+</targetRoots>
+<nameSpace>xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"</nameSpace>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>Drv_FHIR_medication_B21_Target</targetName>
+<dest>/Root/meta</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="meta">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code" mapString="&lt;S&gt;$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code" x="0" y="0">
+<SourceLines>
+<Line x1="80" y1="12" x2="0" y2="12"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/ClinicalDocument/code" mapString="$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code" x="0" y="0">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="12" x2="-20" y2="12"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_FHIR_medication_B21_Target</targetName>
+<dest>/Root/identifier/system</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="system">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code" mapString="&lt;S&gt;$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code" x="0" y="0">
+<SourceLines>
+<Line x1="80" y1="12" x2="0" y2="12"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/ClinicalDocument/code/@code" mapString="$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code" x="0" y="0">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="12" x2="-20" y2="12"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_FHIR_medication_B21_Target</targetName>
+<dest>/Root/identifier/value</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="value">
+<Position height="25" identify="&lt;T&gt;" label="/ClinicalDocument/effectiveTime/@value" mapString="$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value" x="0" y="0">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="12" x2="-20" y2="12"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value" mapString="&lt;S&gt;$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value" x="0" y="0">
+<SourceLines>
+<Line x1="80" y1="12" x2="0" y2="12"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_FHIR_medication_B21_Target</targetName>
+<dest>/Root/meta/profile</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="profile">
+<Position height="25" identify="&lt;T&gt;" label="/ClinicalDocument/title" mapString="$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title" x="0" y="0">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="12" x2="-20" y2="12"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title" mapString="&lt;S&gt;$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title" x="0" y="0">
+<SourceLines>
+<Line x1="80" y1="12" x2="0" y2="12"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+    <valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+        <globalTemplate>global</globalTemplate>
+        <customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+    <streamingMode>false</streamingMode>
+    <filterEmptyElements>false</filterEmptyElements>
+    <dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>10</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+    <SelfRecursionLevel>0</SelfRecursionLevel>
+    <EnableTypesBuffering>true</EnableTypesBuffering>
+    <CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+    <consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":[],"filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":10,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":false,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":10,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":false,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":false},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":"b7506dde-669e-4825-99c4-2718af8ea660","sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":500,"parallelProcessing":false,"maximumConcurrentProcessor":0,"CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"mappingInformation":{"sourceSchemaID":"XMLSchema:1438095656803639296","targetSchemaID":"JSONSchema:1438095901272842240","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":true,"mappingName":"Drv_CCDA_to_FHIR_medication_B21_DM","mappingProject":"Project:1435156599879757824","mappingDescription":"Drv_CCDA_to_FHIR_medication_B21_DM"},"namespace":"xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"    ","namespaceList":[{"namespaceName":"xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"","namespaceType":"SchemaDefined"},{"namespaceName":"","namespaceType":"UserDefined"},{"namespaceName":"","namespaceType":"UserDefined"}],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"Drv_FHIR_medication_B21_Target","schemaID":"JSONSchema:1438095901272842240","stream":"output_0"}]},"sourceRoots":{"sourceRoot":[{"name":"ClinicalDocument","schemaName":"Drv_CCDA_medication_B21_Src","schemaID":"XMLSchema:1438095656803639296"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"Drv_FHIR_medication_B21_Target","targetfieldpath":"/Root/meta","xpath":"Drv_FHIR_medication_B21_Target/Root/meta","targetfield":"meta","targetrecord":"Root","expressionPath":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code","expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code","mapping":[{"sourceName":"Drv_CCDA_medication_B21_Src","operatortype":"field","sourcefield":"code","sourcefielddisplayname":"code","sourcefieldpath":"/ClinicalDocument/code","xpath":"Drv_CCDA_medication_B21_Src/ClinicalDocument/code","sourcerecord":"ClinicalDocument","id":"Drv_CCDA_medication_B21_Src/ClinicalDocument/code"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-8777096a-2ff7-4d45-8d37-58a14559020a","type":"TargetElement","label":"meta","value":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code","elementItem":{"expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code","syntax":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code","elementType":"TargetElement","name":"meta","paramsCount":1},"previousElementIds":["GraphicalElement-50ee0724-9db1-4b2b-8a07-587da690bc72"],"nextGraphicalElementIds":[],"nextElementIds":[],"elementPos":[600,30]},{"elementId":"GraphicalElement-50ee0724-9db1-4b2b-8a07-587da690bc72","type":"SourceElement","label":"code","value":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code","elementItem":{"expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code","syntax":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code","elementType":"SourceElement","name":"code","paramsCount":0},"previousElementIds":[],"nextGraphicalElementIds":["GraphicalElement-8777096a-2ff7-4d45-8d37-58a14559020a"],"nextElementIds":["GraphicalElement-8777096a-2ff7-4d45-8d37-58a14559020a_IncomingElement-1"],"elementPos":[300,30]}],"defaultEditor":"graphical","markComplete":false,"mapId":"Drv_FHIR_medication_B21_Target/Root/meta"},{"order":1,"targetName":"Drv_FHIR_medication_B21_Target","targetfieldpath":"/Root/identifier/system","xpath":"Drv_FHIR_medication_B21_Target/Root/identifier/system","targetfield":"system","targetrecord":"identifier","expressionPath":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code","expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code","mapping":[{"sourceName":"Drv_CCDA_medication_B21_Src","operatortype":"field","sourcefield":"@code","sourcefielddisplayname":"@code","sourcefieldpath":"/ClinicalDocument/code/@code","xpath":"Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code","sourcerecord":"code","id":"Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-d799f27f-44c4-4263-a181-129f43224d5f","type":"TargetElement","label":"system","value":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code","elementItem":{"expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code","syntax":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code","elementType":"TargetElement","name":"system","paramsCount":1},"previousElementIds":["GraphicalElement-c3bef27c-5b9c-426c-9e3f-cbd6661d8e26"],"nextGraphicalElementIds":[],"nextElementIds":[],"elementPos":[600,30]},{"elementId":"GraphicalElement-c3bef27c-5b9c-426c-9e3f-cbd6661d8e26","type":"SourceElement","label":"@code","value":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code","elementItem":{"expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code","syntax":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/code/@code","elementType":"SourceElement","name":"@code","paramsCount":0},"previousElementIds":[],"nextGraphicalElementIds":["GraphicalElement-d799f27f-44c4-4263-a181-129f43224d5f"],"nextElementIds":["GraphicalElement-d799f27f-44c4-4263-a181-129f43224d5f_IncomingElement-1"],"elementPos":[300,30]}],"defaultEditor":"graphical","markComplete":false,"mapId":"Drv_FHIR_medication_B21_Target/Root/identifier/system"},{"order":1,"targetName":"Drv_FHIR_medication_B21_Target","targetfieldpath":"/Root/identifier/value","xpath":"Drv_FHIR_medication_B21_Target/Root/identifier/value","targetfield":"value","targetrecord":"identifier","expressionPath":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value","expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value","mapping":[{"sourceName":"Drv_CCDA_medication_B21_Src","operatortype":"field","sourcefield":"@value","sourcefielddisplayname":"@value","sourcefieldpath":"/ClinicalDocument/effectiveTime/@value","xpath":"Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value","sourcerecord":"effectiveTime","id":"Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-062fbec2-93e9-4c2a-93d9-0480ec657cf7","type":"TargetElement","label":"value","value":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value","elementItem":{"expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value","syntax":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value","elementType":"TargetElement","name":"value","paramsCount":1},"previousElementIds":["GraphicalElement-14db7ca6-b2f4-4d97-bc2a-fc13af8e0f39"],"nextGraphicalElementIds":[],"nextElementIds":[],"elementPos":[600,30]},{"elementId":"GraphicalElement-14db7ca6-b2f4-4d97-bc2a-fc13af8e0f39","type":"SourceElement","label":"@value","value":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value","elementItem":{"expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value","syntax":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/effectiveTime/@value","elementType":"SourceElement","name":"@value","paramsCount":0},"previousElementIds":[],"nextGraphicalElementIds":["GraphicalElement-062fbec2-93e9-4c2a-93d9-0480ec657cf7"],"nextElementIds":["GraphicalElement-062fbec2-93e9-4c2a-93d9-0480ec657cf7_IncomingElement-1"],"elementPos":[300,30]}],"defaultEditor":"graphical","markComplete":false,"mapId":"Drv_FHIR_medication_B21_Target/Root/identifier/value"},{"order":1,"targetName":"Drv_FHIR_medication_B21_Target","targetfieldpath":"/Root/meta/profile","xpath":"Drv_FHIR_medication_B21_Target/Root/meta/profile","targetfield":"profile","targetrecord":"meta","expressionPath":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title","expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title","mapping":[{"sourceName":"Drv_CCDA_medication_B21_Src","operatortype":"field","sourcefield":"title","sourcefielddisplayname":"title","sourcefieldpath":"/ClinicalDocument/title","xpath":"Drv_CCDA_medication_B21_Src/ClinicalDocument/title","sourcerecord":"ClinicalDocument","id":"Drv_CCDA_medication_B21_Src/ClinicalDocument/title"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-918704f7-f067-4277-81e4-430fd7a271f3","type":"TargetElement","label":"profile","value":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title","elementItem":{"expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title","syntax":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title","elementType":"TargetElement","name":"profile","paramsCount":1},"previousElementIds":["GraphicalElement-026c32ec-ae14-4037-92a8-016114aad92b"],"nextGraphicalElementIds":[],"nextElementIds":[],"elementPos":[600,30]},{"elementId":"GraphicalElement-026c32ec-ae14-4037-92a8-016114aad92b","type":"SourceElement","label":"title","value":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title","elementItem":{"expression":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title","syntax":"$Input_Drv_CCDA_medication_B21_Src/ClinicalDocument/title","elementType":"SourceElement","name":"title","paramsCount":0},"previousElementIds":[],"nextGraphicalElementIds":["GraphicalElement-918704f7-f067-4277-81e4-430fd7a271f3"],"nextElementIds":["GraphicalElement-918704f7-f067-4277-81e4-430fd7a271f3_IncomingElement-1"],"elementPos":[300,30]}],"defaultEditor":"graphical","markComplete":false,"mapId":"Drv_FHIR_medication_B21_Target/Root/meta/profile"}],"sourceExpandLevel":3,"targetExpandLevel":3,"metaData":""}]]></au_json>
+        <au_entityName><![CDATA[Drv_CCDA_to_FHIR_medication_B21_DM]]></au_entityName>
+        <au_modifiedDate><![CDATA[2025-11-12T11:31:21]]></au_modifiedDate>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+        <column name="AU_MULTI_VALUED_MAP" type="-1"/>
+    </columnInfo>
+</data>

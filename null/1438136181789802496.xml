@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_RULE>
+        <au_meta_data><![CDATA[{"resultField":"[{\"name\":\"data/invoice/date\",\"location\":\"data/invoice/date\"}]","editor":"Check if&nbsp;<span class=\"DefineRule-module__chip___ZpTAO\" contenteditable=\"false\" title=\"data/invoice/date\">date</span>&nbsp;is not blank","yield":"no","failureMessage":""}]]></au_meta_data>
+        <au_python_code><![CDATA[def rule_1438136016706744320(inp_data):
+    results = []
+    try:
+        dates = inp_data.get('data', [{}])[0].get('invoice', {}).get('date', [])
+        if not isinstance(dates, list):
+            dates = [dates]
+        element_location = inp_data.get('data', [{}])[0].get('invoice', {}).get('element_location', '')
+        for date in dates:
+            if date:
+                results.append({'data/invoice/date': date, 'identifier1_location': element_location, 'result': 'PASS'})
+            else:
+                results.append({'data/invoice/date': '', 'identifier1_location': element_location, 'result': 'FAIL'})
+    except:
+        results.append({'data/invoice/date': '', 'identifier1_location': '', 'result': 'FAIL'})
+    return results]]></au_python_code>
+        <au_projectOwner><![CDATA[Project:1435156599879757824]]></au_projectOwner>
+        <au_id><![CDATA[1438136181789802496]]></au_id>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_definition><![CDATA[Check if 'data/invoice/date' is not blank]]></au_definition>
+        <au_rule_data><![CDATA[]]></au_rule_data>
+        <au_additional_instructions><![CDATA[]]></au_additional_instructions>
+        <au_entityName><![CDATA[PO_rule12]]></au_entityName>
+        <au_python_code_temp><![CDATA[]]></au_python_code_temp>
+        <au_activateFlag><![CDATA[1]]></au_activateFlag>
+        <au_rule_severity><![CDATA[false]]></au_rule_severity>
+        <au_failure_message><![CDATA[]]></au_failure_message>
+        <au_version><![CDATA[1]]></au_version>
+        <au_rule_order><![CDATA[2]]></au_rule_order>
+        <au_status><![CDATA[Tested]]></au_status>
+        <au_business_rule_id><![CDATA[1438136181785608192]]></au_business_rule_id>
+        <au_modifiedDate><![CDATA[2025-11-12T11:59:45]]></au_modifiedDate>
+        <au_description><![CDATA[PO_rule12]]></au_description>
+        <au_meta_data_temp><![CDATA[]]></au_meta_data_temp>
+    </AU_RULE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_rule_data" type="-1"/>
+        <column name="au_python_code" type="-1"/>
+        <column name="au_python_code_temp" type="-1"/>
+        <column name="au_failure_message" type="12"/>
+        <column name="au_meta_data" type="-1"/>
+        <column name="au_meta_data_temp" type="-1"/>
+        <column name="au_rule_order" type="4"/>
+        <column name="au_rule_severity" type="12"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_business_rule_id" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_definition" type="12"/>
+        <column name="au_additional_instructions" type="12"/>
+        <column name="au_status" type="12"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_activateFlag" type="3"/>
+    </columnInfo>
+</data>
