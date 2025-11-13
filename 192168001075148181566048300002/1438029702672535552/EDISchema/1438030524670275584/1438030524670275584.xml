@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_EDISCHEMA>
-        <au_description><![CDATA[X12_004010_850]]></au_description>
-        <au_isSkipCompliance><![CDATA[1]]></au_isSkipCompliance>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_version><![CDATA[1]]></au_version>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
         <au_projectOwner><![CDATA[Project:1438029702672535552]]></au_projectOwner>
+        <au_creationDate><![CDATA[2025-11-12T04:59:54]]></au_creationDate>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
         <au_dataDictionaryId><![CDATA[EDIDataDictionary:192168001034125076550892800011]]></au_dataDictionaryId>
-        <au_userOwner><![CDATA[IndigoUser:1435148886240129024]]></au_userOwner>
+        <au_description><![CDATA[X12_004010_850]]></au_description>
         <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_comments><![CDATA[null]]></au_comments>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_isSkipCompliance><![CDATA[1]]></au_isSkipCompliance>
+        <au_version><![CDATA[1]]></au_version>
+        <au_userOwner><![CDATA[IndigoUser:1435148886240129024]]></au_userOwner>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
         <au_modifiedDate><![CDATA[2025-11-12T04:59:54]]></au_modifiedDate>
-        <au_modifiedBy><![CDATA[IndigoUser:1435148886240129024]]></au_modifiedBy>
+        <au_entityName><![CDATA[X12_004010_850]]></au_entityName>
         <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
         <au_id><![CDATA[1438030524670275584]]></au_id>
-        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_comments><![CDATA[null]]></au_comments>
         <au_xsd><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 <xs:include schemaLocation="/shared/EDISchemas/X12_004010/004010_850.xsd"/>
@@ -47,12 +49,10 @@
 </xs:complexType>
 </xs:element>
 </xs:schema>]]></au_xsd>
-        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_revision><![CDATA[19db854ddc593247fb4b0d53fc8953ac1bcd3363]]></au_revision>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:1435148886240129024]]></au_modifiedBy>
         <xsdFilePath><![CDATA[Dictionary:004010_850:850:Dummy]]></xsdFilePath>
-        <au_entityName><![CDATA[X12_004010_850]]></au_entityName>
-        <au_creationDate><![CDATA[2025-11-12T04:59:54]]></au_creationDate>
-        <au_revision><![CDATA[null]]></au_revision>
     </AU_EDISCHEMA>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>

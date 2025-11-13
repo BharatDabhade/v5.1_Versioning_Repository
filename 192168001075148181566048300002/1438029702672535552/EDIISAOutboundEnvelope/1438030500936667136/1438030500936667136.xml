@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_EDIISAOUTBOUNDEnvelope>
-        <au_segmentLineBreak><![CDATA[CRLF]]></au_segmentLineBreak>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_intReceiverIDQualifier><![CDATA[21]]></au_intReceiverIDQualifier>
-        <au_securityCodeQualifier><![CDATA[00]]></au_securityCodeQualifier>
-        <au_lastUsedIntControlNo><![CDATA[000000000]]></au_lastUsedIntControlNo>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_hexaCheckSegment><![CDATA[0]]></au_hexaCheckSegment>
-        <au_intReceiverID><![CDATA[EDIP1]]></au_intReceiverID>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_version><![CDATA[1]]></au_version>
-        <au_hexaCheckRepetition><![CDATA[0]]></au_hexaCheckRepetition>
-        <au_interchangeStandards><![CDATA[U]]></au_interchangeStandards>
         <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_modifiedDate><![CDATA[2025-11-12T06:20:53]]></au_modifiedDate>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_elementSepChar><![CDATA[42]]></au_elementSepChar>
-        <au_repetitionSepChar><![CDATA[0]]></au_repetitionSepChar>
-        <au_authcode><![CDATA[]]></au_authcode>
-        <au_hexaCheckElement><![CDATA[0]]></au_hexaCheckElement>
-        <au_hexaCheckSubElement><![CDATA[0]]></au_hexaCheckSubElement>
-        <au_entityName><![CDATA[sv_Isa_nvelop]]></au_entityName>
-        <au_projectOwner><![CDATA[Project:1438029702672535552]]></au_projectOwner>
-        <au_interVersionID><![CDATA[00401]]></au_interVersionID>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_parentServiceTypedID><![CDATA[EDITradingPartner:1438029701682679808]]></au_parentServiceTypedID>
-        <au_securityCode><![CDATA[]]></au_securityCode>
+        <au_lastUsedIntControlNo><![CDATA[000000000]]></au_lastUsedIntControlNo>
         <au_intSenderIDQualifier><![CDATA[12]]></au_intSenderIDQualifier>
-        <au_acknowledge><![CDATA[1]]></au_acknowledge>
-        <au_creationDate><![CDATA[2025-11-12T04:59:49]]></au_creationDate>
-        <au_authCodeQualifier><![CDATA[00]]></au_authCodeQualifier>
-        <au_userOwner><![CDATA[IndigoUser:1435148886240129024]]></au_userOwner>
-        <au_intSenderID><![CDATA[EDIP2]]></au_intSenderID>
-        <au_interUsedGlobalControlNo><![CDATA[0]]></au_interUsedGlobalControlNo>
         <au_segmentTermChar><![CDATA[126]]></au_segmentTermChar>
-        <au_modifiedBy><![CDATA[IndigoUser:1435148886240129024]]></au_modifiedBy>
-        <au_id><![CDATA[1438030500936667136]]></au_id>
-        <au_description><![CDATA[test]]></au_description>
-        <au_subElementSepChar><![CDATA[58]]></au_subElementSepChar>
         <au_testIndicator><![CDATA[T]]></au_testIndicator>
+        <au_repetitionSepChar><![CDATA[0]]></au_repetitionSepChar>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_intReceiverIDQualifier><![CDATA[21]]></au_intReceiverIDQualifier>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_hexaCheckRepetition><![CDATA[0]]></au_hexaCheckRepetition>
+        <au_subElementSepChar><![CDATA[58]]></au_subElementSepChar>
+        <au_modifiedBy><![CDATA[IndigoUser:1435148886240129024]]></au_modifiedBy>
+        <au_securityCode><![CDATA[]]></au_securityCode>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_id><![CDATA[1438030500936667136]]></au_id>
+        <au_hexaCheckSegment><![CDATA[0]]></au_hexaCheckSegment>
+        <au_hexaCheckSubElement><![CDATA[0]]></au_hexaCheckSubElement>
+        <au_hexaCheckElement><![CDATA[0]]></au_hexaCheckElement>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_authCodeQualifier><![CDATA[00]]></au_authCodeQualifier>
+        <au_elementSepChar><![CDATA[42]]></au_elementSepChar>
+        <au_segmentLineBreak><![CDATA[CRLF]]></au_segmentLineBreak>
+        <au_interVersionID><![CDATA[00401]]></au_interVersionID>
+        <au_modifiedDate><![CDATA[2025-11-12T06:20:53]]></au_modifiedDate>
+        <au_parentServiceTypedID><![CDATA[EDITradingPartner:1438029701682679808]]></au_parentServiceTypedID>
+        <au_version><![CDATA[1]]></au_version>
+        <au_description><![CDATA[test]]></au_description>
+        <au_acknowledge><![CDATA[1]]></au_acknowledge>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_authcode><![CDATA[]]></au_authcode>
+        <au_intSenderID><![CDATA[EDIP2]]></au_intSenderID>
+        <au_userOwner><![CDATA[IndigoUser:1435148886240129024]]></au_userOwner>
+        <au_entityName><![CDATA[sv_Isa_nvelop]]></au_entityName>
+        <au_interchangeStandards><![CDATA[U]]></au_interchangeStandards>
+        <au_creationDate><![CDATA[2025-11-12T04:59:49]]></au_creationDate>
+        <au_intReceiverID><![CDATA[EDIP1]]></au_intReceiverID>
+        <au_interUsedGlobalControlNo><![CDATA[0]]></au_interUsedGlobalControlNo>
+        <au_securityCodeQualifier><![CDATA[00]]></au_securityCodeQualifier>
+        <au_projectOwner><![CDATA[Project:1438029702672535552]]></au_projectOwner>
+        <au_revision><![CDATA[19db854ddc593247fb4b0d53fc8953ac1bcd3363]]></au_revision>
     </AU_EDIISAOUTBOUNDEnvelope>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_TEXTSCHEMA>
-        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
-        <au_projectOwner><![CDATA[Project:1438029702672535552]]></au_projectOwner>
-        <au_modifiedBy><![CDATA[IndigoUser:1435148886240129024]]></au_modifiedBy>
-        <au_decryptSecretKey><![CDATA[null]]></au_decryptSecretKey>
-        <au_headerPresent><![CDATA[1]]></au_headerPresent>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
-        <au_version><![CDATA[1]]></au_version>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_revision><![CDATA[19db854ddc593247fb4b0d53fc8953ac1bcd3363]]></au_revision>
+        <AU_QUEUECAPACITY><![CDATA[1000]]></AU_QUEUECAPACITY>
+        <au_id><![CDATA[1438031119537786880]]></au_id>
+        <au_creationDate><![CDATA[2025-11-12T05:02:16]]></au_creationDate>
+        <au_modifiedDate><![CDATA[2025-11-12T05:02:22]]></au_modifiedDate>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_json><![CDATA[null]]></au_json>
         <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="Root">
@@ -73,27 +74,26 @@
 		</xs:complexType>
 	</xs:element>
 </xs:schema>]]></au_xsd>
-        <au_id><![CDATA[1438031119537786880]]></au_id>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_advancedSchema><![CDATA[1]]></au_advancedSchema>
-        <AU_QUEUECAPACITY><![CDATA[1000]]></AU_QUEUECAPACITY>
-        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
-        <au_creationDate><![CDATA[2025-11-12T05:02:16]]></au_creationDate>
-        <au_quotesHandlingOn><![CDATA[0]]></au_quotesHandlingOn>
         <AU_OPTIMIZE_PROCESSING><![CDATA[0]]></AU_OPTIMIZE_PROCESSING>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_encloseFieldsInQuotes><![CDATA[0]]></au_encloseFieldsInQuotes>
-        <au_encryptSecretKey><![CDATA[null]]></au_encryptSecretKey>
-        <au_description><![CDATA[asd]]></au_description>
-        <xsdFilePath><![CDATA[]]></xsdFilePath>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_json><![CDATA[null]]></au_json>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
         <au_userOwner><![CDATA[IndigoUser:1435148886240129024]]></au_userOwner>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
+        <au_encloseFieldsInQuotes><![CDATA[0]]></au_encloseFieldsInQuotes>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_projectOwner><![CDATA[Project:1438029702672535552]]></au_projectOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:1435148886240129024]]></au_modifiedBy>
+        <au_description><![CDATA[asd]]></au_description>
+        <au_headerPresent><![CDATA[1]]></au_headerPresent>
+        <au_decryptSecretKey><![CDATA[null]]></au_decryptSecretKey>
         <au_entityName><![CDATA[sv_text_B19]]></au_entityName>
-        <au_modifiedDate><![CDATA[2025-11-12T05:02:22]]></au_modifiedDate>
+        <au_quotesHandlingOn><![CDATA[0]]></au_quotesHandlingOn>
+        <xsdFilePath><![CDATA[]]></xsdFilePath>
+        <au_version><![CDATA[1]]></au_version>
+        <au_advancedSchema><![CDATA[1]]></au_advancedSchema>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_encryptSecretKey><![CDATA[null]]></au_encryptSecretKey>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
     </AU_TEXTSCHEMA>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
