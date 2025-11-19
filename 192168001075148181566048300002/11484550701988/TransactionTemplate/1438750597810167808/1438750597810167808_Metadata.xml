@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AC_TEMPLATE_METADATA>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <SEQUENCE_ID><![CDATA[6]]></SEQUENCE_ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[1438750597810167808]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <ID><![CDATA[1438750793633832960]]></ID>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <TYPE><![CDATA[EDIInboundRelationship]]></TYPE>
+        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <ACTIVITY_ID><![CDATA[null]]></ACTIVITY_ID>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <SEQUENCE_TYPE><![CDATA[EDIInboundRelationship]]></SEQUENCE_TYPE>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <PARAMETER_JSON><![CDATA[{"inboundSourceType":"none","interUsedGlobalControlNo":false,"docAdvGenerateAck":"no","docAdvLastUsedControlNo":"","docAdvSequenceCheck":"None","docAdvSkipComplianceCheck":false,"docAdvTestIndicator":"T","ediStandardVersion":"004010","groupAdvLastUsedControlNo":"","translations":"1","groupAdvSequenceCheck":"None","interAdvLastUsedControlNo":"","interAdvSequenceCheck":"None","ediTransactionSet":"214","docUsedGlobalControlNo":false,"groupUsedGlobalControlNo":false,"groupFunctionalID":"QM","modeForTranslations1":"Create","timestampForTranslations1":false,"timestampForTranslations2":false,"timestampForTranslations3":false,"associationAssignedCode":"21","targetFileName1":"Self_IN|0|0|txt|Y","isDecryptionRequired":false,"isEncryptionRequired":false,"concurrentProcessors":1,"transCountToProcess":2000,"ackStandard":"","hipaa":"false","ackProcessing":"reconcile","ediStandard":"X12","targetActivity1":"LanFileTarget:1435868089293205504","targetActivity2":"none","targetActivityType1":"LanFileTarget","translationsMapping1":"DataMapping:1438751116448440320","targetActivityType2":"none","targetActivityType3":"none","inboundSourceLocation":"none","translationsMapping2":"None","translationsMapping3":"None","targetActivity3":"none","status":"ON","activeVersion":true,"synchronized":false,"permissionMask":"770","entityName":"EDIInboundRelationship_1438750597810167808_6","typedId":{"type":"EDIInboundRelationship"},"description":"EDIInboundRelationship_1438750597810167808_6"}]]></PARAMETER_JSON>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <SEQUENCE_ID><![CDATA[2]]></SEQUENCE_ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[1438750597810167808]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <ID><![CDATA[1438750793658998784]]></ID>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <TYPE><![CDATA[EDISchema]]></TYPE>
+        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <ACTIVITY_ID><![CDATA[1435867392300544000]]></ACTIVITY_ID>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <SEQUENCE_TYPE><![CDATA[Schema]]></SEQUENCE_TYPE>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <SEQUENCE_ID><![CDATA[5]]></SEQUENCE_ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[1438750597810167808]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <ID><![CDATA[1438750976442572800]]></ID>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <TYPE><![CDATA[LanFileTarget]]></TYPE>
+        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <ACTIVITY_ID><![CDATA[1435868089293205504]]></ACTIVITY_ID>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <SEQUENCE_TYPE><![CDATA[Action]]></SEQUENCE_TYPE>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <SEQUENCE_ID><![CDATA[4]]></SEQUENCE_ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[1438750597810167808]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <ID><![CDATA[1438750993123319808]]></ID>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <TYPE><![CDATA[TextSchema]]></TYPE>
+        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <ACTIVITY_ID><![CDATA[1435868577908649984]]></ACTIVITY_ID>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <SEQUENCE_TYPE><![CDATA[Schema]]></SEQUENCE_TYPE>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <SEQUENCE_ID><![CDATA[3]]></SEQUENCE_ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[1438750597810167808]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <ID><![CDATA[1438751208983175168]]></ID>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <TYPE><![CDATA[DataMapping]]></TYPE>
+        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <ACTIVITY_ID><![CDATA[1438751116448440320]]></ACTIVITY_ID>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <SEQUENCE_TYPE><![CDATA[Mapping]]></SEQUENCE_TYPE>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+    </AC_TEMPLATE_METADATA>
+    <columnInfo dbtype="0">
+        <column name="ID" type="-5"/>
+        <column name="ACCOUNT_ID" type="12"/>
+        <column name="ACTIVITY_ID" type="12"/>
+        <column name="DISCRIMINATOR_TYPE" type="12"/>
+        <column name="FILE_NAME" type="-1"/>
+        <column name="IS_UNIQUE_FILE" type="-7"/>
+        <column name="SEQUENCE_ID" type="4"/>
+        <column name="SEQUENCE_TYPE" type="12"/>
+        <column name="SERVICE_VARIABLE" type="-1"/>
+        <column name="TARGET_FILE_EXTENSION" type="12"/>
+        <column name="APP_TYPE" type="12"/>
+        <column name="TYPE" type="12"/>
+        <column name="OPERATION" type="12"/>
+        <column name="REFERENCE_FIELD" type="-1"/>
+        <column name="TRANSACTION_ENTITY_JSON" type="12"/>
+        <column name="EXTERNAL_ID" type="12"/>
+        <column name="TRANSACTION_TEMPLATE_ID" type="-5"/>
+        <column name="PARAMETER_JSON" type="-1"/>
+        <column name="ALIAS_NAME" type="12"/>
+    </columnInfo>
+</data>
