@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_DASHBOARDDESIGN>
+        <au_pieChart><![CDATA[Pie_chart_Query:1442159282547142656]]></au_pieChart>
+        <au_id><![CDATA[1442163500332867584]]></au_id>
+        <au_creationDate><![CDATA[2025-11-23T14:42:53]]></au_creationDate>
+        <au_entityName><![CDATA[Pie_Chart_Copy]]></au_entityName>
+        <au_modifiedDate><![CDATA[2025-11-23T14:42:53]]></au_modifiedDate>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_version><![CDATA[1]]></au_version>
+        <au_barChart><![CDATA[Pie_chart_Copy1:1442161374525382656]]></au_barChart>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_projectOwner><![CDATA[Project:1438759026417905664]]></au_projectOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:1432256834132979712]]></au_modifiedBy>
+        <au_userOwner><![CDATA[IndigoUser:1432256834132979712]]></au_userOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_stringChart><![CDATA[]]></au_stringChart>
+        <au_tableChart><![CDATA[]]></au_tableChart>
+        <au_description><![CDATA[Pie_ChartPie_ChartPie_ChartPie_ChartPie_ChartPie_ChartPie_ChartPie_ChartPie_ChartPie_Chart]]></au_description>
+    </AU_DASHBOARDDESIGN>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_barChart" type="12"/>
+        <column name="au_pieChart" type="12"/>
+        <column name="au_tableChart" type="12"/>
+        <column name="au_stringChart" type="12"/>
+    </columnInfo>
+</data>
