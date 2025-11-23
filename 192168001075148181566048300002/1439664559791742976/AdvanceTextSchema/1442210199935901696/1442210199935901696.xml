@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_ADVANCETEXTSCHEMA>
-        <au_description><![CDATA[KG_AdvText_B22]]></au_description>
-        <au_modifiedDate><![CDATA[2025-11-23T17:52:28]]></au_modifiedDate>
+        <au_projectOwner><![CDATA[Project:1439664559791742976]]></au_projectOwner>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_modifiedDate><![CDATA[2025-11-23T17:54:17]]></au_modifiedDate>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
         <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_projectOwner><![CDATA[Project:1439664559791742976]]></au_projectOwner>
-        <au_version><![CDATA[1]]></au_version>
-        <au_json><![CDATA[{"schema":{"defineMode":"data","entityName":"KG_AdvText_B22_Data_edit","schemaType":"advancetext","entityId":"","description":"KG_AdvText_B22","permissionMask":"770","userOwner":"","fieldSeparator":"\\t","encodingUsed":"UTF-8","project":"Project:1439664559791742976"},"appInfo":{"XSDVersion":"1","skipHeaderRow":"0","skipFooterRow":"0","encoding":"UTF-8","recordSeparatorText":"\\n","fieldSeparatorText":"\\t","targetFieldSeparator":"","IdentifierDefOption":"firstFieldIdentifier","quotesHandlingOn":false,"encloseFieldsInQuotes":false,"allowLessFields":false,"removeLastNewLineSeperator":true,"ignoreHeader":false,"lookAhead":false,"singleRecordType":false,"removeInvalidChar":false,"removeRecordIdentifier":false,"arrayLayout":false,"dbConnectionInfoId":"","commitCount":"1000","encodingUsed":"UTF-8","batchQueryUpdate":false,"batchSize":"","filterUnicode":false,"ignoreEmptyRecords":true},"records":[{"identifierValue":"VinodPandey","minOccurs":"1","maxOccurs":"1","required":false,"fields":[{"name":"empid","originalName":"empid","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]},{"name":"empname","originalName":"empname","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]},{"name":"dob","originalName":"dob","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]},{"originalName":"amount","name":"amount","matchPattern":"","minSize":"0","maxSize":"9999","skipPattern":"","position":"","subFields":[]}],"controlTotal":false,"recordIndex":0,"columns":[1,2,3,4,5],"children":[]},{"identifierValue":"TeamLead","minOccurs":"1","maxOccurs":"1","required":false,"fields":[{"name":"Designation","originalName":"Designation","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]},{"name":"Department","originalName":"Department","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]}],"controlTotal":false,"recordIndex":4,"columns":[1,2,3],"children":[]}],"schemaType":"advancetext","dataFilePresent":true,"filePath":"/shared/web/AdvanceSchemaRepository/1442210199935901696/advancetext_source_file_default.txt","schemaId":"1442210199935901696","fileChange":false}]]></au_json>
-        <au_userOwner><![CDATA[IndigoUser:1432256834132979712]]></au_userOwner>
+        <au_entityName><![CDATA[KG_AdvText_B22_Data]]></au_entityName>
+        <au_id><![CDATA[1442210199935901696]]></au_id>
+        <au_json><![CDATA[{"schema":{"defineMode":"data","entityName":"KG_AdvText_B22_Data","schemaType":"advancetext","entityId":"","description":"KG_AdvText_B22","permissionMask":"770","userOwner":"","fieldSeparator":"\\t","encodingUsed":"UTF-8","project":"Project:1439664559791742976"},"appInfo":{"XSDVersion":"1","skipHeaderRow":"0","skipFooterRow":"0","encoding":"UTF-8","recordSeparatorText":"\\n","fieldSeparatorText":"\\t","targetFieldSeparator":"","IdentifierDefOption":"firstFieldIdentifier","quotesHandlingOn":false,"encloseFieldsInQuotes":false,"allowLessFields":false,"removeLastNewLineSeperator":true,"ignoreHeader":false,"lookAhead":false,"singleRecordType":false,"removeInvalidChar":false,"removeRecordIdentifier":false,"arrayLayout":false,"dbConnectionInfoId":"","commitCount":"1000","encodingUsed":"UTF-8","batchQueryUpdate":false,"batchSize":"","filterUnicode":false,"ignoreEmptyRecords":true},"records":[{"identifierValue":"VinodPandey","minOccurs":"1","maxOccurs":"1","required":false,"fields":[{"name":"empid","originalName":"empid","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]},{"name":"empname","originalName":"empname","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]},{"name":"dob","originalName":"dob","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]},{"originalName":"amount","name":"amount","matchPattern":"","minSize":"0","maxSize":"9999","skipPattern":"","position":"","subFields":[]}],"controlTotal":false,"recordIndex":0,"columns":[1,2,3,4,5],"children":[]},{"identifierValue":"TeamLead","minOccurs":"1","maxOccurs":"1","required":false,"fields":[{"name":"Designation","originalName":"Designation","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]},{"name":"Department","originalName":"Department","matchPattern":"","skipPattern":"","minSize":"0","maxSize":"9999","position":"","subFields":[]}],"controlTotal":false,"recordIndex":4,"columns":[1,2,3],"children":[]}],"schemaType":"advancetext","dataFilePresent":true,"filePath":"/shared/web/AdvanceSchemaRepository/1442210199935901696/advancetext_source_file_default.txt","schemaId":"1442210199935901696","fileChange":false}]]></au_json>
+        <xsdFilePath><![CDATA[]]></xsdFilePath>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_advancedSchema><![CDATA[1]]></au_advancedSchema>
         <au_modifiedBy><![CDATA[IndigoUser:1432256834132979712]]></au_modifiedBy>
-        <au_creationDate><![CDATA[2025-11-23T17:48:27]]></au_creationDate>
-        <au_entityName><![CDATA[KG_AdvText_B22_Data_edit]]></au_entityName>
+        <au_userOwner><![CDATA[IndigoUser:1432256834132979712]]></au_userOwner>
         <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <!-- W3C Schema generated by Adeptia Editor  -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -98,17 +101,14 @@
 </xs:sequence></xs:complexType></xs:element>
 </xs:schema>
 ]]></au_xsd>
-        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
-        <au_id><![CDATA[1442210199935901696]]></au_id>
-        <au_comments><![CDATA[null]]></au_comments>
-        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
-        <au_advancedSchema><![CDATA[1]]></au_advancedSchema>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <xsdFilePath><![CDATA[]]></xsdFilePath>
+        <au_version><![CDATA[1]]></au_version>
         <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_description><![CDATA[KG_AdvText_B22]]></au_description>
+        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
+        <au_creationDate><![CDATA[2025-11-23T17:48:27]]></au_creationDate>
         <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
         <au_revision><![CDATA[a9ec5693aa88c195405450f7fda773945cfe13d9]]></au_revision>
+        <au_comments><![CDATA[null]]></au_comments>
     </AU_ADVANCETEXTSCHEMA>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
