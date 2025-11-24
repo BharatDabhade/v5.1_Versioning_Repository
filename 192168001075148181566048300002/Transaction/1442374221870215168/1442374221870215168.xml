@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AC_TRANSACTION>
+        <ID><![CDATA[1442374221870215168]]></ID>
+        <CREATED_USER><![CDATA[IndigoUser:1432581182713565184]]></CREATED_USER>
+        <DEST_APP_TYPE><![CDATA[ftp:ftp:FTP]]></DEST_APP_TYPE>
+        <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
+        <PROCESS_TYPE><![CDATA[701]]></PROCESS_TYPE>
+        <TYPE><![CDATA[504]]></TYPE>
+        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
+        <MODIFIED_BY><![CDATA[Bharat Dabhade]]></MODIFIED_BY>
+        <SRC_APP_TYPE><![CDATA[connector:1194602506738491392:Google Drive]]></SRC_APP_TYPE>
+        <REVISION><![CDATA[null]]></REVISION>
+        <DESCRIPTION><![CDATA[bd_21_B22_IB_Pass_GD_AllFile_ftp_Template]]></DESCRIPTION>
+        <CREATED_BY><![CDATA[Bharat Dabhade]]></CREATED_BY>
+        <TARGET_NETWORK_ID><![CDATA[null]]></TARGET_NETWORK_ID>
+        <VARIABLE_INFO><![CDATA[null]]></VARIABLE_INFO>
+        <ERROR_ID><![CDATA[null]]></ERROR_ID>
+        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <DEST_ACTION><![CDATA[createnewfile]]></DEST_ACTION>
+        <PROJECT_OWNER><![CDATA[null]]></PROJECT_OWNER>
+        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
+        <NOTIFICATION_MODE><![CDATA[1902]]></NOTIFICATION_MODE>
+        <CREATION_DATE><![CDATA[2025-11-24T04:40:12]]></CREATION_DATE>
+        <TARGET_PARTNER_ID><![CDATA[null]]></TARGET_PARTNER_ID>
+        <NETWORK_ID><![CDATA[1427588442833358848]]></NETWORK_ID>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <MODIFIED_USER><![CDATA[IndigoUser:1432581182713565184]]></MODIFIED_USER>
+        <MODIFIED_DATE><![CDATA[2025-11-24T11:44:34]]></MODIFIED_DATE>
+        <SRC_TRIGGER><![CDATA[AllFiles]]></SRC_TRIGGER>
+        <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
+        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
+        <PARTNER_NAME><![CDATA[bd_AKS_Partner]]></PARTNER_NAME>
+        <IN_USE><![CDATA[null]]></IN_USE>
+        <SRC_REFERENCE_FIELD><![CDATA[{"dynamicParams":[],"pathparams":[],"queryparams":[{"q":"16m7iNvn3GRAADFx0PadfDkvzKmC-zCfk"}],"headerparams":[],"dynamicUiParams":[{"q":"/Src/B1/B2"}]}]]></SRC_REFERENCE_FIELD>
+        <DISPLAY_TYPE><![CDATA[701]]></DISPLAY_TYPE>
+        <PARTNER_ID><![CDATA[1427590250297364480]]></PARTNER_ID>
+        <STATUS><![CDATA[601]]></STATUS>
+        <DOCUMENTATION><![CDATA[null]]></DOCUMENTATION>
+        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
+        <CONTACT_USER><![CDATA[bharat.dabhade@adeptia.com]]></CONTACT_USER>
+        <TEMPLATE_ID><![CDATA[1441472036437684224]]></TEMPLATE_ID>
+        <MODIFIED_GROUP><![CDATA[null]]></MODIFIED_GROUP>
+        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
+        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
+        <LOG_MODE><![CDATA[null]]></LOG_MODE>
+        <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
+        <PARAMETERS_INFO><![CDATA[{"network":[{"value":"1427588442833358848"}],"mapperValidatorId":"","mapperExternalFunctionId":"","loggingLevel":"ERROR","activitiesLoggingRetention":"L","repositoryFileRetention":"E"}]]></PARAMETERS_INFO>
+        <NAME><![CDATA[bd_21_B22_IB_Pass_GD_AllFile_ftp_Template Automation]]></NAME>
+        <DIRECTION><![CDATA[3200]]></DIRECTION>
+        <CREATED_BY_PARTNER_ID><![CDATA[1]]></CREATED_BY_PARTNER_ID>
+    </AC_TRANSACTION>
+    <columnInfo dbtype="4">
+        <column name="ID" type="-5"/>
+        <column name="DESCRIPTION" type="12"/>
+        <column name="NAME" type="12"/>
+        <column name="COMPANY_ID" type="-5"/>
+        <column name="CONTACT_USER" type="-1"/>
+        <column name="CREATED_GROUP" type="12"/>
+        <column name="CREATED_USER" type="12"/>
+        <column name="CREATION_DATE" type="93"/>
+        <column name="DATA_ENCODING" type="12"/>
+        <column name="DEST_ACTION" type="12"/>
+        <column name="DEST_APP_TYPE" type="12"/>
+        <column name="DIRECTION" type="4"/>
+        <column name="IN_USE" type="-7"/>
+        <column name="IN_USE_BY" type="-5"/>
+        <column name="LOCKED_BY_USER" type="12"/>
+        <column name="LOCKED_STATUS" type="4"/>
+        <column name="LOCKED_TIMESTAMP" type="93"/>
+        <column name="LOG_MODE" type="12"/>
+        <column name="MODIFIED_DATE" type="93"/>
+        <column name="MODIFIED_GROUP" type="12"/>
+        <column name="MODIFIED_USER" type="12"/>
+        <column name="NOTIFICATION_MODE" type="4"/>
+        <column name="PARTNER_ID" type="-5"/>
+        <column name="PARTNER_NAME" type="12"/>
+        <column name="PROCESS_TYPE" type="4"/>
+        <column name="SRC_APP_TYPE" type="12"/>
+        <column name="SRC_TRIGGER" type="12"/>
+        <column name="STATUS" type="4"/>
+        <column name="TEMPLATE_ID" type="-5"/>
+        <column name="TYPE" type="4"/>
+        <column name="ERROR_ID" type="-5"/>
+        <column name="DOCUMENTATION" type="-1"/>
+        <column name="PARAMETERS_INFO" type="-1"/>
+        <column name="DEST_EXTERNAL_ID" type="12"/>
+        <column name="DEST_REFERENCE_FIELD" type="-1"/>
+        <column name="SRC_REFERENCE_FIELD" type="-1"/>
+        <column name="CREATED_BY" type="12"/>
+        <column name="MODIFIED_BY" type="12"/>
+        <column name="REVISION" type="12"/>
+        <column name="SYNCHRONIZED" type="-7"/>
+        <column name="TARGET_PARTNER_ID" type="-5"/>
+        <column name="CREATED_BY_PARTNER_ID" type="-5"/>
+        <column name="PROJECT_OWNER" type="12"/>
+        <column name="NETWORK_ID" type="-5"/>
+        <column name="TARGET_NETWORK_ID" type="-5"/>
+        <column name="DISPLAY_TYPE" type="4"/>
+        <column name="VARIABLE_INFO" type="-1"/>
+        <column name="CREATED_ROLE" type="-5"/>
+        <column name="MODIFIED_ROLE" type="-5"/>
+    </columnInfo>
+</data>

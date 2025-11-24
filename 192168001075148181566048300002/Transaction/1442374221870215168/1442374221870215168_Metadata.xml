@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AC_TRANSACTION_METADATA>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <ALIAS_NAME><![CDATA[Source]]></ALIAS_NAME>
+        <IS_UNIQUE_FILE><![CDATA[false]]></IS_UNIQUE_FILE>
+        <TYPE><![CDATA[OAuthEvent]]></TYPE>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <ACTIVITY_ID><![CDATA[1442374788371701760]]></ACTIVITY_ID>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+        <SEQUENCE_TYPE><![CDATA[Trigger]]></SEQUENCE_TYPE>
+        <ID><![CDATA[1442374788933738496]]></ID>
+        <ACCOUNT_ID><![CDATA[1442371134143062016]]></ACCOUNT_ID>
+        <PARAMETER_JSON><![CDATA[{"deleteOnSuccess":false}]]></PARAMETER_JSON>
+        <TRANSACTION_ID><![CDATA[1442374221870215168]]></TRANSACTION_ID>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <OPERATION><![CDATA[null]]></OPERATION>
+    </AC_TRANSACTION_METADATA>
+    <columnInfo dbtype="4">
+        <column name="ID" type="-5"/>
+        <column name="ACCOUNT_ID" type="12"/>
+        <column name="ACTIVITY_ID" type="12"/>
+        <column name="DISCRIMINATOR_TYPE" type="12"/>
+        <column name="FILE_NAME" type="-1"/>
+        <column name="IS_UNIQUE_FILE" type="-7"/>
+        <column name="SEQUENCE_ID" type="4"/>
+        <column name="SEQUENCE_TYPE" type="12"/>
+        <column name="SERVICE_VARIABLE" type="-1"/>
+        <column name="TARGET_FILE_EXTENSION" type="12"/>
+        <column name="TYPE" type="12"/>
+        <column name="OPERATION" type="12"/>
+        <column name="REFERENCE_FIELD" type="-1"/>
+        <column name="EXTERNAL_ID" type="12"/>
+        <column name="APP_TYPE" type="12"/>
+        <column name="TRANSACTION_ID" type="-5"/>
+        <column name="PARAMETER_JSON" type="-1"/>
+        <column name="ALIAS_NAME" type="12"/>
+    </columnInfo>
+</data>
