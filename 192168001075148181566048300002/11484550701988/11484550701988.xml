@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_PROJECT>
-        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
-        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
-        <au_creationDate><![CDATA[2017-01-18T11:16:24]]></au_creationDate>
-        <au_previousVersion><![CDATA[null]]></au_previousVersion>
-        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
+        <au_entityName><![CDATA[Project_1]]></au_entityName>
+        <au_revision><![CDATA[d92a21ee1a813a3c05f23374bb8433f85aecac9f]]></au_revision>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
         <au_comments><![CDATA[null]]></au_comments>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_version><![CDATA[1]]></au_version>
-        <au_id><![CDATA[11484550701988]]></au_id>
-        <au_projectType><![CDATA[3700]]></au_projectType>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_description><![CDATA[Project_1]]></au_description>
         <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_modifiedDate><![CDATA[2017-01-18T11:16:24]]></au_modifiedDate>
+        <au_modifiedBy><![CDATA[IndigoUser:1434853871934623744]]></au_modifiedBy>
+        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
+        <au_projectType><![CDATA[3700]]></au_projectType>
         <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_id><![CDATA[11484550701988]]></au_id>
+        <au_creationDate><![CDATA[2017-01-18T11:16:24]]></au_creationDate>
+        <au_version><![CDATA[1]]></au_version>
+        <au_description><![CDATA[Project_1]]></au_description>
         <au_synchronized><![CDATA[1]]></au_synchronized>
-        <au_revision><![CDATA[781bf15d0f438d7aff74d544d486a0c4fe033b82]]></au_revision>
-        <au_entityName><![CDATA[Project_1]]></au_entityName>
+        <au_modifiedDate><![CDATA[2017-01-18T11:16:24]]></au_modifiedDate>
     </AU_PROJECT>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
