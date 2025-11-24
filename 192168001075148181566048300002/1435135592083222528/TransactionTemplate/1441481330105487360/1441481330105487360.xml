@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TRANSACTION_TEMPLATE>
-        <IN_USE><![CDATA[null]]></IN_USE>
-        <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
-        <DIRECTION><![CDATA[3200]]></DIRECTION>
-        <DESCRIPTION><![CDATA[bd IB_21_B22_FTP GD Create File Template]]></DESCRIPTION>
-        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
-        <NAME><![CDATA[bd_IB_21_B22_FTP_t2t_GD_CreateFile_Template]]></NAME>
-        <VARIABLE_INFO><![CDATA[]]></VARIABLE_INFO>
-        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
-        <CONTACT_USER><![CDATA[bharat.dabhade@adeptia.com]]></CONTACT_USER>
-        <TYPE><![CDATA[504]]></TYPE>
-        <DEST_APP_TYPE><![CDATA[connector:1194602506738491392:Google Drive]]></DEST_APP_TYPE>
-        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
-        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
-        <PARAMETERS_INFO><![CDATA[{"routingType":3502,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":""}]]></PARAMETERS_INFO>
-        <SRC_APP_TYPE><![CDATA[ftp:ftp:FTP]]></SRC_APP_TYPE>
-        <MODIFIED_DATE><![CDATA[2025-11-24T12:12:58]]></MODIFIED_DATE>
-        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
-        <NOTIFICATION_MODE><![CDATA[1902]]></NOTIFICATION_MODE>
-        <MODIFIED_USER><![CDATA[IndigoUser:1436227388116824064]]></MODIFIED_USER>
-        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[{"xtype":"account","sequenceId":1,"aliasName":"Source","sequenceType":"Trigger"},{"xtype":"sourcefilelocation","sequenceId":1,"aliasName":"Source","sequenceType":"Trigger"}]}]]></PARTNER_CONFIG_INFO>
-        <DISPLAY_NAME><![CDATA[bd_IB_21_B22_FTP_GD_Create_Template]]></DISPLAY_NAME>
-        <CREATION_DATE><![CDATA[2025-11-21T17:32:10]]></CREATION_DATE>
-        <CREATED_BY><![CDATA[Bharat Dabhade]]></CREATED_BY>
-        <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
-        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
-        <SRC_TRIGGER><![CDATA[FileCreated]]></SRC_TRIGGER>
-        <CREATED_USER><![CDATA[IndigoUser:1432581182713565184]]></CREATED_USER>
-        <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
-        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
-        <ERROR_ID><![CDATA[null]]></ERROR_ID>
         <ID><![CDATA[1441481330105487360]]></ID>
-        <DEST_ACTION><![CDATA[UploadUniqueFile]]></DEST_ACTION>
-        <MODIFIED_BY><![CDATA[Akash Kumar]]></MODIFIED_BY>
-        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <DEST_APP_TYPE><![CDATA[connector:1194602506738491392:Google Drive]]></DEST_APP_TYPE>
+        <DIRECTION><![CDATA[3200]]></DIRECTION>
+        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
+        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
+        <TYPE><![CDATA[504]]></TYPE>
+        <CREATED_BY><![CDATA[Bharat Dabhade]]></CREATED_BY>
+        <MODIFIED_USER><![CDATA[IndigoUser:1436227388116824064]]></MODIFIED_USER>
+        <DESCRIPTION><![CDATA[bd IB_21_B22_FTP GD Create File Template]]></DESCRIPTION>
+        <SRC_TRIGGER><![CDATA[FileCreated]]></SRC_TRIGGER>
+        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
+        <ERROR_ID><![CDATA[null]]></ERROR_ID>
+        <DISPLAY_NAME><![CDATA[bd_IB_21_B22_FTP_GD_Create_Template]]></DISPLAY_NAME>
+        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
+        <CREATION_DATE><![CDATA[2025-11-21T17:32:10]]></CREATION_DATE>
+        <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
+        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
+        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
+        <NOTIFICATION_MODE><![CDATA[1902]]></NOTIFICATION_MODE>
         <STATUS><![CDATA[601]]></STATUS>
         <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
-        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
-        <PROJECT_OWNER><![CDATA[Project:1435135592083222528]]></PROJECT_OWNER>
-        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
-        <LOG_MODE><![CDATA[null]]></LOG_MODE>
-        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
-        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
-        <REVISION><![CDATA[null]]></REVISION>
-        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
-        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
         <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <VARIABLE_INFO><![CDATA[]]></VARIABLE_INFO>
+        <CONTACT_USER><![CDATA[bharat.dabhade@adeptia.com]]></CONTACT_USER>
+        <MODIFIED_BY><![CDATA[Akash Kumar]]></MODIFIED_BY>
+        <SRC_APP_TYPE><![CDATA[ftp:ftp:FTP]]></SRC_APP_TYPE>
+        <MODIFIED_DATE><![CDATA[2025-11-24T12:26:58]]></MODIFIED_DATE>
+        <DEST_ACTION><![CDATA[UploadUniqueFile]]></DEST_ACTION>
+        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
+        <REVISION><![CDATA[a78ef39c8ce0ae477456fdbe14920d70546e8506]]></REVISION>
         <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
+        <SYNCHRONIZED><![CDATA[false]]></SYNCHRONIZED>
+        <LOG_MODE><![CDATA[null]]></LOG_MODE>
+        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
+        <NAME><![CDATA[bd_IB_21_B22_FTP_t2t_GD_CreateFile_Template123]]></NAME>
+        <CREATED_USER><![CDATA[IndigoUser:1432581182713565184]]></CREATED_USER>
+        <PARAMETERS_INFO><![CDATA[{"routingType":3502,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":""}]]></PARAMETERS_INFO>
+        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
+        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
+        <PROJECT_OWNER><![CDATA[Project:1435135592083222528]]></PROJECT_OWNER>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
+        <IN_USE><![CDATA[null]]></IN_USE>
+        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[{"xtype":"account","sequenceId":1,"aliasName":"Source","sequenceType":"Trigger"},{"xtype":"sourcefilelocation","sequenceId":1,"aliasName":"Source","sequenceType":"Trigger"}]}]]></PARTNER_CONFIG_INFO>
+        <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
+        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
     </AC_TRANSACTION_TEMPLATE>
     <columnInfo dbtype="4">
         <column name="ID" type="-5"/>
