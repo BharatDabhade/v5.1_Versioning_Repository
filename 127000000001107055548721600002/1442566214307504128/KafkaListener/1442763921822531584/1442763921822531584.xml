@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_KafkaListener>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_modifiedDate><![CDATA[2025-11-25T06:28:44]]></au_modifiedDate>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <AU_ACTIVATEDBY><![CDATA[null]]></AU_ACTIVATEDBY>
+        <au_messageJoiner><![CDATA[]]></au_messageJoiner>
+        <au_topic><![CDATA[Sunil]]></au_topic>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_seekTo><![CDATA[beginning]]></au_seekTo>
+        <au_receiverEmailIds><![CDATA[null]]></au_receiverEmailIds>
+        <au_metadata><![CDATA[{"transactionId":"1442763473870864384"}]]></au_metadata>
+        <au_heartbeatIntervalMs><![CDATA[3000]]></au_heartbeatIntervalMs>
+        <au_sessionTimeoutMs><![CDATA[10000]]></au_sessionTimeoutMs>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_noOfMessageToAggregate><![CDATA[10]]></au_noOfMessageToAggregate>
+        <au_description><![CDATA[Source_1442763473870864384_1]]></au_description>
+        <au_projectOwner><![CDATA[Project:1442566214307504128]]></au_projectOwner>
+        <au_entityName><![CDATA[Source_1442763473870864384_1]]></au_entityName>
+        <au_messageFilterKeys><![CDATA[]]></au_messageFilterKeys>
+        <au_aggregationTimespan><![CDATA[60]]></au_aggregationTimespan>
+        <au_autoOffsetReset><![CDATA[latest]]></au_autoOffsetReset>
+        <au_version><![CDATA[1]]></au_version>
+        <au_creationDate><![CDATA[2025-11-25T06:28:44]]></au_creationDate>
+        <au_publishAs><![CDATA[template]]></au_publishAs>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_isActive><![CDATA[0]]></au_isActive>
+        <au_consumersCount><![CDATA[1]]></au_consumersCount>
+        <au_consumerGroup><![CDATA[dsd]]></au_consumerGroup>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_id><![CDATA[1442763921822531584]]></au_id>
+        <au_messageTypes><![CDATA[]]></au_messageTypes>
+        <au_enableMessageAggregator><![CDATA[0]]></au_enableMessageAggregator>
+        <au_kafkaAccount><![CDATA[1436298670566920192]]></au_kafkaAccount>
+    </AU_KafkaListener>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_publishAs" type="12"/>
+        <column name="au_topic" type="-1"/>
+        <column name="au_metadata" type="-1"/>
+        <column name="au_kafkaAccount" type="12"/>
+        <column name="au_heartbeatIntervalMs" type="3"/>
+        <column name="au_sessionTimeoutMs" type="3"/>
+        <column name="au_consumersCount" type="3"/>
+        <column name="au_noOfMessageToAggregate" type="3"/>
+        <column name="au_aggregationTimespan" type="3"/>
+        <column name="au_consumerGroup" type="12"/>
+        <column name="au_autoOffsetReset" type="12"/>
+        <column name="au_seekTo" type="12"/>
+        <column name="au_messageTypes" type="12"/>
+        <column name="au_messageJoiner" type="12"/>
+        <column name="au_enableMessageAggregator" type="3"/>
+        <column name="au_isActive" type="3"/>
+        <column name="au_messageFilterKeys" type="12"/>
+        <column name="au_receiverEmailIds" type="-1"/>
+        <column name="AU_ACTIVATEDBY" type="12"/>
+    </columnInfo>
+</data>
