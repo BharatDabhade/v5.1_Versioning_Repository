@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_version><![CDATA[1]]></au_version>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><xsl:apply-templates select="Root/item" mode="_Root_item_order1">
+</xsl:apply-templates></Root></xsl:template><xsl:template match="/Root/item/document/vendor_address" mode="_Root_item_document_vendor_address_order1">
+<vendor_address><name><xsl:value-of select="name"/></name><street><xsl:value-of select="street"/></street><suite><xsl:value-of select="suite"/></suite><city><xsl:value-of select="city"/></city><state><xsl:value-of select="state"/></state><zip><xsl:value-of select="zip"/></zip><country><xsl:value-of select="country"/></country></vendor_address></xsl:template><xsl:template match="/Root/item/document/registered_address" mode="_Root_item_document_registered_address_order1">
+<registered_address><company_name><xsl:value-of select="company_name"/></company_name><street><xsl:value-of select="street"/></street><city><xsl:value-of select="city"/></city><state><xsl:value-of select="state"/></state><zip><xsl:value-of select="zip"/></zip><country><xsl:value-of select="country"/></country></registered_address></xsl:template><xsl:template match="/Root/item/document" mode="_Root_item_document_order1">
+<document><title><xsl:value-of select="title"/></title><xsl:apply-templates select="vendor_address" mode="_Root_item_document_vendor_address_order1">
+</xsl:apply-templates><page><xsl:value-of select="page"/></page><document_no><xsl:value-of select="document_no"/></document_no><date><xsl:value-of select="date"/></date><currency><xsl:value-of select="currency"/></currency><tax_id_number><xsl:value-of select="tax_id_number"/></tax_id_number><vendor_number><xsl:value-of select="vendor_number"/></vendor_number><our_tax_id_number><xsl:value-of select="our_tax_id_number"/></our_tax_id_number><reference_number><xsl:value-of select="reference_number"/></reference_number><xsl:apply-templates select="sold_to" mode="_Root_item_document_sold_to_order1">
+</xsl:apply-templates><xsl:apply-templates select="material_withdrawals" mode="_Root_item_document_material_withdrawals_order1">
+</xsl:apply-templates><total_qty><xsl:value-of select="total_qty"/></total_qty><total_net_value><xsl:value-of select="total_net_value"/></total_net_value><registered_company_no><xsl:value-of select="registered_company_no"/></registered_company_no><tax_reg_no><xsl:value-of select="tax_reg_no"/></tax_reg_no><federal_id_no><xsl:value-of select="federal_id_no"/></federal_id_no><xsl:apply-templates select="registered_address" mode="_Root_item_document_registered_address_order1">
+</xsl:apply-templates></document></xsl:template><xsl:template match="/Root/item/document/material_withdrawals" mode="_Root_item_document_material_withdrawals_order1">
+<material_withdrawals><date><xsl:value-of select="date"/></date><mov_ty><xsl:value-of select="mov_ty"/></mov_ty><qty><xsl:value-of select="qty"/></qty><unit><xsl:value-of select="unit"/></unit><tax_c><xsl:value-of select="tax_c"/></tax_c><net_value><xsl:value-of select="net_value"/></net_value><material_description><xsl:value-of select="material_description"/></material_description><material_no><xsl:value-of select="material_no"/></material_no><gross_price><xsl:value-of select="gross_price"/></gross_price></material_withdrawals></xsl:template><xsl:template match="/Root/item/document/sold_to" mode="_Root_item_document_sold_to_order1">
+<sold_to><name><xsl:value-of select="name"/></name><xsl:apply-templates select="address" mode="_Root_item_document_sold_to_address_order1">
+</xsl:apply-templates><xsl:apply-templates select="contact" mode="_Root_item_document_sold_to_contact_order1">
+</xsl:apply-templates></sold_to></xsl:template><xsl:template match="/Root/item/document/sold_to/contact" mode="_Root_item_document_sold_to_contact_order1">
+<contact><tel><xsl:value-of select="tel"/></tel><fax><xsl:value-of select="fax"/></fax><email><xsl:value-of select="email"/></email></contact></xsl:template><xsl:template match="/Root/item" mode="_Root_item_order1">
+<item><xsl:apply-templates select="document" mode="_Root_item_document_order1">
+</xsl:apply-templates></item></xsl:template><xsl:template match="/Root/item/document/sold_to/address" mode="_Root_item_document_sold_to_address_order1">
+<address><street><xsl:value-of select="street"/></street><city><xsl:value-of select="city"/></city><state><xsl:value-of select="state"/></state><zip><xsl:value-of select="zip"/></zip><country><xsl:value-of select="country"/></country></address></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules15710497023304938335.pdf]]></au_pdfFileName>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_creationDate><![CDATA[2025-11-26T08:31:29]]></au_creationDate>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_entityName><![CDATA[Drv_pdf_ext_automation_1_map]]></au_entityName>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":[],"filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":10,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":false,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":10,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":false,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":false},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":"49bcac0f-747a-471b-822a-e35223510262","sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"mappingInformation":{"sourceSchemaID":"JSONSchema:1443155476556029952","targetSchemaID":"JSONSchema:1443155476556029952","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":true,"mappingName":"Drv_pdf_ext_automation_1_map","mappingDescription":"Drv_pdf_ext_automation_1_map","mappingProject":"Project:11484550701988"},"namespace":"    ","namespaceList":[{"namespaceName":"","namespaceType":"UserDefined"},{"namespaceName":"","namespaceType":"UserDefined"},{"namespaceName":"","namespaceType":"UserDefined"}],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"Drv_pdf_Invoice_settlement_B22_1","schemaID":"JSONSchema:1443155476556029952","stream":"output_0"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"Drv_pdf_Invoice_settlement_B22_1","schemaID":"JSONSchema:1443155476556029952"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item","targetfield":"item","targetrecord":"Root","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"item","sourcefielddisplayname":"item","sourcefieldpath":"/Root/item","sourcerecord":"Root","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document","targetfield":"document","targetrecord":"item","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"document","sourcefielddisplayname":"document","sourcefieldpath":"/Root/item/document","sourcerecord":"item","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/title","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/title","targetfield":"title","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/title","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/title","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"title","sourcefielddisplayname":"title","sourcefieldpath":"/Root/item/document/title","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/title","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/title"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/title","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/title"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/vendor_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address","targetfield":"vendor_address","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"vendor_address","sourcefielddisplayname":"vendor_address","sourcefieldpath":"/Root/item/document/vendor_address","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/vendor_address/name","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/name","targetfield":"name","targetrecord":"vendor_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/name","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/name","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"name","sourcefielddisplayname":"name","sourcefieldpath":"/Root/item/document/vendor_address/name","sourcerecord":"vendor_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/name","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/name"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/name","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/name"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/vendor_address/street","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/street","targetfield":"street","targetrecord":"vendor_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/street","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/street","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"street","sourcefielddisplayname":"street","sourcefieldpath":"/Root/item/document/vendor_address/street","sourcerecord":"vendor_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/street","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/street"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/street","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/street"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/vendor_address/suite","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/suite","targetfield":"suite","targetrecord":"vendor_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/suite","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/suite","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"suite","sourcefielddisplayname":"suite","sourcefieldpath":"/Root/item/document/vendor_address/suite","sourcerecord":"vendor_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/suite","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/suite"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/suite","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/suite"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/vendor_address/city","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/city","targetfield":"city","targetrecord":"vendor_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/city","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/city","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"city","sourcefielddisplayname":"city","sourcefieldpath":"/Root/item/document/vendor_address/city","sourcerecord":"vendor_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/city","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/city"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/city","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/city"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/vendor_address/state","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/state","targetfield":"state","targetrecord":"vendor_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/state","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/state","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"state","sourcefielddisplayname":"state","sourcefieldpath":"/Root/item/document/vendor_address/state","sourcerecord":"vendor_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/state","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/state"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/state","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/state"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/vendor_address/zip","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/zip","targetfield":"zip","targetrecord":"vendor_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/zip","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/zip","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"zip","sourcefielddisplayname":"zip","sourcefieldpath":"/Root/item/document/vendor_address/zip","sourcerecord":"vendor_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/zip","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/zip"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/zip","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/zip"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/vendor_address/country","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/country","targetfield":"country","targetrecord":"vendor_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/country","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/country","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"country","sourcefielddisplayname":"country","sourcefieldpath":"/Root/item/document/vendor_address/country","sourcerecord":"vendor_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/country","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/country"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/country","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/country"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/page","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/page","targetfield":"page","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/page","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/page","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"page","sourcefielddisplayname":"page","sourcefieldpath":"/Root/item/document/page","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/page","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/page"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/page","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/page"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/document_no","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/document_no","targetfield":"document_no","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/document_no","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/document_no","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"document_no","sourcefielddisplayname":"document_no","sourcefieldpath":"/Root/item/document/document_no","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/document_no","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/document_no"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/document_no","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/document_no"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/date","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/date","targetfield":"date","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/date","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/date","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"date","sourcefielddisplayname":"date","sourcefieldpath":"/Root/item/document/date","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/date","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/date"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/date","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/date"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/currency","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/currency","targetfield":"currency","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/currency","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/currency","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"currency","sourcefielddisplayname":"currency","sourcefieldpath":"/Root/item/document/currency","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/currency","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/currency"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/currency","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/currency"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/tax_id_number","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_id_number","targetfield":"tax_id_number","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_id_number","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_id_number","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"tax_id_number","sourcefielddisplayname":"tax_id_number","sourcefieldpath":"/Root/item/document/tax_id_number","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_id_number","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_id_number"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_id_number","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_id_number"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/vendor_number","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_number","targetfield":"vendor_number","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_number","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_number","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"vendor_number","sourcefielddisplayname":"vendor_number","sourcefieldpath":"/Root/item/document/vendor_number","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_number","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_number"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_number","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_number"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/our_tax_id_number","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/our_tax_id_number","targetfield":"our_tax_id_number","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/our_tax_id_number","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/our_tax_id_number","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"our_tax_id_number","sourcefielddisplayname":"our_tax_id_number","sourcefieldpath":"/Root/item/document/our_tax_id_number","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/our_tax_id_number","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/our_tax_id_number"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/our_tax_id_number","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/our_tax_id_number"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/reference_number","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/reference_number","targetfield":"reference_number","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/reference_number","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/reference_number","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"reference_number","sourcefielddisplayname":"reference_number","sourcefieldpath":"/Root/item/document/reference_number","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/reference_number","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/reference_number"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/reference_number","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/reference_number"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to","targetfield":"sold_to","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"sold_to","sourcefielddisplayname":"sold_to","sourcefieldpath":"/Root/item/document/sold_to","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/name","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/name","targetfield":"name","targetrecord":"sold_to","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/name","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/name","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"name","sourcefielddisplayname":"name","sourcefieldpath":"/Root/item/document/sold_to/name","sourcerecord":"sold_to","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/name","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/name"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/name","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/name"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address","targetfield":"address","targetrecord":"sold_to","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"address","sourcefielddisplayname":"address","sourcefieldpath":"/Root/item/document/sold_to/address","sourcerecord":"sold_to","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/address/street","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/street","targetfield":"street","targetrecord":"address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/street","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/street","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"street","sourcefielddisplayname":"street","sourcefieldpath":"/Root/item/document/sold_to/address/street","sourcerecord":"address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/street","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/street"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/street","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/street"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/address/city","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/city","targetfield":"city","targetrecord":"address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/city","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/city","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"city","sourcefielddisplayname":"city","sourcefieldpath":"/Root/item/document/sold_to/address/city","sourcerecord":"address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/city","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/city"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/city","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/city"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/address/state","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/state","targetfield":"state","targetrecord":"address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/state","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/state","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"state","sourcefielddisplayname":"state","sourcefieldpath":"/Root/item/document/sold_to/address/state","sourcerecord":"address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/state","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/state"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/state","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/state"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/address/zip","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/zip","targetfield":"zip","targetrecord":"address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/zip","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/zip","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"zip","sourcefielddisplayname":"zip","sourcefieldpath":"/Root/item/document/sold_to/address/zip","sourcerecord":"address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/zip","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/zip"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/zip","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/zip"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/address/country","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/country","targetfield":"country","targetrecord":"address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/country","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/country","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"country","sourcefielddisplayname":"country","sourcefieldpath":"/Root/item/document/sold_to/address/country","sourcerecord":"address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/country","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/country"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/country","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/country"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/contact","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact","targetfield":"contact","targetrecord":"sold_to","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"contact","sourcefielddisplayname":"contact","sourcefieldpath":"/Root/item/document/sold_to/contact","sourcerecord":"sold_to","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/contact/tel","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/tel","targetfield":"tel","targetrecord":"contact","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/tel","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/tel","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"tel","sourcefielddisplayname":"tel","sourcefieldpath":"/Root/item/document/sold_to/contact/tel","sourcerecord":"contact","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/tel","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/tel"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/tel","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/tel"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/contact/fax","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/fax","targetfield":"fax","targetrecord":"contact","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/fax","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/fax","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"fax","sourcefielddisplayname":"fax","sourcefieldpath":"/Root/item/document/sold_to/contact/fax","sourcerecord":"contact","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/fax","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/fax"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/fax","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/fax"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/sold_to/contact/email","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/email","targetfield":"email","targetrecord":"contact","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/email","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/email","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"email","sourcefielddisplayname":"email","sourcefieldpath":"/Root/item/document/sold_to/contact/email","sourcerecord":"contact","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/email","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/email"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/email","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/email"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals","targetfield":"material_withdrawals","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"material_withdrawals","sourcefielddisplayname":"material_withdrawals","sourcefieldpath":"/Root/item/document/material_withdrawals","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals/date","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/date","targetfield":"date","targetrecord":"material_withdrawals","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/date","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/date","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"date","sourcefielddisplayname":"date","sourcefieldpath":"/Root/item/document/material_withdrawals/date","sourcerecord":"material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/date","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/date"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/date","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/date"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals/mov_ty","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/mov_ty","targetfield":"mov_ty","targetrecord":"material_withdrawals","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/mov_ty","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/mov_ty","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"mov_ty","sourcefielddisplayname":"mov_ty","sourcefieldpath":"/Root/item/document/material_withdrawals/mov_ty","sourcerecord":"material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/mov_ty","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/mov_ty"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/mov_ty","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/mov_ty"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals/qty","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/qty","targetfield":"qty","targetrecord":"material_withdrawals","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/qty","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/qty","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"qty","sourcefielddisplayname":"qty","sourcefieldpath":"/Root/item/document/material_withdrawals/qty","sourcerecord":"material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/qty","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/qty"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/qty","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/qty"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals/unit","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/unit","targetfield":"unit","targetrecord":"material_withdrawals","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/unit","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/unit","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"unit","sourcefielddisplayname":"unit","sourcefieldpath":"/Root/item/document/material_withdrawals/unit","sourcerecord":"material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/unit","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/unit"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/unit","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/unit"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals/tax_c","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/tax_c","targetfield":"tax_c","targetrecord":"material_withdrawals","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/tax_c","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/tax_c","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"tax_c","sourcefielddisplayname":"tax_c","sourcefieldpath":"/Root/item/document/material_withdrawals/tax_c","sourcerecord":"material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/tax_c","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/tax_c"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/tax_c","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/tax_c"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals/net_value","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/net_value","targetfield":"net_value","targetrecord":"material_withdrawals","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/net_value","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/net_value","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"net_value","sourcefielddisplayname":"net_value","sourcefieldpath":"/Root/item/document/material_withdrawals/net_value","sourcerecord":"material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/net_value","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/net_value"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/net_value","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/net_value"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals/material_description","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_description","targetfield":"material_description","targetrecord":"material_withdrawals","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_description","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_description","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"material_description","sourcefielddisplayname":"material_description","sourcefieldpath":"/Root/item/document/material_withdrawals/material_description","sourcerecord":"material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_description","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_description"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_description","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_description"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals/material_no","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_no","targetfield":"material_no","targetrecord":"material_withdrawals","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_no","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_no","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"material_no","sourcefielddisplayname":"material_no","sourcefieldpath":"/Root/item/document/material_withdrawals/material_no","sourcerecord":"material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_no","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_no"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_no","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_no"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/material_withdrawals/gross_price","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/gross_price","targetfield":"gross_price","targetrecord":"material_withdrawals","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/gross_price","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/gross_price","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"gross_price","sourcefielddisplayname":"gross_price","sourcefieldpath":"/Root/item/document/material_withdrawals/gross_price","sourcerecord":"material_withdrawals","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/gross_price","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/gross_price"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/gross_price","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/gross_price"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/total_qty","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_qty","targetfield":"total_qty","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_qty","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_qty","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"total_qty","sourcefielddisplayname":"total_qty","sourcefieldpath":"/Root/item/document/total_qty","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_qty","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_qty"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_qty","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_qty"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/total_net_value","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_net_value","targetfield":"total_net_value","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_net_value","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_net_value","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"total_net_value","sourcefielddisplayname":"total_net_value","sourcefieldpath":"/Root/item/document/total_net_value","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_net_value","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_net_value"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_net_value","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_net_value"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/registered_company_no","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_company_no","targetfield":"registered_company_no","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_company_no","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_company_no","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"registered_company_no","sourcefielddisplayname":"registered_company_no","sourcefieldpath":"/Root/item/document/registered_company_no","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_company_no","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_company_no"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_company_no","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_company_no"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/tax_reg_no","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_reg_no","targetfield":"tax_reg_no","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_reg_no","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_reg_no","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"tax_reg_no","sourcefielddisplayname":"tax_reg_no","sourcefieldpath":"/Root/item/document/tax_reg_no","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_reg_no","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_reg_no"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_reg_no","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_reg_no"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/federal_id_no","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/federal_id_no","targetfield":"federal_id_no","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/federal_id_no","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/federal_id_no","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"federal_id_no","sourcefielddisplayname":"federal_id_no","sourcefieldpath":"/Root/item/document/federal_id_no","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/federal_id_no","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/federal_id_no"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/federal_id_no","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/federal_id_no"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/registered_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address","targetfield":"registered_address","targetrecord":"document","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"registered_address","sourcefielddisplayname":"registered_address","sourcefieldpath":"/Root/item/document/registered_address","sourcerecord":"document","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/registered_address/company_name","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/company_name","targetfield":"company_name","targetrecord":"registered_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/company_name","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/company_name","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"company_name","sourcefielddisplayname":"company_name","sourcefieldpath":"/Root/item/document/registered_address/company_name","sourcerecord":"registered_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/company_name","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/company_name"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/company_name","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/company_name"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/registered_address/street","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/street","targetfield":"street","targetrecord":"registered_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/street","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/street","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"street","sourcefielddisplayname":"street","sourcefieldpath":"/Root/item/document/registered_address/street","sourcerecord":"registered_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/street","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/street"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/street","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/street"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/registered_address/city","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/city","targetfield":"city","targetrecord":"registered_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/city","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/city","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"city","sourcefielddisplayname":"city","sourcefieldpath":"/Root/item/document/registered_address/city","sourcerecord":"registered_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/city","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/city"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/city","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/city"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/registered_address/state","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/state","targetfield":"state","targetrecord":"registered_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/state","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/state","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"state","sourcefielddisplayname":"state","sourcefieldpath":"/Root/item/document/registered_address/state","sourcerecord":"registered_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/state","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/state"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/state","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/state"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/registered_address/zip","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/zip","targetfield":"zip","targetrecord":"registered_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/zip","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/zip","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"zip","sourcefielddisplayname":"zip","sourcefieldpath":"/Root/item/document/registered_address/zip","sourcerecord":"registered_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/zip","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/zip"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/zip","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/zip"},{"order":1,"targetName":"Drv_pdf_Invoice_settlement_B22_1","targetfieldpath":"/Root/item/document/registered_address/country","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/country","targetfield":"country","targetrecord":"registered_address","expressionPath":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/country","expression":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/country","confidence":"Confirmed","mapping":[{"sourceName":"Drv_pdf_Invoice_settlement_B22_1","operatortype":"field","sourcefield":"country","sourcefielddisplayname":"country","sourcefieldpath":"/Root/item/document/registered_address/country","sourcerecord":"registered_address","xpath":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/country","id":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/country"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[],"defaultEditor":"textual","markComplete":false,"mapId":"Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/country","suggested_value":"$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/country"}],"sourceExpandLevel":3,"targetExpandLevel":3,"metaData":"","applicationTriggerId":"","applicationActionId":"1443157018503815168"}]]></au_json>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+    <sourceSchemaID>JSONSchema:1443155476556029952</sourceSchemaID>
+    <targetSchemaID>JSONSchema:1443155476556029952</targetSchemaID>
+    <mappingOwnerGroup>Group_1</mappingOwnerGroup>
+    <mappingOwner>DhruvAC5 SharmaAC5</mappingOwner>
+    <mappingLastModifiedBy>DhruvAC5 SharmaAC5</mappingLastModifiedBy>
+    <mappingCreationDate>Wed Nov 26 08:31:29 GMT 2025</mappingCreationDate>
+    <mappingModifiedDate>Wed Nov 26 08:31:44 GMT 2025</mappingModifiedDate>
+    <reusable>true</reusable>
+    <mappingName>Drv_pdf_ext_automation_1_map</mappingName>
+    <mappingDescription>Drv_pdf_ext_automation_1_map</mappingDescription>
+    <mappingProject>Project:11484550701988</mappingProject>
+</mappingInformation>
+<sourceRoots>
+    <sourceRoot>
+        <name>Root</name>
+        <schemaName>Drv_pdf_Invoice_settlement_B22_1</schemaName>
+        <schemaID>JSONSchema:1443155476556029952</schemaID>
+    </sourceRoot>
+</sourceRoots>
+<targetRoots>
+    <targetRoot>
+        <name>Root</name>
+        <schemaName>Drv_pdf_Invoice_settlement_B22_1</schemaName>
+        <schemaID>JSONSchema:1443155476556029952</schemaID>
+        <stream>output_0</stream>
+    </targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="item">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="document">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/title</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/title</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="title">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/title" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/vendor_address</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="vendor_address">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/vendor_address" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/vendor_address/name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="name">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/vendor_address/name" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/vendor_address/street</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/street</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="street">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/vendor_address/street" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/vendor_address/suite</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/suite</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="suite">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/vendor_address/suite" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/vendor_address/city</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/city</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="city">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/vendor_address/city" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/vendor_address/state</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/state</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="state">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/vendor_address/state" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/vendor_address/zip</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/zip</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="zip">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/vendor_address/zip" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/vendor_address/country</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_address/country</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="country">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/vendor_address/country" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/page</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/page</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="page">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/page" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/document_no</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/document_no</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="document_no">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/document_no" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/date</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/date</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="date">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/date" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/currency</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/currency</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="currency">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/currency" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/tax_id_number</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_id_number</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="tax_id_number">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/tax_id_number" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/vendor_number</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/vendor_number</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="vendor_number">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/vendor_number" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/our_tax_id_number</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/our_tax_id_number</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="our_tax_id_number">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/our_tax_id_number" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/reference_number</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/reference_number</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="reference_number">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/reference_number" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="sold_to">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="name">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/name" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/address</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="address">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/address" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/address/street</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/street</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="street">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/address/street" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/address/city</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/city</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="city">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/address/city" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/address/state</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/state</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="state">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/address/state" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/address/zip</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/zip</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="zip">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/address/zip" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/address/country</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/address/country</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="country">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/address/country" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/contact</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="contact">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/contact" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/contact/tel</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/tel</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="tel">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/contact/tel" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/contact/fax</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/fax</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="fax">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/contact/fax" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/sold_to/contact/email</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/sold_to/contact/email</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="email">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/sold_to/contact/email" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="material_withdrawals">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals/date</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/date</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="date">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals/date" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals/mov_ty</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/mov_ty</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="mov_ty">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals/mov_ty" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals/qty</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/qty</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="qty">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals/qty" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals/unit</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/unit</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="unit">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals/unit" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals/tax_c</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/tax_c</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="tax_c">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals/tax_c" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals/net_value</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/net_value</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="net_value">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals/net_value" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals/material_description</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_description</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="material_description">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals/material_description" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals/material_no</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/material_no</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="material_no">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals/material_no" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/material_withdrawals/gross_price</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/material_withdrawals/gross_price</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="gross_price">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/material_withdrawals/gross_price" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/total_qty</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_qty</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="total_qty">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/total_qty" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/total_net_value</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/total_net_value</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="total_net_value">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/total_net_value" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/registered_company_no</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_company_no</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="registered_company_no">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/registered_company_no" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/tax_reg_no</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/tax_reg_no</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="tax_reg_no">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/tax_reg_no" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/federal_id_no</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/federal_id_no</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="federal_id_no">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/federal_id_no" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/registered_address</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="registered_address">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/registered_address" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/registered_address/company_name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/company_name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="company_name">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/registered_address/company_name" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/registered_address/street</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/street</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="street">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/registered_address/street" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/registered_address/city</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/city</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="city">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/registered_address/city" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/registered_address/state</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/state</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="state">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/registered_address/state" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/registered_address/zip</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/zip</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="zip">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/registered_address/zip" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Drv_pdf_Invoice_settlement_B22_1</targetName>
+<dest>/Root/item/document/registered_address/country</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Drv_pdf_Invoice_settlement_B22_1/Root/item/document/registered_address/country</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="country">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/item/document/registered_address/country" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+    <valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+        <globalTemplate>global</globalTemplate>
+        <customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+    <streamingMode>false</streamingMode>
+    <filterEmptyElements>false</filterEmptyElements>
+    <dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>10</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+    <SelfRecursionLevel>0</SelfRecursionLevel>
+    <EnableTypesBuffering>true</EnableTypesBuffering>
+    <CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+    <consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_sourceSchema><![CDATA[JSONSchema:1443155476556029952]]></au_sourceSchema>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_targetSchema><![CDATA[JSONSchema:1443155476556029952]]></au_targetSchema>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_modifiedBy><![CDATA[IndigoUser:1443121139913695232]]></au_modifiedBy>
+        <au_modifiedDate><![CDATA[2025-11-26T08:31:45]]></au_modifiedDate>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_optimizedLoading><![CDATA[0]]></au_optimizedLoading>
+        <au_description><![CDATA[Drv_pdf_ext_automation_1_map]]></au_description>
+        <au_id><![CDATA[1443157201028456448]]></au_id>
+        <au_userOwner><![CDATA[IndigoUser:1443121139913695232]]></au_userOwner>
+        <AU_MULTI_VALUED_MAP><![CDATA[<MultiValuedMap/>]]></AU_MULTI_VALUED_MAP>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+        <column name="AU_MULTI_VALUED_MAP" type="-1"/>
+    </columnInfo>
+</data>
