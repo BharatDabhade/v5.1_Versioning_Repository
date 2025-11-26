@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_RULE>
+        <au_meta_data_temp><![CDATA[]]></au_meta_data_temp>
+        <au_python_code><![CDATA[def rule_1440672266604851200(inp_data):
+    results = []
+    try:
+        po_numbers = inp_data.get('purchase_order', {}).get('po_number', [])
+        if not isinstance(po_numbers, list):
+            po_numbers = [po_numbers]
+        for po_number in po_numbers:
+            result = {}
+            result['purchase_order/po_number'] = po_number if po_number else ''
+            result['identifier1_location'] = inp_data.get('purchase_order', {}).get('element_location', '')
+            result['result'] = 'PASS' if po_number else 'FAIL'
+            results.append(result)
+    except:
+        results.append({'purchase_order/po_number': '', 'identifier1_location': '', 'result': 'FAIL'})
+    return results]]></au_python_code>
+        <au_business_rule_id><![CDATA[1440672354847707136]]></au_business_rule_id>
+        <au_activateFlag><![CDATA[1]]></au_activateFlag>
+        <au_rule_data><![CDATA[]]></au_rule_data>
+        <au_rule_order><![CDATA[1]]></au_rule_order>
+        <au_version><![CDATA[1]]></au_version>
+        <au_id><![CDATA[1440672354851901440]]></au_id>
+        <au_rule_severity><![CDATA[false]]></au_rule_severity>
+        <au_meta_data><![CDATA[{"resultField":"[{\"name\":\"purchase_order/po_number\",\"location\":\"purchase_order/po_number\"}]","editor":"Check if&nbsp;<span class=\"DefineRule-module__chip___ZpTAO\" contenteditable=\"false\" title=\"purchase_order/po_number\">po_number</span>&nbsp;is not blank","yield":"no"}]]></au_meta_data>
+        <au_description><![CDATA[html_rule1]]></au_description>
+        <au_definition><![CDATA[Check if 'purchase_order/po_number' is not blank]]></au_definition>
+        <au_modifiedDate><![CDATA[2025-11-19T11:57:36]]></au_modifiedDate>
+        <au_status><![CDATA[Tested]]></au_status>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_failure_message><![CDATA[]]></au_failure_message>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_python_code_temp><![CDATA[]]></au_python_code_temp>
+        <au_entityName><![CDATA[html_rule1]]></au_entityName>
+        <au_additional_instructions><![CDATA[]]></au_additional_instructions>
+    </AU_RULE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_rule_data" type="-1"/>
+        <column name="au_python_code" type="-1"/>
+        <column name="au_python_code_temp" type="-1"/>
+        <column name="au_failure_message" type="12"/>
+        <column name="au_meta_data" type="-1"/>
+        <column name="au_meta_data_temp" type="-1"/>
+        <column name="au_rule_order" type="4"/>
+        <column name="au_rule_severity" type="12"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_business_rule_id" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_definition" type="12"/>
+        <column name="au_additional_instructions" type="12"/>
+        <column name="au_status" type="12"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_activateFlag" type="3"/>
+    </columnInfo>
+</data>
