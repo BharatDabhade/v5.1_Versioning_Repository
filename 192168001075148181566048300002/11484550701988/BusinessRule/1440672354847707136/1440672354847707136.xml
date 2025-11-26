@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_BUSINESS_RULE>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_description><![CDATA[QA_AIRule_19Nov_kjnds]]></au_description>
+        <au_revision><![CDATA[3f1825c33a027797fb42391458a8fb8912244e58]]></au_revision>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
         <au_permissionMask><![CDATA[770]]></au_permissionMask>
         <au_id><![CDATA[1440672354847707136]]></au_id>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_userOwner><![CDATA[IndigoUser:1434853871934623744]]></au_userOwner>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
         <au_version><![CDATA[1]]></au_version>
-        <au_entityName><![CDATA[QA_AIRule_19Nov]]></au_entityName>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_modifiedDate><![CDATA[2025-11-19T11:57:36]]></au_modifiedDate>
-        <au_json_layout><![CDATA[1438818684693585920]]></au_json_layout>
-        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
-        <au_description><![CDATA[QA_AIRule_19Nov]]></au_description>
-        <au_creationDate><![CDATA[2025-11-19T11:57:36]]></au_creationDate>
-        <AU_CONFIGURATION><![CDATA[{"maxRetryAttempts":3,"minBackoffTime":1,"maxBackoffTime":10,"connectTimeout":5,"writeTimeout":10,"readTimeout":300,"mergeInputData":"No"}]]></AU_CONFIGURATION>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
         <AU_JSON_DATA><![CDATA[{"purchase_order":{"po_number":"PO123456","date":"2023-10-01","vendor":{"name":"ABC Supplies","address":"123 Main St, Anytown, USA"},"buyer":{"name":"XYZ Corp","address":"456 Elm St, Othertown, USA"},"items":[{"description":"Office Chairs","qty":10,"unit_price":45.99,"line_total":459.90},{"description":"Desks","qty":5,"unit_price":120.50,"line_total":602.50}],"subtotal":1062.40,"tax":63.74,"grand_total":1126.14,"authorized_signature":{"name":"John Doe","designation":"Purchasing Manager"}}}]]></AU_JSON_DATA>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_modifiedBy><![CDATA[Dhruv Sharma]]></au_modifiedBy>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_json_layout><![CDATA[1438818684693585920]]></au_json_layout>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <AU_CONFIGURATION><![CDATA[{"maxRetryAttempts":3,"minBackoffTime":1,"maxBackoffTime":10,"connectTimeout":5,"writeTimeout":10,"readTimeout":300,"mergeInputData":"No"}]]></AU_CONFIGURATION>
+        <au_creationDate><![CDATA[2025-11-19T11:57:36]]></au_creationDate>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_modifiedBy><![CDATA[IndigoUser:1436227388116824064]]></au_modifiedBy>
+        <au_modifiedDate><![CDATA[2025-11-26T05:39:13]]></au_modifiedDate>
+        <au_entityName><![CDATA[QA_AIRule_19Nov]]></au_entityName>
     </AU_BUSINESS_RULE>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>

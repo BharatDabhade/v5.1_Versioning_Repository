@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_RULE>
-        <au_meta_data_temp><![CDATA[]]></au_meta_data_temp>
+        <au_python_code_temp><![CDATA[]]></au_python_code_temp>
+        <au_id><![CDATA[1440672354851901440]]></au_id>
+        <au_activateFlag><![CDATA[1]]></au_activateFlag>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_status><![CDATA[Tested]]></au_status>
+        <au_additional_instructions><![CDATA[]]></au_additional_instructions>
+        <au_failure_message><![CDATA[]]></au_failure_message>
+        <au_definition><![CDATA[Check if 'purchase_order/po_number' is not blank]]></au_definition>
+        <au_business_rule_id><![CDATA[1440672354847707136]]></au_business_rule_id>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
         <au_python_code><![CDATA[def rule_1440672266604851200(inp_data):
     results = []
     try:
@@ -17,24 +26,15 @@
     except:
         results.append({'purchase_order/po_number': '', 'identifier1_location': '', 'result': 'FAIL'})
     return results]]></au_python_code>
-        <au_business_rule_id><![CDATA[1440672354847707136]]></au_business_rule_id>
-        <au_activateFlag><![CDATA[1]]></au_activateFlag>
-        <au_rule_data><![CDATA[]]></au_rule_data>
         <au_rule_order><![CDATA[1]]></au_rule_order>
-        <au_version><![CDATA[1]]></au_version>
-        <au_id><![CDATA[1440672354851901440]]></au_id>
+        <au_meta_data_temp><![CDATA[]]></au_meta_data_temp>
         <au_rule_severity><![CDATA[false]]></au_rule_severity>
-        <au_meta_data><![CDATA[{"resultField":"[{\"name\":\"purchase_order/po_number\",\"location\":\"purchase_order/po_number\"}]","editor":"Check if&nbsp;<span class=\"DefineRule-module__chip___ZpTAO\" contenteditable=\"false\" title=\"purchase_order/po_number\">po_number</span>&nbsp;is not blank","yield":"no"}]]></au_meta_data>
         <au_description><![CDATA[html_rule1]]></au_description>
-        <au_definition><![CDATA[Check if 'purchase_order/po_number' is not blank]]></au_definition>
-        <au_modifiedDate><![CDATA[2025-11-19T11:57:36]]></au_modifiedDate>
-        <au_status><![CDATA[Tested]]></au_status>
-        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
-        <au_failure_message><![CDATA[]]></au_failure_message>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_python_code_temp><![CDATA[]]></au_python_code_temp>
+        <au_rule_data><![CDATA[]]></au_rule_data>
+        <au_version><![CDATA[1]]></au_version>
         <au_entityName><![CDATA[html_rule1]]></au_entityName>
-        <au_additional_instructions><![CDATA[]]></au_additional_instructions>
+        <au_modifiedDate><![CDATA[2025-11-26T05:39:13]]></au_modifiedDate>
+        <au_meta_data><![CDATA[{"resultField":"[{\"name\":\"purchase_order/po_number\",\"location\":\"purchase_order/po_number\"}]","editor":"Check if&nbsp;<span class=\"DefineRule-module__chip___ZpTAO\" contenteditable=\"false\" title=\"purchase_order/po_number\">po_number</span>&nbsp;is not blank","yield":"no"}]]></au_meta_data>
     </AU_RULE>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
