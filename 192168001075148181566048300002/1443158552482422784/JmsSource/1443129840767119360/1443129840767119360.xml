@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_JMSSOURCE>
+        <au_subscriberID><![CDATA[]]></au_subscriberID>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_userName><![CDATA[]]></au_userName>
+        <au_entityName><![CDATA[dsdsd]]></au_entityName>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_description><![CDATA[sdsdsd]]></au_description>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_jmsProvider><![CDATA[JmsProvider:1443129602053054464]]></au_jmsProvider>
+        <au_messageSelector><![CDATA[]]></au_messageSelector>
+        <au_id><![CDATA[1443129840767119360]]></au_id>
+        <au_messageType><![CDATA[text]]></au_messageType>
+        <au_userOwner><![CDATA[IndigoUser:1440650416150253568]]></au_userOwner>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_modifiedDate><![CDATA[2025-11-26T09:41:06]]></au_modifiedDate>
+        <au_queueOrTopic><![CDATA[queue]]></au_queueOrTopic>
+        <au_timeOut><![CDATA[]]></au_timeOut>
+        <au_queueOrtopicName><![CDATA[dynamicQueues/shivam]]></au_queueOrtopicName>
+        <au_version><![CDATA[1]]></au_version>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_durableSubscriber><![CDATA[0]]></au_durableSubscriber>
+        <au_password><![CDATA[]]></au_password>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:1440650416150253568]]></au_modifiedBy>
+        <au_projectOwner><![CDATA[Project:1443158552482422784]]></au_projectOwner>
+        <au_creationDate><![CDATA[2025-11-26T06:42:46]]></au_creationDate>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+    </AU_JMSSOURCE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_jmsProvider" type="12"/>
+        <column name="au_queueOrTopic" type="12"/>
+        <column name="au_durableSubscriber" type="3"/>
+        <column name="au_subscriberID" type="12"/>
+        <column name="au_queueOrtopicName" type="12"/>
+        <column name="au_messageType" type="12"/>
+        <column name="au_messageSelector" type="12"/>
+        <column name="au_timeOut" type="12"/>
+        <column name="au_userName" type="12"/>
+        <column name="au_password" type="12"/>
+    </columnInfo>
+</data>
