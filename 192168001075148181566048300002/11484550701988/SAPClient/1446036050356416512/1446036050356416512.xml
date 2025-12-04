@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_SAPCLIENT>
+        <AU_GROUP><![CDATA[]]></AU_GROUP>
+        <AU_DESTROUTERSTRING><![CDATA[/H/35.204.6.18/S/3299/H/]]></AU_DESTROUTERSTRING>
+        <au_description><![CDATA[bd_SAP_Client_AutomationSide]]></au_description>
+        <AU_SNCMODE><![CDATA[0]]></AU_SNCMODE>
+        <AU_SNCMYNAME><![CDATA[]]></AU_SNCMYNAME>
+        <AU_SNCSSO><![CDATA[0]]></AU_SNCSSO>
+        <AU_SNCLIBRARY><![CDATA[]]></AU_SNCLIBRARY>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_id><![CDATA[1446036050356416512]]></au_id>
+        <au_modifiedBy><![CDATA[IndigoUser:1432581182713565184]]></au_modifiedBy>
+        <AU_MSSERV><![CDATA[]]></AU_MSSERV>
+        <AU_PCS><![CDATA[null]]></AU_PCS>
+        <AU_POOLCAPACITY><![CDATA[null]]></AU_POOLCAPACITY>
+        <AU_MSHOST><![CDATA[]]></AU_MSHOST>
+        <AU_TPHOST><![CDATA[null]]></AU_TPHOST>
+        <AU_DESTSYSTEMNO><![CDATA[0]]></AU_DESTSYSTEMNO>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <AU_GWSERVER><![CDATA[null]]></AU_GWSERVER>
+        <AU_DESTHOST><![CDATA[ldcis1y]]></AU_DESTHOST>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <AU_CODEPAGE><![CDATA[]]></AU_CODEPAGE>
+        <AU_CPICTRACE><![CDATA[null]]></AU_CPICTRACE>
+        <AU_SNCPARTNERNAME><![CDATA[]]></AU_SNCPARTNERNAME>
+        <AU_SNCQOP><![CDATA[]]></AU_SNCQOP>
+        <AU_DESTCLIENT><![CDATA[400]]></AU_DESTCLIENT>
+        <AU_CONNTYPE><![CDATA[instance]]></AU_CONNTYPE>
+        <au_userOwner><![CDATA[IndigoUser:1432581182713565184]]></au_userOwner>
+        <AU_PEAKLIMIT><![CDATA[null]]></AU_PEAKLIMIT>
+        <AU_ALIAS><![CDATA[0]]></AU_ALIAS>
+        <au_entityName><![CDATA[bd_SAP_Client_AutomationSide]]></au_entityName>
+        <AU_TPNAME><![CDATA[null]]></AU_TPNAME>
+        <AU_MAXGETTIME><![CDATA[null]]></AU_MAXGETTIME>
+        <au_revision><![CDATA[null]]></au_revision>
+        <AU_DESTPASSWORD><![CDATA[nBoijWJitT4l0IEzRCdzbQ==]]></AU_DESTPASSWORD>
+        <au_modifiedDate><![CDATA[2025-12-04T07:11]]></au_modifiedDate>
+        <AU_R3NAME><![CDATA[]]></AU_R3NAME>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <AU_GWHOST><![CDATA[null]]></AU_GWHOST>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_version><![CDATA[1]]></au_version>
+        <AU_DESTUSER><![CDATA[ADEPTIA1]]></AU_DESTUSER>
+        <AU_DESTNAME><![CDATA[RFCTEST]]></AU_DESTNAME>
+        <AU_LANG><![CDATA[]]></AU_LANG>
+        <AU_EXPIRATIONPERIOD><![CDATA[null]]></AU_EXPIRATIONPERIOD>
+        <au_creationDate><![CDATA[2025-12-04T07:11]]></au_creationDate>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <AU_TRACE><![CDATA[0]]></AU_TRACE>
+        <AU_EXPIRATIONTIME><![CDATA[null]]></AU_EXPIRATIONTIME>
+    </AU_SAPCLIENT>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="AU_DESTNAME" type="12"/>
+        <column name="AU_DESTCLIENT" type="12"/>
+        <column name="AU_DESTHOST" type="12"/>
+        <column name="AU_DESTSYSTEMNO" type="4"/>
+        <column name="AU_DESTROUTERSTRING" type="12"/>
+        <column name="AU_DESTUSER" type="12"/>
+        <column name="AU_DESTPASSWORD" type="12"/>
+        <column name="AU_LANG" type="12"/>
+        <column name="AU_CODEPAGE" type="12"/>
+        <column name="AU_PCS" type="4"/>
+        <column name="AU_R3NAME" type="12"/>
+        <column name="AU_MSHOST" type="12"/>
+        <column name="AU_MSSERV" type="12"/>
+        <column name="AU_GROUP" type="12"/>
+        <column name="AU_SNCPARTNERNAME" type="12"/>
+        <column name="AU_SNCQOP" type="12"/>
+        <column name="AU_SNCMYNAME" type="12"/>
+        <column name="AU_SNCMODE" type="3"/>
+        <column name="AU_SNCSSO" type="3"/>
+        <column name="AU_SNCLIBRARY" type="12"/>
+        <column name="AU_PEAKLIMIT" type="4"/>
+        <column name="AU_POOLCAPACITY" type="4"/>
+        <column name="AU_EXPIRATIONTIME" type="4"/>
+        <column name="AU_EXPIRATIONPERIOD" type="4"/>
+        <column name="AU_MAXGETTIME" type="4"/>
+        <column name="AU_CPICTRACE" type="4"/>
+        <column name="AU_TRACE" type="4"/>
+        <column name="AU_GWHOST" type="12"/>
+        <column name="AU_GWSERVER" type="12"/>
+        <column name="AU_TPHOST" type="12"/>
+        <column name="AU_TPNAME" type="12"/>
+        <column name="AU_ALIAS" type="3"/>
+        <column name="AU_CONNTYPE" type="12"/>
+    </columnInfo>
+</data>
