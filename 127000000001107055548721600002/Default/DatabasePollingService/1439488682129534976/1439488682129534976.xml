@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_DATABASEPOLLINGSERVICE>
+        <au_version><![CDATA[1]]></au_version>
+        <au_id><![CDATA[1439488682129534976]]></au_id>
+        <au_creationDate><![CDATA[2025-11-16T05:34:06]]></au_creationDate>
+        <au_description><![CDATA[sv_db_polling1]]></au_description>
+        <dbtrigger><![CDATA[]]></dbtrigger>
+        <conditionValue><![CDATA[hj]]></conditionValue>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:1438017887265878016]]></dbConnectionInfoId>
+        <tableName><![CDATA[null]]></tableName>
+        <tempraryTableName><![CDATA[dbpollingtable]]></tempraryTableName>
+        <triggerName><![CDATA[]]></triggerName>
+        <au_modifiedDate><![CDATA[2025-12-04T03:35:17]]></au_modifiedDate>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
+        <sqlQuery><![CDATA[SELECT NAME, SEX, AGE, CITY, FIRST, LAST, GENDER, SCHOOL, STATE, COUNTRY,
+       LOCATION, MARRIED, ADDRESS, STATION, DATEOFBIRTH, HOSPITALNAME, HOBBIES
+FROM PK_SOLUTION.TARGET_NEW
+WHERE NAME = 'shivam']]></sqlQuery>
+        <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
+        <operators><![CDATA[EQ]]></operators>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <checkCondition><![CDATA[0]]></checkCondition>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_entityName><![CDATA[sv_db_polling]]></au_entityName>
+    </AU_DATABASEPOLLINGSERVICE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_expiryTime" type="12"/>
+        <column name="au_pollingFrequency" type="12"/>
+        <column name="dbConnectionInfoId" type="12"/>
+        <column name="sqlQuery" type="12"/>
+        <column name="checkCondition" type="3"/>
+        <column name="operators" type="12"/>
+        <column name="conditionValue" type="12"/>
+        <column name="tempraryTableName" type="12"/>
+        <column name="dbtrigger" type="12"/>
+        <column name="triggerName" type="12"/>
+        <column name="tableName" type="12"/>
+    </columnInfo>
+</data>
