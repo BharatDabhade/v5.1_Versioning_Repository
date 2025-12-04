@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_PROJECT>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_userOwner><![CDATA[IndigoUser:1433345265423966208]]></au_userOwner>
+        <au_creationDate><![CDATA[2017-01-18T11:16:24]]></au_creationDate>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:1433345265423966208]]></au_modifiedBy>
+        <au_id><![CDATA[11484550701988]]></au_id>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_entityName><![CDATA[Project_1]]></au_entityName>
+        <au_revision><![CDATA[37d312518708dee5c9841886f9dadc90bf1ae354]]></au_revision>
+        <au_projectType><![CDATA[3700]]></au_projectType>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_modifiedDate><![CDATA[2017-01-18T11:16:24]]></au_modifiedDate>
         <au_synchronized><![CDATA[1]]></au_synchronized>
         <au_projectOwner><![CDATA[null]]></au_projectOwner>
-        <au_version><![CDATA[1]]></au_version>
-        <au_id><![CDATA[11484550701988]]></au_id>
-        <au_projectType><![CDATA[3700]]></au_projectType>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_revision><![CDATA[aa65b0e39e1f2e99e319733c254d0a558b0c5222]]></au_revision>
-        <au_creationDate><![CDATA[2017-01-18T11:16:24]]></au_creationDate>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_userOwner><![CDATA[IndigoUser:1433345265423966208]]></au_userOwner>
         <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
-        <au_modifiedDate><![CDATA[2017-01-18T11:16:24]]></au_modifiedDate>
-        <au_previousVersion><![CDATA[null]]></au_previousVersion>
-        <au_modifiedBy><![CDATA[IndigoUser:1433345265423966208]]></au_modifiedBy>
-        <au_entityName><![CDATA[Project_1]]></au_entityName>
+        <au_version><![CDATA[1]]></au_version>
         <au_description><![CDATA[Project_1]]></au_description>
     </AU_PROJECT>
     <columnInfo dbtype="4">
