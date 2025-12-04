@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_DASHBOARD>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_description><![CDATA[Pie_chart]]></au_description>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_entityName><![CDATA[Pie_chart_Copy1]]></au_entityName>
+        <au_databaseInfo><![CDATA[DatabaseConnectionInfo:1442150944572780544]]></au_databaseInfo>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_column><![CDATA[NewFullName,NewEmployeeID]]></au_column>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_userOwner><![CDATA[IndigoUser:1432256834132979712]]></au_userOwner>
+        <au_componentType><![CDATA[PIE Chart]]></au_componentType>
+        <au_table><![CDATA[dbo.[NewEmployees]]]></au_table>
+        <au_modifiedBy><![CDATA[IndigoUser:1432581182713565184]]></au_modifiedBy>
+        <au_id><![CDATA[1442161374525382656]]></au_id>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_modifiedDate><![CDATA[2025-11-28T13:42:08]]></au_modifiedDate>
+        <au_whereClause><![CDATA[]]></au_whereClause>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_version><![CDATA[1]]></au_version>
+        <au_creationDate><![CDATA[2025-11-23T14:34:26]]></au_creationDate>
+    </AU_DASHBOARD>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_componentType" type="12"/>
+        <column name="au_databaseInfo" type="12"/>
+        <column name="au_column" type="12"/>
+        <column name="au_table" type="12"/>
+        <column name="au_whereClause" type="12"/>
+    </columnInfo>
+</data>
