@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_GROUPS>
-        <au_revision><![CDATA[72bdceb120383869030e57388c930b12669f4d2f]]></au_revision>
-        <au_entityName><![CDATA[Group_1]]></au_entityName>
-        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
-        <au_comment><![CDATA[null]]></au_comment>
-        <au_title><![CDATA[null]]></au_title>
-        <au_modifiedBy><![CDATA[IndigoUser:1433345265423966208]]></au_modifiedBy>
-        <au_previousVersion><![CDATA[null]]></au_previousVersion>
-        <au_webDavFolder><![CDATA[WebDavFolder:192168001207112972325504600001]]></au_webDavFolder>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_synchronized><![CDATA[1]]></au_synchronized>
-        <au_version><![CDATA[1]]></au_version>
-        <au_permissionMask><![CDATA[711]]></au_permissionMask>
-        <au_modifiedDate><![CDATA[2024-01-12T06:56:13]]></au_modifiedDate>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_creationDate><![CDATA[2024-01-12T06:56:13]]></au_creationDate>
-        <au_description><![CDATA[Dummy Group]]></au_description>
-        <au_id><![CDATA[192168001075148181566048300002]]></au_id>
-        <au_userOwner><![CDATA[IndigoUser:1433345265423966208]]></au_userOwner>
+        <au_comment><![CDATA[null]]></au_comment>
+        <au_revision><![CDATA[15e8024c41b443a608327dd3fcf4deb3e1db1bae]]></au_revision>
+        <au_entityName><![CDATA[Group_1]]></au_entityName>
+        <au_title><![CDATA[null]]></au_title>
         <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:1433345265423966208]]></au_modifiedBy>
+        <au_permissionMask><![CDATA[711]]></au_permissionMask>
+        <au_id><![CDATA[192168001075148181566048300002]]></au_id>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_creationDate><![CDATA[2024-01-12T06:56:13]]></au_creationDate>
+        <au_userOwner><![CDATA[IndigoUser:1433345265423966208]]></au_userOwner>
+        <au_modifiedDate><![CDATA[2024-01-12T06:56:13]]></au_modifiedDate>
+        <au_description><![CDATA[Dummy Group]]></au_description>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_version><![CDATA[1]]></au_version>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_webDavFolder><![CDATA[WebDavFolder:192168001207112972325504600001]]></au_webDavFolder>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
         <au_groupInfo><![CDATA[K8QswfddIduKjYZJo7AwgclYZPnFCTzRUSyxdim3JrzK5v8CUYpBult9MBz+2s6/]]></au_groupInfo>
     </AU_GROUPS>
     <columnInfo dbtype="4">
