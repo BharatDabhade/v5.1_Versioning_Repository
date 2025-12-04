@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_JMSEVENT>
+        <AU_EVENTTIMEZONE><![CDATA[UTC]]></AU_EVENTTIMEZONE>
+        <au_durableSubscriber><![CDATA[0]]></au_durableSubscriber>
+        <AU_NOOFMESSAGETOAGGREGATE><![CDATA[0]]></AU_NOOFMESSAGETOAGGREGATE>
+        <au_subscriberID><![CDATA[]]></au_subscriberID>
+        <au_description><![CDATA[ssc_1446057740041924608_1]]></au_description>
+        <au_businessInterval><![CDATA[null]]></au_businessInterval>
+        <au_misFireInstructions><![CDATA[ignoreMisfire]]></au_misFireInstructions>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_jmsPassword><![CDATA[]]></au_jmsPassword>
+        <au_eventStartDateTime><![CDATA[null]]></au_eventStartDateTime>
+        <au_eventExpiryDateTime><![CDATA[null]]></au_eventExpiryDateTime>
+        <au_calendarType><![CDATA[AllDays]]></au_calendarType>
+        <au_triggerInSequence><![CDATA[0]]></au_triggerInSequence>
+        <AU_ENABLEMESSAGEAGGREGATOR><![CDATA[0]]></AU_ENABLEMESSAGEAGGREGATOR>
+        <au_modifiedDate><![CDATA[2025-12-04T08:37:12]]></au_modifiedDate>
+        <au_processPerPoll><![CDATA[-1]]></au_processPerPoll>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_id><![CDATA[1446057740218085376]]></au_id>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_queueOrTopic><![CDATA[QUEUE]]></au_queueOrTopic>
+        <AU_AGGREGATIONTIMESPAN><![CDATA[0]]></AU_AGGREGATIONTIMESPAN>
+        <au_pollingFrequency><![CDATA[]]></au_pollingFrequency>
+        <au_activateFlag><![CDATA[0]]></au_activateFlag>
+        <au_queueOrtopicName><![CDATA[${Config:JMS_QUEUES}]]></au_queueOrtopicName>
+        <au_userName><![CDATA[]]></au_userName>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_receiverEmailIds><![CDATA[]]></au_receiverEmailIds>
+        <au_projectOwner><![CDATA[Project:1442457965348478976]]></au_projectOwner>
+        <au_jmsProvider><![CDATA[JmsProvider:1438809190969028608]]></au_jmsProvider>
+        <au_entityName><![CDATA[ssc_1446057740041924608_1]]></au_entityName>
+        <au_messageSelector><![CDATA[]]></au_messageSelector>
+        <au_version><![CDATA[1]]></au_version>
+        <AU_MESSAGEJOINER><![CDATA[]]></AU_MESSAGEJOINER>
+        <au_createDynamically><![CDATA[0]]></au_createDynamically>
+        <AU_ACTIVATEDBY><![CDATA[null]]></AU_ACTIVATEDBY>
+        <au_creationMode><![CDATA[Simple]]></au_creationMode>
+        <AU_MESSAGETYPES><![CDATA[JSON]]></AU_MESSAGETYPES>
+        <au_creationDate><![CDATA[2025-12-04T08:37:12]]></au_creationDate>
+        <au_sessionType><![CDATA[Non-Transactional]]></au_sessionType>
+        <au_messageType><![CDATA[TEXT]]></au_messageType>
+    </AU_JMSEVENT>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_activateFlag" type="3"/>
+        <column name="au_eventStartDateTime" type="12"/>
+        <column name="au_eventExpiryDateTime" type="12"/>
+        <column name="au_triggerInSequence" type="3"/>
+        <column name="au_calendarType" type="12"/>
+        <column name="au_businessInterval" type="12"/>
+        <column name="au_creationMode" type="12"/>
+        <column name="au_receiverEmailIds" type="12"/>
+        <column name="au_misFireInstructions" type="12"/>
+        <column name="au_processPerPoll" type="4"/>
+        <column name="au_jmsProvider" type="12"/>
+        <column name="au_queueOrTopic" type="12"/>
+        <column name="au_durableSubscriber" type="3"/>
+        <column name="au_subscriberID" type="12"/>
+        <column name="au_queueOrtopicName" type="12"/>
+        <column name="au_createDynamically" type="3"/>
+        <column name="au_messageType" type="12"/>
+        <column name="au_messageSelector" type="12"/>
+        <column name="au_userName" type="12"/>
+        <column name="au_jmsPassword" type="12"/>
+        <column name="au_sessionType" type="12"/>
+        <column name="au_pollingFrequency" type="12"/>
+        <column name="AU_ENABLEMESSAGEAGGREGATOR" type="3"/>
+        <column name="AU_MESSAGETYPES" type="12"/>
+        <column name="AU_MESSAGEJOINER" type="12"/>
+        <column name="AU_NOOFMESSAGETOAGGREGATE" type="3"/>
+        <column name="AU_AGGREGATIONTIMESPAN" type="3"/>
+        <column name="AU_ACTIVATEDBY" type="12"/>
+        <column name="AU_EVENTTIMEZONE" type="12"/>
+    </columnInfo>
+</data>

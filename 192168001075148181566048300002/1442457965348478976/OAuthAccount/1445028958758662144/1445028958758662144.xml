@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_OAuthAccount>
+        <au_adapterType><![CDATA[1194601856894001152]]></au_adapterType>
+        <AU_ACCESSTOKENEXPIRESAT><![CDATA[2025-12-01T16:35:01]]></AU_ACCESSTOKENEXPIRESAT>
+        <au_accessToken><![CDATA[yunrX9m2r72aliaXLXJB3WYTWPuOJwHeIpnNe5cqatRCp1vTaAnloV3uydQ56c7B/LoV8UdrwqQh
+eQGqId+83TonQ2NKGnp+ruS/+I4UCHJmfZmkhBWSO1LXYl3/eIb3VRwpcWL5WO+3ld5mGpYSIXfH
+kSjGZoLsGHzslQYYC5kvLABtCd1g4dp+AGC4KNuiMQsXJgeL8oRxkcbkj53mXtT7vzKhAMARcxZM
+jp23POE5jTxnulFR0AfkMHe7Yb5x5kY2W48uqtXxn56eYbmiYdglbkCqIHZ/x8NHLRPI3FHQ8dNw
+HEXXWZUko5CRIw/TuGB0T8R5LO+Np/kw6h89IVFQan8fX3AJxxDI7FMlar4u/1NBAG/hRSRO3zHX
+L8PDH3Y7NJi51zuSh32+DFRESLRoPdXYdcyM98fZl8Tiokwy3PBH+7OU4xUBOdPZQJm492pvBsjv
+7FcjzgoqpQA5aR7bTNFnKqRqaXU1zKf3Ox189FxTyHG6VuNgjLQTEYvGN7HDDHmMVynl5dQlwPEQ
+HqevMYKfydjLPnqP4qh4VZ43GsAS2bzWJ99N27bDkkNyJ78ZvauhuUX/AtFaJ1Cg0pgDKqbpXHRi
+ANeXtHU2W2tJUCaemjLyZaXRqOAqH14j6yTnzKe2/4Yf6xQjvnsQi3phZieTa/JrZmr4SAadgZP3
+Lpa69bXfh5WOIj20+AuwoSCEe8h5S+9uKqqAbEo5XxU+sh8DtpWo3ikDe9XVSfWYevbYr7UD4gS3
+i3gdJlZHXFeECsZF29Z7aueoFiRF+LSdqM+ynFszOtnRh6ayUbcrRU+KnCMNnZ492VArcf0AJGxb
+xm5qRGcK7dhyxa5vQ0ZYRrp64eMRmjDjh4uqDAa4OwqqiFdOiF9uWbsuvGYSHLm1S4QmdL73CYek
+0ljeXKurRNQNRgBcjLP9d70vZ6fEIpy4DlRKRktcbQn6fQwHxdLsj4XiBLZDHW5adf55Ta/SJ6Ef
+0+SDaSA+9fnCW/fDe2kxoVUCw0jTaXFxNZWls3lQnVUby/c/ayrt6QX/Nvv/+tH2zNoBK6d6Dj3N
+nTvcoMppRdpo2Ziotorxso4100fzE6Aw9I46qLaNmbgqzaa02PSYD7s7swFC7qNVxA39GVDOuw1k
+/sdPi0IWfSwwK0Fo+q4RdZTMEJOSXe3eSsiCmnheSbu0zbTUqAgqa7di454Loe6QOsmZFAY51Ht2
+dpwcoVIqx9dgPYm4++CjUIVtuJ081aNgUnNC1N70qkJCceANatKKos4JxEF+sHzIPRYsMz6dzMzZ
+BYBBKQItrIIOAH1WOmLoq+XSkSetRL8LBWuqlgBKmD08ieMpcurEt1p2R1HTeb+UmUxvFmI5TdqW
+1qP1XjKEDIFdfBjR0GT/D+HsHtjvlSJ1aJ2dvsQnpWJH282WkXHHqckO08XpHWtzMzPSIyyfaumz
+1wa3IeVXGYA3jdI+3rmgh/darSQWqUwsGlzmFZSfJ4PHVJGmNiwfbEm3H7Ug0zKQHEYV7BlFUcz5
+JV3k8ING36upjsYUAGGKgOrH63Pe4MC6w1AzqNr7LujNYnIq/KxrYnqkBKRg42GEhgfWf0x4BAFY
+Y0/R0D8ywmiJSFqdEHaovELMJpsZKLOSGmWLX+eErTatBkiduO5uB8ELVOdRnpFbsjAdKQnV7HQv
+HyDk1ABFNWcC/0+xtJz0hUUmZjRLuXRaI+9ZIAYl7k7Q0Ioo/j+d4SWrGGVyf1z9bA9xFaP4oWUa
+Oc01XChjiW+Wv4OPEeAWEi2jlB9naXF5sSdZ+UE8z3kQ]]></au_accessToken>
+        <au_description><![CDATA[qaprojectfix]]></au_description>
+        <au_entityName><![CDATA[qaprojectfix_edit]]></au_entityName>
+        <au_isMailAc><![CDATA[null]]></au_isMailAc>
+        <au_modifiedDate><![CDATA[2025-12-01T12:29:11]]></au_modifiedDate>
+        <AU_ACCESSTOKENISSUESAT><![CDATA[2025-12-01T12:35:01]]></AU_ACCESSTOKENISSUESAT>
+        <AU_PASSWORD><![CDATA[null]]></AU_PASSWORD>
+        <au_userId><![CDATA[null]]></au_userId>
+        <AU_USERNAME><![CDATA[null]]></AU_USERNAME>
+        <au_userOwner><![CDATA[IndigoUser:1433423459623723008]]></au_userOwner>
+        <au_parametersXml><![CDATA[<parameters><authType>[ABPM_._ESCAPE_._CDATA_._START]OAUTH2[ABPM_._ESCAPE_._CDATA_._END]</authType><grantType>[ABPM_._ESCAPE_._CDATA_._START]AUTH_CODE[ABPM_._ESCAPE_._CDATA_._END]</grantType><dateFormat>[ABPM_._ESCAPE_._CDATA_._START]yyyy-MM-dd'T'HH:mm:ss'Z'[ABPM_._ESCAPE_._CDATA_._END]</dateFormat><timeZone>[ABPM_._ESCAPE_._CDATA_._START]GMT[ABPM_._ESCAPE_._CDATA_._END]</timeZone><description>[ABPM_._ESCAPE_._CDATA_._START]qaprojectfix[ABPM_._ESCAPE_._CDATA_._END]</description><accessTokenMode>[ABPM_._ESCAPE_._CDATA_._START]Offline Token[ABPM_._ESCAPE_._CDATA_._END]</accessTokenMode><appClientId>[ABPM_._ESCAPE_._CDATA_._START]OAuthClient:1445028935899705344[ABPM_._ESCAPE_._CDATA_._END]</appClientId></parameters>]]></au_parametersXml>
+        <au_clientId><![CDATA[NCviMP78/QfOkwM5t9rsdQ==]]></au_clientId>
+        <au_accessTokenSecret><![CDATA[null]]></au_accessTokenSecret>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_oauthVersion><![CDATA[2.0]]></au_oauthVersion>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_creationDate><![CDATA[2025-12-01T12:29:11]]></au_creationDate>
+        <au_profileId><![CDATA[null]]></au_profileId>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_refreshToken><![CDATA[GulbNyyNMCq6YAmZcmQNeiNhbIzu9tED8TuZLsGBOAk4j9/B2R2H8DhyTOz9+e87dLgUdeUxIYIJ
+1zTuSy/RTdSqTuftL+AAh1bRoS/5UUo=]]></au_refreshToken>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <AU_REFRESHTOKENISSUESAT><![CDATA[null]]></AU_REFRESHTOKENISSUESAT>
+        <au_oauthClientId><![CDATA[OAuthClient:1445028935899705344]]></au_oauthClientId>
+        <AU_REFRESHTOKENEXPIRESAT><![CDATA[null]]></AU_REFRESHTOKENEXPIRESAT>
+        <au_instanceUrl><![CDATA[null]]></au_instanceUrl>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_modifiedBy><![CDATA[IndigoUser:1433423459623723008]]></au_modifiedBy>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_id><![CDATA[1445028958758662144]]></au_id>
+        <AU_RATELIMITCONFIGURATION><![CDATA[null]]></AU_RATELIMITCONFIGURATION>
+        <au_version><![CDATA[1]]></au_version>
+        <au_clientSecret><![CDATA[7m53mjo5aP+82nsEa8uw3w==]]></au_clientSecret>
+        <au_projectOwner><![CDATA[Project:1442457965348478976]]></au_projectOwner>
+    </AU_OAuthAccount>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_accessToken" type="-1"/>
+        <column name="au_instanceUrl" type="12"/>
+        <column name="au_adapterType" type="12"/>
+        <column name="au_oauthVersion" type="12"/>
+        <column name="au_clientId" type="12"/>
+        <column name="au_clientSecret" type="12"/>
+        <column name="au_accessTokenSecret" type="12"/>
+        <column name="au_refreshToken" type="-1"/>
+        <column name="au_parametersXml" type="-1"/>
+        <column name="au_profileId" type="12"/>
+        <column name="au_userId" type="12"/>
+        <column name="au_isMailAc" type="12"/>
+        <column name="AU_USERNAME" type="12"/>
+        <column name="AU_PASSWORD" type="12"/>
+        <column name="au_oauthClientId" type="12"/>
+        <column name="AU_ACCESSTOKENISSUESAT" type="93"/>
+        <column name="AU_ACCESSTOKENEXPIRESAT" type="93"/>
+        <column name="AU_REFRESHTOKENISSUESAT" type="93"/>
+        <column name="AU_REFRESHTOKENEXPIRESAT" type="93"/>
+        <column name="AU_RATELIMITCONFIGURATION" type="12"/>
+    </columnInfo>
+</data>
