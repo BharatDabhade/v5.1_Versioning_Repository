@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_StoredProcedure>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <AU_JSON><![CDATA[{"resultSets":["SELECT ID, ACTION, ACTIONINFO1, ACTIONINFO2, ACTIONINFO3, ACTIONINFO4, ACTIONINFO5, ACTIONSEND, AGENTID, CREATETIMESTAMP, PROCESSDETAILS, UPDATETIMESTAMP FROM AIS_LOG.AC_AGENT_ACTION"],"outParmas":[{"parameterName":"C","dataType":"NUMBER|2","type":"Value"}],"inOutParmas":[]}]]></AU_JSON>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_description><![CDATA[sv_stored_porcedure]]></au_description>
+        <AU_PACKAGENAME><![CDATA[]]></AU_PACKAGENAME>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:1440303993928003584]]></au_dbConnectionInfoId>
+        <au_entityName><![CDATA[sv_stored_porcedure]]></au_entityName>
+        <au_modifiedDate><![CDATA[2025-12-03T05:20:58]]></au_modifiedDate>
+        <au_spName><![CDATA[PK_SOLUTION.SP_ADD]]></au_spName>
+        <au_storedProcedureInParams><![CDATA[A NUMBER|2,B NUMBER|2]]></au_storedProcedureInParams>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_id><![CDATA[1440629823516110848]]></au_id>
+        <au_creationDate><![CDATA[2025-11-19T09:08:36]]></au_creationDate>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <AU_XSD><![CDATA[null]]></AU_XSD>
+        <au_storedProcedureInOutParams><![CDATA[]]></au_storedProcedureInOutParams>
+        <au_version><![CDATA[1]]></au_version>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_storedProcedureOutParams><![CDATA[C NUMBER|2]]></au_storedProcedureOutParams>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <AU_OUTPUTMODE><![CDATA[XML Stream]]></AU_OUTPUTMODE>
+    </AU_StoredProcedure>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_dbConnectionInfoId" type="12"/>
+        <column name="au_spName" type="12"/>
+        <column name="au_storedProcedureInParams" type="12"/>
+        <column name="au_storedProcedureOutParams" type="12"/>
+        <column name="au_storedProcedureInOutParams" type="12"/>
+        <column name="AU_OUTPUTMODE" type="12"/>
+        <column name="AU_PACKAGENAME" type="12"/>
+        <column name="AU_JSON" type="-1"/>
+        <column name="AU_XSD" type="-1"/>
+    </columnInfo>
+</data>
