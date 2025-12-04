@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_WSCONSUMER_Message>
+        <au_from><![CDATA[]]></au_from>
+        <au_operationXml><![CDATA[<Operations><operation><name>valideren</name><soapAction>[ABPM_._ESCAPE_._CDATA_._START]urn:valideren[ABPM_._ESCAPE_._CDATA_._END]</soapAction><element>validatie</element><binaryElements id="valideren"><binaryElement><name>zipAttachment</name><namespace>urn:uuid:47b6de9e-372e-4bbe-8933-d9a2bb6b1ecb/nl/dso/v1</namespace><type>base64Binary</type></binaryElement></binaryElements></operation><operation><name>validerenGB</name><soapAction>[ABPM_._ESCAPE_._CDATA_._START]urn:validerenGB[ABPM_._ESCAPE_._CDATA_._END]</soapAction><element>validatieGB</element><binaryElements id="validerenGB"></binaryElements></operation><operation><name>publiceren</name><soapAction>[ABPM_._ESCAPE_._CDATA_._START]urn:publiceren[ABPM_._ESCAPE_._CDATA_._END]</soapAction><element>publicatie</element><binaryElements id="publiceren"><binaryElement><name>zipAttachment</name><namespace>urn:uuid:47b6de9e-372e-4bbe-8933-d9a2bb6b1ecb/nl/dso/v1</namespace><type>base64Binary</type></binaryElement></binaryElements></operation><operation><name>publicerenGB</name><soapAction>[ABPM_._ESCAPE_._CDATA_._START]urn:publicerenGB[ABPM_._ESCAPE_._CDATA_._END]</soapAction><element>publicatieGB</element><binaryElements id="publicerenGB"></binaryElements></operation><operation><name>raadplegen</name><soapAction>[ABPM_._ESCAPE_._CDATA_._START]urn:raadplegen[ABPM_._ESCAPE_._CDATA_._END]</soapAction><element>raadplegen</element><binaryElements id="raadplegen"></binaryElements></operation></Operations>]]></au_operationXml>
+        <au_overrideSchema><![CDATA[0]]></au_overrideSchema>
+        <au_encodingUsed><![CDATA[null]]></au_encodingUsed>
+        <au_modifiedBy><![CDATA[IndigoUser:1433345265423966208]]></au_modifiedBy>
+        <au_inputXSD><![CDATA[null]]></au_inputXSD>
+        <au_inputHeaderDocument><![CDATA[null]]></au_inputHeaderDocument>
+        <au_elementsList><![CDATA[null]]></au_elementsList>
+        <au_soapActionURI><![CDATA[null]]></au_soapActionURI>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_inputDocument><![CDATA[null]]></au_inputDocument>
+        <au_bodyNamespace><![CDATA[null]]></au_bodyNamespace>
+        <au_actionDynamicCallEnable><![CDATA[0]]></au_actionDynamicCallEnable>
+        <au_relatesToDynamicCallEnable><![CDATA[0]]></au_relatesToDynamicCallEnable>
+        <au_toDynamicCallEnable><![CDATA[0]]></au_toDynamicCallEnable>
+        <au_faultToReferenceParam><![CDATA[]]></au_faultToReferenceParam>
+        <au_messageID><![CDATA[]]></au_messageID>
+        <au_schemaNamespaceURI><![CDATA[null]]></au_schemaNamespaceURI>
+        <au_mustUnderstand><![CDATA[None]]></au_mustUnderstand>
+        <au_wsaVersionDynamicEnable><![CDATA[0]]></au_wsaVersionDynamicEnable>
+        <au_binding><![CDATA[dsoStopSoap11Binding]]></au_binding>
+        <au_wsaReplyTo><![CDATA[]]></au_wsaReplyTo>
+        <au_inputHeaderXSD><![CDATA[null]]></au_inputHeaderXSD>
+        <au_webServiceVersion><![CDATA[2.0]]></au_webServiceVersion>
+        <au_replyToReferenceParam><![CDATA[]]></au_replyToReferenceParam>
+        <au_faultToRefParamDynamic><![CDATA[0]]></au_faultToRefParamDynamic>
+        <au_wsServiceName><![CDATA[dsoDigikoppelingServices_FR]]></au_wsServiceName>
+        <au_formatType><![CDATA[None]]></au_formatType>
+        <au_id><![CDATA[1445089712910249984]]></au_id>
+        <au_outputHeaderXSD><![CDATA[null]]></au_outputHeaderXSD>
+        <au_wsaVersion><![CDATA[200508]]></au_wsaVersion>
+        <au_portName><![CDATA[dsoHttpsSoap11SynchroneEndpoint]]></au_portName>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_replyToRefParamDynamic><![CDATA[0]]></au_replyToRefParamDynamic>
+        <au_connectTimeout><![CDATA[0]]></au_connectTimeout>
+        <au_fromDynamicCallEnable><![CDATA[0]]></au_fromDynamicCallEnable>
+        <au_oneWayCommunication><![CDATA[0]]></au_oneWayCommunication>
+        <au_maintainSession><![CDATA[0]]></au_maintainSession>
+        <au_replyToDynamicCallEnable><![CDATA[0]]></au_replyToDynamicCallEnable>
+        <au_xwssXMLDefination><![CDATA[]]></au_xwssXMLDefination>
+        <au_endPoint><![CDATA[https://qa-ac5api.adeptia.com:443/wsx/services/dsoDigikoppelingServices_FR]]></au_endPoint>
+        <au_outputXSDRootElementName><![CDATA[null]]></au_outputXSDRootElementName>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_relationshipDynamicEnable><![CDATA[0]]></au_relationshipDynamicEnable>
+        <au_modifiedDate><![CDATA[2025-12-01T16:33:38]]></au_modifiedDate>
+        <au_wsdlFileName><![CDATA[Webservice (15).wsdl]]></au_wsdlFileName>
+        <au_description><![CDATA[FR12]]></au_description>
+        <au_portType><![CDATA[]]></au_portType>
+        <au_wsaTo><![CDATA[]]></au_wsaTo>
+        <au_overrideSecurityConf><![CDATA[0]]></au_overrideSecurityConf>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_messageIdDynamicCallEnable><![CDATA[0]]></au_messageIdDynamicCallEnable>
+        <au_outputXSD><![CDATA[null]]></au_outputXSD>
+        <au_creationDate><![CDATA[2025-12-01T16:30:36]]></au_creationDate>
+        <au_selectedOperation><![CDATA[null]]></au_selectedOperation>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_fileReferencesID><![CDATA[FileReferences:1445089710800515072]]></au_fileReferencesID>
+        <au_wsaAction><![CDATA[]]></au_wsaAction>
+        <au_overrideSoapaction><![CDATA[0]]></au_overrideSoapaction>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_inputXSDRootElementName><![CDATA[null]]></au_inputXSDRootElementName>
+        <au_relatesTo><![CDATA[]]></au_relatesTo>
+        <au_wsaAddressing><![CDATA[0]]></au_wsaAddressing>
+        <au_entityName><![CDATA[FR34]]></au_entityName>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_enableMtom><![CDATA[0]]></au_enableMtom>
+        <au_soapVersion><![CDATA[SOAP 1.1]]></au_soapVersion>
+        <au_connectionString><![CDATA[uri#$#local#$#FR_0319f16d-f2ec-4755-a09c-7baac9ed05d5.wsdl]]></au_connectionString>
+        <au_callTimeout><![CDATA[60]]></au_callTimeout>
+        <au_faultToDynamicCallEnable><![CDATA[0]]></au_faultToDynamicCallEnable>
+        <au_faultTo><![CDATA[]]></au_faultTo>
+        <au_style><![CDATA[DOCUMENT]]></au_style>
+        <au_securityPolicy><![CDATA[]]></au_securityPolicy>
+        <au_preemptiveAuth><![CDATA[0]]></au_preemptiveAuth>
+        <au_version><![CDATA[1]]></au_version>
+        <au_output><![CDATA[null]]></au_output>
+        <au_mustunderDynamicEnable><![CDATA[0]]></au_mustunderDynamicEnable>
+        <au_relationshipType><![CDATA[]]></au_relationshipType>
+        <au_userOwner><![CDATA[IndigoUser:1433345265423966208]]></au_userOwner>
+    </AU_WSCONSUMER_Message>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_wsServiceName" type="12"/>
+        <column name="au_webServiceVersion" type="12"/>
+        <column name="au_fileReferencesID" type="12"/>
+        <column name="au_portType" type="12"/>
+        <column name="au_binding" type="12"/>
+        <column name="au_portName" type="12"/>
+        <column name="au_endPoint" type="12"/>
+        <column name="au_soapVersion" type="12"/>
+        <column name="au_selectedOperation" type="12"/>
+        <column name="au_inputDocument" type="-1"/>
+        <column name="au_inputHeaderDocument" type="-1"/>
+        <column name="au_output" type="12"/>
+        <column name="au_securityPolicy" type="12"/>
+        <column name="au_elementsList" type="-1"/>
+        <column name="au_style" type="12"/>
+        <column name="au_connectionString" type="12"/>
+        <column name="au_bodyNamespace" type="12"/>
+        <column name="au_soapActionURI" type="12"/>
+        <column name="au_inputXSD" type="-1"/>
+        <column name="au_operationXml" type="-1"/>
+        <column name="au_inputHeaderXSD" type="-1"/>
+        <column name="au_outputHeaderXSD" type="-1"/>
+        <column name="au_inputXSDRootElementName" type="12"/>
+        <column name="au_outputXSD" type="-1"/>
+        <column name="au_outputXSDRootElementName" type="12"/>
+        <column name="au_schemaNamespaceURI" type="12"/>
+        <column name="au_overrideSchema" type="3"/>
+        <column name="au_callTimeout" type="12"/>
+        <column name="au_maintainSession" type="3"/>
+        <column name="au_oneWayCommunication" type="3"/>
+        <column name="au_preemptiveAuth" type="3"/>
+        <column name="au_overrideSecurityConf" type="3"/>
+        <column name="au_overrideSoapaction" type="3"/>
+        <column name="au_enableMtom" type="3"/>
+        <column name="au_wsaAddressing" type="3"/>
+        <column name="au_mustUnderstand" type="12"/>
+        <column name="au_wsaVersion" type="12"/>
+        <column name="au_wsaAction" type="12"/>
+        <column name="au_wsaTo" type="12"/>
+        <column name="au_wsaReplyTo" type="12"/>
+        <column name="au_replyToReferenceParam" type="12"/>
+        <column name="au_messageID" type="12"/>
+        <column name="au_from" type="12"/>
+        <column name="au_faultTo" type="12"/>
+        <column name="au_faultToReferenceParam" type="12"/>
+        <column name="au_relatesTo" type="12"/>
+        <column name="au_relationshipType" type="12"/>
+        <column name="au_formatType" type="12"/>
+        <column name="au_mustunderDynamicEnable" type="3"/>
+        <column name="au_wsaVersionDynamicEnable" type="3"/>
+        <column name="au_actionDynamicCallEnable" type="3"/>
+        <column name="au_toDynamicCallEnable" type="3"/>
+        <column name="au_replyToDynamicCallEnable" type="3"/>
+        <column name="au_replyToRefParamDynamic" type="3"/>
+        <column name="au_messageIdDynamicCallEnable" type="3"/>
+        <column name="au_fromDynamicCallEnable" type="3"/>
+        <column name="au_faultToDynamicCallEnable" type="3"/>
+        <column name="au_faultToRefParamDynamic" type="3"/>
+        <column name="au_relatesToDynamicCallEnable" type="3"/>
+        <column name="au_relationshipDynamicEnable" type="3"/>
+        <column name="au_xwssXMLDefination" type="-1"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="au_wsdlFileName" type="12"/>
+        <column name="au_connectTimeout" type="4"/>
+    </columnInfo>
+</data>
