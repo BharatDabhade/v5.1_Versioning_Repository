@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AC_JWKS_CONFIGURATION>
+        <ENCRYPTED><![CDATA[false]]></ENCRYPTED>
+        <PROJECT_OWNER><![CDATA[Project:11484550701988]]></PROJECT_OWNER>
+        <SIGNED><![CDATA[true]]></SIGNED>
+        <ISSUER><![CDATA[null]]></ISSUER>
+        <DESCRIPTION><![CDATA[sw]]></DESCRIPTION>
+        <MODIFIED_DATE><![CDATA[2025-11-08T06:40:38]]></MODIFIED_DATE>
+        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
+        <ENCRYPTION_PRIVATE_KEY><![CDATA[null]]></ENCRYPTION_PRIVATE_KEY>
+        <CREATED_BY><![CDATA[Siddhant Wadhwa]]></CREATED_BY>
+        <MODIFIED_BY><![CDATA[Siddhant Wadhwa]]></MODIFIED_BY>
+        <ENCRYPTION_KEY_TYPE><![CDATA[null]]></ENCRYPTION_KEY_TYPE>
+        <SYMMETRIC_ENCRYPTION><![CDATA[false]]></SYMMETRIC_ENCRYPTION>
+        <REVISION><![CDATA[null]]></REVISION>
+        <CREATION_DATE><![CDATA[2025-11-08T06:18:40]]></CREATION_DATE>
+        <ENCRYPTION_SECRET_KEY><![CDATA[null]]></ENCRYPTION_SECRET_KEY>
+        <AUDIENCE><![CDATA[null]]></AUDIENCE>
+        <SIGNING_KEY><![CDATA[null]]></SIGNING_KEY>
+        <SYNCHRONIZED><![CDATA[null]]></SYNCHRONIZED>
+        <ENDPOINT><![CDATA[https://qa-ac5.adeptia.com/automate-portal/configuration/webservices/jwks_service]]></ENDPOINT>
+        <ID><![CDATA[1436600792988774400]]></ID>
+        <SYMMETRIC_SIGNING><![CDATA[false]]></SYMMETRIC_SIGNING>
+        <NAME><![CDATA[sw_jwks]]></NAME>
+    </AC_JWKS_CONFIGURATION>
+    <columnInfo dbtype="0">
+        <column name="ID" type="-5"/>
+        <column name="NAME" type="12"/>
+        <column name="DESCRIPTION" type="12"/>
+        <column name="ENDPOINT" type="12"/>
+        <column name="ISSUER" type="12"/>
+        <column name="AUDIENCE" type="12"/>
+        <column name="SIGNED" type="-7"/>
+        <column name="SYMMETRIC_SIGNING" type="-7"/>
+        <column name="SIGNING_KEY" type="12"/>
+        <column name="ENCRYPTED" type="-7"/>
+        <column name="SYMMETRIC_ENCRYPTION" type="-7"/>
+        <column name="ENCRYPTION_PRIVATE_KEY" type="-1"/>
+        <column name="ENCRYPTION_KEY_TYPE" type="12"/>
+        <column name="ENCRYPTION_SECRET_KEY" type="12"/>
+        <column name="CREATED_BY" type="12"/>
+        <column name="CREATION_DATE" type="93"/>
+        <column name="CREATED_GROUP" type="12"/>
+        <column name="MODIFIED_DATE" type="93"/>
+        <column name="PROJECT_OWNER" type="12"/>
+        <column name="MODIFIED_BY" type="12"/>
+        <column name="SYNCHRONIZED" type="-7"/>
+        <column name="REVISION" type="12"/>
+    </columnInfo>
+</data>
