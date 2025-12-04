@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_OAuthProfile>
+        <au_oauthVersion><![CDATA[2.0]]></au_oauthVersion>
+        <au_modifiedDate><![CDATA[2025-11-24T04:31:01]]></au_modifiedDate>
+        <au_nonce><![CDATA[1]]></au_nonce>
+        <au_clientId><![CDATA[FCMYL2eLP4JhzUZsUFjqFQ==]]></au_clientId>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_signatureMethod><![CDATA[]]></au_signatureMethod>
+        <au_accessTokenReqHeaders><![CDATA[]]></au_accessTokenReqHeaders>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_description><![CDATA[AG_ACG_B22]]></au_description>
+        <au_tokenPlacement><![CDATA[header]]></au_tokenPlacement>
+        <au_accessTokenURL><![CDATA[https://api.dropboxapi.com/oauth2/token]]></au_accessTokenURL>
+        <au_realm><![CDATA[null]]></au_realm>
+        <au_timestamp><![CDATA[1]]></au_timestamp>
+        <au_version><![CDATA[1]]></au_version>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_accessTokenReqParams><![CDATA[grant_type=authorization_code]]></au_accessTokenReqParams>
+        <au_requestTokenURL><![CDATA[null]]></au_requestTokenURL>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_clientSecret><![CDATA[QwAfX63DgBvRgPBhm3sSZQ==]]></au_clientSecret>
+        <au_scope><![CDATA[]]></au_scope>
+        <au_entityName><![CDATA[AG_ACG_B22]]></au_entityName>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_tokenType><![CDATA[Bearer]]></au_tokenType>
+        <au_accessTokenKeyName><![CDATA[access_token]]></au_accessTokenKeyName>
+        <au_tokenKey><![CDATA[Authorization]]></au_tokenKey>
+        <au_authorizationReqParams><![CDATA[response_type=code,token_access_type=offline]]></au_authorizationReqParams>
+        <au_callbackURL><![CDATA[https://qa-ac5.adeptia.com/rest/oauth/account]]></au_callbackURL>
+        <AU_SECURITYPOLICY><![CDATA[]]></AU_SECURITYPOLICY>
+        <au_responseTokenKeys><![CDATA[]]></au_responseTokenKeys>
+        <au_credentialsPlacement><![CDATA[authHeader]]></au_credentialsPlacement>
+        <au_tokenRetrievalMethod><![CDATA[GET]]></au_tokenRetrievalMethod>
+        <au_id><![CDATA[1442371906796773376]]></au_id>
+        <au_userName><![CDATA[null]]></au_userName>
+        <au_creationDate><![CDATA[2025-11-24T04:31:01]]></au_creationDate>
+        <au_userOwner><![CDATA[IndigoUser:1433345265423966208]]></au_userOwner>
+        <au_responseQueryParamKeys><![CDATA[]]></au_responseQueryParamKeys>
+        <au_refreshTokenKeyName><![CDATA[refresh_token]]></au_refreshTokenKeyName>
+        <au_requestTokenReqParams><![CDATA[null]]></au_requestTokenReqParams>
+        <au_password><![CDATA[null]]></au_password>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_authorizationReqHeaders><![CDATA[]]></au_authorizationReqHeaders>
+        <au_refreshTokenReqParams><![CDATA[null]]></au_refreshTokenReqParams>
+        <au_authorizationURL><![CDATA[https://www.dropbox.com/oauth2/authorize]]></au_authorizationURL>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_grantType><![CDATA[AuthorizationCode]]></au_grantType>
+        <au_modifiedBy><![CDATA[IndigoUser:1433345265423966208]]></au_modifiedBy>
+    </AU_OAuthProfile>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_oauthVersion" type="12"/>
+        <column name="au_grantType" type="12"/>
+        <column name="au_clientId" type="-1"/>
+        <column name="au_clientSecret" type="-1"/>
+        <column name="au_requestTokenURL" type="12"/>
+        <column name="au_accessTokenURL" type="12"/>
+        <column name="au_authorizationURL" type="12"/>
+        <column name="au_requestTokenReqParams" type="12"/>
+        <column name="au_accessTokenReqParams" type="12"/>
+        <column name="au_authorizationReqParams" type="12"/>
+        <column name="au_accessTokenReqHeaders" type="-1"/>
+        <column name="au_authorizationReqHeaders" type="-1"/>
+        <column name="au_refreshTokenReqParams" type="12"/>
+        <column name="au_userName" type="12"/>
+        <column name="au_password" type="12"/>
+        <column name="au_scope" type="12"/>
+        <column name="au_callbackURL" type="12"/>
+        <column name="au_signatureMethod" type="12"/>
+        <column name="au_nonce" type="3"/>
+        <column name="au_timestamp" type="3"/>
+        <column name="au_realm" type="12"/>
+        <column name="au_tokenRetrievalMethod" type="12"/>
+        <column name="au_credentialsPlacement" type="12"/>
+        <column name="au_accessTokenKeyName" type="12"/>
+        <column name="au_refreshTokenKeyName" type="12"/>
+        <column name="au_responseTokenKeys" type="12"/>
+        <column name="au_responseQueryParamKeys" type="12"/>
+        <column name="au_tokenPlacement" type="12"/>
+        <column name="au_tokenType" type="12"/>
+        <column name="au_tokenKey" type="12"/>
+        <column name="AU_SECURITYPOLICY" type="12"/>
+    </columnInfo>
+</data>
