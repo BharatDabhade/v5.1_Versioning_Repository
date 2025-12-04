@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_CONTENTBASEDROUTING>
+        <au_description><![CDATA[AG_Partner_Parameter_Routing]]></au_description>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_entityName><![CDATA[AG_Partner_Parameter_Routing]]></au_entityName>
+        <au_version><![CDATA[1]]></au_version>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_creationDate><![CDATA[2025-11-13T10:37:53]]></au_creationDate>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_modifiedBy><![CDATA[IndigoUser:1433345265423966208]]></au_modifiedBy>
+        <au_userOwner><![CDATA[IndigoUser:1433345265423966208]]></au_userOwner>
+        <au_id><![CDATA[1438477966288560128]]></au_id>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <AU_MULTIPLEROUTING><![CDATA[0]]></AU_MULTIPLEROUTING>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <AU_SERVICEPARAMETERS><![CDATA[{"searchParamType":3601,"routingKeys":["routing"]}]]></AU_SERVICEPARAMETERS>
+        <au_modifiedDate><![CDATA[2025-12-01T09:08:37]]></au_modifiedDate>
+        <AU_ROUTINGRULE><![CDATA[{"routing":{"rules":[{"rule":[{"paramName":"Name","xpath":"/Root/Record/First_Name","condition":"equals","paramId":"1438477249522610176"}]}]}}]]></AU_ROUTINGRULE>
+    </AU_CONTENTBASEDROUTING>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="AU_SERVICEPARAMETERS" type="-1"/>
+        <column name="AU_MULTIPLEROUTING" type="3"/>
+        <column name="AU_ROUTINGRULE" type="-1"/>
+    </columnInfo>
+</data>
