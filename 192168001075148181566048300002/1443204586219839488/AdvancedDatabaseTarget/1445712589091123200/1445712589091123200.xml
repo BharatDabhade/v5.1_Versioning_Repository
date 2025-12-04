@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_ADVDBTarget>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_description><![CDATA[test]]></au_description>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <AU_QUEUE_CAPACITY><![CDATA[1000]]></AU_QUEUE_CAPACITY>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <AU_CUSTOM_QUERY><![CDATA[]]></AU_CUSTOM_QUERY>
+        <au_dbConnectionInfo><![CDATA[DatabaseConnectionInfo:1442473949349494784]]></au_dbConnectionInfo>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_dbOperation><![CDATA[Insert]]></au_dbOperation>
+        <au_id><![CDATA[1445712589091123200]]></au_id>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_schemaTypedId><![CDATA[AdvanceDbSchema:1445712501912514560]]></au_schemaTypedId>
+        <au_entityName><![CDATA[sv_advdb_trg]]></au_entityName>
+        <au_modifiedDate><![CDATA[2025-12-03T09:45:41]]></au_modifiedDate>
+        <AU_IDENTICAL_COLUMNS><![CDATA[0]]></AU_IDENTICAL_COLUMNS>
+        <au_userOwner><![CDATA[IndigoUser:1435148886240129024]]></au_userOwner>
+        <au_projectOwner><![CDATA[Project:1443204586219839488]]></au_projectOwner>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[0]]></AU_OPTIMIZE_PROCESSING>
+        <au_creationDate><![CDATA[2025-12-03T09:45:41]]></au_creationDate>
+        <au_modifiedBy><![CDATA[IndigoUser:1435148886240129024]]></au_modifiedBy>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_version><![CDATA[1]]></au_version>
+        <au_revision><![CDATA[null]]></au_revision>
+    </AU_ADVDBTarget>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_dbConnectionInfo" type="12"/>
+        <column name="au_schemaTypedId" type="12"/>
+        <column name="au_dbOperation" type="12"/>
+        <column name="AU_QUEUE_CAPACITY" type="4"/>
+        <column name="AU_OPTIMIZE_PROCESSING" type="3"/>
+        <column name="AU_IDENTICAL_COLUMNS" type="3"/>
+        <column name="AU_CUSTOM_QUERY" type="-1"/>
+    </columnInfo>
+</data>
