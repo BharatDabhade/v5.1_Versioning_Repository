@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_FTPSOURCE>
-        <au_entityName><![CDATA[KG_FTPSource_txt]]></au_entityName>
-        <au_fileName><![CDATA[Simpletxt_Content1.txt]]></au_fileName>
-        <au_userOwner><![CDATA[IndigoUser:1432256834132979712]]></au_userOwner>
-        <au_ftpValidateServer><![CDATA[0]]></au_ftpValidateServer>
-        <au_modifiedDate><![CDATA[2025-12-10T19:53:22]]></au_modifiedDate>
-        <au_port><![CDATA[21]]></au_port>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_port><![CDATA[21]]></au_port>
+        <au_connectorName><![CDATA[apacheCamel]]></au_connectorName>
+        <au_creationDate><![CDATA[2025-12-10T19:49:09]]></au_creationDate>
+        <au_ftpsMode><![CDATA[null]]></au_ftpsMode>
+        <au_modifiedDate><![CDATA[2025-12-12T09:47:52]]></au_modifiedDate>
+        <au_modifiedBy><![CDATA[IndigoUser:1432581182713565184]]></au_modifiedBy>
+        <au_fileName><![CDATA[Simpletxt_Content1.txt]]></au_fileName>
+        <au_keyManager><![CDATA[]]></au_keyManager>
+        <au_ftpOverSSL><![CDATA[0]]></au_ftpOverSSL>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_preferredAuthentications><![CDATA[null]]></au_preferredAuthentications>
+        <au_transferMode><![CDATA[BINARY]]></au_transferMode>
+        <au_hostName><![CDATA[ftp2.adeptia.com]]></au_hostName>
+        <au_transferType><![CDATA[PASSIVE]]></au_transferType>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_ftpTimeout><![CDATA[60]]></au_ftpTimeout>
+        <au_version><![CDATA[1]]></au_version>
+        <au_id><![CDATA[1448401168695443456]]></au_id>
+        <au_ftpProtectionLevel><![CDATA[None]]></au_ftpProtectionLevel>
+        <au_remoteFilePath><![CDATA[/Krati/Source]]></au_remoteFilePath>
+        <au_useJ2SSH><![CDATA[0]]></au_useJ2SSH>
+        <au_keyStoreNameForFTP><![CDATA[None]]></au_keyStoreNameForFTP>
+        <au_ftpValidateServer><![CDATA[0]]></au_ftpValidateServer>
+        <au_description><![CDATA[KG_FTPSource_Text]]></au_description>
         <AU_CONFIGMETADATA><![CDATA[]]></AU_CONFIGMETADATA>
+        <au_entityName><![CDATA[KG_FTPSource_txt_test]]></au_entityName>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_debugMode><![CDATA[0]]></au_debugMode>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
         <au_ftpUserId><![CDATA[qaftp]]></au_ftpUserId>
         <au_password><![CDATA[YRdIYdV60R5FIPHMgwVr0g==]]></au_password>
-        <au_description><![CDATA[KG_FTPSource_Text]]></au_description>
-        <au_remoteFilePath><![CDATA[/Krati/Source]]></au_remoteFilePath>
-        <au_debugMode><![CDATA[0]]></au_debugMode>
-        <au_preferredAuthentications><![CDATA[null]]></au_preferredAuthentications>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_ftpOverSSL><![CDATA[0]]></au_ftpOverSSL>
-        <au_hostName><![CDATA[ftp2.adeptia.com]]></au_hostName>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_version><![CDATA[1]]></au_version>
-        <au_connectorName><![CDATA[apacheCamel]]></au_connectorName>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_deleteOnSuccess><![CDATA[0]]></au_deleteOnSuccess>
-        <au_id><![CDATA[1448401168695443456]]></au_id>
-        <au_useJ2SSH><![CDATA[0]]></au_useJ2SSH>
-        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
-        <au_modifiedBy><![CDATA[IndigoUser:1432256834132979712]]></au_modifiedBy>
-        <au_transferMode><![CDATA[BINARY]]></au_transferMode>
         <au_accountId><![CDATA[null]]></au_accountId>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_transferType><![CDATA[PASSIVE]]></au_transferType>
-        <au_keyStoreNameForFTP><![CDATA[None]]></au_keyStoreNameForFTP>
-        <au_ftpsMode><![CDATA[null]]></au_ftpsMode>
-        <au_keyManager><![CDATA[]]></au_keyManager>
-        <au_secured><![CDATA[0]]></au_secured>
-        <au_creationDate><![CDATA[2025-12-10T19:49:09]]></au_creationDate>
-        <au_ftpTimeout><![CDATA[60]]></au_ftpTimeout>
-        <au_ftpProtectionLevel><![CDATA[None]]></au_ftpProtectionLevel>
         <au_addOnConfigurations><![CDATA[null]]></au_addOnConfigurations>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_revision><![CDATA[98e524818eef61028af2c47fd1ed786173afa99c]]></au_revision>
+        <au_userOwner><![CDATA[IndigoUser:1432256834132979712]]></au_userOwner>
+        <au_deleteOnSuccess><![CDATA[0]]></au_deleteOnSuccess>
+        <au_secured><![CDATA[0]]></au_secured>
     </AU_FTPSOURCE>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
