@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_sourceSchema><![CDATA[ExcelSchema:1448617654346809344]]></au_sourceSchema>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_creationDate><![CDATA[2025-12-11T19:23:36]]></au_creationDate>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_optimizedLoading><![CDATA[1]]></au_optimizedLoading>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_targetSchema><![CDATA[JSONSchema:1448756500758482944]]></au_targetSchema>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_storedProcedure><![CDATA[null]]></au_storedProcedure>
+        <au_id><![CDATA[1448757127739822080]]></au_id>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_version><![CDATA[1]]></au_version>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_modifiedBy><![CDATA[IndigoUser:1432256834132979712]]></au_modifiedBy>
+        <AU_REUSABLE><![CDATA[0]]></AU_REUSABLE>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":[],"filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":false},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":"5613d092-69ca-45b1-96ea-7314c3587616","sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"mappingInformation":{"sourceSchemaID":"ExcelSchema:1448617654346809344","targetSchemaID":"JSONSchema:1448756500758482944","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":false,"mappingName":"Mapping_1448755342463684608_8_map","mappingDescription":"Mapping_KG_CvrtP2PM_Content Automation","mappingProject":"Default"},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"JSON_Layout_1448755342463684608_6","schemaID":"JSONSchema:1448756500758482944","stream":"output_0"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"KG_Excel_CO_b27_Wizard","schemaID":"ExcelSchema:1448617654346809344"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"JSON_Layout_1448755342463684608_6","targetfieldpath":"/Root/policy/policy_no","xpath":"JSON_Layout_1448755342463684608_6/Root/policy/policy_no","targetfield":"policy_no","targetrecord":"policy","expressionPath":"$Input_KG_Excel_CO_b27_Wizard/Root/Record/City","expression":"$Input_KG_Excel_CO_b27_Wizard/Root/Record/City","mapping":[{"sourceName":"KG_Excel_CO_b27_Wizard","operatortype":"field","sourcefield":"City","sourcefielddisplayname":"City","sourcefieldpath":"/Root/Record/City","xpath":"KG_Excel_CO_b27_Wizard/Root/Record/City","sourcerecord":"Record","id":"KG_Excel_CO_b27_Wizard/Root/Record/City"}],"namespacePrefix":"","namespaceRemovePrefix":false,"localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-67dfa31e-f41c-4ac3-8a94-d7edb162dbd3","type":"TargetElement","label":"policy_no","value":"$Input_KG_Excel_CO_b27_Wizard/Root/Record/City","elementItem":{"expression":"$Input_KG_Excel_CO_b27_Wizard/Root/Record/City","syntax":"$Input_KG_Excel_CO_b27_Wizard/Root/Record/City","elementType":"TargetElement","name":"policy_no","paramsCount":1},"previousElementIds":["GraphicalElement-afafe466-df11-4d58-ad44-9fd7a99743b4"],"nextGraphicalElementIds":[],"nextElementIds":[],"elementPos":[600,30]},{"elementId":"GraphicalElement-afafe466-df11-4d58-ad44-9fd7a99743b4","type":"SourceElement","label":"City","value":"$Input_KG_Excel_CO_b27_Wizard/Root/Record/City","elementItem":{"expression":"$Input_KG_Excel_CO_b27_Wizard/Root/Record/City","syntax":"$Input_KG_Excel_CO_b27_Wizard/Root/Record/City","elementType":"SourceElement","name":"City","paramsCount":0},"previousElementIds":[],"nextGraphicalElementIds":["GraphicalElement-67dfa31e-f41c-4ac3-8a94-d7edb162dbd3"],"nextElementIds":["GraphicalElement-67dfa31e-f41c-4ac3-8a94-d7edb162dbd3_IncomingElement-1"],"elementPos":[300,30]}],"defaultEditor":"graphical","markComplete":false,"mapId":"JSON_Layout_1448755342463684608_6/Root/policy/policy_no"}],"sourceExpandLevel":3,"targetExpandLevel":3,"applicationTriggerId":"","applicationActionId":""}]]></au_json>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules10860702065320447742.pdf]]></au_pdfFileName>
+        <au_modifiedDate><![CDATA[2025-12-11T19:23:36]]></au_modifiedDate>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><feed_no></feed_no><policy><policy_no><xsl:value-of select="Root/Record/City"/></policy_no><insured_risk_location><risk_location_cd></risk_location_cd><location></location><building></building><lob><lobPR><lob_cd></lob_cd><coverage><dsp_division_no></dsp_division_no><coverage_transaction_effective_dt></coverage_transaction_effective_dt><coverage_transaction_expiration_dt></coverage_transaction_expiration_dt><master_line_of_business_cd></master_line_of_business_cd><coverage_line_cd></coverage_line_cd><major_class_cd></major_class_cd><gross_written_premium_am></gross_written_premium_am><statplan26><rating_month_no></rating_month_no><rating_year_no></rating_year_no><iso_territory_cd></iso_territory_cd><package_monoline_cd></package_monoline_cd><coverage_subline_cd></coverage_subline_cd><exposure_classification_cd></exposure_classification_cd><mold_damage_coverage_cd></mold_damage_coverage_cd><exposure_am></exposure_am><rate_deductible_am></rate_deductible_am><rating_identification_cd></rating_identification_cd><equipment_type_cd></equipment_type_cd><iso_coverage_cd></iso_coverage_cd><insurance_limit_am></insurance_limit_am><deductible_amount_cd></deductible_amount_cd><terrorism_coverage_cd></terrorism_coverage_cd><loss_cost_multiplier_cd></loss_cost_multiplier_cd><experience_modification_rt></experience_modification_rt><schedule_modification_rt></schedule_modification_rt><package_modification_rt></package_modification_rt><expense_modification_rt></expense_modification_rt><commission_modification_rt></commission_modification_rt><deductible_modification_rt></deductible_modification_rt><risk_location_postal_cd></risk_location_postal_cd><bureau_admitted_cd></bureau_admitted_cd></statplan26><statplan11><rating_month_no></rating_month_no><rating_year_no></rating_year_no><iso_territory_cd></iso_territory_cd><package_monoline_cd></package_monoline_cd><coverage_subline_cd></coverage_subline_cd><construction_outside_bgii_cd></construction_outside_bgii_cd><fire_protection_type_cd></fire_protection_type_cd><construction_inside_BGII_cd></construction_inside_BGII_cd><flood_coverage_am></flood_coverage_am><ordinance_law_coverage_cd></ordinance_law_coverage_cd><coinsurance_percent_cd></coinsurance_percent_cd><mold_damage_coverage_cd></mold_damage_coverage_cd><flood_occurrence_limit_cd></flood_occurrence_limit_cd><flood_annual_aggregate_cd></flood_annual_aggregate_cd><green_upgrade_coverage_cd></green_upgrade_coverage_cd><exposure_classification_cd></exposure_classification_cd><deductible_amount_cd></deductible_amount_cd><exposure_am></exposure_am><occupancy_group_cd></occupancy_group_cd><construction_year_cd></construction_year_cd><terrorism_coverage_cd></terrorism_coverage_cd><state_exception_cd></state_exception_cd><iso_coverage_cd></iso_coverage_cd><rating_identification_cd></rating_identification_cd><state_exception_ii_cd></state_exception_ii_cd><loss_cost_date_month_no></loss_cost_date_month_no><loss_cost_date_year_no></loss_cost_date_year_no><bceg_cd></bceg_cd><loss_cost_multiplier_cd></loss_cost_multiplier_cd><experience_modification_rt></experience_modification_rt><schedule_modification_rt></schedule_modification_rt><package_modification_rt></package_modification_rt><expense_modification_rt></expense_modification_rt><commission_modification_rt></commission_modification_rt><deductible_modification_rt></deductible_modification_rt><risk_location_postal_cd></risk_location_postal_cd><bureau_admitted_cd></bureau_admitted_cd><terrorism_policy_cd></terrorism_policy_cd><policy_category_cd></policy_category_cd><naics_cd></naics_cd><coverage_am></coverage_am><coverage_type_cd></coverage_type_cd><location_ct></location_ct><peril_exclusion_cd></peril_exclusion_cd><indivisible_property_construction_cd></indivisible_property_construction_cd><drone_ownership_operation_cd></drone_ownership_operation_cd><drone_security_features_cd></drone_security_features_cd><drone_primary_location_type_cd></drone_primary_location_type_cd><drone_max_per_occurence_limit_am></drone_max_per_occurence_limit_am><drone_serial_no></drone_serial_no><drone_loss_settlement_cd></drone_loss_settlement_cd><drone_modifications_cd></drone_modifications_cd><drone_control_method_cd></drone_control_method_cd><flood_stories_cd></flood_stories_cd><flood_coverage_floor_cd></flood_coverage_floor_cd><flood_additional_construction_cd></flood_additional_construction_cd><flood_community_rating_cd></flood_community_rating_cd><flood_attachment_indicator_cd></flood_attachment_indicator_cd><flood_first_floor_height_am></flood_first_floor_height_am><flood_nfip_zone_cd></flood_nfip_zone_cd><flood_deductible_cd></flood_deductible_cd></statplan11></coverage></lobPR></lob></insured_risk_location><surplus_line_details><agent_nm></agent_nm><license_no></license_no><license_state_cd></license_state_cd><agent_address><country_cd></country_cd><postal_cd></postal_cd><state_cd></state_cd><city_nm></city_nm><address_line_2_tx></address_line_2_tx><address_line_1_tx></address_line_1_tx><address_type_cd></address_type_cd></agent_address><phone_num></phone_num></surplus_line_details></policy></Root></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_entityName><![CDATA[Mapping_1448755342463684608_8_map]]></au_entityName>
+        <au_userOwner><![CDATA[IndigoUser:1432256834132979712]]></au_userOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_description><![CDATA[Mapping_KG_CvrtP2PM_Content Automation]]></au_description>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <AU_MULTI_VALUED_MAP><![CDATA[<MultiValuedMap/>]]></AU_MULTI_VALUED_MAP>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+    <sourceSchemaID>ExcelSchema:1448617654346809344</sourceSchemaID>
+    <targetSchemaID>JSONSchema:1448756500758482944</targetSchemaID>
+    <mappingOwnerGroup>192168001075148181566048300002</mappingOwnerGroup>
+    <mappingOwner>Krati Gupta</mappingOwner>
+    <mappingLastModifiedBy>Krati Gupta</mappingLastModifiedBy>
+    <mappingCreationDate>Thu Dec 11 19:23:34 GMT 2025</mappingCreationDate>
+    <mappingModifiedDate>Thu Dec 11 19:23:34 GMT 2025</mappingModifiedDate>
+    <reusable>false</reusable>
+    <mappingName>Mapping_1448755342463684608_8_map</mappingName>
+    <mappingDescription>Mapping_KG_CvrtP2PM_Content Automation</mappingDescription>
+    <mappingProject>Default</mappingProject>
+</mappingInformation>
+<sourceRoots>
+    <sourceRoot>
+        <name>Root</name>
+        <schemaName>KG_Excel_CO_b27_Wizard</schemaName>
+        <schemaID>ExcelSchema:1448617654346809344</schemaID>
+    </sourceRoot>
+</sourceRoots>
+<targetRoots>
+    <targetRoot>
+        <name>Root</name>
+        <schemaName>JSON_Layout_1448755342463684608_6</schemaName>
+        <schemaID>JSONSchema:1448756500758482944</schemaID>
+        <stream>output_0</stream>
+    </targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>JSON_Layout_1448755342463684608_6</targetName>
+<dest>/Root/policy/policy_no</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_Excel_CO_b27_Wizard/Root/Record/City</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="policy_no">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/City" mapString="$Input_KG_Excel_CO_b27_Wizard/Root/Record/City" x="0" y="0">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="12" x2="-20" y2="12"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_Excel_CO_b27_Wizard/Root/Record/City" mapString="&lt;S&gt;$Input_KG_Excel_CO_b27_Wizard/Root/Record/City" x="0" y="0">
+<SourceLines>
+<Line x1="80" y1="12" x2="0" y2="12"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+    <valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+        <globalTemplate>global</globalTemplate>
+        <customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+    <streamingMode>false</streamingMode>
+    <filterEmptyElements>false</filterEmptyElements>
+    <dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+    <SelfRecursionLevel>0</SelfRecursionLevel>
+    <EnableTypesBuffering>true</EnableTypesBuffering>
+    <CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+    <consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+        <column name="AU_MULTI_VALUED_MAP" type="-1"/>
+    </columnInfo>
+</data>
