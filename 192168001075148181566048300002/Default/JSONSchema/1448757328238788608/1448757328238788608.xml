@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_JSONSCHEMA>
+        <au_arrayFields><![CDATA[/Root/employees/employee]]></au_arrayFields>
+        <au_jsonFilePath><![CDATA[Employees.json]]></au_jsonFilePath>
+        <AU_JSON_SCHEMA_SPECIFICATION><![CDATA[0]]></AU_JSON_SCHEMA_SPECIFICATION>
+        <AU_DEFINITIONFILE><![CDATA[json]]></AU_DEFINITIONFILE>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+        <xsdFilePath><![CDATA[null]]></xsdFilePath>
+        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <AU_HANDLE_ARRAY_DATA><![CDATA[0]]></AU_HANDLE_ARRAY_DATA>
+        <au_creationDate><![CDATA[2025-12-11T19:24:24]]></au_creationDate>
+        <AU_QUEUE_CAPACITY><![CDATA[1000]]></AU_QUEUE_CAPACITY>
+        <au_description><![CDATA[JSON_Layout_KG_CvrtP2PM_Content Automation]]></au_description>
+        <au_modifiedDate><![CDATA[2025-12-11T19:24:33]]></au_modifiedDate>
+        <AU_REFERENCE_IDENTIFIER_XPATH><![CDATA[]]></AU_REFERENCE_IDENTIFIER_XPATH>
+        <au_version><![CDATA[1]]></au_version>
+        <au_json><![CDATA[{"fieldName":"Root","expanded":true,"leaf":false,"children":[{"fieldName":"employees","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"employee","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"id","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"firstName","expanded":true,"isAttribute":false,"value":"krati","leaf":true},{"fieldName":"lastName","expanded":true,"isAttribute":false,"value":"Doe","leaf":true},{"fieldName":"email","expanded":true,"isAttribute":false,"value":"john.doe@demo.com","leaf":true},{"fieldName":"phone","expanded":true,"isAttribute":false,"value":"111-111-1111","leaf":true},{"fieldName":"age","expanded":true,"isAttribute":false,"value":"30","leaf":true},{"fieldName":"gender","expanded":true,"isAttribute":false,"value":"Male","leaf":true},{"fieldName":"country","expanded":true,"isAttribute":false,"value":"Freedonia","leaf":true},{"fieldName":"city","expanded":true,"isAttribute":false,"value":"Metroville","leaf":true},{"fieldName":"isActive","expanded":true,"isAttribute":false,"value":"true","leaf":true},{"fieldName":"signupDate","expanded":true,"isAttribute":false,"value":"2022-01-10T00:00:00","leaf":true},{"fieldName":"lastLogin","expanded":true,"isAttribute":false,"value":"2025-07-15T10:00:00","leaf":true}]}]}]}]]></au_json>
+        <au_id><![CDATA[1448757328238788608]]></au_id>
+        <au_jsonType><![CDATA[0]]></au_jsonType>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <AU_RECORD_IDENTIFIER_XPATH><![CDATA[]]></AU_RECORD_IDENTIFIER_XPATH>
+        <au_entityName><![CDATA[JSON_Layout_1448755342463684608_3]]></au_entityName>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_specialCharacters><![CDATA[null]]></au_specialCharacters>
+        <AU_ERROR_PATH_LOCATION><![CDATA[]]></AU_ERROR_PATH_LOCATION>
+        <AU_VALIDATION><![CDATA[0]]></AU_VALIDATION>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[0]]></AU_OPTIMIZE_PROCESSING>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_xsd><![CDATA[<Root>
+  <employees>
+    <employee>
+      <id>1</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]Doe[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]john.doe@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]111-111-1111[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>30</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Male[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]Freedonia[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]Metroville[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2022-01-10T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-15T10:00:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+    <employee>
+      <id>2</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]Smith[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]jane.smith@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]222-222-2222[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>27</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Female[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]Nowhereland[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]Oldtown[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2023-03-05T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-14T15:30:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+    <employee>
+      <id>3</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]Testman[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]bob.testman@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]333-333-3333[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>35</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Male[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]Utopia[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]Lakeview[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2021-07-21T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-13T08:45:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+    <employee>
+      <id>4</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]McSample[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]alice.mcsample@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]444-444-4444[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>24</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Female[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]Elbonia[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]Dustville[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2020-11-11T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-16T17:00:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+    <employee>
+      <id>5</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]Fakename[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]charlie.fake@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]555-555-5555[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>40</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Male[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]Atlantis[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]Deepsea[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2023-06-18T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-12T09:20:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+    <employee>
+      <id>6</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]Placeholder[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]daisy.placeholder@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]666-666-6666[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>29</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Female[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]Gotham[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]Arkham[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2022-09-09T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-11T13:50:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+    <employee>
+      <id>7</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]Demo[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]max.demo@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]777-777-7777[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>33</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Male[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]Zombieland[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]Redfield[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2019-12-25T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-10T07:30:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+    <employee>
+      <id>8</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]Testcase[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]luna.testcase@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]888-888-8888[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>22</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Female[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]Panem[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]District 9[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2024-01-01T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-09T22:10:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+    <employee>
+      <id>9</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]Null[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]rex.null@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]999-999-9999[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>31</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Male[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]MiddleEarth[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]Rivendell[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2021-04-04T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-08T19:15:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+    <employee>
+      <id>10</id>
+      <firstName>[ABPM_._ESCAPE_._CDATA_._START]krati[ABPM_._ESCAPE_._CDATA_._END]</firstName>
+      <lastName>[ABPM_._ESCAPE_._CDATA_._START]Sampleton[ABPM_._ESCAPE_._CDATA_._END]</lastName>
+      <email>[ABPM_._ESCAPE_._CDATA_._START]zoe.sampleton@demo.com[ABPM_._ESCAPE_._CDATA_._END]</email>
+      <phone>[ABPM_._ESCAPE_._CDATA_._START]000-000-0000[ABPM_._ESCAPE_._CDATA_._END]</phone>
+      <age>38</age>
+      <gender>[ABPM_._ESCAPE_._CDATA_._START]Female[ABPM_._ESCAPE_._CDATA_._END]</gender>
+      <country>[ABPM_._ESCAPE_._CDATA_._START]Wakanda[ABPM_._ESCAPE_._CDATA_._END]</country>
+      <city>[ABPM_._ESCAPE_._CDATA_._START]Birnin Zana[ABPM_._ESCAPE_._CDATA_._END]</city>
+      <isActive>[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</isActive>
+      <signupDate>[ABPM_._ESCAPE_._CDATA_._START]2022-02-02T00:00:00[ABPM_._ESCAPE_._CDATA_._END]</signupDate>
+      <lastLogin>[ABPM_._ESCAPE_._CDATA_._START]2025-07-07T11:00:00[ABPM_._ESCAPE_._CDATA_._END]</lastLogin>
+    </employee>
+  </employees>
+</Root>
+]]></au_xsd>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_removeLeadingZeros><![CDATA[0]]></au_removeLeadingZeros>
+        <au_userOwner><![CDATA[IndigoUser:1432256834132979712]]></au_userOwner>
+        <au_originalJson><![CDATA[{"employees": {"employee": [
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  },
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  },
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  },
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  },
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  },
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  },
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  },
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  },
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  },
+  {
+    "id": 1,
+    "firstName": "krati",
+    "lastName": "Doe",
+    "email": "john.doe@demo.com",
+    "phone": "111-111-1111",
+    "age": 30,
+    "gender": "Male",
+    "country": "Freedonia",
+    "city": "Metroville",
+    "isActive": "true",
+    "signupDate": "2022-01-10T00:00:00",
+    "lastLogin": "2025-07-15T10:00:00"
+  }
+]}}]]></au_originalJson>
+    </AU_JSONSCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_originalJson" type="-1"/>
+        <column name="au_jsonFilePath" type="12"/>
+        <column name="au_specialCharacters" type="-1"/>
+        <column name="au_removeLeadingZeros" type="3"/>
+        <column name="au_jsonType" type="4"/>
+        <column name="au_arrayFields" type="-1"/>
+        <column name="AU_VALIDATION" type="3"/>
+        <column name="AU_REFERENCE_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_RECORD_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_ERROR_PATH_LOCATION" type="12"/>
+        <column name="AU_JSON_SCHEMA_SPECIFICATION" type="3"/>
+        <column name="AU_OPTIMIZE_PROCESSING" type="3"/>
+        <column name="AU_QUEUE_CAPACITY" type="4"/>
+        <column name="AU_DEFINITIONFILE" type="12"/>
+        <column name="AU_ENRICHED_JSON" type="-1"/>
+        <column name="AU_HANDLE_ARRAY_DATA" type="3"/>
+    </columnInfo>
+</data>
