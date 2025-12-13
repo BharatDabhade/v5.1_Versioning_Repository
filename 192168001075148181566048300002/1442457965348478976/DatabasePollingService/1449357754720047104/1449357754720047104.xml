@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_DATABASEPOLLINGSERVICE>
+        <au_userOwner><![CDATA[IndigoUser:1435953225363877888]]></au_userOwner>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_revision><![CDATA[null]]></au_revision>
+        <checkCondition><![CDATA[0]]></checkCondition>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_description><![CDATA[SS_Database_Polling]]></au_description>
+        <au_id><![CDATA[1449357754720047104]]></au_id>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:1440640649060872192]]></dbConnectionInfoId>
+        <au_pollingFrequency><![CDATA[20$s]]></au_pollingFrequency>
+        <au_version><![CDATA[1]]></au_version>
+        <conditionValue><![CDATA[]]></conditionValue>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <operators><![CDATA[EQ]]></operators>
+        <au_projectOwner><![CDATA[Project:1442457965348478976]]></au_projectOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:1435953225363877888]]></au_modifiedBy>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_entityName><![CDATA[SS_Database_Polling]]></au_entityName>
+        <triggerName><![CDATA[]]></triggerName>
+        <tempraryTableName><![CDATA[dbpollingtable]]></tempraryTableName>
+        <tableName><![CDATA[null]]></tableName>
+        <dbtrigger><![CDATA[]]></dbtrigger>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_expiryTime><![CDATA[1$m]]></au_expiryTime>
+        <au_creationDate><![CDATA[2025-12-13T11:10:17]]></au_creationDate>
+        <sqlQuery><![CDATA[Select * from sourcetest1 where ID = 1]]></sqlQuery>
+        <au_modifiedDate><![CDATA[2025-12-13T11:53:05]]></au_modifiedDate>
+    </AU_DATABASEPOLLINGSERVICE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_expiryTime" type="12"/>
+        <column name="au_pollingFrequency" type="12"/>
+        <column name="dbConnectionInfoId" type="12"/>
+        <column name="sqlQuery" type="12"/>
+        <column name="checkCondition" type="3"/>
+        <column name="operators" type="12"/>
+        <column name="conditionValue" type="12"/>
+        <column name="tempraryTableName" type="12"/>
+        <column name="dbtrigger" type="12"/>
+        <column name="triggerName" type="12"/>
+        <column name="tableName" type="12"/>
+    </columnInfo>
+</data>
