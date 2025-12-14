@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_DBCONNECTIONINFO>
+        <au_maxIdleTime><![CDATA[10]]></au_maxIdleTime>
+        <au_transactionIsolation><![CDATA[ReadCommitted]]></au_transactionIsolation>
+        <au_minPoolSize><![CDATA[3]]></au_minPoolSize>
+        <au_modifiedBy><![CDATA[IndigoUser:1432256834132979712]]></au_modifiedBy>
+        <au_connectionPool><![CDATA[Hikari]]></au_connectionPool>
+        <au_driver><![CDATA[1442150028087996416]]></au_driver>
+        <au_creationDate><![CDATA[2025-11-23T13:52:59]]></au_creationDate>
+        <au_maxPoolSize><![CDATA[10]]></au_maxPoolSize>
+        <au_kerberosConfiguration><![CDATA[]]></au_kerberosConfiguration>
+        <au_entityName><![CDATA[KG_SQL_DBInfo]]></au_entityName>
+        <au_maxStatements><![CDATA[0]]></au_maxStatements>
+        <au_description><![CDATA[test]]></au_description>
+        <au_url><![CDATA[jdbc:sqlserver://customdevmi.public.dededc70fdf0.database.windows.net:3342;database=sv_solution;Authentication=ActiveDirectoryPassword;]]></au_url>
+        <au_checkoutTimeout><![CDATA[1000]]></au_checkoutTimeout>
+        <au_dbPassword><![CDATA[EtZFFQU2gN4df6Rr4SMVsA==]]></au_dbPassword>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_enablePooling><![CDATA[0]]></au_enablePooling>
+        <au_userOwner><![CDATA[IndigoUser:1432256834132979712]]></au_userOwner>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_dbSchemaName><![CDATA[dbo]]></au_dbSchemaName>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_id><![CDATA[1442150944572780544]]></au_id>
+        <au_dbUser><![CDATA[qateam@adeptia0.onmicrosoft.com]]></au_dbUser>
+        <au_authType><![CDATA[Basic]]></au_authType>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_appType><![CDATA[null]]></au_appType>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_initialPoolSize><![CDATA[3]]></au_initialPoolSize>
+        <au_version><![CDATA[1]]></au_version>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_modifiedDate><![CDATA[2025-11-23T13:53:24]]></au_modifiedDate>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+    </AU_DBCONNECTIONINFO>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_appType" type="12"/>
+        <column name="au_driver" type="12"/>
+        <column name="au_url" type="12"/>
+        <column name="au_dbUser" type="12"/>
+        <column name="au_dbPassword" type="12"/>
+        <column name="au_enablePooling" type="3"/>
+        <column name="au_maxPoolSize" type="12"/>
+        <column name="au_minPoolSize" type="12"/>
+        <column name="au_initialPoolSize" type="12"/>
+        <column name="au_maxIdleTime" type="12"/>
+        <column name="au_checkoutTimeout" type="12"/>
+        <column name="au_dbSchemaName" type="12"/>
+        <column name="au_connectionPool" type="12"/>
+        <column name="au_maxStatements" type="12"/>
+        <column name="au_transactionIsolation" type="12"/>
+        <column name="au_authType" type="12"/>
+        <column name="au_kerberosConfiguration" type="12"/>
+    </columnInfo>
+</data>
