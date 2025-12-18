@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_USERS>
-        <au_address2><![CDATA[]]></au_address2>
-        <au_lastLogin><![CDATA[1518605839892]]></au_lastLogin>
-        <PARTNER_OWNER><![CDATA[null]]></PARTNER_OWNER>
-        <au_calendar><![CDATA[]]></au_calendar>
-        <au_projectOwner><![CDATA[null]]></au_projectOwner>
-        <AU_LASTMESSAGEVIEWED><![CDATA[null]]></AU_LASTMESSAGEVIEWED>
-        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
-        <au_sendEmail><![CDATA[1]]></au_sendEmail>
-        <au_creationDate><![CDATA[2009-10-29T15:02:33]]></au_creationDate>
-        <AU_READ_ONLY_ACCESS><![CDATA[null]]></AU_READ_ONLY_ACCESS>
-        <au_zip><![CDATA[]]></au_zip>
-        <au_keystorePassword><![CDATA[]]></au_keystorePassword>
-        <au_comment><![CDATA[]]></au_comment>
-        <AU_UNIQUEIDENTIFIER><![CDATA[null]]></AU_UNIQUEIDENTIFIER>
-        <au_webDavFolder><![CDATA[WebDavFolder:192168001237125680875348400007]]></au_webDavFolder>
-        <au_modifiedDate><![CDATA[2009-11-17T18:19:07]]></au_modifiedDate>
-        <au_state><![CDATA[]]></au_state>
-        <au_mobile><![CDATA[]]></au_mobile>
-        <au_title><![CDATA[]]></au_title>
-        <au_privateKeyPassword><![CDATA[]]></au_privateKeyPassword>
-        <au_password><![CDATA[w7K8t2+O7DsvVm3BsuSUZQ==]]></au_password>
-        <au_version><![CDATA[1]]></au_version>
-        <au_lastPasswordChanged><![CDATA[2009-11-17T18:19:05]]></au_lastPasswordChanged>
-        <au_colleague><![CDATA[]]></au_colleague>
-        <au_lastName><![CDATA[EDI]]></au_lastName>
-        <au_certificateStatus><![CDATA[false]]></au_certificateStatus>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_comments><![CDATA[null]]></au_comments>
-        <LOCKED_TIME><![CDATA[null]]></LOCKED_TIME>
-        <au_userType><![CDATA[developer]]></au_userType>
-        <au_fax><![CDATA[]]></au_fax>
-        <au_description><![CDATA[Owner of EDI Solution objects.]]></au_description>
-        <au_country><![CDATA[]]></au_country>
-        <au_orgName><![CDATA[]]></au_orgName>
-        <au_phone><![CDATA[]]></au_phone>
-        <au_orgUrl><![CDATA[]]></au_orgUrl>
-        <au_firstName><![CDATA[EDI]]></au_firstName>
         <AU_IMAGEIDENTIFIER><![CDATA[null]]></AU_IMAGEIDENTIFIER>
-        <au_primaryGroup><![CDATA[IndigoGroup:192168001237125680861685900003]]></au_primaryGroup>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_viewLevel><![CDATA[null]]></au_viewLevel>
-        <au_address1><![CDATA[]]></au_address1>
+        <au_address2><![CDATA[]]></au_address2>
         <au_entityName><![CDATA[EDISolutionUser]]></au_entityName>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_id><![CDATA[192168001237125680875303100006]]></au_id>
-        <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_userPermission><![CDATA[7]]></au_userPermission>
-        <au_activateFlag><![CDATA[Activated]]></au_activateFlag>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <AU_USERPREFRENCES><![CDATA[null]]></AU_USERPREFRENCES>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_city><![CDATA[]]></au_city>
-        <au_manager><![CDATA[]]></au_manager>
-        <au_email><![CDATA[ediuser@edi.com]]></au_email>
+        <au_version><![CDATA[1]]></au_version>
+        <au_country><![CDATA[]]></au_country>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
         <au_modifiedBy><![CDATA[IndigoUser:192168001237125680875303100006]]></au_modifiedBy>
+        <AU_UNIQUEIDENTIFIER><![CDATA[null]]></AU_UNIQUEIDENTIFIER>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_orgName><![CDATA[]]></au_orgName>
+        <au_keystorePassword><![CDATA[]]></au_keystorePassword>
+        <au_creationDate><![CDATA[2009-10-29T15:02:33]]></au_creationDate>
+        <AU_LASTMESSAGEVIEWED><![CDATA[null]]></AU_LASTMESSAGEVIEWED>
+        <au_orgUrl><![CDATA[]]></au_orgUrl>
+        <au_title><![CDATA[]]></au_title>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_email><![CDATA[ediuser@edi.com]]></au_email>
+        <au_primaryGroup><![CDATA[IndigoGroup:192168001237125680861685900003]]></au_primaryGroup>
+        <au_phone><![CDATA[]]></au_phone>
+        <au_colleague><![CDATA[]]></au_colleague>
+        <au_modifiedDate><![CDATA[2009-11-17T18:19:07]]></au_modifiedDate>
+        <au_city><![CDATA[]]></au_city>
+        <au_password><![CDATA[w7K8t2+O7DsvVm3BsuSUZQ==]]></au_password>
+        <au_lastName><![CDATA[EDI]]></au_lastName>
+        <au_mobile><![CDATA[]]></au_mobile>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_calendar><![CDATA[]]></au_calendar>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_address1><![CDATA[]]></au_address1>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_manager><![CDATA[]]></au_manager>
+        <au_sendEmail><![CDATA[1]]></au_sendEmail>
+        <au_privateKeyPassword><![CDATA[]]></au_privateKeyPassword>
+        <au_zip><![CDATA[]]></au_zip>
+        <au_userType><![CDATA[developer]]></au_userType>
+        <LOCKED_TIME><![CDATA[null]]></LOCKED_TIME>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <AU_USERPREFRENCES><![CDATA[null]]></AU_USERPREFRENCES>
+        <au_activateFlag><![CDATA[Activated]]></au_activateFlag>
+        <au_userPermission><![CDATA[7]]></au_userPermission>
+        <au_viewLevel><![CDATA[null]]></au_viewLevel>
+        <au_webDavFolder><![CDATA[WebDavFolder:192168001237125680875348400007]]></au_webDavFolder>
+        <AU_READ_ONLY_ACCESS><![CDATA[null]]></AU_READ_ONLY_ACCESS>
+        <au_description><![CDATA[Owner of EDI Solution objects.]]></au_description>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_firstName><![CDATA[EDI]]></au_firstName>
+        <au_lastPasswordChanged><![CDATA[2009-11-17T18:19:05]]></au_lastPasswordChanged>
+        <au_fax><![CDATA[]]></au_fax>
+        <au_state><![CDATA[]]></au_state>
+        <au_lastLogin><![CDATA[1518605839892]]></au_lastLogin>
+        <au_comment><![CDATA[]]></au_comment>
+        <au_id><![CDATA[192168001237125680875303100006]]></au_id>
+        <au_certificateStatus><![CDATA[false]]></au_certificateStatus>
+        <PARTNER_OWNER><![CDATA[null]]></PARTNER_OWNER>
     </AU_USERS>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
